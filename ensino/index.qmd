@@ -1,0 +1,83 @@
+---
+title: "Ensino"
+description: "Professor de Matemática e Programação | Aulas Particulares"
+---
+
+## 👨‍🏫 Experiência em Ensino
+
+Professor universitário desde 2010, com expertise em:
+
+- **Matemática:** Desde básica até cálculo universitário
+- **Estatística:** Descritiva, Inferencial e Modelagem
+- **Programação:** R e Python aplicados à Data Science
+- **Data Science:** Machine Learning e Análise de Dados
+
+---
+
+## 🎥 Canal no YouTube
+
+Conteúdo educacional gratuito sobre:
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### 📐 Matemática
+Do básico ao avançado
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 💻 Programação
+R e Python na prática
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 📊 Data Science
+Análises e projetos reais
+:::
+
+:::
+
+[Acesse o Canal →](https://www.youtube.com/@DaviRocha_ML){.btn .btn-primary target="_blank"}
+
+---
+
+## 📚 Aulas Particulares
+
+Ofereço aulas personalizadas para:
+
+✅ **Estudantes do Ensino Fundamental e Médio**
+- Reforço em Matemática
+- Preparação para vestibulares
+
+✅ **Universitários**
+- Cálculo, Álgebra Linear, Estatística
+- Análise de Dados e Programação
+
+✅ **Profissionais**
+- Estatística aplicada
+- R e Python para análise de dados
+- Transição de carreira para Data Science
+
+### 💡 Diferenciais
+
+- 24 anos de experiência em ensino
+- Metodologia adaptada ao seu ritmo
+- Material didático personalizado
+- Aulas presenciais (preferencialmente aos sábados) ou online
+
+---
+
+## 📞 Entre em Contato
+
+Interessado em aulas particulares?
+
+[Enviar E-mail](mailto:davimatfacil@gmail.com?subject=Interesse%20em%20Aulas%20Particulares){.btn .btn-success}
+
+**Atendo presencialmente na região de São Paulo e online para todo o Brasil.**
+
+---
+
+::: {.callout-note}
+## Valores Especiais
+Entre em contato para saber mais!
+:::
