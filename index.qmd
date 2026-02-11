@@ -4,9 +4,7 @@ subtitle: "Data Scientist | Professor | Healthcare Analytics"
 page-layout: full
 ---
 
-:::{.column-screen}
-![](){fig-alt="Banner" width=100%}
-:::
+
 
 ## Olá! 👋
 
