@@ -5,7 +5,7 @@ page-layout: full
 ---
 
 :::{.column-screen}
-![](images/banner.jpg){fig-alt="Banner" width=100%}
+![](){fig-alt="Banner" width=100%}
 :::
 
 ## Olá! 👋
