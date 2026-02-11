@@ -137,14 +137,14 @@
     "href": "index.html#olá",
     "title": "Davi Rocha",
     "section": "Olá! 👋",
-    "text": "Olá! 👋\nSou Data Scientist no Hospital das Clínicas da FMUSP e Professor Universitário de Estatística e Matemática desde 2010. Com 24 anos de experiência em Estatística/Matemática, Data Science e Inteligência Artificial, atuo na interseção entre saúde e tecnologia.\n\nO que faço\n\n🏥 Healthcare Analytics: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas no HCFMUSP\n📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares\n💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para REDCap Brasil\n🎓 Ensino: Formação de novos profissionais em estatística e programação\n\n\n\nFormação\n\n🎓 Mestre em Matemática Aplicada\n📈 Especialização em Modelagem Estatística (GLMMs, Regressão, Análise Preditiva)"
+    "text": "Olá! 👋\nSou Data Scientist no Hospital das Clínicas da FMUSP e Professor Universitário de Estatística e Matemática desde 2010. Com 24 anos de experiência em Estatística/Matemática, Data Science e Inteligência Artificial, atuo na interseção entre saúde e tecnologia.\n\nO que faço\n\n🏥 Healthcare Analytics: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.\n📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares\n💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para qualidade de dados e monitoramento de pesquisa clinica\n🎓 Ensino: Formação de novos profissionais em estatística e programação\n\n\n\nFormação\n\n🎓 Mestre em Matemática Aplicada - USP\n📈 Bacharel em Matematica"
   },
   {
     "objectID": "index.html#projetos-em-destaque",
     "href": "index.html#projetos-em-destaque",
     "title": "Davi Rocha",
     "section": "Projetos em Destaque",
-    "text": "Projetos em Destaque\n\n\nSistema de Monitoramento Hospitalar\nDashboard interativo para acompanhamento de fluxo de pacientes e indicadores operacionais do HCFMUSP.\nTecnologias: R-Shiny, Vertica, Oracle\n\n\nModelos Preditivos em Saúde\nDesenvolvimento de modelos de Machine Learning para análise de dados clínicos e predição de desfechos.\nTecnologias: Python, R, GLMMs"
+    "text": "Projetos em Destaque\n\n\nSistema de Monitoramento Hospitalar\nDashboard interativo para acompanhamento de fluxo de pacientes e indicadores operacionais do HCFMUSP.\nTecnologias: R-Shiny, Vertica\n\n\nModelos Preditivos em Saúde\nDesenvolvimento de modelos de Machine Learning para análise de dados clínicos e predição de desfechos.\nTecnologias: Python, R"
   },
   {
     "objectID": "index.html#tecnologias",
@@ -158,6 +158,6 @@
     "href": "index.html#entre-em-contato",
     "title": "Davi Rocha",
     "section": "Entre em Contato",
-    "text": "Entre em Contato\nInteressado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?\n📧 seu.email@exemplo.com\n💼 LinkedIn\n🐙 GitHub"
+    "text": "Entre em Contato\nInteressado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?\n📧 davimatfacil@gmail.com\n💼 LinkedIn\n🐙 GitHub"
   }
 ]

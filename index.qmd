@@ -70,6 +70,6 @@ Shiny • Streamlit • Tableau • REDCap
 
 Interessado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?
 
-📧 [seu.email@exemplo.com](mailto:davimatfacil@gmail.com)  
+📧 [davimatfacil@gmail.com](mailto:davimatfacil@gmail.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/davi-rocha-27a24b33/)  
 🐙 [GitHub](https://github.com/davimatfacil)
