@@ -119,7 +119,7 @@ Estou sempre aberto a:
 - 💼 **Desenvolvimento** de dashboards e aplicações analíticas
 - 🎓 **Palestras e treinamentos** em Estatística e Data Science
 
-📧 **Email:** [seu.email@exemplo.com](mailto:davimatfacil@gmail.com)  
+📧 **Email:** [davimatfacil@gmail.com](mailto:davimatfacil@gmail.com)  
 💼 **LinkedIn:** [linkedin.com/in/seu-perfil](https://www.linkedin.com/in/davi-rocha-27a24b33/)  
 🐙 **GitHub:** [github.com/davirocha](https://github.com/davimatfacil)
 
