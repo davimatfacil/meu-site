@@ -1,0 +1,128 @@
+---
+title: "Sobre Mim"
+subtitle: "Trajetória profissional e acadêmica"
+---
+
+## Quem Sou
+
+Sou **Davi Rocha**, Data Scientist e Professor com mais de duas décadas dedicadas à **Estatística, Ciência de Dados e Inteligência Artificial**. Minha missão é transformar dados em insights acionáveis, especialmente no contexto da saúde pública brasileira.
+
+Atualmente, trabalho no **Hospital das Clínicas da Faculdade de Medicina da USP (HCFMUSP)** e no **4Research** onde combino expertise técnica com impacto social, desenvolvendo soluções que apoiam decisões clínicas e melhoram a gestão hospitalar.
+
+---
+
+## Formação Acadêmica
+
+🎓 **Mestre em Matemática Aplicada**  
+Especialização em métodos estatísticos e modelagem matemática
+
+📊 **Especialização em Modelagem Estatística**  
+- Generalized Linear Mixed Models (GLMMs)
+- Análise de Regressão
+- Métodos Bayesianos
+- Análise Preditiva
+
+🎯 **Formação Continuada**  
+Constantemente atualizando conhecimentos em Machine Learning, Deep Learning e novas tecnologias de análise de dados
+
+---
+
+## Experiência Profissional
+
+### 🏥 Hospital das Clínicas da FMUSP
+**Data Scientist** | *Atual*
+
+- Desenvolvimento de **modelos de Machine Learning** para predição de desfechos clínicos e otimização de processos hospitalares
+- Criação de **dashboards interativos** para monitoramento em tempo real de indicadores assistenciais e operacionais
+- Análise preditiva e **modelagem estatística avançada** (GLMMs, regressão, séries temporais)
+- Integração e análise de dados de múltiplas fontes: sistemas de prontuário eletrônico, bases administrativas e registros clínicos
+- Trabalho com **grandes volumes de dados** utilizando Vertica e Oracle
+
+**Principais entregas:**
+- Sistema de monitoramento de fluxo de pacientes no Pronto-Socorro
+- Dashboards de análise de custos e eficiência operacional
+- Modelos preditivos para gestão de leitos e recursos
+
+### 💻 REDCap Brasil
+**Desenvolvedor** | *Atual*
+
+Desenvolvimento de aplicações web para pesquisa clínica e captura eletrônica de dados:
+- **Aplicações R-Shiny**: Interfaces interativas para análise de dados de pesquisa
+- **Aplicações Streamlit**: Ferramentas de visualização e relatórios automatizados
+- Integração com plataforma REDCap para gestão de estudos multicêntricos
+
+### 🎓 Professor Universitário
+**Docente de Estatística e Programação** | *2010 - Atual*
+
+Mais de **14 anos** formando novos profissionais em:
+- Estatística Aplicada
+- Programação em R e Python
+- Análise de Dados
+- Machine Learning
+- Metodologia de Pesquisa Quantitativa
+
+**Abordagem pedagógica:** Integração de teoria estatística com aplicações práticas em projetos reais, preparando alunos para os desafios do mercado de trabalho.
+
+---
+
+## Competências Técnicas
+
+### Linguagens de Programação
+- **R** (Avançado): Modelagem estatística, Shiny, Tidyverse, ggplot2
+- **Python** (Avançado): Pandas, Scikit-learn, Streamlit, Matplotlib
+- **SQL** (Avançado): Queries complexas, otimização, Vertica, Oracle
+- **C#**: Desenvolvimento de aplicações e integrações
+
+### Análise de Dados & Machine Learning
+- Modelagem Estatística (GLMMs, GAMs, Regressão)
+- Machine Learning (Classificação, Regressão, Clustering)
+- Análise Preditiva e Forecasting
+- Análise de Séries Temporais
+- Análise Bayesiana
+- Análise de Sobrevivência
+
+### Ferramentas & Plataformas
+- **Visualização:** Tableau, Power BI, Shiny, Plotly
+- **Bancos de Dados:** Vertica, Oracle, PostgreSQL, SQL Server
+- **Desenvolvimento:** Git, Docker, REDCap
+- **Cloud:** Familiaridade com AWS e Azure
+
+---
+
+## Áreas de Interesse
+
+- 🏥 **Healthcare Analytics**: Aplicação de Data Science para melhorar resultados clínicos e eficiência operacional
+- 🤖 **Machine Learning em Saúde**: Modelos preditivos, diagnóstico assistido, otimização de recursos
+- 📊 **Business Intelligence**: Dashboards estratégicos e análises para tomada de decisão
+- 📚 **Educação em Data Science**: Formação de novos profissionais e democratização do conhecimento estatístico
+- 🔬 **Consultoria Estatística**: Apoio metodológico a pesquisadores e equipes multidisciplinares
+
+---
+
+## Filosofia de Trabalho
+
+> "Transformar complexidade em clareza. Dados em decisões. Análises em ações."
+
+Acredito que a verdadeira Ciência de Dados vai além de modelos sofisticados — ela está em:
+- ✅ **Comunicar insights** de forma clara e acionável
+- ✅ **Colaborar** com equipes multidisciplinares
+- ✅ **Entregar valor** através de soluções práticas e sustentáveis
+- ✅ **Manter rigor metodológico** sem perder a praticidade
+
+---
+
+## Vamos Conversar?
+
+Estou sempre aberto a:
+- 🤝 **Colaborações** em projetos de Data Science na área da saúde
+- 📊 **Consultoria Estatística** para pesquisas e análises
+- 💼 **Desenvolvimento** de dashboards e aplicações analíticas
+- 🎓 **Palestras e treinamentos** em Estatística e Data Science
+
+📧 **Email:** [seu.email@exemplo.com](mailto:seu.email@exemplo.com)  
+💼 **LinkedIn:** [linkedin.com/in/seu-perfil](https://linkedin.com/in/seu-perfil)  
+🐙 **GitHub:** [github.com/davirocha](https://github.com/davirocha)
+
+---
+
+*Última atualização: Fevereiro de 2025*

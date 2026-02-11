@@ -1,0 +1,75 @@
+---
+title: "Davi Rocha"
+subtitle: "Data Scientist | Professor | Healthcare Analytics"
+page-layout: full
+---
+
+:::{.column-screen}
+![](images/banner.jpg){fig-alt="Banner" width=100%}
+:::
+
+## Olá! 👋
+
+Sou **Data Scientist** no [Hospital das Clínicas da FMUSP](https://www.hc.fm.usp.br/) e **Professor Universitário** de Estatística e Matemática desde 2010. Com **24 anos de experiência** em Estatística/Matemática, Data Science e Inteligência Artificial, atuo na interseção entre saúde e tecnologia.
+
+### O que faço
+
+- 🏥 **Healthcare Analytics**: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas no HCFMUSP
+- 📊 **Dashboards & Visualização**: Criação de painéis interativos para monitoramento de indicadores hospitalares
+- 💻 **Desenvolvimento**: Aplicações R-Shiny e Streamlit para REDCap Brasil
+- 🎓 **Ensino**: Formação de novos profissionais em estatística e programação
+
+### Formação
+
+- 🎓 **Mestre em Matemática Aplicada**
+- 📈 **Especialização em Modelagem Estatística** (GLMMs, Regressão, Análise Preditiva)
+
+---
+
+## Projetos em Destaque
+
+:::{.grid}
+
+:::{.g-col-12 .g-col-md-6}
+### Sistema de Monitoramento Hospitalar
+Dashboard interativo para acompanhamento de fluxo de pacientes e indicadores operacionais do HCFMUSP.
+
+**Tecnologias:** R-Shiny, Vertica, Oracle
+:::
+
+:::{.g-col-12 .g-col-md-6}
+### Modelos Preditivos em Saúde
+Desenvolvimento de modelos de Machine Learning para análise de dados clínicos e predição de desfechos.
+
+**Tecnologias:** Python, R, GLMMs
+:::
+
+:::
+
+---
+
+## Tecnologias
+
+::: {.columns}
+::: {.column width="50%"}
+**Linguagens**  
+R • Python • SQL • C#
+:::
+
+::: {.column width="50%"}
+**Ferramentas**  
+Shiny • Streamlit • Tableau • REDCap
+:::
+:::
+
+**Bancos de Dados:** Vertica • Oracle • PostgreSQL
+
+---
+
+## Entre em Contato
+
+Interessado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?
+
+📧 [seu.email@exemplo.com](mailto:seu.email@exemplo.com)  
+💼 [LinkedIn](https://linkedin.com/in/seu-perfil)  
+🐙 [GitHub](https://github.com/davirocha)
