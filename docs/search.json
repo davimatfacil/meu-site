@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html#olá",
+    "href": "index.html#olá",
+    "title": "Davi Rocha",
+    "section": "Olá! 👋",
+    "text": "Olá! 👋\nSou Data Scientist no Hospital das Clínicas da FMUSP e Professor Universitário de Estatística e Matemática desde 2010. Com 24 anos de experiência em Estatística/Matemática, Data Science e Inteligência Artificial, atuo na interseção entre saúde e tecnologia.\n\nO que faço\n\n🏥 Healthcare Analytics: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas no HCFMUSP\n📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares\n💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para REDCap Brasil\n🎓 Ensino: Formação de novos profissionais em estatística e programação\n\n\n\nFormação\n\n🎓 Mestre em Matemática Aplicada\n📈 Especialização em Modelagem Estatística (GLMMs, Regressão, Análise Preditiva)"
+  },
+  {
+    "objectID": "index.html#projetos-em-destaque",
+    "href": "index.html#projetos-em-destaque",
+    "title": "Davi Rocha",
+    "section": "Projetos em Destaque",
+    "text": "Projetos em Destaque\n\n\nSistema de Monitoramento Hospitalar\nDashboard interativo para acompanhamento de fluxo de pacientes e indicadores operacionais do HCFMUSP.\nTecnologias: R-Shiny, Vertica, Oracle\n\n\nModelos Preditivos em Saúde\nDesenvolvimento de modelos de Machine Learning para análise de dados clínicos e predição de desfechos.\nTecnologias: Python, R, GLMMs"
+  },
+  {
+    "objectID": "index.html#tecnologias",
+    "href": "index.html#tecnologias",
+    "title": "Davi Rocha",
+    "section": "Tecnologias",
+    "text": "Tecnologias\n\n\nLinguagens\nR • Python • SQL • C#\n\nFerramentas\nShiny • Streamlit • Tableau • REDCap\n\n\nBancos de Dados: Vertica • Oracle • PostgreSQL"
+  },
+  {
+    "objectID": "index.html#entre-em-contato",
+    "href": "index.html#entre-em-contato",
+    "title": "Davi Rocha",
+    "section": "Entre em Contato",
+    "text": "Entre em Contato\nInteressado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?\n📧 seu.email@exemplo.com\n💼 LinkedIn\n🐙 GitHub"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Sou Davi Rocha, Data Scientist e Professor com mais de duas décadas dedicadas à Estatística, Ciência de Dados e Inteligência Artificial. Minha missão é transformar dados em insights acionáveis, especialmente no contexto da saúde pública brasileira.\nAtualmente, trabalho no Hospital das Clínicas da Faculdade de Medicina da USP (HCFMUSP) e no 4Research onde combino expertise técnica com impacto social, desenvolvendo soluções que apoiam decisões clínicas e melhoram a gestão hospitalar."
+  },
+  {
+    "objectID": "about.html#quem-sou",
+    "href": "about.html#quem-sou",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Sou Davi Rocha, Data Scientist e Professor com mais de duas décadas dedicadas à Estatística, Ciência de Dados e Inteligência Artificial. Minha missão é transformar dados em insights acionáveis, especialmente no contexto da saúde pública brasileira.\nAtualmente, trabalho no Hospital das Clínicas da Faculdade de Medicina da USP (HCFMUSP) e no 4Research onde combino expertise técnica com impacto social, desenvolvendo soluções que apoiam decisões clínicas e melhoram a gestão hospitalar."
+  },
+  {
+    "objectID": "about.html#formação-acadêmica",
+    "href": "about.html#formação-acadêmica",
+    "title": "Sobre Mim",
+    "section": "Formação Acadêmica",
+    "text": "Formação Acadêmica\n🎓 Mestre em Matemática Aplicada\nEspecialização em métodos estatísticos e modelagem matemática\n📊 Especialização em Modelagem Estatística\n- Generalized Linear Mixed Models (GLMMs) - Análise de Regressão - Métodos Bayesianos - Análise Preditiva\n🎯 Formação Continuada\nConstantemente atualizando conhecimentos em Machine Learning, Deep Learning e novas tecnologias de análise de dados"
+  },
+  {
+    "objectID": "about.html#experiência-profissional",
+    "href": "about.html#experiência-profissional",
+    "title": "Sobre Mim",
+    "section": "Experiência Profissional",
+    "text": "Experiência Profissional\n\n🏥 Hospital das Clínicas da FMUSP\nData Scientist | Atual\n\nDesenvolvimento de modelos de Machine Learning para predição de desfechos clínicos e otimização de processos hospitalares\nCriação de dashboards interativos para monitoramento em tempo real de indicadores assistenciais e operacionais\nAnálise preditiva e modelagem estatística avançada (GLMMs, regressão, séries temporais)\nIntegração e análise de dados de múltiplas fontes: sistemas de prontuário eletrônico, bases administrativas e registros clínicos\nTrabalho com grandes volumes de dados utilizando Vertica e Oracle\n\nPrincipais entregas: - Sistema de monitoramento de fluxo de pacientes no Pronto-Socorro - Dashboards de análise de custos e eficiência operacional - Modelos preditivos para gestão de leitos e recursos\n\n\n💻 REDCap Brasil\nDesenvolvedor | Atual\nDesenvolvimento de aplicações web para pesquisa clínica e captura eletrônica de dados: - Aplicações R-Shiny: Interfaces interativas para análise de dados de pesquisa - Aplicações Streamlit: Ferramentas de visualização e relatórios automatizados - Integração com plataforma REDCap para gestão de estudos multicêntricos\n\n\n🎓 Professor Universitário\nDocente de Estatística e Programação | 2010 - Atual\nMais de 14 anos formando novos profissionais em: - Estatística Aplicada - Programação em R e Python - Análise de Dados - Machine Learning - Metodologia de Pesquisa Quantitativa\nAbordagem pedagógica: Integração de teoria estatística com aplicações práticas em projetos reais, preparando alunos para os desafios do mercado de trabalho."
+  },
+  {
+    "objectID": "about.html#competências-técnicas",
+    "href": "about.html#competências-técnicas",
+    "title": "Sobre Mim",
+    "section": "Competências Técnicas",
+    "text": "Competências Técnicas\n\nLinguagens de Programação\n\nR (Avançado): Modelagem estatística, Shiny, Tidyverse, ggplot2\nPython (Avançado): Pandas, Scikit-learn, Streamlit, Matplotlib\nSQL (Avançado): Queries complexas, otimização, Vertica, Oracle\nC#: Desenvolvimento de aplicações e integrações\n\n\n\nAnálise de Dados & Machine Learning\n\nModelagem Estatística (GLMMs, GAMs, Regressão)\nMachine Learning (Classificação, Regressão, Clustering)\nAnálise Preditiva e Forecasting\nAnálise de Séries Temporais\nAnálise Bayesiana\nAnálise de Sobrevivência\n\n\n\nFerramentas & Plataformas\n\nVisualização: Tableau, Power BI, Shiny, Plotly\nBancos de Dados: Vertica, Oracle, PostgreSQL, SQL Server\nDesenvolvimento: Git, Docker, REDCap\nCloud: Familiaridade com AWS e Azure"
+  },
+  {
+    "objectID": "about.html#áreas-de-interesse",
+    "href": "about.html#áreas-de-interesse",
+    "title": "Sobre Mim",
+    "section": "Áreas de Interesse",
+    "text": "Áreas de Interesse\n\n🏥 Healthcare Analytics: Aplicação de Data Science para melhorar resultados clínicos e eficiência operacional\n🤖 Machine Learning em Saúde: Modelos preditivos, diagnóstico assistido, otimização de recursos\n📊 Business Intelligence: Dashboards estratégicos e análises para tomada de decisão\n📚 Educação em Data Science: Formação de novos profissionais e democratização do conhecimento estatístico\n🔬 Consultoria Estatística: Apoio metodológico a pesquisadores e equipes multidisciplinares"
+  },
+  {
+    "objectID": "about.html#filosofia-de-trabalho",
+    "href": "about.html#filosofia-de-trabalho",
+    "title": "Sobre Mim",
+    "section": "Filosofia de Trabalho",
+    "text": "Filosofia de Trabalho\n\n“Transformar complexidade em clareza. Dados em decisões. Análises em ações.”\n\nAcredito que a verdadeira Ciência de Dados vai além de modelos sofisticados — ela está em: - ✅ Comunicar insights de forma clara e acionável - ✅ Colaborar com equipes multidisciplinares - ✅ Entregar valor através de soluções práticas e sustentáveis - ✅ Manter rigor metodológico sem perder a praticidade"
+  },
+  {
+    "objectID": "about.html#vamos-conversar",
+    "href": "about.html#vamos-conversar",
+    "title": "Sobre Mim",
+    "section": "Vamos Conversar?",
+    "text": "Vamos Conversar?\nEstou sempre aberto a: - 🤝 Colaborações em projetos de Data Science na área da saúde - 📊 Consultoria Estatística para pesquisas e análises - 💼 Desenvolvimento de dashboards e aplicações analíticas - 🎓 Palestras e treinamentos em Estatística e Data Science\n📧 Email: seu.email@exemplo.com\n💼 LinkedIn: linkedin.com/in/seu-perfil\n🐙 GitHub: github.com/davirocha\n\nÚltima atualização: Fevereiro de 2025"
+  }
+]
