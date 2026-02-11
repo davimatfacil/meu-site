@@ -1,31 +1,45 @@
 [
   {
-    "objectID": "index.html#olá",
-    "href": "index.html#olá",
-    "title": "Davi Rocha",
-    "section": "Olá! 👋",
-    "text": "Olá! 👋\nSou Data Scientist no Hospital das Clínicas da FMUSP e Professor Universitário de Estatística e Matemática desde 2010. Com 24 anos de experiência em Estatística/Matemática, Data Science e Inteligência Artificial, atuo na interseção entre saúde e tecnologia.\n\nO que faço\n\n🏥 Healthcare Analytics: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas no HCFMUSP\n📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares\n💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para REDCap Brasil\n🎓 Ensino: Formação de novos profissionais em estatística e programação\n\n\n\nFormação\n\n🎓 Mestre em Matemática Aplicada\n📈 Especialização em Modelagem Estatística (GLMMs, Regressão, Análise Preditiva)"
+    "objectID": "projetos/index.html",
+    "href": "projetos/index.html",
+    "title": "Projetos",
+    "section": "",
+    "text": "Implementação e explicação do algoritmo KNN para classificação.\nVer Projeto →\n\n\n\nOtimização de modelos utilizando o método do gradiente descendente.\nVer Projeto →\n\n\n\nTécnicas para lidar com datasets desbalanceados usando Naive Bayes.\nVer Projeto →\n\n\n\nErro Percentual Absoluto Médio em modelos preditivos.\nVer Projeto →"
   },
   {
-    "objectID": "index.html#projetos-em-destaque",
-    "href": "index.html#projetos-em-destaque",
-    "title": "Davi Rocha",
-    "section": "Projetos em Destaque",
-    "text": "Projetos em Destaque\n\n\nSistema de Monitoramento Hospitalar\nDashboard interativo para acompanhamento de fluxo de pacientes e indicadores operacionais do HCFMUSP.\nTecnologias: R-Shiny, Vertica, Oracle\n\n\nModelos Preditivos em Saúde\nDesenvolvimento de modelos de Machine Learning para análise de dados clínicos e predição de desfechos.\nTecnologias: Python, R, GLMMs"
+    "objectID": "projetos/index.html#machine-learning-algoritmos",
+    "href": "projetos/index.html#machine-learning-algoritmos",
+    "title": "Projetos",
+    "section": "",
+    "text": "Implementação e explicação do algoritmo KNN para classificação.\nVer Projeto →\n\n\n\nOtimização de modelos utilizando o método do gradiente descendente.\nVer Projeto →\n\n\n\nTécnicas para lidar com datasets desbalanceados usando Naive Bayes.\nVer Projeto →\n\n\n\nErro Percentual Absoluto Médio em modelos preditivos.\nVer Projeto →"
   },
   {
-    "objectID": "index.html#tecnologias",
-    "href": "index.html#tecnologias",
-    "title": "Davi Rocha",
-    "section": "Tecnologias",
-    "text": "Tecnologias\n\n\nLinguagens\nR • Python • SQL • C#\n\nFerramentas\nShiny • Streamlit • Tableau • REDCap\n\n\nBancos de Dados: Vertica • Oracle • PostgreSQL"
+    "objectID": "projetos/index.html#estatística-healthcare-analytics",
+    "href": "projetos/index.html#estatística-healthcare-analytics",
+    "title": "Projetos",
+    "section": "🏥 Estatística & Healthcare Analytics",
+    "text": "🏥 Estatística & Healthcare Analytics\n\n\nEstatística e Saúde: Lavar as Mãos\nAnálise estatística do impacto da higienização das mãos na redução de mortalidade.\nVer Projeto →\n\n\nCurva de Kaplan-Meier\nConceitos e aplicação de análise de sobrevivência.\nVer Projeto →\n\n\nBusiness Health Analytics\nAplicação de analytics em gestão hospitalar.\nVer Projeto →\n\n\nAnálise de Fluxos do Instituto\nMapeamento e análise de fluxos operacionais hospitalares.\nVer Projeto →"
   },
   {
-    "objectID": "index.html#entre-em-contato",
-    "href": "index.html#entre-em-contato",
-    "title": "Davi Rocha",
-    "section": "Entre em Contato",
-    "text": "Entre em Contato\nInteressado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?\n📧 seu.email@exemplo.com\n💼 LinkedIn\n🐙 GitHub"
+    "objectID": "projetos/index.html#data-science-análise-de-dados",
+    "href": "projetos/index.html#data-science-análise-de-dados",
+    "title": "Projetos",
+    "section": "📊 Data Science & Análise de Dados",
+    "text": "📊 Data Science & Análise de Dados\n\n\nA Importância da Visualização (Anscombe)\nPor que estatísticas podem ser enganosas sem visualização adequada.\nVer Projeto →\n\n\nPreparação de Dados\nPipeline completo de limpeza e transformação de dados.\nVer Projeto →\n\n\nAnálise de Desempenho\nMétricas e KPIs para avaliação de performance.\nVer Projeto →\n\n\nIntrodução à Ciência de Dados\nFundamentos e práticas em Data Science.\nVer Projeto →"
+  },
+  {
+    "objectID": "projetos/index.html#aplicações-especializadas",
+    "href": "projetos/index.html#aplicações-especializadas",
+    "title": "Projetos",
+    "section": "💼 Aplicações Especializadas",
+    "text": "💼 Aplicações Especializadas\n\n\nAcesso a Dados de Ações\nWeb scraping e análise de dados do mercado financeiro.\nVer Projeto →\n\n\nFORESCAT - Passos\nMetodologia de forecasting aplicada.\nVer Projeto →"
+  },
+  {
+    "objectID": "projetos/index.html#perfil-completo",
+    "href": "projetos/index.html#perfil-completo",
+    "title": "Projetos",
+    "section": "🔗 Perfil Completo",
+    "text": "🔗 Perfil Completo\nVeja todos os meus projetos e publicações: RPubs Profile"
   },
   {
     "objectID": "about.html",
@@ -82,5 +96,33 @@
     "title": "Sobre Mim",
     "section": "Vamos Conversar?",
     "text": "Vamos Conversar?\nEstou sempre aberto a: - 🤝 Colaborações em projetos de Data Science na área da saúde - 📊 Consultoria Estatística para pesquisas e análises - 💼 Desenvolvimento de dashboards e aplicações analíticas - 🎓 Palestras e treinamentos em Estatística e Data Science\n📧 Email: seu.email@exemplo.com\n💼 LinkedIn: linkedin.com/in/seu-perfil\n🐙 GitHub: github.com/davirocha\n\nÚltima atualização: Fevereiro de 2025"
+  },
+  {
+    "objectID": "index.html#olá",
+    "href": "index.html#olá",
+    "title": "Davi Rocha",
+    "section": "Olá! 👋",
+    "text": "Olá! 👋\nSou Data Scientist no Hospital das Clínicas da FMUSP e Professor Universitário de Estatística e Matemática desde 2010. Com 24 anos de experiência em Estatística/Matemática, Data Science e Inteligência Artificial, atuo na interseção entre saúde e tecnologia.\n\nO que faço\n\n🏥 Healthcare Analytics: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas no HCFMUSP\n📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares\n💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para REDCap Brasil\n🎓 Ensino: Formação de novos profissionais em estatística e programação\n\n\n\nFormação\n\n🎓 Mestre em Matemática Aplicada\n📈 Especialização em Modelagem Estatística (GLMMs, Regressão, Análise Preditiva)"
+  },
+  {
+    "objectID": "index.html#projetos-em-destaque",
+    "href": "index.html#projetos-em-destaque",
+    "title": "Davi Rocha",
+    "section": "Projetos em Destaque",
+    "text": "Projetos em Destaque\n\n\nSistema de Monitoramento Hospitalar\nDashboard interativo para acompanhamento de fluxo de pacientes e indicadores operacionais do HCFMUSP.\nTecnologias: R-Shiny, Vertica, Oracle\n\n\nModelos Preditivos em Saúde\nDesenvolvimento de modelos de Machine Learning para análise de dados clínicos e predição de desfechos.\nTecnologias: Python, R, GLMMs"
+  },
+  {
+    "objectID": "index.html#tecnologias",
+    "href": "index.html#tecnologias",
+    "title": "Davi Rocha",
+    "section": "Tecnologias",
+    "text": "Tecnologias\n\n\nLinguagens\nR • Python • SQL • C#\n\nFerramentas\nShiny • Streamlit • Tableau • REDCap\n\n\nBancos de Dados: Vertica • Oracle • PostgreSQL"
+  },
+  {
+    "objectID": "index.html#entre-em-contato",
+    "href": "index.html#entre-em-contato",
+    "title": "Davi Rocha",
+    "section": "Entre em Contato",
+    "text": "Entre em Contato\nInteressado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?\n📧 seu.email@exemplo.com\n💼 LinkedIn\n🐙 GitHub"
   }
 ]

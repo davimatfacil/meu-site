@@ -1,0 +1,138 @@
+---
+title: "Projetos"
+description: "Portfólio de projetos em Data Science, Machine Learning e Healthcare Analytics"
+---
+
+## 🤖 Machine Learning & Algoritmos
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### K-Nearest Neighbors (KNN) no R
+Implementação e explicação do algoritmo KNN para classificação.
+
+[Ver Projeto →](https://rpubs.com/davimat/knn_no_r){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Gradient Descent
+Otimização de modelos utilizando o método do gradiente descendente.
+
+[Ver Projeto →](https://rpubs.com/davimat/gradient_descent){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Classes Desbalanceadas
+Técnicas para lidar com datasets desbalanceados usando Naive Bayes.
+
+[Ver Projeto →](https://rpubs.com/davimat/desbalanceadas_naive){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Análise MAPE
+Erro Percentual Absoluto Médio em modelos preditivos.
+
+[Ver Projeto →](https://rpubs.com/davimat/mape){.btn .btn-primary}
+:::
+
+:::
+
+---
+
+## 🏥 Estatística & Healthcare Analytics
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Estatística e Saúde: Lavar as Mãos
+Análise estatística do impacto da higienização das mãos na redução de mortalidade.
+
+[Ver Projeto →](https://rpubs.com/davimat/estat_lavar_maos){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Curva de Kaplan-Meier
+Conceitos e aplicação de análise de sobrevivência.
+
+[Ver Projeto →](https://rpubs.com/davimat/conceito_kaplan_meier){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Business Health Analytics
+Aplicação de analytics em gestão hospitalar.
+
+[Ver Projeto →](https://rpubs.com/davimat/Business_Health){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Análise de Fluxos do Instituto
+Mapeamento e análise de fluxos operacionais hospitalares.
+
+[Ver Projeto →](https://rpubs.com/davimat/fluxos_instituto){.btn .btn-primary}
+:::
+
+:::
+
+---
+
+## 📊 Data Science & Análise de Dados
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### A Importância da Visualização (Anscombe)
+Por que estatísticas podem ser enganosas sem visualização adequada.
+
+[Ver Projeto →](https://rpubs.com/davimat/importa_visualizar){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Preparação de Dados
+Pipeline completo de limpeza e transformação de dados.
+
+[Ver Projeto →](https://rpubs.com/davimat/prepara_dados){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Análise de Desempenho
+Métricas e KPIs para avaliação de performance.
+
+[Ver Projeto →](https://rpubs.com/davimat/analise_desempenho){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Introdução à Ciência de Dados
+Fundamentos e práticas em Data Science.
+
+[Ver Projeto →](https://rpubs.com/davimat/ciencia_de_dados_1){.btn .btn-primary}
+:::
+
+:::
+
+---
+
+## 💼 Aplicações Especializadas
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Acesso a Dados de Ações
+Web scraping e análise de dados do mercado financeiro.
+
+[Ver Projeto →](https://rpubs.com/davimat/acessa_acoes){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### FORESCAT - Passos
+Metodologia de forecasting aplicada.
+
+[Ver Projeto →](https://rpubs.com/davimat/passos_FORESCAT){.btn .btn-primary}
+:::
+
+:::
+
+---
+
+## 🔗 Perfil Completo
+
+Veja todos os meus projetos e publicações: [RPubs Profile](https://rpubs.com/davimat){.btn .btn-outline-primary}
