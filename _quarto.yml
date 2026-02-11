@@ -15,16 +15,19 @@ website:
         text: Sobre
       - href: projetos/index.qmd
         text: Projetos
+      - href: ensino/index.qmd        # ADICIONE ESTA LINHA
+        text: Ensino                  # ADICIONE ESTA LINHA
     right:
       - icon: github
-        href: https://github.com/seu-usuario
+        href: https://github.com/davimatfacil
       - icon: linkedin  
-        href: https://linkedin.com/in/seu-perfil
+        href: https://www.linkedin.com/in/davi-rocha-27a24b33/
       - icon: envelope
-        href: mailto:seu.email@exemplo.com
+        href: mailto:davimatfacil@gmail.com
+
 
   page-footer:
-    center: "© 2025 Davi Rocha | Data Scientist @ HCFMUSP"
+    center: "© 2026 Davi Rocha | Professor e Data Scientist "
 
 format:
   html:
