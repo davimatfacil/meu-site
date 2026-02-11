@@ -8,19 +8,19 @@ page-layout: full
 
 ## Olá! 👋
 
-Sou **Data Scientist** no [Hospital das Clínicas da FMUSP](https://www.hc.fm.usp.br/) e **Professor Universitário** de Estatística e Matemática desde 2010. Com **24 anos de experiência** em Estatística/Matemática, Data Science e Inteligência Artificial, atuo na interseção entre saúde e tecnologia.
+Sou **Data Scientist** no [Hospital das Clínicas da FMUSP](https://www.hc.fm.usp.br/) e **Professor Universitário** de Estatística e Matemática desde 2010. Com **24 anos de experiência**  em Matemática e desde 2018 atuando em Data Science e Inteligência Artificial, ou seja, na interseção entre saúde e tecnologia.
 
 ### O que faço
 
 - 🏥 **Healthcare Analytics**: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.
 - 📊 **Dashboards & Visualização**: Criação de painéis interativos para monitoramento de indicadores hospitalares
 - 💻 **Desenvolvimento**: Aplicações R-Shiny e Streamlit para qualidade de dados e monitoramento de pesquisa clinica
-- 🎓 **Ensino**: Formação de novos profissionais em estatística e programação
+- 🎓 **Ensino**: Formação de novos profissionais que possam usar matemática e estatística cumprindo seu papela na sociedade
 
 ### Formação
 
 - 🎓 **Mestre em Matemática Aplicada - USP**
-- 📈 **Bacharel em Matematica**
+- 📈 **Bacharel em Matematica - UNESP**
 
 ---
 

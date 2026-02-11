@@ -14,12 +14,14 @@ Atualmente, trabalho no **Hospital das Clínicas da Faculdade de Medicina da USP
 ## Formação Acadêmica
 
 🎓 **Mestre em Matemática Aplicada**  
-Especialização em métodos estatísticos e modelagem matemática
+Conhecimentos em métodos estatísticos e pesquisa operacional
 
-📊 **Especialização em Modelagem Estatística**  
+ 📊 **Bacharel em matemática**  
+
+
+📊 **Vários cursos de Estatística, Machine Learning, Data Science, Python e R**  
 - Generalized Linear Mixed Models (GLMMs)
 - Análise de Regressão
-- Métodos Bayesianos
 - Análise Preditiva
 
 🎯 **Formação Continuada**  
@@ -34,7 +36,6 @@ Constantemente atualizando conhecimentos em Machine Learning, Deep Learning e no
 
 - Desenvolvimento de **modelos de Machine Learning** para predição de desfechos clínicos e otimização de processos hospitalares
 - Criação de **dashboards interativos** para monitoramento em tempo real de indicadores assistenciais e operacionais
-- Análise preditiva e **modelagem estatística avançada** (GLMMs, regressão, séries temporais)
 - Integração e análise de dados de múltiplas fontes: sistemas de prontuário eletrônico, bases administrativas e registros clínicos
 - Trabalho com **grandes volumes de dados** utilizando Vertica e Oracle
 
@@ -42,26 +43,29 @@ Constantemente atualizando conhecimentos em Machine Learning, Deep Learning e no
 - Sistema de monitoramento de fluxo de pacientes no Pronto-Socorro
 - Dashboards de análise de custos e eficiência operacional
 - Modelos preditivos para gestão de leitos e recursos
+- Análise preditiva e **modelagem estatística avançada** (séries temporais)
 
-### 💻 REDCap Brasil
-**Desenvolvedor** | *Atual*
+### 💻 4Research
+**Desenvolvedor/Data Scientist** | *Atual*
 
 Desenvolvimento de aplicações web para pesquisa clínica e captura eletrônica de dados:
 - **Aplicações R-Shiny**: Interfaces interativas para análise de dados de pesquisa
 - **Aplicações Streamlit**: Ferramentas de visualização e relatórios automatizados
 - Integração com plataforma REDCap para gestão de estudos multicêntricos
+- Análise preditiva e **modelagem estatística avançada** (GLMMs, regressão)
 
 ### 🎓 Professor Universitário
-**Docente de Estatística e Programação** | *2010 - Atual*
+**Docente de Estatística e Matemática Aplicada** | *2010 - Atual*
 
-Mais de **14 anos** formando novos profissionais em:
-- Estatística Aplicada
-- Programação em R e Python
+Mais de **14 anos**  auxiliando na formação de novos profissionais em:
+- Administração
+- Marketing
+- Logística
+- Recursos Humanos
 - Análise de Dados
-- Machine Learning
-- Metodologia de Pesquisa Quantitativa
 
-**Abordagem pedagógica:** Integração de teoria estatística com aplicações práticas em projetos reais, preparando alunos para os desafios do mercado de trabalho.
+
+**Abordagem pedagógica:** Integração de teoria estatística/matemática aplicada com aplicações práticas em projetos reais, preparando alunos para os desafios do mercado de trabalho.
 
 ---
 
@@ -70,21 +74,21 @@ Mais de **14 anos** formando novos profissionais em:
 ### Linguagens de Programação
 - **R** (Avançado): Modelagem estatística, Shiny, Tidyverse, ggplot2
 - **Python** (Avançado): Pandas, Scikit-learn, Streamlit, Matplotlib
-- **SQL** (Intermediário): Queries complexas, otimização, Vertica, Oracle
+- **SQL** (Intermediário): Queries complexas, Vertica, Oracle
 
 
 ### Análise de Dados & Machine Learning
 - Modelagem Estatística (GLMMs, GAMs, Regressão)
 - Machine Learning (Classificação, Regressão, Clustering)
+- Inteligência Artificial (Deep Learning)
 - Análise Preditiva e Forecasting
 - Análise de Séries Temporais
 - Análise de Sobrevivência
 - Pesquisa Operacional
 
 ### Ferramentas & Plataformas
-- **Visualização:** Tableau, Power BI, Shiny, Plotly
+- **Visualização:** Tableau, Power BI, Shiny, Plotly, Streamlit
 - **Bancos de Dados:** Vertica, Oracle, PostgreSQL, SQL Server
-- **Desenvolvimento:** Git, Docker, REDCap
 
 
 ---
@@ -92,7 +96,7 @@ Mais de **14 anos** formando novos profissionais em:
 ## Áreas de Interesse
 
 - 🏥 **Healthcare Analytics**: Aplicação de Data Science para melhorar resultados clínicos e eficiência operacional
-- 🤖 **Machine Learning em Saúde**: Modelos preditivos, diagnóstico assistido, otimização de recursos
+- 🤖 **Machine Learning em Saúde**: Modelos preditivos, otimização de recursos
 - 📊 **Business Intelligence**: Dashboards estratégicos e análises para tomada de decisão
 - 📚 **Educação em Data Science**: Formação de novos profissionais e democratização do conhecimento estatístico
 - 🔬 **Consultoria Estatística**: Apoio metodológico a pesquisadores e equipes multidisciplinares
