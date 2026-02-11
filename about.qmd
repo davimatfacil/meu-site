@@ -70,22 +70,22 @@ Mais de **14 anos** formando novos profissionais em:
 ### Linguagens de Programação
 - **R** (Avançado): Modelagem estatística, Shiny, Tidyverse, ggplot2
 - **Python** (Avançado): Pandas, Scikit-learn, Streamlit, Matplotlib
-- **SQL** (Avançado): Queries complexas, otimização, Vertica, Oracle
-- **C#**: Desenvolvimento de aplicações e integrações
+- **SQL** (Intermediário): Queries complexas, otimização, Vertica, Oracle
+
 
 ### Análise de Dados & Machine Learning
 - Modelagem Estatística (GLMMs, GAMs, Regressão)
 - Machine Learning (Classificação, Regressão, Clustering)
 - Análise Preditiva e Forecasting
 - Análise de Séries Temporais
-- Análise Bayesiana
 - Análise de Sobrevivência
+- Pesquisa Operacional
 
 ### Ferramentas & Plataformas
 - **Visualização:** Tableau, Power BI, Shiny, Plotly
 - **Bancos de Dados:** Vertica, Oracle, PostgreSQL, SQL Server
 - **Desenvolvimento:** Git, Docker, REDCap
-- **Cloud:** Familiaridade com AWS e Azure
+
 
 ---
 

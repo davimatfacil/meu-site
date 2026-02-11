@@ -14,15 +14,15 @@ Sou **Data Scientist** no [Hospital das Clínicas da FMUSP](https://www.hc.fm.us
 
 ### O que faço
 
-- 🏥 **Healthcare Analytics**: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas no HCFMUSP
+- 🏥 **Healthcare Analytics**: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.
 - 📊 **Dashboards & Visualização**: Criação de painéis interativos para monitoramento de indicadores hospitalares
-- 💻 **Desenvolvimento**: Aplicações R-Shiny e Streamlit para REDCap Brasil
+- 💻 **Desenvolvimento**: Aplicações R-Shiny e Streamlit para qualidade de dados e monitoramento de pesquisa clinica
 - 🎓 **Ensino**: Formação de novos profissionais em estatística e programação
 
 ### Formação
 
-- 🎓 **Mestre em Matemática Aplicada**
-- 📈 **Especialização em Modelagem Estatística** (GLMMs, Regressão, Análise Preditiva)
+- 🎓 **Mestre em Matemática Aplicada - USP**
+- 📈 **Bacharel em Matematica**
 
 ---
 
@@ -34,14 +34,14 @@ Sou **Data Scientist** no [Hospital das Clínicas da FMUSP](https://www.hc.fm.us
 ### Sistema de Monitoramento Hospitalar
 Dashboard interativo para acompanhamento de fluxo de pacientes e indicadores operacionais do HCFMUSP.
 
-**Tecnologias:** R-Shiny, Vertica, Oracle
+**Tecnologias:** R-Shiny, Vertica
 :::
 
 :::{.g-col-12 .g-col-md-6}
 ### Modelos Preditivos em Saúde
 Desenvolvimento de modelos de Machine Learning para análise de dados clínicos e predição de desfechos.
 
-**Tecnologias:** Python, R, GLMMs
+**Tecnologias:** Python, R
 :::
 
 :::

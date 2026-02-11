@@ -109,7 +109,7 @@
     "href": "about.html#competências-técnicas",
     "title": "Sobre Mim",
     "section": "Competências Técnicas",
-    "text": "Competências Técnicas\n\nLinguagens de Programação\n\nR (Avançado): Modelagem estatística, Shiny, Tidyverse, ggplot2\nPython (Avançado): Pandas, Scikit-learn, Streamlit, Matplotlib\nSQL (Avançado): Queries complexas, otimização, Vertica, Oracle\nC#: Desenvolvimento de aplicações e integrações\n\n\n\nAnálise de Dados & Machine Learning\n\nModelagem Estatística (GLMMs, GAMs, Regressão)\nMachine Learning (Classificação, Regressão, Clustering)\nAnálise Preditiva e Forecasting\nAnálise de Séries Temporais\nAnálise Bayesiana\nAnálise de Sobrevivência\n\n\n\nFerramentas & Plataformas\n\nVisualização: Tableau, Power BI, Shiny, Plotly\nBancos de Dados: Vertica, Oracle, PostgreSQL, SQL Server\nDesenvolvimento: Git, Docker, REDCap\nCloud: Familiaridade com AWS e Azure"
+    "text": "Competências Técnicas\n\nLinguagens de Programação\n\nR (Avançado): Modelagem estatística, Shiny, Tidyverse, ggplot2\nPython (Avançado): Pandas, Scikit-learn, Streamlit, Matplotlib\nSQL (Intermediário): Queries complexas, otimização, Vertica, Oracle\n\n\n\nAnálise de Dados & Machine Learning\n\nModelagem Estatística (GLMMs, GAMs, Regressão)\nMachine Learning (Classificação, Regressão, Clustering)\nAnálise Preditiva e Forecasting\nAnálise de Séries Temporais\nAnálise de Sobrevivência\nPesquisa Operacional\n\n\n\nFerramentas & Plataformas\n\nVisualização: Tableau, Power BI, Shiny, Plotly\nBancos de Dados: Vertica, Oracle, PostgreSQL, SQL Server\nDesenvolvimento: Git, Docker, REDCap"
   },
   {
     "objectID": "about.html#áreas-de-interesse",
