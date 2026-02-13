@@ -8,14 +8,20 @@ page-layout: full
 
 ## Olá! 👋
 
-Sou **Data Scientist** no [Hospital das Clínicas da FMUSP](https://www.hc.fm.usp.br/) e **Professor Universitário** de Estatística e Matemática desde 2010. Com **24 anos de experiência**  em Matemática e desde 2018 atuando em Data Science e Inteligência Artificial, ou seja, na interseção entre saúde e tecnologia.
+Sou **Cientista de Dados** no [Hospital das Clínicas da FMUSP](https://www.hc.fm.usp.br/) e na [4Research](https://www.4research.com.br/) . Com **24 anos de experiência**  em Matemática e desde 2018 atuando com Data Science e mais recentemente Inteligência Artificial, ou seja, na interseção entre saúde e tecnologia.
+Sou também **Professor Universitário** de Estatística e Matemática desde 2010
 
-### O que faço
+### Atuação
 
-- 🏥 **Healthcare Analytics**: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.
-- 📊 **Dashboards & Visualização**: Criação de painéis interativos para monitoramento de indicadores hospitalares
-- 💻 **Desenvolvimento**: Aplicações R-Shiny e Streamlit para qualidade de dados e monitoramento de pesquisa clinica
-- 🎓 **Ensino**: Formação de novos profissionais que possam usar matemática e estatística cumprindo seu papela na sociedade
+🏥 Healthcare Analytics: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.
+
+📈 Estatística: Modelagem estatística e análise descritiva e inferencial de dados de pesquisas.
+
+📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares.
+
+💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para qualidade de dados e monitoramento de pesquisa clínica, além de painéis em Tableau.
+
+🎓 Ensino: Formação de novos profissionais que possam usar matemática e estatística cumprindo seu papel na sociedade.
 
 ### Formação
 
@@ -51,7 +57,7 @@ Desenvolvimento de modelos de Machine Learning para análise de dados clínicos 
 ::: {.columns}
 ::: {.column width="50%"}
 **Linguagens**  
-R • Python • SQL • C#
+R • Python • SQL
 :::
 
 ::: {.column width="50%"}
