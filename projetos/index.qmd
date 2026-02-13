@@ -16,7 +16,7 @@ Implementação e explicação do algoritmo KNN para classificação.
 
 ::: {.g-col-12 .g-col-md-6}
 ### Gradient Descent
-Otimização de modelos utilizando o método do gradiente descendente.
+Explicação simples do método do gradiente descendente.
 
 [Ver Projeto →](https://rpubs.com/davimat/gradient_descent){.btn .btn-primary}
 :::
@@ -45,28 +45,28 @@ Erro Percentual Absoluto Médio em modelos preditivos.
 
 ::: {.g-col-12 .g-col-md-6}
 ### Estatística e Saúde: Lavar as Mãos
-Análise estatística do impacto da higienização das mãos na redução de mortalidade.
+Análise de exemplo histórico que demonstra a importância da análise estatística na área de saúde.
 
 [Ver Projeto →](https://rpubs.com/davimat/estat_lavar_maos){.btn .btn-primary}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ### Curva de Kaplan-Meier
-Conceitos e aplicação de análise de sobrevivência.
+Exemplo de Curva de Kaplan-Meier.
 
 [Ver Projeto →](https://rpubs.com/davimat/conceito_kaplan_meier){.btn .btn-primary}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ### Business Health Analytics
-Aplicação de analytics em gestão hospitalar.
+Exemplo dashboard de gestão hospitalar.
 
 [Ver Projeto →](https://rpubs.com/davimat/Business_Health){.btn .btn-primary}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ### Análise de Fluxos do Instituto
-Mapeamento e análise de fluxos operacionais hospitalares.
+Mapeamento e análise de fluxos operacionais hospitalares(simulação).
 
 [Ver Projeto →](https://rpubs.com/davimat/fluxos_instituto){.btn .btn-primary}
 :::
