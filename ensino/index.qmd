@@ -46,14 +46,17 @@ Análises e projetos reais
 Ofereço aulas personalizadas para:
 
 ✅ **Estudantes do Ensino Fundamental e Médio**
+
 - Reforço em Matemática
-- Preparação para vestibulares
+
 
 ✅ **Universitários**
+
 - Cálculo, Álgebra Linear, Estatística
 - Análise de Dados e Programação
 
 ✅ **Profissionais**
+
 - Estatística aplicada
 - R e Python para análise de dados
 - Transição de carreira para Data Science
