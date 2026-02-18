@@ -106,6 +106,8 @@ Mais de **14 anos**  auxiliando na formação de novos profissionais em:
 ## Filosofia de Trabalho
 
 > "Transformar complexidade em clareza. Dados em decisões. Análises em ações."
+**Buscar a verdade nos dados.** Agir com integridade nas análises. Servir com excelência. Estes são os princípios que guiam meu trabalho como cientista de dados.
+
 
 Acredito que a verdadeira Ciência de Dados vai além de modelos sofisticados — ela está em:
 - ✅ **Comunicar insights** de forma clara e acionável
