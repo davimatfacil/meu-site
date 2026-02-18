@@ -1,138 +1,211 @@
 ---
 title: "Projetos"
-description: "Portfólio de projetos em Data Science, Machine Learning e Healthcare Analytics"
+description: "Portfólio de aplicações interativas, análises e estudos em Data Science"
 ---
 
-## 🤖 Machine Learning & Algoritmos
+::: {.callout-tip}
+## 🚀 Aplicações Interativas
+Experimente as aplicações web que desenvolvi. Todas são interativas e funcionais!
+:::
+
+---
+
+## 🎯 Apps Shiny (R)
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### K-Nearest Neighbors (KNN) no R
-Implementação e explicação do algoritmo KNN para classificação.
+### DEA Analyzer
+**Análise Envoltória de Dados (DEA)**
 
-[Ver Projeto →](https://rpubs.com/davimat/knn_no_r){.btn .btn-primary}
+Aplicativo completo para análise de eficiência de DMUs. Permite entrada customizada de dados, cálculo de scores DEA e recomendações de benchmarking.
+
+**Funcionalidades:**
+- Entrada dinâmica de inputs/outputs
+- Cálculo automático de eficiência
+- Visualizações gráficas
+- Recomendações de melhoria
+
+[Experimentar App →](https://davirocha.shinyapps.io/top_DEA/){.btn .btn-success}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Gradient Descent
-Explicação simples do método do gradiente descendente.
+### Regressão Linear Interativa
+**PIB vs Expectativa de Vida**
 
-[Ver Projeto →](https://rpubs.com/davimat/gradient_descent){.btn .btn-primary}
-:::
+App demonstrativo de análise de regressão linear com dados reais. Explore a correlação entre indicadores econômicos e de saúde.
 
-::: {.g-col-12 .g-col-md-6}
-### Classes Desbalanceadas
-Técnicas para lidar com datasets desbalanceados usando Naive Bayes.
+**Funcionalidades:**
+- Visualização interativa de dados
+- Análise de regressão em tempo real
+- Interpretação de resultados
 
-[Ver Projeto →](https://rpubs.com/davimat/desbalanceadas_naive){.btn .btn-primary}
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### Análise MAPE
-Erro Percentual Absoluto Médio em modelos preditivos.
-
-[Ver Projeto →](https://rpubs.com/davimat/mape){.btn .btn-primary}
+[Experimentar App →](https://davirocha.shinyapps.io/app_regressao_linear/){.btn .btn-success}
 :::
 
 :::
 
 ---
 
-## 🏥 Estatística & Healthcare Analytics
+## 🐍 Apps Streamlit (Python)
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### Estatística e Saúde: Lavar as Mãos
-Análise de exemplo histórico que demonstra a importância da análise estatística na área de saúde.
+### Monitor de Fraudes
+**Sistema de Detecção de Anomalias**
 
-[Ver Projeto →](https://rpubs.com/davimat/estat_lavar_maos){.btn .btn-primary}
+Aplicação para identificação de padrões suspeitos em transações financeiras usando técnicas de Machine Learning.
+
+[Experimentar App →](https://encontrafraude.streamlit.app/){.btn .btn-success}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Curva de Kaplan-Meier
-Exemplo de Curva de Kaplan-Meier.
+### Previsão de Consumo Energético
+**Séries Temporais & Forecasting**
 
-[Ver Projeto →](https://rpubs.com/davimat/conceito_kaplan_meier){.btn .btn-primary}
+Análise e previsão de consumo de energia elétrica.
+
+**Funcionalidades:**
+- Aba de dados e KPIs
+- Aba de previsões
+- Visualizações interativas
+
+[Experimentar App →](https://app-model-energy.streamlit.app/){.btn .btn-success}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Business Health Analytics
-Exemplo dashboard de gestão hospitalar.
+### Simulador de Financiamento Imobiliário
+**Calculadora SAC vs Price**
 
-[Ver Projeto →](https://rpubs.com/davimat/Business_Health){.btn .btn-primary}
+Ferramenta prática para comparação de sistemas de amortização e planejamento de financiamento.
+
+[Experimentar App →](https://davisimulafinanciamovel.streamlit.app/){.btn .btn-success}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Análise de Fluxos do Instituto
-Mapeamento e análise de fluxos operacionais hospitalares(simulação).
+### Gerador de Petições
+**Automação com Python**
 
-[Ver Projeto →](https://rpubs.com/davimat/fluxos_instituto){.btn .btn-primary}
+Demonstração de automação de documentos jurídicos usando processamento de texto em Python.
+
+[Experimentar App →](https://geradorpeticao.streamlit.app/){.btn .btn-success}
 :::
 
 :::
 
 ---
 
-## 📊 Data Science & Análise de Dados
+## 📚 Estudos & Análises (RPubs)
+
+### 🤖 Machine Learning & Algoritmos
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+**K-Nearest Neighbors (KNN)**
+
+Implementação didática do algoritmo KNN em R.
+
+[Ver Estudo →](https://rpubs.com/davimat/knn_no_r){.btn .btn-primary .btn-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**Gradient Descent**
+
+Explicação visual do método do gradiente descendente.
+
+[Ver Estudo →](https://rpubs.com/davimat/gradient_descent){.btn .btn-primary .btn-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**Classes Desbalanceadas**
+
+Técnicas para datasets desbalanceados com Naive Bayes.
+
+[Ver Estudo →](https://rpubs.com/davimat/desbalanceadas_naive){.btn .btn-primary .btn-sm}
+:::
+
+:::
+
+### 🏥 Estatística & Healthcare
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+**Estatística Salva Vidas**
+
+Caso histórico: análise estatística da higienização das mãos.
+
+[Ver Estudo →](https://rpubs.com/davimat/estat_lavar_maos){.btn .btn-primary .btn-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**Análise de Sobrevivência**
+
+Curva de Kaplan-Meier explicada.
+
+[Ver Estudo →](https://rpubs.com/davimat/conceito_kaplan_meier){.btn .btn-primary .btn-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**Fluxos Hospitalares**
+
+Simulação de análise operacional.
+
+[Ver Estudo →](https://rpubs.com/davimat/fluxos_instituto){.btn .btn-primary .btn-sm}
+:::
+
+:::
+
+### 📊 Data Science Fundamentals
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+**Quarteto de Anscombe**
+
+Por que visualização é essencial.
+
+[Ver Estudo →](https://rpubs.com/davimat/importa_visualizar){.btn .btn-primary .btn-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**Preparação de Dados**
+
+Pipeline de limpeza e transformação.
+
+[Ver Estudo →](https://rpubs.com/davimat/prepara_dados){.btn .btn-primary .btn-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**MAPE**
+
+Métricas de erro em modelos preditivos.
+
+[Ver Estudo →](https://rpubs.com/davimat/mape){.btn .btn-primary .btn-sm}
+:::
+
+:::
+
+---
+
+## 🔗 Mais Conteúdo
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### A Importância da Visualização (Anscombe)
-Por que estatísticas podem ser enganosas sem visualização adequada.
+### 📖 RPubs Profile
+Biblioteca completa de análises e tutoriais em R.
 
-[Ver Projeto →](https://rpubs.com/davimat/importa_visualizar){.btn .btn-primary}
+[Visitar Perfil →](https://rpubs.com/davimat){.btn .btn-outline-primary}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Preparação de Dados
-Pipeline completo de limpeza e transformação de dados.
+### 🎥 Canal YouTube
+Aulas de Matemática, Estatística e Programação.
 
-[Ver Projeto →](https://rpubs.com/davimat/prepara_dados){.btn .btn-primary}
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### Análise de Desempenho
-Métricas e KPIs para avaliação de performance.
-
-[Ver Projeto →](https://rpubs.com/davimat/analise_desempenho){.btn .btn-primary}
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### Introdução à Ciência de Dados
-Fundamentos e práticas em Data Science.
-
-[Ver Projeto →](https://rpubs.com/davimat/ciencia_de_dados_1){.btn .btn-primary}
+[Assistir Vídeos →](https://www.youtube.com/@DaviRocha_ML){.btn .btn-outline-danger}
 :::
 
 :::
-
----
-
-## 💼 Aplicações Especializadas
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-### Acesso a Dados de Ações
-Web scraping e análise de dados do mercado financeiro.
-
-[Ver Projeto →](https://rpubs.com/davimat/acessa_acoes){.btn .btn-primary}
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### FORESCAT - Passos
-Metodologia de forecasting aplicada.
-
-[Ver Projeto →](https://rpubs.com/davimat/passos_FORESCAT){.btn .btn-primary}
-:::
-
-:::
-
----
-
-## 🔗 Perfil Completo
-
-Veja todos os meus projetos e publicações: [RPubs Profile](https://rpubs.com/davimat){.btn .btn-outline-primary}

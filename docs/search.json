@@ -4,42 +4,35 @@
     "href": "projetos/index.html",
     "title": "Projetos",
     "section": "",
-    "text": "Implementação e explicação do algoritmo KNN para classificação.\nVer Projeto →\n\n\n\nExplicação simples do método do gradiente descendente.\nVer Projeto →\n\n\n\nTécnicas para lidar com datasets desbalanceados usando Naive Bayes.\nVer Projeto →\n\n\n\nErro Percentual Absoluto Médio em modelos preditivos.\nVer Projeto →"
+    "text": "Tip🚀 Aplicações Interativas\n\n\n\nExperimente as aplicações web que desenvolvi. Todas são interativas e funcionais!"
   },
   {
-    "objectID": "projetos/index.html#machine-learning-algoritmos",
-    "href": "projetos/index.html#machine-learning-algoritmos",
+    "objectID": "projetos/index.html#apps-shiny-r",
+    "href": "projetos/index.html#apps-shiny-r",
     "title": "Projetos",
-    "section": "",
-    "text": "Implementação e explicação do algoritmo KNN para classificação.\nVer Projeto →\n\n\n\nExplicação simples do método do gradiente descendente.\nVer Projeto →\n\n\n\nTécnicas para lidar com datasets desbalanceados usando Naive Bayes.\nVer Projeto →\n\n\n\nErro Percentual Absoluto Médio em modelos preditivos.\nVer Projeto →"
+    "section": "🎯 Apps Shiny (R)",
+    "text": "🎯 Apps Shiny (R)\n\n\nDEA Analyzer\nAnálise Envoltória de Dados (DEA)\nAplicativo completo para análise de eficiência de DMUs. Permite entrada customizada de dados, cálculo de scores DEA e recomendações de benchmarking.\nFuncionalidades: - Entrada dinâmica de inputs/outputs - Cálculo automático de eficiência - Visualizações gráficas - Recomendações de melhoria\nExperimentar App →\n\n\nRegressão Linear Interativa\nPIB vs Expectativa de Vida\nApp demonstrativo de análise de regressão linear com dados reais. Explore a correlação entre indicadores econômicos e de saúde.\nFuncionalidades: - Visualização interativa de dados - Análise de regressão em tempo real - Interpretação de resultados\nExperimentar App →"
   },
   {
-    "objectID": "projetos/index.html#estatística-healthcare-analytics",
-    "href": "projetos/index.html#estatística-healthcare-analytics",
+    "objectID": "projetos/index.html#apps-streamlit-python",
+    "href": "projetos/index.html#apps-streamlit-python",
     "title": "Projetos",
-    "section": "🏥 Estatística & Healthcare Analytics",
-    "text": "🏥 Estatística & Healthcare Analytics\n\n\nEstatística e Saúde: Lavar as Mãos\nAnálise de exemplo histórico que demonstra a importância da análise estatística na área de saúde.\nVer Projeto →\n\n\nCurva de Kaplan-Meier\nExemplo de Curva de Kaplan-Meier.\nVer Projeto →\n\n\nBusiness Health Analytics\nExemplo dashboard de gestão hospitalar.\nVer Projeto →\n\n\nAnálise de Fluxos do Instituto\nMapeamento e análise de fluxos operacionais hospitalares(simulação).\nVer Projeto →"
+    "section": "🐍 Apps Streamlit (Python)",
+    "text": "🐍 Apps Streamlit (Python)\n\n\nMonitor de Fraudes\nSistema de Detecção de Anomalias\nAplicação para identificação de padrões suspeitos em transações financeiras usando técnicas de Machine Learning.\nExperimentar App →\n\n\nPrevisão de Consumo Energético\nSéries Temporais & Forecasting\nAnálise e previsão de consumo de energia elétrica.\nFuncionalidades: - Aba de dados e KPIs - Aba de previsões - Visualizações interativas\nExperimentar App →\n\n\nSimulador de Financiamento Imobiliário\nCalculadora SAC vs Price\nFerramenta prática para comparação de sistemas de amortização e planejamento de financiamento.\nExperimentar App →\n\n\nGerador de Petições\nAutomação com Python\nDemonstração de automação de documentos jurídicos usando processamento de texto em Python.\nExperimentar App →"
   },
   {
-    "objectID": "projetos/index.html#data-science-análise-de-dados",
-    "href": "projetos/index.html#data-science-análise-de-dados",
+    "objectID": "projetos/index.html#estudos-análises-rpubs",
+    "href": "projetos/index.html#estudos-análises-rpubs",
     "title": "Projetos",
-    "section": "📊 Data Science & Análise de Dados",
-    "text": "📊 Data Science & Análise de Dados\n\n\nA Importância da Visualização (Anscombe)\nPor que estatísticas podem ser enganosas sem visualização adequada.\nVer Projeto →\n\n\nPreparação de Dados\nPipeline completo de limpeza e transformação de dados.\nVer Projeto →\n\n\nAnálise de Desempenho\nMétricas e KPIs para avaliação de performance.\nVer Projeto →\n\n\nIntrodução à Ciência de Dados\nFundamentos e práticas em Data Science.\nVer Projeto →"
+    "section": "📚 Estudos & Análises (RPubs)",
+    "text": "📚 Estudos & Análises (RPubs)\n\n🤖 Machine Learning & Algoritmos\n\n\nK-Nearest Neighbors (KNN)\nImplementação didática do algoritmo KNN em R.\nVer Estudo →\n\n\nGradient Descent\nExplicação visual do método do gradiente descendente.\nVer Estudo →\n\n\nClasses Desbalanceadas\nTécnicas para datasets desbalanceados com Naive Bayes.\nVer Estudo →\n\n\n\n\n🏥 Estatística & Healthcare\n\n\nEstatística Salva Vidas\nCaso histórico: análise estatística da higienização das mãos.\nVer Estudo →\n\n\nAnálise de Sobrevivência\nCurva de Kaplan-Meier explicada.\nVer Estudo →\n\n\nFluxos Hospitalares\nSimulação de análise operacional.\nVer Estudo →\n\n\n\n\n📊 Data Science Fundamentals\n\n\nQuarteto de Anscombe\nPor que visualização é essencial.\nVer Estudo →\n\n\nPreparação de Dados\nPipeline de limpeza e transformação.\nVer Estudo →\n\n\nMAPE\nMétricas de erro em modelos preditivos.\nVer Estudo →"
   },
   {
-    "objectID": "projetos/index.html#aplicações-especializadas",
-    "href": "projetos/index.html#aplicações-especializadas",
+    "objectID": "projetos/index.html#mais-conteúdo",
+    "href": "projetos/index.html#mais-conteúdo",
     "title": "Projetos",
-    "section": "💼 Aplicações Especializadas",
-    "text": "💼 Aplicações Especializadas\n\n\nAcesso a Dados de Ações\nWeb scraping e análise de dados do mercado financeiro.\nVer Projeto →\n\n\nFORESCAT - Passos\nMetodologia de forecasting aplicada.\nVer Projeto →"
-  },
-  {
-    "objectID": "projetos/index.html#perfil-completo",
-    "href": "projetos/index.html#perfil-completo",
-    "title": "Projetos",
-    "section": "🔗 Perfil Completo",
-    "text": "🔗 Perfil Completo\nVeja todos os meus projetos e publicações: RPubs Profile"
+    "section": "🔗 Mais Conteúdo",
+    "text": "🔗 Mais Conteúdo\n\n\n📖 RPubs Profile\nBiblioteca completa de análises e tutoriais em R.\nVisitar Perfil →\n\n\n🎥 Canal YouTube\nAulas de Matemática, Estatística e Programação.\nAssistir Vídeos →"
   },
   {
     "objectID": "ensino/index.html",
