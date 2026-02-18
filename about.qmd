@@ -7,17 +7,19 @@ subtitle: "Trajetória profissional e acadêmica na interseção entre dados, te
 
 Sou **Davi Rocha**, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à **Matemática, Estatística e Inteligência Artificial**. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.
 
-Atualmente, trabalho no **Hospital das Clínicas da FMUSP** e na **4Research**, onde desenvolvo soluções de IA e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica.
+Atualmente, trabalho no **Hospital das Clínicas da FMUSP** e na **4Research**, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica.
 
 ---
 
 ## Formação Acadêmica
 
-🎓 **Mestre em Matemática Aplicada** *Foco em Métodos Estatísticos e Pesquisa Operacional*
+🎓 **Mestre em Matemática Aplicada** 
 
 🎓 **Bacharel em Matemática** 
 
-📊 **Especializações e Certificações** * **Inteligência Artificial & NLP:** Implementação de RAG (Retrieval-Augmented Generation) e Fine-tuning de LLMs.
+📊 **Especializações e Certificações** 
+
+* **Inteligência Artificial & NLP:** Lang Chain,Implementação de RAG (Retrieval-Augmented Generation), CrewAI, LlamaIndex, LLM e Generative AI, Deep Learning e NLP.
 
 * **Modelagem Avançada:** Modelos Mistos Lineares Generalizados (GLMMs) e Séries Temporais.
 * **Stack Tecnológica:** Formações avançadas em ecossistemas Python e R.
@@ -30,22 +32,29 @@ Atualmente, trabalho no **Hospital das Clínicas da FMUSP** e na **4Research**, 
 **Cientista de Dados Senior** | *2018 - Atual*
 
 No maior complexo hospitalar da América Latina, atuo na arquitetura e desenvolvimento de modelos preditivos:
+
 * **IA e ML em Saúde:** Desenvolvimento de algoritmos para predição de desfechos clínicos e gestão de recursos hospitalares.
+
 * **Engenharia de Dashboards:** Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro e eficiência operacional.
+
 * **Big Data:** Manipulação e análise de grandes volumes de dados em ambientes **Vertica** e **Oracle**.
 
 ### 💻 4Research
 **Data Scientist & Developer** | *Atual*
 
 Foco em tecnologia para pesquisa clínica e inteligência de dados:
+
 * **Aplicações Analíticas:** Desenvolvimento de ferramentas interativas com **R-Shiny** e **Streamlit** para captura e análise de dados multicêntricos.
+
 * **Integração de Ecossistemas:** Conexão de plataformas de pesquisa (REDCap) com pipelines de análise automatizados.
 
 ### 🎓 Professor Universitário
 **Docente de Estatística e Matemática Aplicada** | *2010 - Atual*
 
 Há mais de 14 anos, leciono para cursos de **Administração, Marketing, Logística e RH**. 
+
 * **Versatilidade:** Minha atuação docente garante que eu mantenha a habilidade de aplicar a ciência de dados em contextos diversos de negócios, fora do nicho hospitalar.
+
 * **Mentoria:** Foco na formação de profissionais capazes de interpretar dados para além das ferramentas.
 
 ---
@@ -53,8 +62,8 @@ Há mais de 14 anos, leciono para cursos de **Administração, Marketing, Logís
 ## Competências Técnicas
 
 ### Linguagens & IA
-* **R (Expert):** Modelagem estatística avançada, Tidyverse, Shiny, Automação de relatórios.
-* **Python (Expert):** Scikit-learn, Pandas, Streamlit, Integração com LLMs (RAG, LangChain).
+* **R :** Modelagem estatística avançada, Tidyverse, Shiny, Automação de relatórios.
+* **Python :** Scikit-learn, Pandas, Streamlit, Integração com LLMs (RAG, LangChain).
 * **SQL:** Queries complexas e otimização em Vertica, Oracle e PostgreSQL.
 
 ### Domínios de Especialidade
