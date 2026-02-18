@@ -266,3 +266,78 @@ Aulas de Matemática, Estatística e Programação.
 :::
 
 :::
+
+---
+
+## 💼 Desenvolvimento de Sites & Dashboards
+
+::: {.callout-important icon=false}
+## 🌐 Gostou deste site?
+
+Este portfólio foi desenvolvido com **Quarto** e publicado gratuitamente no **GitHub Pages**. É um exemplo do que posso criar para você ou sua organização!
+:::
+
+### O que posso desenvolver para você:
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+#### 🌐 Sites Profissionais
+- **Portfólios pessoais** como este
+- Sites institucionais/corporativos
+- Landing pages
+- Blogs técnicos e documentação
+
+**Tecnologias:** Quarto, GitHub Pages  
+**Hospedagem:** Gratuita (GitHub) ou customizada
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### 📊 Dashboards & Aplicações
+- Dashboards interativos (Shiny/Streamlit)
+- Aplicações analíticas customizadas
+- Ferramentas de visualização de dados
+- Automações e sistemas
+
+**Tecnologias:** R Shiny, Streamlit, Python, R
+:::
+
+:::
+
+### 💰 Diferenciais
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-3}
+**✅ Custo acessível**
+
+Hospedagem gratuita no GitHub Pages
+:::
+
+::: {.g-col-12 .g-col-md-3}
+**✅ Design profissional**
+
+Layout responsivo e moderno
+:::
+
+::: {.g-col-12 .g-col-md-3}
+**✅ Fácil manutenção**
+
+Você pode atualizar depois
+:::
+
+::: {.g-col-12 .g-col-md-3}
+**✅ SEO otimizado**
+
+Melhor visibilidade online
+:::
+
+:::
+
+---
+
+### 📞 Interessado em criar seu site ou dashboard?
+
+[Solicitar Orçamento](mailto:davimatfacil@gmail.com?subject=Orçamento%20-%20Desenvolvimento%20de%20Site){.btn .btn-warning .btn-lg}
+
+*Atendo profissionais, pesquisadores, pequenas empresas e organizações.*
