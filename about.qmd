@@ -29,13 +29,13 @@ Atualmente, trabalho no **Hospital das Clínicas da FMUSP** e na **4Research**, 
 ## Experiência Profissional
 
 ### 🏥 Hospital das Clínicas da FMUSP
-**Cientista de Dados Senior** | *2018 - Atual*
+**Cientista de Dados** | *2018 - Atual*
 
 No maior complexo hospitalar da América Latina, atuo na arquitetura e desenvolvimento de modelos preditivos:
 
 * **IA e ML em Saúde:** Desenvolvimento de algoritmos para predição de desfechos clínicos e gestão de recursos hospitalares.
 
-* **Engenharia de Dashboards:** Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro e eficiência operacional.
+* **Engenharia de Dashboards:** Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro, Internação, ambulatorial e eficiência operacional.
 
 * **Big Data:** Manipulação e análise de grandes volumes de dados em ambientes **Vertica** e **Oracle**.
 

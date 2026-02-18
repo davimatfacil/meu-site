@@ -10,11 +10,11 @@ page-layout: full
 
 Sou **Cientista de Dados** e **Professor Universitário**, com uma trajetória de 24 anos dedicada à Matemática. Atualmente, aplico Inteligência Artificial e Data Science no [Hospital das Clínicas da FMUSP](https://www.hc.fm.usp.br/) e na [4Research](https://www.4research.com.br/) atuando na fronteira entre a tecnologia e a saúde.
 
-Minha paixão é transformar dados complexos em soluções inteligentes e compartilhar esse conhecimento. Desde 2010, leciono Estatística e Matemática no ensino superior, unindo o rigor acadêmico à prática de mercado para solucionar desafios em diversos setores
+Minha paixão é transformar dados complexos em soluções inteligentes e compartilhar esse conhecimento. Desde 2010, leciono Estatística e Matemática no ensino superior, unindo o rigor acadêmico à prática de mercado para solucionar desafios em diversos setores.
 
 ### Atuação
 
-🏥 Healthcare Analytics: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.
+🏥 Inteligência Artificial & ML em Saúde: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.
 
 📈 Estatística: Modelagem estatística e análise descritiva e inferencial de dados de pesquisas.
 
@@ -27,7 +27,7 @@ Minha paixão é transformar dados complexos em soluções inteligentes e compar
 ### Formação
 
 - 🎓 **Mestre em Matemática Aplicada - USP**
-- 📈 **Bacharel em Matematica - UNESP**
+- 🎓 **Bacharel em Matematica - UNESP**
 
 ---
 
