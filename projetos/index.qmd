@@ -1,6 +1,6 @@
 ---
 title: "Projetos"
-description: "Portfólio de aplicações interativas, análises e estudos em Data Science"
+description: "Portfólio de aplicações interativas, análises e estudos em Data Science & IA"
 ---
 
 ::: {.callout-tip}
@@ -90,6 +90,63 @@ Ferramenta prática para comparação de sistemas de amortização e planejament
 Demonstração de automação de documentos jurídicos usando processamento de texto em Python.
 
 [Experimentar App →](https://geradorpeticao.streamlit.app/){.btn .btn-success}
+:::
+
+:::
+
+---
+
+## 🤖 Inteligência Artificial & LLMs
+
+::: {.callout-note}
+## Conteúdos Avançados em IA
+Materiais didáticos sobre IA Generativa, LLMs e aplicações práticas.
+:::
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Curso: IA na Saúde (HCFMUSP)
+**Apresentação oficial no HCX**
+
+Material completo do curso ministrado na escola do Hospital das Clínicas. Aborda aplicações práticas de IA Generativa no contexto de saúde, casos de uso, limitações e considerações éticas.
+
+**Tópicos:** Fundamentos de LLMs, Prompt Engineering, Aplicações clínicas, RAG, Fine-tuning
+
+[Acessar Curso →](https://davimatfacil.github.io/ia-saude-apresentacao/){.btn .btn-info}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Agentes de IA
+**Teoria e Prática**
+
+Introdução ao conceito de agentes autônomos em IA. Inclui explicação conceitual e exemplo prático de implementação de agente simulado.
+
+**Conteúdo:** Definição de agentes, arquiteturas, frameworks, exemplo interativo
+
+[Explorar Conteúdo →](https://davimatfacil.github.io/agentes_de_ia/){.btn .btn-info}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Fundamentos para Apps de IA
+**Desenvolvimento Seguro e Responsável**
+
+Guia completo sobre pré-requisitos técnicos e conceituais para criar aplicações de IA robustas. Cobre desde fundamentos até tópicos avançados como guardrails e segurança.
+
+**Tópicos:** Arquitetura de LLMs, Guardrails, Segurança, Boas práticas, Casos de uso
+
+[Ler Guia →](https://davimatfacil.github.io/fundamentos_sao_importantes_ia/){.btn .btn-info}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Model Context Protocol (MCP)
+**Protocolo Emergente da Anthropic**
+
+Explicação do MCP, protocolo que permite LLMs se conectarem a fontes de dados externas de forma padronizada. Essencial para criar aplicações de IA que interagem com sistemas corporativos.
+
+**Relevância:** Integração de dados, Extensibilidade, Padrão da indústria
+
+[Entender MCP →](https://davimatfacil.github.io/Mcp_IA/){.btn .btn-info}
 :::
 
 :::
