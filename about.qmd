@@ -1,134 +1,84 @@
 ---
 title: "Sobre Mim"
-subtitle: "Trajetória profissional e acadêmica"
+subtitle: "Trajetória profissional e acadêmica na interseção entre dados, tecnologia e educação."
 ---
 
 ## Quem Sou
 
-Sou **Davi Rocha**, Data Scientist e Professor com mais de duas décadas dedicadas à **Estatística, Ciência de Dados e Inteligência Artificial**. Minha missão é transformar dados em insights acionáveis, especialmente no contexto da saúde pública brasileira.
+Sou **Davi Rocha**, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à **Matemática, Estatística e Inteligência Artificial**. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.
 
-Atualmente, trabalho no **Hospital das Clínicas da Faculdade de Medicina da USP (HCFMUSP)** e no **4Research** onde combino expertise técnica com impacto social, desenvolvendo soluções que apoiam decisões clínicas e melhoram a gestão hospitalar.
+Atualmente, trabalho no **Hospital das Clínicas da FMUSP** e na **4Research**, onde desenvolvo soluções de IA e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica.
 
 ---
 
 ## Formação Acadêmica
 
-🎓 **Mestre em Matemática Aplicada**  
-Conhecimentos em métodos estatísticos e pesquisa operacional
+🎓 **Mestre em Matemática Aplicada** *Foco em Métodos Estatísticos e Pesquisa Operacional*
 
- 📊 **Bacharel em matemática**  
+🎓 **Bacharel em Matemática** 
 
+📊 **Especializações e Certificações** * **Inteligência Artificial & NLP:** Implementação de RAG (Retrieval-Augmented Generation) e Fine-tuning de LLMs.
 
-📊 **Vários cursos de Estatística, Machine Learning, Data Science, Python e R**  
-- Generalized Linear Mixed Models (GLMMs)
-- Análise de Regressão
-- Análise Preditiva
-
-🎯 **Formação Continuada**  
-Constantemente atualizando conhecimentos em Machine Learning, Deep Learning e novas tecnologias de análise de dados
+* **Modelagem Avançada:** Modelos Mistos Lineares Generalizados (GLMMs) e Séries Temporais.
+* **Stack Tecnológica:** Formações avançadas em ecossistemas Python e R.
 
 ---
 
 ## Experiência Profissional
 
 ### 🏥 Hospital das Clínicas da FMUSP
-**Data Scientist** | *Atual*
+**Cientista de Dados Senior** | *2018 - Atual*
 
-- Desenvolvimento de **modelos de Machine Learning** para predição de desfechos clínicos e otimização de processos hospitalares
-- Criação de **dashboards interativos** para monitoramento em tempo real de indicadores assistenciais e operacionais
-- Integração e análise de dados de múltiplas fontes: sistemas de prontuário eletrônico, bases administrativas e registros clínicos
-- Trabalho com **grandes volumes de dados** utilizando Vertica e Oracle
-
-**Principais entregas:**
-- Sistema de monitoramento de fluxo de pacientes no Pronto-Socorro
-- Dashboards de análise de custos e eficiência operacional
-- Modelos preditivos para gestão de leitos e recursos
-- Análise preditiva e **modelagem estatística avançada** (séries temporais)
+No maior complexo hospitalar da América Latina, atuo na arquitetura e desenvolvimento de modelos preditivos:
+* **IA e ML em Saúde:** Desenvolvimento de algoritmos para predição de desfechos clínicos e gestão de recursos hospitalares.
+* **Engenharia de Dashboards:** Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro e eficiência operacional.
+* **Big Data:** Manipulação e análise de grandes volumes de dados em ambientes **Vertica** e **Oracle**.
 
 ### 💻 4Research
-**Desenvolvedor/Data Scientist** | *Atual*
+**Data Scientist & Developer** | *Atual*
 
-Desenvolvimento de aplicações web para pesquisa clínica e captura eletrônica de dados:
-- **Aplicações R-Shiny**: Interfaces interativas para análise de dados de pesquisa
-- **Aplicações Streamlit**: Ferramentas de visualização e relatórios automatizados
-- Integração com plataforma REDCap para gestão de estudos multicêntricos
-- Análise preditiva e **modelagem estatística avançada** (GLMMs, regressão)
+Foco em tecnologia para pesquisa clínica e inteligência de dados:
+* **Aplicações Analíticas:** Desenvolvimento de ferramentas interativas com **R-Shiny** e **Streamlit** para captura e análise de dados multicêntricos.
+* **Integração de Ecossistemas:** Conexão de plataformas de pesquisa (REDCap) com pipelines de análise automatizados.
 
 ### 🎓 Professor Universitário
 **Docente de Estatística e Matemática Aplicada** | *2010 - Atual*
 
-Mais de **14 anos**  auxiliando na formação de novos profissionais em:
-- Administração
-- Marketing
-- Logística
-- Recursos Humanos
-- Análise de Dados
-
-
-**Abordagem pedagógica:** Integração de teoria estatística/matemática aplicada com aplicações práticas em projetos reais, preparando alunos para os desafios do mercado de trabalho.
+Há mais de 14 anos, leciono para cursos de **Administração, Marketing, Logística e RH**. 
+* **Versatilidade:** Minha atuação docente garante que eu mantenha a habilidade de aplicar a ciência de dados em contextos diversos de negócios, fora do nicho hospitalar.
+* **Mentoria:** Foco na formação de profissionais capazes de interpretar dados para além das ferramentas.
 
 ---
 
 ## Competências Técnicas
 
-### Linguagens de Programação
-- **R** (Avançado): Modelagem estatística, Shiny, Tidyverse, ggplot2
-- **Python** (Avançado): Pandas, Scikit-learn, Streamlit, Matplotlib
-- **SQL** (Intermediário): Queries complexas, Vertica, Oracle
+### Linguagens & IA
+* **R (Expert):** Modelagem estatística avançada, Tidyverse, Shiny, Automação de relatórios.
+* **Python (Expert):** Scikit-learn, Pandas, Streamlit, Integração com LLMs (RAG, LangChain).
+* **SQL:** Queries complexas e otimização em Vertica, Oracle e PostgreSQL.
 
-
-### Análise de Dados & Machine Learning
-- Modelagem Estatística (GLMMs, GAMs, Regressão)
-- Machine Learning (Classificação, Regressão, Clustering)
-- Inteligência Artificial (Deep Learning)
-- Análise Preditiva e Forecasting
-- Análise de Séries Temporais
-- Análise de Sobrevivência
-- Pesquisa Operacional
-
-### Ferramentas & Plataformas
-- **Visualização:** Tableau, Power BI, Shiny, Plotly, Streamlit
-- **Bancos de Dados:** Vertica, Oracle, PostgreSQL, SQL Server
-
-
----
-
-## Áreas de Interesse
-
-- 🏥 **Healthcare Analytics**: Aplicação de Data Science para melhorar resultados clínicos e eficiência operacional
-- 🤖 **Machine Learning em Saúde**: Modelos preditivos, otimização de recursos
-- 📊 **Business Intelligence**: Dashboards estratégicos e análises para tomada de decisão
-- 📚 **Educação em Data Science**: Formação de novos profissionais e democratização do conhecimento estatístico
-- 🔬 **Consultoria Estatística**: Apoio metodológico a pesquisadores e equipes multidisciplinares
+### Domínios de Especialidade
+* **Modelagem:** GLMMs, Análise de Sobrevivência, Séries Temporais e Regressão Avançada.
+* **IA & Machine Learning:** Deep Learning, NLP e Modelos Preditivos.
+* **Visualização:** Tableau, Power BI, Plotly e bibliotecas customizadas em R/Python.
 
 ---
 
 ## Filosofia de Trabalho
 
-> "Transformar complexidade em clareza. Dados em decisões. Análises em ações."
-**Buscar a verdade nos dados.** Agir com integridade nas análises. Servir com excelência. Estes são os princípios que guiam meu trabalho como cientista de dados.
+> "Transformar complexidade em clareza, dados em decisões e análises em ações."
 
-
-Acredito que a verdadeira Ciência de Dados vai além de modelos sofisticados — ela está em:
-- ✅ **Comunicar insights** de forma clara e acionável
-- ✅ **Colaborar** com equipes multidisciplinares
-- ✅ **Entregar valor** através de soluções práticas e sustentáveis
-- ✅ **Manter rigor metodológico** sem perder a praticidade
+Acredito que a verdadeira Ciência de Dados reside no equilíbrio entre o **rigor matemático** e a **praticidade da entrega**. Meu compromisso é buscar a verdade nos dados com integridade ética e comunicar insights de forma que qualquer tomador de decisão possa agir com confiança.
 
 ---
 
 ## Vamos Conversar?
 
-Estou sempre aberto a:
-- 🤝 **Colaborações** em projetos de Data Science na área da saúde
-- 📊 **Consultoria Estatística** para pesquisas e análises
-- 💼 **Desenvolvimento** de dashboards e aplicações analíticas
-- 🎓 **Palestras e treinamentos** em Estatística e Data Science
+Estou disponível para colaborações em projetos de IA, consultoria estatística para pesquisas e treinamentos corporativos.
 
 📧 **Email:** [davimatfacil@gmail.com](mailto:davimatfacil@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/seu-perfil](https://www.linkedin.com/in/davi-rocha-27a24b33/)  
-🐙 **GitHub:** [github.com/davirocha](https://github.com/davimatfacil)
+💼 **LinkedIn:** [linkedin.com/in/davi-rocha-27a24b33/](https://www.linkedin.com/in/davi-rocha-27a24b33/)  
+🐙 **GitHub:** [github.com/davimatfacil](https://github.com/davimatfacil)
 
 ---
-
 *Última atualização: Fevereiro de 2026*
