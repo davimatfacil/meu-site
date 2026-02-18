@@ -5,7 +5,9 @@ description: "Professor de Matemática e Programação | Aulas Particulares"
 
 ## 👨‍🏫 Experiência em Ensino
 
-Professor universitário desde 2010, com expertise em:
+Professor universitário desde 2010, com **24 anos de experiência** em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.
+
+**Áreas de expertise:**
 
 - **Matemática:** Desde básica até cálculo universitário
 - **Estatística:** Descritiva, Inferencial e Modelagem
@@ -14,30 +16,71 @@ Professor universitário desde 2010, com expertise em:
 
 ---
 
-## 🎥 Canal no YouTube
+## 🎥 Aulas Demonstrativas
 
-Conteúdo educacional gratuito sobre:
+Veja exemplos do meu método de ensino:
 
-::: {.grid}
+::: {.panel-tabset}
 
-::: {.g-col-12 .g-col-md-4}
-### 📐 Matemática
-Do básico ao avançado
+## Matemática Básica
+
+**Comparando Números Naturais**
+
+Aula didática sobre conceitos fundamentais para estudantes iniciantes.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ng8s2lVNOzs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Matemática Aplicada
+
+**Oferta e Demanda Linear**
+
+Exercício aplicado de funções lineares no contexto econômico.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/YMH6cdNKADE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+**Função Custo, Receita e Lucro**
+
+Aplicação de funções lineares em análise de negócios.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/a6o7QFFcdSM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Matemática Financeira
+
+**Taxa Efetiva e Nominal**
+
+Convenção Linear e Exponencial em Matemática Financeira.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/I2fKo2c1rmI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Probabilidade
+
+**Problema do Aniversário**
+
+Conceito fascinante de probabilidades aplicado a um problema clássico.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/SuMGlnyQpeQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Programação Python
+
+**Conversão de Variáveis Categóricas**
+
+Como criar variáveis dummy em Python para Machine Learning.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/TwVBewyylfk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Programação R
+
+**Renomear Colunas no R**
+
+Dica rápida e prática para manipulação de dados em R.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/VR7zywvvTmE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 :::
 
-::: {.g-col-12 .g-col-md-4}
-### 💻 Programação
-R e Python na prática
-:::
-
-::: {.g-col-12 .g-col-md-4}
-### 📊 Data Science
-Análises e projetos reais
-:::
-
-:::
-
-[Acesse o Canal →](https://www.youtube.com/@DaviRocha_ML){.btn .btn-primary target="_blank"}
+[Ver Mais no Canal →](https://www.youtube.com/@DaviRocha_ML){.btn .btn-danger target="_blank"}
 
 ---
 
@@ -45,42 +88,67 @@ Análises e projetos reais
 
 Ofereço aulas personalizadas para:
 
-✅ **Estudantes do Ensino Fundamental e Médio**
+::: {.grid}
 
+::: {.g-col-12 .g-col-md-4}
+### 🎒 Ensino Fundamental e Médio
 - Reforço em Matemática
+- Preparação para vestibulares
+- Acompanhamento escolar
+:::
 
+::: {.g-col-12 .g-col-md-4}
+### 🎓 Universitários
+- Cálculo, Álgebra Linear
+- Estatística e Probabilidade
+- Análise de Dados
+- Programação (R/Python)
+:::
 
-✅ **Universitários**
-
-- Cálculo, Álgebra Linear, Estatística
-- Análise de Dados e Programação
-
-✅ **Profissionais**
-
+::: {.g-col-12 .g-col-md-4}
+### 💼 Profissionais
 - Estatística aplicada
-- R e Python para análise de dados
-- Transição de carreira para Data Science
+- R e Python para dados
+- Transição para Data Science
+- Machine Learning
+:::
 
-### 💡 Diferenciais
+:::
 
-- 24 anos de experiência em ensino
-- Metodologia adaptada ao seu ritmo
-- Material didático personalizado
-- Aulas presenciais (preferencialmente aos sábados) ou online
+---
+
+## 💡 Diferenciais
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+✨ **24 anos de experiência** em ensino  
+🎯 **Metodologia adaptada** ao seu ritmo e objetivo  
+📖 **Material didático personalizado**  
+🏆 **Histórico comprovado** de resultados
+:::
+
+::: {.g-col-12 .g-col-md-6}
+📍 **Aulas presenciais** em São Paulo (preferencialmente aos sábados)  
+💻 **Aulas online** para todo o Brasil  
+🔄 **Flexibilidade** de horários  
+📊 **Acompanhamento** de progresso
+:::
+
+:::
 
 ---
 
 ## 📞 Entre em Contato
 
-Interessado em aulas particulares?
+Interessado em aulas particulares? Entre em contato para agendar uma **aula experimental**!
 
-[Enviar E-mail](mailto:davimatfacil@gmail.com?subject=Interesse%20em%20Aulas%20Particulares){.btn .btn-success}
+[Enviar E-mail](mailto:davimatfacil@gmail.com?subject=Interesse%20em%20Aulas%20Particulares){.btn .btn-success .btn-lg}
 
-**Atendo presencialmente na região de São Paulo e online para todo o Brasil.**
-
----
-
-::: {.callout-note}
-## Valores Especiais
-Entre em contato para saber mais!
+::: {.callout-tip}
+## Como Funciona
+1. Entre em contato por e-mail
+2. Conte seus objetivos e dificuldades
+3. Agendamos uma conversa inicial (gratuita)
+4. Definimos plano de estudos personalizado
 :::
