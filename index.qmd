@@ -1,6 +1,6 @@
 ---
 title: "Davi Rocha"
-subtitle: "Data Scientist | Professor | Healthcare Analytics"
+subtitle: "Especialista em Dados | Matemático | Professor"
 page-layout: full
 ---
 
@@ -8,8 +8,9 @@ page-layout: full
 
 ## Olá! 👋
 
-Sou **Cientista de Dados** no [Hospital das Clínicas da FMUSP](https://www.hc.fm.usp.br/) e na [4Research](https://www.4research.com.br/) . Com **24 anos de experiência**  em Matemática e desde 2018 atuando com Data Science e mais recentemente Inteligência Artificial, ou seja, na interseção entre saúde e tecnologia.
-Sou também **Professor Universitário** de Estatística e Matemática desde 2010
+Sou **Cientista de Dados** e **Professor Universitário**, com uma trajetória de 24 anos dedicada à Matemática. Atualmente, aplico Inteligência Artificial e Data Science no [Hospital das Clínicas da FMUSP](https://www.hc.fm.usp.br/) e na [4Research](https://www.4research.com.br/) atuando na fronteira entre a tecnologia e a saúde.
+
+Minha paixão é transformar dados complexos em soluções inteligentes e compartilhar esse conhecimento. Desde 2010, leciono Estatística e Matemática no ensino superior, unindo o rigor acadêmico à prática de mercado para solucionar desafios em diversos setores
 
 ### Atuação
 
