@@ -4,7 +4,7 @@
     "href": "projetos/index.html",
     "title": "Projetos",
     "section": "",
-    "text": "Tip🚀 Aplicações Interativas\n\n\n\nExperimente as aplicações web que desenvolvi. Todas são interativas e funcionais!"
+    "text": "Dica🚀 Aplicações Interativas\n\n\n\nExperimente as aplicações web que desenvolvi. Todas são interativas e funcionais!"
   },
   {
     "objectID": "projetos/index.html#apps-shiny-r",
@@ -25,7 +25,7 @@
     "href": "projetos/index.html#inteligência-artificial-llms",
     "title": "Projetos",
     "section": "🤖 Inteligência Artificial & LLMs",
-    "text": "🤖 Inteligência Artificial & LLMs\n\n\n\n\n\n\nNoteConteúdos Avançados em IA\n\n\n\nMateriais didáticos sobre IA Generativa, LLMs e aplicações práticas.\n\n\n\n\nCurso: IA na Saúde (HCFMUSP)\nApresentação oficial no HCX\nMaterial completo do curso ministrado na escola do Hospital das Clínicas. Aborda aplicações práticas de IA Generativa no contexto de saúde, casos de uso, limitações e considerações éticas.\nTópicos: Fundamentos de LLMs, Prompt Engineering, Aplicações clínicas, RAG, Fine-tuning\nAcessar Curso →\n\n\nAgentes de IA\nTeoria e Prática\nIntrodução ao conceito de agentes autônomos em IA. Inclui explicação conceitual e exemplo prático de implementação de agente simulado.\nConteúdo: Definição de agentes, arquiteturas, frameworks, exemplo interativo\nExplorar Conteúdo →\n\n\nFundamentos para Apps de IA\nDesenvolvimento Seguro e Responsável\nGuia completo sobre pré-requisitos técnicos e conceituais para criar aplicações de IA robustas. Cobre desde fundamentos até tópicos avançados como guardrails e segurança.\nTópicos: Arquitetura de LLMs, Guardrails, Segurança, Boas práticas, Casos de uso\nLer Guia →\n\n\nModel Context Protocol (MCP)\nProtocolo Emergente da Anthropic\nExplicação do MCP, protocolo que permite LLMs se conectarem a fontes de dados externas de forma padronizada. Essencial para criar aplicações de IA que interagem com sistemas corporativos.\nRelevância: Integração de dados, Extensibilidade, Padrão da indústria\nEntender MCP →"
+    "text": "🤖 Inteligência Artificial & LLMs\n\n\n\n\n\n\nNotaConteúdos Avançados em IA\n\n\n\nMateriais didáticos sobre IA Generativa, LLMs e aplicações práticas.\n\n\n\n\nCurso: IA na Saúde (HCFMUSP)\nApresentação oficial no HCX\nMaterial completo do curso ministrado na escola do Hospital das Clínicas. Aborda aplicações práticas de IA Generativa no contexto de saúde, casos de uso, limitações e considerações éticas.\nTópicos: Fundamentos de LLMs, Prompt Engineering, Aplicações clínicas, RAG, Fine-tuning\nAcessar Curso →\n\n\nAgentes de IA\nTeoria e Prática\nIntrodução ao conceito de agentes autônomos em IA. Inclui explicação conceitual e exemplo prático de implementação de agente simulado.\nConteúdo: Definição de agentes, arquiteturas, frameworks, exemplo interativo\nExplorar Conteúdo →\n\n\nFundamentos para Apps de IA\nDesenvolvimento Seguro e Responsável\nGuia completo sobre pré-requisitos técnicos e conceituais para criar aplicações de IA robustas. Cobre desde fundamentos até tópicos avançados como guardrails e segurança.\nTópicos: Arquitetura de LLMs, Guardrails, Segurança, Boas práticas, Casos de uso\nLer Guia →\n\n\nModel Context Protocol (MCP)\nProtocolo Emergente da Anthropic\nExplicação do MCP, protocolo que permite LLMs se conectarem a fontes de dados externas de forma padronizada. Essencial para criar aplicações de IA que interagem com sistemas corporativos.\nRelevância: Integração de dados, Extensibilidade, Padrão da indústria\nEntender MCP →"
   },
   {
     "objectID": "projetos/index.html#estudos-análises-rpubs",
@@ -46,7 +46,7 @@
     "href": "projetos/index.html#desenvolvimento-de-sites-dashboards",
     "title": "Projetos",
     "section": "💼 Desenvolvimento de Sites & Dashboards",
-    "text": "💼 Desenvolvimento de Sites & Dashboards\n\n\n\n\n\n\nImportant🌐 Gostou deste site?\n\n\n\nEste portfólio foi desenvolvido com Quarto e publicado gratuitamente no GitHub Pages. É um exemplo do que posso criar para você ou sua organização!\n\n\n\nO que posso desenvolver para você:\n\n\n🌐 Sites Profissionais\n\nPortfólios pessoais como este\nSites institucionais/corporativos\nLanding pages\nBlogs técnicos e documentação\n\nTecnologias: Quarto, GitHub Pages\nHospedagem: Gratuita (GitHub) ou customizada\n\n\n📊 Dashboards & Aplicações\n\nDashboards interativos (Shiny/Streamlit)\nAplicações analíticas customizadas\nFerramentas de visualização de dados\nAutomações e sistemas\n\nTecnologias: R Shiny, Streamlit, Python, R\n\n\n\n\n💰 Diferenciais\n\n\n✅ Custo acessível\nHospedagem gratuita no GitHub Pages\n\n\n✅ Design profissional\nLayout responsivo e moderno\n\n\n✅ Fácil manutenção\nVocê pode atualizar depois\n\n\n✅ SEO otimizado\nMelhor visibilidade online\n\n\n\n\n\n📞 Interessado em criar seu site ou dashboard?\nSolicitar Orçamento\nAtendo profissionais, pesquisadores, pequenas empresas e organizações."
+    "text": "💼 Desenvolvimento de Sites & Dashboards\n\n\n\n\n\n\nImportante🌐 Gostou deste site?\n\n\n\nEste portfólio foi desenvolvido com Quarto e publicado gratuitamente no GitHub Pages. É um exemplo do que posso criar para você ou sua organização!\n\n\n\nO que posso desenvolver para você:\n\n\n🌐 Sites Profissionais\n\nPortfólios pessoais como este\nSites institucionais/corporativos\nLanding pages\nBlogs técnicos e documentação\n\nTecnologias: Quarto, GitHub Pages\nHospedagem: Gratuita (GitHub) ou customizada\n\n\n📊 Dashboards & Aplicações\n\nDashboards interativos (Shiny/Streamlit)\nAplicações analíticas customizadas\nFerramentas de visualização de dados\nAutomações e sistemas\n\nTecnologias: R Shiny, Streamlit, Python, R\n\n\n\n\n💰 Diferenciais\n\n\n✅ Custo acessível\nHospedagem gratuita no GitHub Pages\n\n\n✅ Design profissional\nLayout responsivo e moderno\n\n\n✅ Fácil manutenção\nVocê pode atualizar depois\n\n\n✅ SEO otimizado\nMelhor visibilidade online\n\n\n\n\n\n📞 Interessado em criar seu site ou dashboard?\nSolicitar Orçamento\nAtendo profissionais, pesquisadores, pequenas empresas e organizações."
   },
   {
     "objectID": "ensino/index.html",
@@ -70,6 +70,13 @@
     "text": "🎥 Aulas Demonstrativas\nVeja exemplos do meu método de ensino:\n\nMatemática BásicaMatemática AplicadaMatemática FinanceiraProbabilidadeProgramação PythonProgramação R\n\n\nComparando Números Naturais\nAula didática sobre conceitos fundamentais para estudantes iniciantes.\n\n\n\n\nOferta e Demanda Linear\nExercício aplicado de funções lineares no contexto econômico.\n\n\n\nFunção Custo, Receita e Lucro\nAplicação de funções lineares em análise de negócios.\n\n\n\n\nTaxa Efetiva e Nominal\nConvenção Linear e Exponencial em Matemática Financeira.\n\n\n\n\nProblema do Aniversário\nConceito fascinante de probabilidades aplicado a um problema clássico.\n\n\n\n\nConversão de Variáveis Categóricas\nComo criar variáveis dummy em Python para Machine Learning.\n\n\n\n\nRenomear Colunas no R\nDica rápida e prática para manipulação de dados em R.\n\n\n\n\n\nVer Mais no Canal →"
   },
   {
+    "objectID": "ensino/index.html#artigos",
+    "href": "ensino/index.html#artigos",
+    "title": "Ensino",
+    "section": "📝 Artigos",
+    "text": "📝 Artigos\nReflexões e explicações sobre matemática com contexto histórico e aplicações reais.\n\n\nO Galinheiro de Descartes\nOtimização | Cálculo Diferencial\nComo um problema simples de galinheiro revela o poder da derivada — e por que o homem de exatas é um Imitador do Criador.\nLer artigo →"
+  },
+  {
     "objectID": "ensino/index.html#aulas-particulares",
     "href": "ensino/index.html#aulas-particulares",
     "title": "Ensino",
@@ -88,7 +95,7 @@
     "href": "ensino/index.html#entre-em-contato",
     "title": "Ensino",
     "section": "📞 Entre em Contato",
-    "text": "📞 Entre em Contato\nInteressado em aulas particulares? Entre em contato para agendar uma aula experimental!\nEnviar E-mail\n\n\n\n\n\n\nTipComo Funciona\n\n\n\n\nEntre em contato por e-mail\nConte seus objetivos e dificuldades\nAgendamos uma conversa inicial (gratuita)\nDefinimos plano de estudos personalizado"
+    "text": "📞 Entre em Contato\nInteressado em aulas particulares? Entre em contato para agendar uma aula experimental!\nEnviar E-mail\n\n\n\n\n\n\nDicaComo Funciona\n\n\n\n\nEntre em contato por e-mail\nConte seus objetivos e dificuldades\nAgendamos uma conversa inicial (gratuita)\nDefinimos plano de estudos personalizado"
   },
   {
     "objectID": "about.html",
@@ -138,6 +145,62 @@
     "title": "Sobre Mim",
     "section": "Vamos Conversar?",
     "text": "Vamos Conversar?\nEstou disponível para colaborações em projetos de IA, consultoria estatística para pesquisas e treinamentos corporativos.\n📧 Email: davimatfacil@gmail.com\n💼 LinkedIn: linkedin.com/in/davi-rocha-27a24b33/\n🐙 GitHub: github.com/davimatfacil\n\nÚltima atualização: Fevereiro de 2026"
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html",
+    "href": "ensino/galinheiro-de-descartes.html",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "",
+    "text": "Havia uma frase que o Prof. Aguinaldo Prandini Ricieri, físico e prof. do pelo ITA, matemático por vocação, repetia nas suas aulas com uma certa satisfação irônica:\n\n“O homem de exatas é um Imitador do Criador.”\n\nEle se declarava ateu, o que tornava a frase ainda mais curiosa. Mas o que ele queria dizer ficava claro quando você olhava para os exemplos que ele trazia.\nNos anos 90, as montadoras começaram a arredondar os carros. Saíram as formas quadradas, angulosas, e entraram as curvas suaves. Ricieri apontava para isso e perguntava: por que? A resposta era matemática… e vinha da natureza. A gota d’água, por exemplo, ao cair, assume uma forma que minimiza o arrasto aerodinâmico. Os engenheiros não inventaram esse design. Eles o copiaram. Matematizaram o que a natureza já “exibia” há milênios.\nEssa era a filosofia do curso que fiz em 97/98 — o famoso Matemática Aplicada à Vida, ministrado aos sábados à tarde e aos domingos de manhã (sim, 7h da manhã, e a sala estava cheia viu!) lá no Anglo Tamandaré. O prof. Ricieri não ensinava fórmulas soltas. Ele ensinava contexto. Ensinava que por trás de cada símbolo matemático havia um ser humano, às vezes genial, às vezes obcecado, às vezes em guerra com outro matemático tentando resolver um problema real do seu tempo.\nOuvíamos histórias da rivalidade feroz entre Newton e Leibniz, da correspondência entre Fermat e Pascal discutindo jogos de azar (e inventando a teoria das probabilidades), das contribuições de Euler, Lagrange, Legendre, Gauss, do jovem Galois que morreu num duelo aos 20 anos com toda a sua matemática ainda por ser descoberta. Matemática não era uma lista de técnicas. Era uma narrativa humana de séculos.\nE foi numa dessas aulas que ele chegou com um problema que nunca mais saiu da minha cabeça e me fez perceber pra que serve a matemática…"
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#o-homem-que-via-matemática-em-tudo",
+    "href": "ensino/galinheiro-de-descartes.html#o-homem-que-via-matemática-em-tudo",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "",
+    "text": "Havia uma frase que o Prof. Aguinaldo Prandini Ricieri, físico e prof. do pelo ITA, matemático por vocação, repetia nas suas aulas com uma certa satisfação irônica:\n\n“O homem de exatas é um Imitador do Criador.”\n\nEle se declarava ateu, o que tornava a frase ainda mais curiosa. Mas o que ele queria dizer ficava claro quando você olhava para os exemplos que ele trazia.\nNos anos 90, as montadoras começaram a arredondar os carros. Saíram as formas quadradas, angulosas, e entraram as curvas suaves. Ricieri apontava para isso e perguntava: por que? A resposta era matemática… e vinha da natureza. A gota d’água, por exemplo, ao cair, assume uma forma que minimiza o arrasto aerodinâmico. Os engenheiros não inventaram esse design. Eles o copiaram. Matematizaram o que a natureza já “exibia” há milênios.\nEssa era a filosofia do curso que fiz em 97/98 — o famoso Matemática Aplicada à Vida, ministrado aos sábados à tarde e aos domingos de manhã (sim, 7h da manhã, e a sala estava cheia viu!) lá no Anglo Tamandaré. O prof. Ricieri não ensinava fórmulas soltas. Ele ensinava contexto. Ensinava que por trás de cada símbolo matemático havia um ser humano, às vezes genial, às vezes obcecado, às vezes em guerra com outro matemático tentando resolver um problema real do seu tempo.\nOuvíamos histórias da rivalidade feroz entre Newton e Leibniz, da correspondência entre Fermat e Pascal discutindo jogos de azar (e inventando a teoria das probabilidades), das contribuições de Euler, Lagrange, Legendre, Gauss, do jovem Galois que morreu num duelo aos 20 anos com toda a sua matemática ainda por ser descoberta. Matemática não era uma lista de técnicas. Era uma narrativa humana de séculos.\nE foi numa dessas aulas que ele chegou com um problema que nunca mais saiu da minha cabeça e me fez perceber pra que serve a matemática…"
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#quantos-metros-de-tela-você-tem",
+    "href": "ensino/galinheiro-de-descartes.html#quantos-metros-de-tela-você-tem",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "“Quantos metros de tela você tem?”",
+    "text": "“Quantos metros de tela você tem?”\nEle chegou ao quadro, pegou o giz, e começou:\n“Você tem uma quantidade fixa de tela para construir um galinheiro retangular. Um lado vai ser encostado na parede do galpão; esse lado é de graça. Você quer usar toda a tela nos outros três lados. Qual deve ser o formato do galinheiro para que as galinhas tenham o máximo de espaço?”\nParece simples. E é. Mas a maioria das pessoas, sem pensar matematicamente, tentaria fazer um quadrado, ou dividir a tela em partes iguais. A matemática revela que a intuição nem sempre acerta."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#entra-descartes-e-seu-plano",
+    "href": "ensino/galinheiro-de-descartes.html#entra-descartes-e-seu-plano",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "Entra Descartes — e seu plano",
+    "text": "Entra Descartes — e seu plano\nAntes de resolver, vale entender por que Ricieri chamava esse problema de “o galinheiro de Descartes”.\nRené Descartes (1596–1650) foi o matemático que uniu dois mundos que pareciam separados: a geometria e a álgebra. Ele criou o sistema de coordenadas cartesianas, lembra da escola? Aquele plano com eixo \\(x\\) e eixo \\(y\\) que todo estudante conhece. A ideia parece simples hoje, mas é fundamental para todo o avanço que a matemática teve posteriormente: é o que permitiu Newton e Leibniz desenvolverem o Cálculo poucas décadas depois.\nSem Descartes, o galinheiro seria apenas um problema de intuição. Com Descartes, ele se torna um problema que a matemática resolve com precisão."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#montando-o-problema-no-plano-cartesiano",
+    "href": "ensino/galinheiro-de-descartes.html#montando-o-problema-no-plano-cartesiano",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "Montando o problema no plano cartesiano",
+    "text": "Montando o problema no plano cartesiano\nVamos chamar de \\(L\\) o comprimento total de tela disponível. O galinheiro tem três lados — dois lados de comprimento \\(y\\) (perpendiculares à parede) e um lado de comprimento \\(x\\) (paralelo à parede):\nparede (grátis)\n|←————————— x —————————→|\n|                         |\ny                         y\n|                         |\n|_________________________|\nA restrição — o que limita o problema — é a quantidade de tela:\n\\[x + 2y = L\\]\nO objetivo é maximizar a área:\n\\[A = x \\cdot y\\]\nAqui é onde Descartes entra de verdade: expressamos tudo em função de uma única variável. Da restrição, tiramos \\(x\\):\n\\[x = L - 2y\\]\nSubstituímos na equação da área:\n\\[A(y) = (L - 2y) \\cdot y = Ly - 2y^2\\]\nAgora temos a área como uma função de \\(y\\), uma parábola com concavidade para baixo. E o máximo de uma parábola é exatamente o seu vértice."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#a-derivada-revela-o-segredo",
+    "href": "ensino/galinheiro-de-descartes.html#a-derivada-revela-o-segredo",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "A derivada revela o segredo",
+    "text": "A derivada revela o segredo\nPara encontrar o ponto de máximo, calculamos a derivada de \\(A\\) em relação a \\(y\\) e igualamos a zero:\n\\[A'(y) = L - 4y = 0\\]\n\\[\\boxed{y = \\frac{L}{4}}\\]\nVoltando para encontrar \\(x\\):\n\\[x = L - 2 \\cdot \\frac{L}{4} = \\frac{L}{2}\\]\nResultado: o lado paralelo à parede deve ter o dobro do comprimento dos lados perpendiculares. Se você tem 40 metros de tela, por exemplo, \\(x = 20\\,\\text{m}\\) e \\(y = 10\\,\\text{m}\\), com área máxima de:\n\\[A_{max} = 20 \\times 10 = 200\\,\\text{m}^2\\]\nQualquer outra proporção daria uma área menor. A matemática garante isso."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza",
+    "href": "ensino/galinheiro-de-descartes.html#o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "O que isso tem a ver com carros, galinhas e natureza",
+    "text": "O que isso tem a ver com carros, galinhas e natureza\nO problema do galinheiro pertence a uma família enorme de problemas chamada otimização — encontrar o melhor valor possível (máximo ou mínimo) dentro de certas restrições. É exatamente o que os engenheiros fazem ao projetar a carroceria de um carro: minimizar o arrasto com o mínimo de material. É o que o Criador fez ao criar a natureza, ao moldar a gota d’água, a carapaça da tartaruga, o ovo, a teia da aranha, tudo otimizado!!!\nO prof. Ricieri dizia que um matemático não deveria apenas saber calcular — deveria saber vender seu conhecimento, como faz um médico ou um advogado. Esse raciocínio de otimização, que parece abstrato no galinheiro, era o mesmo que ele aplicava em consultorias para empresas inteiras, reduzindo custo de embalagens, otimizando rotas, maximizando produção agrícola.\nO galinheiro é só um exemplo, mas foi o que me fez entender o que o Ricieri queria dizer. Matemática não é uma disciplina escolar. É uma linguagem para resolver o que importa: reduzir desperdício, aumentar produção, entender a natureza."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#por-que-esse-problema-nunca-saiu-da-minha-cabeça",
+    "href": "ensino/galinheiro-de-descartes.html#por-que-esse-problema-nunca-saiu-da-minha-cabeça",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "Por que esse problema nunca saiu da minha cabeça",
+    "text": "Por que esse problema nunca saiu da minha cabeça\nTalvez porque ele seja honesto. Ele não fingia que matemática era fácil, mas mostrava que ela era acessível quando você entende para que serve. O galinheiro tem uma galinha, tem parede, tem um problema concreto e a solução aparece de forma natural, quase inevitável, quando você coloca tudo no plano de Descartes e deixa a derivada fazer o trabalho.\nOutro motivo provavelmente é que ouvir que sou “imitador do criador”, me remete a Gênesis 1:26-28. Lá temos o relato da criação do homem por Deus à sua própria imagem e semelhança. Assim, inspirados pelo Criador, nós matemáticos temos no coração o desejo de criar, descobrir e explorar a natureza.\n\n\n\n\n\n\n\nDica🐔 Explore o Galinheiro Interativamente!\n\n\n\nVeja o galinheiro mudar de proporção em tempo real enquanto a área é plotada como parábola.\nAbrir Explorador do Galinheiro →\n\n\nEntão para que serve a matemática?\nA resposta é: serve para não desperdiçar tela de galinheiro. Serve para projetar carros. Serve para entender por que a natureza é tão eficiente. Mas serve, acima de tudo, para revelar para que existimos, para imitar o nosso Criador. “Sede, pois, imitadores de Deus, como filhos amados.” — Efésios 5:1."
   },
   {
     "objectID": "index.html",

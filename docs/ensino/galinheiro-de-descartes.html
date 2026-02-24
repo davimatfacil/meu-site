@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Portfólio de aplicações interativas, análises e estudos em Data Science &amp; IA">
+<meta name="author" content="prof. Davi Rocha">
 
-<title>Projetos – Davi Rocha</title>
+<title>O Galinheiro de Descartes: quando a matemática imita o Criador – Davi Rocha</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -100,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projetos/index.html" aria-current="page"> 
+    <a class="nav-link" href="../projetos/index.html"> 
 <span class="menu-text">Projetos</span></a>
   </li>  
   <li class="nav-item">
@@ -145,22 +174,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#apps-shiny-r" id="toc-apps-shiny-r" class="nav-link active" data-scroll-target="#apps-shiny-r">🎯 Apps Shiny (R)</a></li>
-  <li><a href="#apps-streamlit-python" id="toc-apps-streamlit-python" class="nav-link" data-scroll-target="#apps-streamlit-python">🐍 Apps Streamlit (Python)</a></li>
-  <li><a href="#inteligência-artificial-llms" id="toc-inteligência-artificial-llms" class="nav-link" data-scroll-target="#inteligência-artificial-llms">🤖 Inteligência Artificial &amp; LLMs</a></li>
-  <li><a href="#estudos-análises-rpubs" id="toc-estudos-análises-rpubs" class="nav-link" data-scroll-target="#estudos-análises-rpubs">📚 Estudos &amp; Análises (RPubs)</a>
-  <ul class="collapse">
-  <li><a href="#machine-learning-algoritmos" id="toc-machine-learning-algoritmos" class="nav-link" data-scroll-target="#machine-learning-algoritmos">🤖 Machine Learning &amp; Algoritmos</a></li>
-  <li><a href="#estatística-healthcare" id="toc-estatística-healthcare" class="nav-link" data-scroll-target="#estatística-healthcare">🏥 Estatística &amp; Healthcare</a></li>
-  <li><a href="#data-science-fundamentals" id="toc-data-science-fundamentals" class="nav-link" data-scroll-target="#data-science-fundamentals">📊 Data Science Fundamentals</a></li>
-  </ul></li>
-  <li><a href="#mais-conteúdo" id="toc-mais-conteúdo" class="nav-link" data-scroll-target="#mais-conteúdo">🔗 Mais Conteúdo</a></li>
-  <li><a href="#desenvolvimento-de-sites-dashboards" id="toc-desenvolvimento-de-sites-dashboards" class="nav-link" data-scroll-target="#desenvolvimento-de-sites-dashboards">💼 Desenvolvimento de Sites &amp; Dashboards</a>
-  <ul class="collapse">
-  <li><a href="#o-que-posso-desenvolver-para-você" id="toc-o-que-posso-desenvolver-para-você" class="nav-link" data-scroll-target="#o-que-posso-desenvolver-para-você">O que posso desenvolver para você:</a></li>
-  <li><a href="#diferenciais" id="toc-diferenciais" class="nav-link" data-scroll-target="#diferenciais">💰 Diferenciais</a></li>
-  <li><a href="#interessado-em-criar-seu-site-ou-dashboard" id="toc-interessado-em-criar-seu-site-ou-dashboard" class="nav-link" data-scroll-target="#interessado-em-criar-seu-site-ou-dashboard">📞 Interessado em criar seu site ou dashboard?</a></li>
-  </ul></li>
+  <li><a href="#o-homem-que-via-matemática-em-tudo" id="toc-o-homem-que-via-matemática-em-tudo" class="nav-link active" data-scroll-target="#o-homem-que-via-matemática-em-tudo">O homem que via matemática em tudo</a></li>
+  <li><a href="#quantos-metros-de-tela-você-tem" id="toc-quantos-metros-de-tela-você-tem" class="nav-link" data-scroll-target="#quantos-metros-de-tela-você-tem">“Quantos metros de tela você tem?”</a></li>
+  <li><a href="#entra-descartes-e-seu-plano" id="toc-entra-descartes-e-seu-plano" class="nav-link" data-scroll-target="#entra-descartes-e-seu-plano">Entra Descartes — e seu plano</a></li>
+  <li><a href="#montando-o-problema-no-plano-cartesiano" id="toc-montando-o-problema-no-plano-cartesiano" class="nav-link" data-scroll-target="#montando-o-problema-no-plano-cartesiano">Montando o problema no plano cartesiano</a></li>
+  <li><a href="#a-derivada-revela-o-segredo" id="toc-a-derivada-revela-o-segredo" class="nav-link" data-scroll-target="#a-derivada-revela-o-segredo">A derivada revela o segredo</a></li>
+  <li><a href="#o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza" id="toc-o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza" class="nav-link" data-scroll-target="#o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza">O que isso tem a ver com carros, galinhas e natureza</a></li>
+  <li><a href="#por-que-esse-problema-nunca-saiu-da-minha-cabeça" id="toc-por-que-esse-problema-nunca-saiu-da-minha-cabeça" class="nav-link" data-scroll-target="#por-que-esse-problema-nunca-saiu-da-minha-cabeça">Por que esse problema nunca saiu da minha cabeça</a></li>
   </ul>
 </nav>
     </div>
@@ -169,19 +189,26 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projetos</h1>
+<h1 class="title">O Galinheiro de Descartes: quando a matemática imita o Criador</h1>
 </div>
 
-<div>
-  <div class="description">
-    Portfólio de aplicações interativas, análises e estudos em Data Science &amp; IA
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>prof. Davi Rocha </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">24 de fevereiro de 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -191,268 +218,96 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="o-homem-que-via-matemática-em-tudo" class="level2">
+<h2 class="anchored" data-anchor-id="o-homem-que-via-matemática-em-tudo">O homem que via matemática em tudo</h2>
+<p>Havia uma frase que o Prof.&nbsp;Aguinaldo Prandini Ricieri, físico e prof. do pelo ITA, matemático por vocação, repetia nas suas aulas com uma certa satisfação irônica:</p>
+<blockquote class="blockquote">
+<p><em>“O homem de exatas é um Imitador do Criador.”</em></p>
+</blockquote>
+<p>Ele se declarava ateu, o que tornava a frase ainda mais curiosa. Mas o que ele queria dizer ficava claro quando você olhava para os exemplos que ele trazia.</p>
+<p>Nos anos 90, as montadoras começaram a arredondar os carros. Saíram as formas quadradas, angulosas, e entraram as curvas suaves. Ricieri apontava para isso e perguntava: <em>por que?</em> A resposta era matemática… e vinha da natureza. A gota d’água, por exemplo, ao cair, assume uma forma que minimiza o arrasto aerodinâmico. Os engenheiros não inventaram esse design. Eles o copiaram. Matematizaram o que a natureza já “exibia” há milênios.</p>
+<p>Essa era a filosofia do curso que fiz em 97/98 — o famoso <strong>Matemática Aplicada à Vida</strong>, ministrado aos sábados à tarde e aos domingos de manhã (sim, 7h da manhã, e a sala estava cheia viu!) lá no Anglo Tamandaré. O prof. Ricieri não ensinava fórmulas soltas. Ele ensinava contexto. Ensinava que por trás de cada símbolo matemático havia um ser humano, às vezes genial, às vezes obcecado, às vezes em guerra com outro matemático tentando resolver um problema real do seu tempo.</p>
+<p>Ouvíamos histórias da rivalidade feroz entre Newton e Leibniz, da correspondência entre Fermat e Pascal discutindo jogos de azar (e inventando a teoria das probabilidades), das contribuições de Euler, Lagrange, Legendre, Gauss, do jovem Galois que morreu num duelo aos 20 anos com toda a sua matemática ainda por ser descoberta. Matemática não era uma lista de técnicas. Era uma narrativa humana de séculos.</p>
+<p>E foi numa dessas aulas que ele chegou com um problema que nunca mais saiu da minha cabeça e me fez perceber pra que serve a matemática…</p>
+<hr>
+</section>
+<section id="quantos-metros-de-tela-você-tem" class="level2">
+<h2 class="anchored" data-anchor-id="quantos-metros-de-tela-você-tem">“Quantos metros de tela você tem?”</h2>
+<p>Ele chegou ao quadro, pegou o giz, e começou:</p>
+<p><em>“Você tem uma quantidade fixa de tela para construir um galinheiro retangular. Um lado vai ser encostado na parede do galpão; esse lado é de graça. Você quer usar toda a tela nos outros três lados. Qual deve ser o formato do galinheiro para que as galinhas tenham o máximo de espaço?”</em></p>
+<p>Parece simples. E é. Mas a maioria das pessoas, sem pensar matematicamente, tentaria fazer um quadrado, ou dividir a tela em partes iguais. A matemática revela que a intuição nem sempre acerta.</p>
+<hr>
+</section>
+<section id="entra-descartes-e-seu-plano" class="level2">
+<h2 class="anchored" data-anchor-id="entra-descartes-e-seu-plano">Entra Descartes — e seu plano</h2>
+<p>Antes de resolver, vale entender por que Ricieri chamava esse problema de <strong>“o galinheiro de Descartes”</strong>.</p>
+<p>René Descartes (1596–1650) foi o matemático que uniu dois mundos que pareciam separados: a geometria e a álgebra. Ele criou o sistema de coordenadas cartesianas, lembra da escola? Aquele plano com eixo <span class="math inline">\(x\)</span> e eixo <span class="math inline">\(y\)</span> que todo estudante conhece. A ideia parece simples hoje, mas é fundamental para todo o avanço que a matemática teve posteriormente: é o que permitiu Newton e Leibniz desenvolverem o Cálculo poucas décadas depois.</p>
+<p>Sem Descartes, o galinheiro seria apenas um problema de intuição. Com Descartes, ele se torna um problema que a matemática resolve com precisão.</p>
+<hr>
+</section>
+<section id="montando-o-problema-no-plano-cartesiano" class="level2">
+<h2 class="anchored" data-anchor-id="montando-o-problema-no-plano-cartesiano">Montando o problema no plano cartesiano</h2>
+<p>Vamos chamar de <span class="math inline">\(L\)</span> o comprimento total de tela disponível. O galinheiro tem três lados — dois lados de comprimento <span class="math inline">\(y\)</span> (perpendiculares à parede) e um lado de comprimento <span class="math inline">\(x\)</span> (paralelo à parede):</p>
+<pre><code>parede (grátis)
+|←————————— x —————————→|
+|                         |
+y                         y
+|                         |
+|_________________________|</code></pre>
+<p>A <strong>restrição</strong> — o que limita o problema — é a quantidade de tela:</p>
+<p><span class="math display">\[x + 2y = L\]</span></p>
+<p>O <strong>objetivo</strong> é maximizar a área:</p>
+<p><span class="math display">\[A = x \cdot y\]</span></p>
+<p>Aqui é onde Descartes entra de verdade: expressamos tudo em função de uma única variável. Da restrição, tiramos <span class="math inline">\(x\)</span>:</p>
+<p><span class="math display">\[x = L - 2y\]</span></p>
+<p>Substituímos na equação da área:</p>
+<p><span class="math display">\[A(y) = (L - 2y) \cdot y = Ly - 2y^2\]</span></p>
+<p>Agora temos a área como uma <strong>função de</strong> <span class="math inline">\(y\)</span>, uma parábola com concavidade para baixo. E o máximo de uma parábola é exatamente o seu vértice.</p>
+<hr>
+</section>
+<section id="a-derivada-revela-o-segredo" class="level2">
+<h2 class="anchored" data-anchor-id="a-derivada-revela-o-segredo">A derivada revela o segredo</h2>
+<p>Para encontrar o ponto de máximo, calculamos a derivada de <span class="math inline">\(A\)</span> em relação a <span class="math inline">\(y\)</span> e igualamos a zero:</p>
+<p><span class="math display">\[A'(y) = L - 4y = 0\]</span></p>
+<p><span class="math display">\[\boxed{y = \frac{L}{4}}\]</span></p>
+<p>Voltando para encontrar <span class="math inline">\(x\)</span>:</p>
+<p><span class="math display">\[x = L - 2 \cdot \frac{L}{4} = \frac{L}{2}\]</span></p>
+<p><strong>Resultado:</strong> o lado paralelo à parede deve ter o dobro do comprimento dos lados perpendiculares. Se você tem 40 metros de tela, por exemplo, <span class="math inline">\(x = 20\,\text{m}\)</span> e <span class="math inline">\(y = 10\,\text{m}\)</span>, com área máxima de:</p>
+<p><span class="math display">\[A_{max} = 20 \times 10 = 200\,\text{m}^2\]</span></p>
+<p>Qualquer outra proporção daria uma área menor. A matemática garante isso.</p>
+<hr>
+</section>
+<section id="o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza">O que isso tem a ver com carros, galinhas e natureza</h2>
+<p>O problema do galinheiro pertence a uma família enorme de problemas chamada <strong>otimização</strong> — encontrar o melhor valor possível (máximo ou mínimo) dentro de certas restrições. É exatamente o que os engenheiros fazem ao projetar a carroceria de um carro: minimizar o arrasto com o mínimo de material. É o que o Criador fez ao criar a natureza, ao moldar a gota d’água, a carapaça da tartaruga, o ovo, a teia da aranha, tudo otimizado!!!</p>
+<p>O prof. Ricieri dizia que um matemático não deveria apenas saber calcular — deveria saber <strong>vender seu conhecimento</strong>, como faz um médico ou um advogado. Esse raciocínio de otimização, que parece abstrato no galinheiro, era o mesmo que ele aplicava em consultorias para empresas inteiras, reduzindo custo de embalagens, otimizando rotas, maximizando produção agrícola.</p>
+<p>O galinheiro é só um exemplo, mas foi o que me fez entender o que o Ricieri queria dizer. Matemática não é uma disciplina escolar. É uma linguagem para resolver o que importa: reduzir desperdício, aumentar produção, entender a natureza.</p>
+<hr>
+</section>
+<section id="por-que-esse-problema-nunca-saiu-da-minha-cabeça" class="level2">
+<h2 class="anchored" data-anchor-id="por-que-esse-problema-nunca-saiu-da-minha-cabeça">Por que esse problema nunca saiu da minha cabeça</h2>
+<p>Talvez porque ele seja honesto. Ele não fingia que matemática era fácil, mas mostrava que ela era <em>acessível quando você entende para que serve</em>. O galinheiro tem uma galinha, tem parede, tem um problema concreto e a solução aparece de forma natural, quase inevitável, quando você coloca tudo no plano de Descartes e deixa a derivada fazer o trabalho.</p>
+<p>Outro motivo provavelmente é que ouvir que sou “imitador do criador”, me remete a Gênesis 1:26-28. Lá temos o relato da criação do homem por Deus à sua própria imagem e semelhança. Assim, inspirados pelo Criador, nós matemáticos temos no coração o desejo de criar, descobrir e explorar a natureza.</p>
+<hr>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Dica</span>🚀 Aplicações Interativas
+<span class="screen-reader-only">Dica</span>🐔 Explore o Galinheiro Interativamente!
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Experimente as aplicações web que desenvolvi. Todas são interativas e funcionais!</p>
+<p>Veja o galinheiro mudar de proporção em tempo real enquanto a área é plotada como parábola.</p>
+<p><a href="https://davimatfacil.github.io/galinheiro-interativo/" class="btn btn-primary" target="_blank">Abrir Explorador do Galinheiro →</a></p>
 </div>
 </div>
+<p><strong>Então para que serve a matemática?</strong></p>
+<p>A resposta é: serve para não desperdiçar tela de galinheiro. Serve para projetar carros. Serve para entender por que a natureza é tão eficiente. Mas serve, acima de tudo, para revelar para que existimos, para imitar o nosso Criador. “Sede, pois, imitadores de Deus, como filhos amados.” — Efésios 5:1.</p>
 <hr>
-<section id="apps-shiny-r" class="level2">
-<h2 class="anchored" data-anchor-id="apps-shiny-r">🎯 Apps Shiny (R)</h2>
-<div class="grid">
-<section id="dea-analyzer" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="dea-analyzer">DEA Analyzer</h3>
-<p><strong>Análise Envoltória de Dados (DEA)</strong></p>
-<p>Aplicativo completo para análise de eficiência de DMUs. Permite entrada customizada de dados, cálculo de scores DEA e recomendações de benchmarking.</p>
-<p><strong>Funcionalidades:</strong> - Entrada dinâmica de inputs/outputs - Cálculo automático de eficiência - Visualizações gráficas - Recomendações de melhoria</p>
-<p><a href="https://davirocha.shinyapps.io/top_DEA/" class="btn btn-success">Experimentar App →</a></p>
-</section>
-<section id="regressão-linear-interativa" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="regressão-linear-interativa">Regressão Linear Interativa</h3>
-<p><strong>PIB vs Expectativa de Vida</strong></p>
-<p>App demonstrativo de análise de regressão linear com dados reais. Explore a correlação entre indicadores econômicos e de saúde.</p>
-<p><strong>Funcionalidades:</strong> - Visualização interativa de dados - Análise de regressão em tempo real - Interpretação de resultados</p>
-<p><a href="https://davirocha.shinyapps.io/app_regressao_linear/" class="btn btn-success">Experimentar App →</a></p>
-</section>
-</div>
-<hr>
-</section>
-<section id="apps-streamlit-python" class="level2">
-<h2 class="anchored" data-anchor-id="apps-streamlit-python">🐍 Apps Streamlit (Python)</h2>
-<div class="grid">
-<section id="monitor-de-fraudes" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="monitor-de-fraudes">Monitor de Fraudes</h3>
-<p><strong>Sistema de Detecção de Anomalias</strong></p>
-<p>Aplicação para identificação de padrões suspeitos em transações financeiras usando técnicas de Machine Learning.</p>
-<p><a href="https://encontrafraude.streamlit.app/" class="btn btn-success">Experimentar App →</a></p>
-</section>
-<section id="previsão-de-consumo-energético" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="previsão-de-consumo-energético">Previsão de Consumo Energético</h3>
-<p><strong>Séries Temporais &amp; Forecasting</strong></p>
-<p>Análise e previsão de consumo de energia elétrica.</p>
-<p><strong>Funcionalidades:</strong> - Aba de dados e KPIs - Aba de previsões - Visualizações interativas</p>
-<p><a href="https://app-model-energy.streamlit.app/" class="btn btn-success">Experimentar App →</a></p>
-</section>
-<section id="simulador-de-financiamento-imobiliário" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="simulador-de-financiamento-imobiliário">Simulador de Financiamento Imobiliário</h3>
-<p><strong>Calculadora SAC vs Price</strong></p>
-<p>Ferramenta prática para comparação de sistemas de amortização e planejamento de financiamento.</p>
-<p><a href="https://davisimulafinanciamovel.streamlit.app/" class="btn btn-success">Experimentar App →</a></p>
-</section>
-<section id="gerador-de-petições" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="gerador-de-petições">Gerador de Petições</h3>
-<p><strong>Automação com Python</strong></p>
-<p>Demonstração de automação de documentos jurídicos usando processamento de texto em Python.</p>
-<p><a href="https://geradorpeticao.streamlit.app/" class="btn btn-success">Experimentar App →</a></p>
-</section>
-</div>
-<hr>
-</section>
-<section id="inteligência-artificial-llms" class="level2">
-<h2 class="anchored" data-anchor-id="inteligência-artificial-llms">🤖 Inteligência Artificial &amp; LLMs</h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Conteúdos Avançados em IA
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Materiais didáticos sobre IA Generativa, LLMs e aplicações práticas.</p>
-</div>
-</div>
-<div class="grid">
-<section id="curso-ia-na-saúde-hcfmusp" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="curso-ia-na-saúde-hcfmusp">Curso: IA na Saúde (HCFMUSP)</h3>
-<p><strong>Apresentação oficial no HCX</strong></p>
-<p>Material completo do curso ministrado na escola do Hospital das Clínicas. Aborda aplicações práticas de IA Generativa no contexto de saúde, casos de uso, limitações e considerações éticas.</p>
-<p><strong>Tópicos:</strong> Fundamentos de LLMs, Prompt Engineering, Aplicações clínicas, RAG, Fine-tuning</p>
-<p><a href="https://davimatfacil.github.io/ia-saude-apresentacao/" class="btn btn-info">Acessar Curso →</a></p>
-</section>
-<section id="agentes-de-ia" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="agentes-de-ia">Agentes de IA</h3>
-<p><strong>Teoria e Prática</strong></p>
-<p>Introdução ao conceito de agentes autônomos em IA. Inclui explicação conceitual e exemplo prático de implementação de agente simulado.</p>
-<p><strong>Conteúdo:</strong> Definição de agentes, arquiteturas, frameworks, exemplo interativo</p>
-<p><a href="https://davimatfacil.github.io/agentes_de_ia/" class="btn btn-info">Explorar Conteúdo →</a></p>
-</section>
-<section id="fundamentos-para-apps-de-ia" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="fundamentos-para-apps-de-ia">Fundamentos para Apps de IA</h3>
-<p><strong>Desenvolvimento Seguro e Responsável</strong></p>
-<p>Guia completo sobre pré-requisitos técnicos e conceituais para criar aplicações de IA robustas. Cobre desde fundamentos até tópicos avançados como guardrails e segurança.</p>
-<p><strong>Tópicos:</strong> Arquitetura de LLMs, Guardrails, Segurança, Boas práticas, Casos de uso</p>
-<p><a href="https://davimatfacil.github.io/fundamentos_sao_importantes_ia/" class="btn btn-info">Ler Guia →</a></p>
-</section>
-<section id="model-context-protocol-mcp" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="model-context-protocol-mcp">Model Context Protocol (MCP)</h3>
-<p><strong>Protocolo Emergente da Anthropic</strong></p>
-<p>Explicação do MCP, protocolo que permite LLMs se conectarem a fontes de dados externas de forma padronizada. Essencial para criar aplicações de IA que interagem com sistemas corporativos.</p>
-<p><strong>Relevância:</strong> Integração de dados, Extensibilidade, Padrão da indústria</p>
-<p><a href="https://davimatfacil.github.io/Mcp_IA/" class="btn btn-info">Entender MCP →</a></p>
-</section>
-</div>
-<hr>
-</section>
-<section id="estudos-análises-rpubs" class="level2">
-<h2 class="anchored" data-anchor-id="estudos-análises-rpubs">📚 Estudos &amp; Análises (RPubs)</h2>
-<section id="machine-learning-algoritmos" class="level3">
-<h3 class="anchored" data-anchor-id="machine-learning-algoritmos">🤖 Machine Learning &amp; Algoritmos</h3>
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<p><strong>K-Nearest Neighbors (KNN)</strong></p>
-<p>Implementação didática do algoritmo KNN em R.</p>
-<p><a href="https://rpubs.com/davimat/knn_no_r" class="btn btn-primary btn-sm">Ver Estudo →</a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<p><strong>Gradient Descent</strong></p>
-<p>Explicação visual do método do gradiente descendente.</p>
-<p><a href="https://rpubs.com/davimat/gradient_descent" class="btn btn-primary btn-sm">Ver Estudo →</a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<p><strong>Classes Desbalanceadas</strong></p>
-<p>Técnicas para datasets desbalanceados com Naive Bayes.</p>
-<p><a href="https://rpubs.com/davimat/desbalanceadas_naive" class="btn btn-primary btn-sm">Ver Estudo →</a></p>
-</div>
-</div>
-</section>
-<section id="estatística-healthcare" class="level3">
-<h3 class="anchored" data-anchor-id="estatística-healthcare">🏥 Estatística &amp; Healthcare</h3>
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<p><strong>Estatística Salva Vidas</strong></p>
-<p>Caso histórico: análise estatística da higienização das mãos.</p>
-<p><a href="https://rpubs.com/davimat/estat_lavar_maos" class="btn btn-primary btn-sm">Ver Estudo →</a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<p><strong>Análise de Sobrevivência</strong></p>
-<p>Curva de Kaplan-Meier explicada.</p>
-<p><a href="https://rpubs.com/davimat/conceito_kaplan_meier" class="btn btn-primary btn-sm">Ver Estudo →</a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<p><strong>Fluxos Hospitalares</strong></p>
-<p>Simulação de análise operacional.</p>
-<p><a href="https://rpubs.com/davimat/fluxos_instituto" class="btn btn-primary btn-sm">Ver Estudo →</a></p>
-</div>
-</div>
-</section>
-<section id="data-science-fundamentals" class="level3">
-<h3 class="anchored" data-anchor-id="data-science-fundamentals">📊 Data Science Fundamentals</h3>
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<p><strong>Quarteto de Anscombe</strong></p>
-<p>Por que visualização é essencial.</p>
-<p><a href="https://rpubs.com/davimat/importa_visualizar" class="btn btn-primary btn-sm">Ver Estudo →</a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<p><strong>Preparação de Dados</strong></p>
-<p>Pipeline de limpeza e transformação.</p>
-<p><a href="https://rpubs.com/davimat/prepara_dados" class="btn btn-primary btn-sm">Ver Estudo →</a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<p><strong>MAPE</strong></p>
-<p>Métricas de erro em modelos preditivos.</p>
-<p><a href="https://rpubs.com/davimat/mape" class="btn btn-primary btn-sm">Ver Estudo →</a></p>
-</div>
-</div>
-<hr>
-</section>
-</section>
-<section id="mais-conteúdo" class="level2">
-<h2 class="anchored" data-anchor-id="mais-conteúdo">🔗 Mais Conteúdo</h2>
-<div class="grid">
-<section id="rpubs-profile" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="rpubs-profile">📖 RPubs Profile</h3>
-<p>Biblioteca completa de análises e tutoriais em R.</p>
-<p><a href="https://rpubs.com/davimat" class="btn btn-outline-primary">Visitar Perfil →</a></p>
-</section>
-<section id="canal-youtube" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="canal-youtube">🎥 Canal YouTube</h3>
-<p>Aulas de Matemática, Estatística e Programação.</p>
-<p><a href="https://www.youtube.com/@DaviRocha_ML" class="btn btn-outline-danger">Assistir Vídeos →</a></p>
-</section>
-</div>
-<hr>
-</section>
-<section id="desenvolvimento-de-sites-dashboards" class="level2">
-<h2 class="anchored" data-anchor-id="desenvolvimento-de-sites-dashboards">💼 Desenvolvimento de Sites &amp; Dashboards</h2>
-<div class="callout callout-style-default callout-important no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Importante</span>🌐 Gostou deste site?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Este portfólio foi desenvolvido com <strong>Quarto</strong> e publicado gratuitamente no <strong>GitHub Pages</strong>. É um exemplo do que posso criar para você ou sua organização!</p>
-</div>
-</div>
-<section id="o-que-posso-desenvolver-para-você" class="level3">
-<h3 class="anchored" data-anchor-id="o-que-posso-desenvolver-para-você">O que posso desenvolver para você:</h3>
-<div class="grid">
-<section id="sites-profissionais" class="level4 g-col-12 g-col-md-6">
-<h4 class="anchored" data-anchor-id="sites-profissionais">🌐 Sites Profissionais</h4>
-<ul>
-<li><strong>Portfólios pessoais</strong> como este</li>
-<li>Sites institucionais/corporativos</li>
-<li>Landing pages</li>
-<li>Blogs técnicos e documentação</li>
-</ul>
-<p><strong>Tecnologias:</strong> Quarto, GitHub Pages<br>
-<strong>Hospedagem:</strong> Gratuita (GitHub) ou customizada</p>
-</section>
-<section id="dashboards-aplicações" class="level4 g-col-12 g-col-md-6">
-<h4 class="anchored" data-anchor-id="dashboards-aplicações">📊 Dashboards &amp; Aplicações</h4>
-<ul>
-<li>Dashboards interativos (Shiny/Streamlit)</li>
-<li>Aplicações analíticas customizadas</li>
-<li>Ferramentas de visualização de dados</li>
-<li>Automações e sistemas</li>
-</ul>
-<p><strong>Tecnologias:</strong> R Shiny, Streamlit, Python, R</p>
-</section>
-</div>
-</section>
-<section id="diferenciais" class="level3">
-<h3 class="anchored" data-anchor-id="diferenciais">💰 Diferenciais</h3>
-<div class="grid">
-<div class="g-col-12 g-col-md-3">
-<p><strong>✅ Custo acessível</strong></p>
-<p>Hospedagem gratuita no GitHub Pages</p>
-</div>
-<div class="g-col-12 g-col-md-3">
-<p><strong>✅ Design profissional</strong></p>
-<p>Layout responsivo e moderno</p>
-</div>
-<div class="g-col-12 g-col-md-3">
-<p><strong>✅ Fácil manutenção</strong></p>
-<p>Você pode atualizar depois</p>
-</div>
-<div class="g-col-12 g-col-md-3">
-<p><strong>✅ SEO otimizado</strong></p>
-<p>Melhor visibilidade online</p>
-</div>
-</div>
-<hr>
-</section>
-<section id="interessado-em-criar-seu-site-ou-dashboard" class="level3">
-<h3 class="anchored" data-anchor-id="interessado-em-criar-seu-site-ou-dashboard">📞 Interessado em criar seu site ou dashboard?</h3>
-<p><a href="mailto:davimatfacil@gmail.com?subject=Orçamento%20-%20Desenvolvimento%20de%20Site" class="btn btn-warning btn-lg">Solicitar Orçamento</a></p>
-<p><em>Atendo profissionais, pesquisadores, pequenas empresas e organizações.</em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

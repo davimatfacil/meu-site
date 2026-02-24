@@ -10,5 +10,11 @@
   },
   "ensino/index.qmd": {
     "index.html": "9fc06232"
+  },
+  "ensino/galinheiro-de-descartes.md": {
+    "galinheiro-de-descartes.html": "70d3e2d4"
+  },
+  "ensino/galinheiro-de-descartes.qmd": {
+    "galinheiro-de-descartes.html": "1daedc89"
   }
 }
