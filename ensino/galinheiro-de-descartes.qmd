@@ -8,7 +8,7 @@ lang: pt-BR
 ## O homem que via matemática em tudo
 
 
-Havia uma frase que o Prof. Aguinaldo Prandini Ricieri, físico e prof. do pelo ITA, matemático por vocação, repetia nas suas aulas com uma certa satisfação irônica:
+Havia uma frase que o Prof. Aguinaldo Prandini Ricieri, físico e prof. pelo ITA, matemático por vocação, repetia nas suas aulas com uma certa satisfação irônica:
 
 > *"O homem de exatas é um Imitador do Criador."*
 
