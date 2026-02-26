@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="prof. Davi Rocha">
+
+<title>Quanto Vale uma Casa? A Estatística que Responde – Davi Rocha</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-0615b85506723fa54ab13a613a4e9e4c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Davi Rocha</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projetos/index.html"> 
+<span class="menu-text">Projetos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ensino/index.html"> 
+<span class="menu-text">Ensino</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/davimatfacil"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/davi-rocha-27a24b33/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@DaviRocha_ML"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:davimatfacil@gmail.com"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#o-problema-que-toda-imobiliária-tem" id="toc-o-problema-que-toda-imobiliária-tem" class="nav-link active" data-scroll-target="#o-problema-que-toda-imobiliária-tem">O problema que toda imobiliária tem</a></li>
+  <li><a href="#conhecendo-os-dados" id="toc-conhecendo-os-dados" class="nav-link" data-scroll-target="#conhecendo-os-dados">1. Conhecendo os dados</a></li>
+  <li><a href="#existe-relação-entre-área-e-preço" id="toc-existe-relação-entre-área-e-preço" class="nav-link" data-scroll-target="#existe-relação-entre-área-e-preço">2. Existe relação entre área e preço?</a></li>
+  <li><a href="#medindo-a-força-da-relação-o-coeficiente-de-correlação" id="toc-medindo-a-força-da-relação-o-coeficiente-de-correlação" class="nav-link" data-scroll-target="#medindo-a-força-da-relação-o-coeficiente-de-correlação">3. Medindo a força da relação: o coeficiente de correlação</a></li>
+  <li><a href="#encontrando-a-melhor-reta-regressão-linear-simples" id="toc-encontrando-a-melhor-reta-regressão-linear-simples" class="nav-link" data-scroll-target="#encontrando-a-melhor-reta-regressão-linear-simples">4. Encontrando a melhor reta: regressão linear simples</a></li>
+  <li><a href="#o-modelo-é-bom-métricas-e-testes" id="toc-o-modelo-é-bom-métricas-e-testes" class="nav-link" data-scroll-target="#o-modelo-é-bom-métricas-e-testes">5. O modelo é bom? Métricas e testes</a>
+  <ul class="collapse">
+  <li><a href="#r²-quanto-o-modelo-explica" id="toc-r²-quanto-o-modelo-explica" class="nav-link" data-scroll-target="#r²-quanto-o-modelo-explica">R²: quanto o modelo explica?</a></li>
+  <li><a href="#teste-t-a-variável-realmente-importa" id="toc-teste-t-a-variável-realmente-importa" class="nav-link" data-scroll-target="#teste-t-a-variável-realmente-importa">Teste t — a variável realmente importa?</a></li>
+  <li><a href="#análise-de-resíduos-o-modelo-está-bem-calibrado" id="toc-análise-de-resíduos-o-modelo-está-bem-calibrado" class="nav-link" data-scroll-target="#análise-de-resíduos-o-modelo-está-bem-calibrado">Análise de resíduos — o modelo está bem calibrado?</a></li>
+  </ul></li>
+  <li><a href="#indo-além-regressão-múltipla" id="toc-indo-além-regressão-múltipla" class="nav-link" data-scroll-target="#indo-além-regressão-múltipla">6. Indo além: regressão múltipla</a>
+  <ul class="collapse">
+  <li><a href="#a-equação-do-modelo-final" id="toc-a-equação-do-modelo-final" class="nav-link" data-scroll-target="#a-equação-do-modelo-final">A equação do modelo final</a></li>
+  </ul></li>
+  <li><a href="#validando-o-modelo-final-teste-f" id="toc-validando-o-modelo-final-teste-f" class="nav-link" data-scroll-target="#validando-o-modelo-final-teste-f">7. Validando o modelo final: teste F</a></li>
+  <li><a href="#prevendo-preços-de-imóveis-novos" id="toc-prevendo-preços-de-imóveis-novos" class="nav-link" data-scroll-target="#prevendo-preços-de-imóveis-novos">8. Prevendo preços de imóveis novos</a></li>
+  <li><a href="#o-que-aprendemos" id="toc-o-que-aprendemos" class="nav-link" data-scroll-target="#o-que-aprendemos">O que aprendemos</a></li>
+  <li><a href="#limitações-o-modelo-tem-problemas-e-tudo-bem" id="toc-limitações-o-modelo-tem-problemas-e-tudo-bem" class="nav-link" data-scroll-target="#limitações-o-modelo-tem-problemas-e-tudo-bem">Limitações — o modelo tem problemas, e tudo bem</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Quanto Vale uma Casa? A Estatística que Responde</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Estatística</div>
+    <div class="quarto-category">Regressão</div>
+    <div class="quarto-category">Data Science</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>prof. Davi Rocha </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">19 de fevereiro de 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="o-problema-que-toda-imobiliária-tem" class="level2">
+<h2 class="anchored" data-anchor-id="o-problema-que-toda-imobiliária-tem">O problema que toda imobiliária tem</h2>
+<p>Imagine que você é analista de dados e recebe o seguinte desafio: <em>“Preciso precificar centenas de imóveis. Como faço isso?”</em></p>
+<p>A resposta ingênua, ou não tão ingênua assim, dependendo do seu repertório seria: “olha o preço dos vizinhos”. Curiosidade: existe um algoritmo famoso chamado KNN (<em>K-Nearest Neighbors</em>) que faz literalmente isso. Mas hoje vamos por outro caminho.</p>
+<p>Como cientista de dados, podemos construir um <strong>modelo matemático</strong> que, a partir de dados históricos, <strong>estima</strong> quais características de um imóvel determinam o seu preço e como cada uma delas se associa à variação do preço. Repare que escrevi <em>estima</em>, não <em>aprende</em>. Modelos não aprendem. Eles ajustam parâmetros para minimizar erros. Essa distinção parece sutil, mas faz toda a diferença quando você precisa interpretar e questionar os resultados.</p>
+<p>O dataset é inspirado na competição <a href="https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques" target="_blank">House Prices do Kaggle</a>, simplificado para fins didáticos. Trabalharemos com as seguintes variáveis:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variável</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>area_primeiro_andar</code></td>
+<td>Área útil do andar térreo (m²)</td>
+</tr>
+<tr class="even">
+<td><code>area_segundo_andar</code></td>
+<td>Área útil do segundo andar (m²)</td>
+</tr>
+<tr class="odd">
+<td><code>quantidade_banheiros</code></td>
+<td>Número de banheiros</td>
+</tr>
+<tr class="even">
+<td><code>capacidade_carros_garagem</code></td>
+<td>Capacidade da garagem (m²)</td>
+</tr>
+<tr class="odd">
+<td><code>qualidade_da_cozinha_Excelente</code></td>
+<td>1 = cozinha de alto padrão, 0 = demais</td>
+</tr>
+<tr class="even">
+<td><code>preco_de_venda</code></td>
+<td>🎯 Variável alvo</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="conhecendo-os-dados" class="level2">
+<h2 class="anchored" data-anchor-id="conhecendo-os-dados">1. Conhecendo os dados</h2>
+<p>Antes de qualquer modelo, precisamos enxergar o que temos. As primeiras linhas do dataset já revelam muito:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Primeiras linhas do dataset</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;" data-quarto-table-cell-role="th">1º Andar (m²)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">2º Andar?</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">2º Andar (m²)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Banheiros</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Garagem (m²)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Cozinha Excel.</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Preço (R$)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">79.52</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">79.34</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">548</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1027905</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">117.24</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">460</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">894795</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">85.47</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">80.45</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">608</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1101855</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">89.28</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">70.23</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">642</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">690200</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">106.37</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">97.82</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1232500</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">73.95</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">52.58</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">480</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">704990</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>O dataset tem 1438 imóveis e 7 variáveis. Sem valores ausentes, o que nos poupa da etapa de limpeza.</p>
+<hr>
+</section>
+<section id="existe-relação-entre-área-e-preço" class="level2">
+<h2 class="anchored" data-anchor-id="existe-relação-entre-área-e-preço">2. Existe relação entre área e preço?</h2>
+<p>Antes de calcular qualquer coisa, precisamos <strong>ver</strong> o que está acontecendo. O gráfico de dispersão geralmente é o primeiro passo.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="precificando-imoveis_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Cada ponto é um imóvel. A nuvem sobe da esquerda para a direita — sinal claro de tendência linear.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>A “nuvem” de pontos sobe da esquerda para a direita. Imóveis maiores tendem a custar mais. Mas será que é uma relação forte?</p>
+<hr>
+</section>
+<section id="medindo-a-força-da-relação-o-coeficiente-de-correlação" class="level2">
+<h2 class="anchored" data-anchor-id="medindo-a-força-da-relação-o-coeficiente-de-correlação">3. Medindo a força da relação: o coeficiente de correlação</h2>
+<p>O <strong>coeficiente de correlação de Pearson</strong> (<em>r</em>) quantifica a força e a direção de uma relação linear entre duas variáveis. Ele varia entre −1 e 1:</p>
+<ul>
+<li><strong>r = 1</strong>: correlação positiva perfeita</li>
+<li><strong>r = 0</strong>: sem relação linear</li>
+<li><strong>r = −1</strong>: correlação negativa perfeita</li>
+</ul>
+<p>No nosso dataset, a correlação entre área e preço é <strong>r = 0.62</strong> , uma correlação positiva moderada a forte. A área é um bom preditor, mas não é o único fator que interessa.</p>
+<hr>
+</section>
+<section id="encontrando-a-melhor-reta-regressão-linear-simples" class="level2">
+<h2 class="anchored" data-anchor-id="encontrando-a-melhor-reta-regressão-linear-simples">4. Encontrando a melhor reta: regressão linear simples</h2>
+<p>Olhando o gráfico, é possivel traçar “uma” reta passando por eles(volte ao gráfico e veja!). Mas qual é a <strong>melhor</strong> reta? Da estatística, sabemos que esse reta deve minimizar a diferença entre os valores previstos e os valores reais. Essas diferenças se chamam <strong>resíduos</strong>.</p>
+<p>A função de regressão é:</p>
+<p><span class="math display">\[\hat{Y} = \beta_0 + \beta_1 X\]</span></p>
+<p>Onde <span class="math inline">\(\hat{Y}\)</span> é o preço estimado, <span class="math inline">\(X\)</span> é a área, <span class="math inline">\(\beta_0\)</span> é o intercepto e <span class="math inline">\(\beta_1\)</span> é o quanto o preço sobe a cada 1 m² adicional.</p>
+<p>O R encontra automaticamente os coeficientes pelo método dos mínimos quadrados. O resultado do nosso modelo:</p>
+<p><span class="math display">\[\text{preço} = 144.777 + 6.899 \times \text{área}\]</span></p>
+<p>Ou seja: <strong>cada metro quadrado adicional agrega, em média, R$ 6.899 ao preço do imóvel</strong>.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="precificando-imoveis_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>A reta vermelha é a reta de regressão — a que minimiza a soma dos quadrados dos resíduos.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="o-modelo-é-bom-métricas-e-testes" class="level2">
+<h2 class="anchored" data-anchor-id="o-modelo-é-bom-métricas-e-testes">5. O modelo é bom? Métricas e testes</h2>
+<section id="r²-quanto-o-modelo-explica" class="level3">
+<h3 class="anchored" data-anchor-id="r²-quanto-o-modelo-explica">R²: quanto o modelo explica?</h3>
+<p>O <strong>R²</strong> mede a proporção da variação do preço que o modelo explica. No nosso modelo simples, R² = <strong>0.38</strong> , ou seja, a área sozinha explica <strong>38%</strong> da variação dos preços. É um começo promissor, mas há muito mais para avaliar.</p>
+</section>
+<section id="teste-t-a-variável-realmente-importa" class="level3">
+<h3 class="anchored" data-anchor-id="teste-t-a-variável-realmente-importa">Teste t — a variável realmente importa?</h3>
+<p>O teste t verifica se o coeficiente da área é estatisticamente diferente de zero:</p>
+<ul>
+<li><strong>H₀</strong>: a área não afeta o preço (coeficiente = 0)</li>
+<li><strong>H₁</strong>: a área afeta o preço (coeficiente ≠ 0)</li>
+</ul>
+<p>O p-valor obtido é 2.5e-151 — essencialmente zero. <strong>Rejeitamos H₀ com segurança</strong>: a área tem efeito real e significativo sobre o preço.</p>
+</section>
+<section id="análise-de-resíduos-o-modelo-está-bem-calibrado" class="level3">
+<h3 class="anchored" data-anchor-id="análise-de-resíduos-o-modelo-está-bem-calibrado">Análise de resíduos — o modelo está bem calibrado?</h3>
+<p>Todo modelo de regressão tem duas premissas básicas sobre os resíduos:</p>
+<ol type="1">
+<li><strong>Média igual a zero</strong>: os erros não têm viés sistemático</li>
+<li><strong>Homocedasticidade</strong>: a variância dos erros é constante</li>
+</ol>
+<p>A média dos resíduos é <strong>0</strong> , ou seja, zero. ✅</p>
+<p>Mas observe o gráfico abaixo. Ele conta uma história importante.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="precificando-imoveis_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observe a abertura da nuvem conforme o preço estimado cresce — um padrão de funil clássico. O modelo é preciso para imóveis baratos e impreciso para imóveis de alto valor.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Os pontos parecem estar se afastando da linha pontilhada vermelha conforme o preço aumenta. Depois voltamos a isso.</p>
+<hr>
+</section>
+</section>
+<section id="indo-além-regressão-múltipla" class="level2">
+<h2 class="anchored" data-anchor-id="indo-além-regressão-múltipla">6. Indo além: regressão múltipla</h2>
+<p>A área explica 38% dos preços. E o restante? Outras características do imóvel estão escondidas aí. A regressão múltipla permite incorporar todas elas simultaneamente.</p>
+<p>Primeiro, um mapa de calor das correlações para identificar as variáveis mais promissoras:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="precificando-imoveis_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Quanto mais vermelho, maior a correlação positiva com o preço de venda.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Com o mapa de calor em mãos, construímos modelos progressivamente mais ricos e comparamos o <strong>RSE</strong> (Erro Padrão Residual) de cada um, lembre-se que quanto menor, melhor:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Comparação dos modelos — cada variável adicionada reduz o erro</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Modelo</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Variáveis</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">R²</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">RSE (R$)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Modelo 1 (+ 2º andar)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.608</td>
+<td style="text-align: right;">231622</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Modelo 2 (+ banheiros)</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.620</td>
+<td style="text-align: right;">228016</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Modelo 3 (+ garagem)</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.682</td>
+<td style="text-align: right;">208933</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Modelo Final (+ cozinha)</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0.737</td>
+<td style="text-align: right;">190100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>O modelo final, com 5 variáveis, apresenta o <strong>maior R²</strong> e o <strong>menor RSE</strong>. É o mais preciso do conjunto.</p>
+<section id="a-equação-do-modelo-final" class="level3">
+<h3 class="anchored" data-anchor-id="a-equação-do-modelo-final">A equação do modelo final</h3>
+<p>Assim como fizemos na regressão simples, podemos escrever a equação completa com os coeficientes reais:</p>
+<p><span class="math display">\[\hat{Y} = -116.240 + 5.045 \cdot X_{\text{1º andar}} + 3.072 \cdot X_{\text{2º andar}} + 76.934 \cdot X_{\text{banheiros}} + 460 \cdot X_{\text{garagem}} + 376.267 \cdot X_{\text{cozinha}}\]</span></p>
+<p>Lendo a equação:</p>
+<ul>
+<li>Cada m² do <strong>1º andar</strong> agrega R$ 5.045 ao preço</li>
+<li>Cada m² do <strong>2º andar</strong> agrega R$ 3.072 ao preço</li>
+<li>Cada <strong>banheiro</strong> adicional agrega R$ 76.934 ao preço</li>
+<li>Cada m² de <strong>garagem</strong> agrega R$ 460 ao preço</li>
+<li>Uma <strong>cozinha excelente</strong> agrega R$ 376.267 ao preço — mantendo tudo mais constante</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="validando-o-modelo-final-teste-f" class="level2">
+<h2 class="anchored" data-anchor-id="validando-o-modelo-final-teste-f">7. Validando o modelo final: teste F</h2>
+<p>Na regressão simples usamos o teste <em>t</em> para uma variável. Na regressão múltipla, o <strong>teste F</strong> valida o conjunto todo:</p>
+<ul>
+<li><strong>H₀</strong>: nenhuma variável afeta o preço</li>
+<li><strong>H₁</strong>: pelo menos uma variável afeta o preço</li>
+</ul>
+<p>O p-valor do teste F é essencialmente zero. <strong>O conjunto de variáveis tem poder explicativo real sobre o preço.</strong> ✅</p>
+<hr>
+</section>
+<section id="prevendo-preços-de-imóveis-novos" class="level2">
+<h2 class="anchored" data-anchor-id="prevendo-preços-de-imóveis-novos">8. Prevendo preços de imóveis novos</h2>
+<p>Agora a parte mais concreta: usar o modelo para precificar imóveis que ele nunca viu.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Previsão de preços para imóveis novos</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;" data-quarto-table-cell-role="th">1º Andar (m²)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">2º Andar?</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">2º Andar (m²)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Banheiros</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Garagem (m²)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Cozinha Excel.</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Preço Estimado (R$)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">160</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">160</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1713621</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">175</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1374191</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">145</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">145</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1215131</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">190</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">190</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1657814</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">155</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1197274</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">170</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">170</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1871270</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">135</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">135</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1133496</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2115256</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">125</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">591799</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">185</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">185</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1617227</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<hr>
+</section>
+<section id="o-que-aprendemos" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-aprendemos">O que aprendemos</h2>
+<p>Partimos de uma pergunta simples — <em>quanto vale uma casa?</em> — e chegamos a um pipeline completo:</p>
+<ol type="1">
+<li><strong>Exploração visual</strong> para verificar linearidade</li>
+<li><strong>Correlação de Pearson</strong> para medir força das relações</li>
+<li><strong>Regressão simples</strong> para encontrar a melhor reta</li>
+<li><strong>Métricas</strong> (R², RSE) e testes (t, F) para validar o modelo</li>
+<li><strong>Análise de resíduos</strong> para checar premissas</li>
+<li><strong>Regressão múltipla</strong> para incorporar mais variáveis</li>
+<li><strong>Previsão</strong> de novos valores</li>
+</ol>
+<p>Regressão linear não é apenas uma fórmula. É um processo de perguntas e respostas: o que influencia o preço? Com que força? O modelo está errando de forma sistemática? Essas perguntas guiam o cientista de dados em direção a modelos cada vez mais honestos e úteis.</p>
+<hr>
+</section>
+<section id="limitações-o-modelo-tem-problemas-e-tudo-bem" class="level2">
+<h2 class="anchored" data-anchor-id="limitações-o-modelo-tem-problemas-e-tudo-bem">Limitações — o modelo tem problemas, e tudo bem</h2>
+<p>Eu poderia encerrar o artigo no ponto anterior e fingir que está tudo certo. Mas não estaria sendo honesto com você.</p>
+<p>Volte ao gráfico de resíduos da regressão simples. Observe com calma o que acontece da esquerda para a direita:</p>
+<ul>
+<li>Para <strong>imóveis baratos</strong> (preço estimado entre 400k e 700k): os resíduos ficam concentrados em torno de zero. O modelo acerta bem.</li>
+<li>Para <strong>imóveis de alto valor</strong> (acima de 1 milhão): a dispersão explode. Os erros chegam a ±1.000.000. O modelo se perde.</li>
+</ul>
+<p>Isso tem nome: <strong>heterocedasticidade</strong>. O padrão de funil clássico. A variância dos erros não é constante — ela cresce junto com o valor do imóvel.</p>
+<p>Por que isso acontece? Pense bem. Imóveis baratos são relativamente previsíveis: área e número de banheiros já explicam boa parte do preço. Imóveis de luxo são outra história. Acabamento, localização exata, arquitetura, vista, história do imóvel, características que nosso modelo simplesmente não enxerga. A incerteza cresce porque o modelo não tem as informações certas para esse segmento.</p>
+<p><strong>O modelo é bom para imóveis comuns. Para imóveis de luxo, ele chuta.</strong></p>
+<p>O que poderia melhorar?</p>
+<ul>
+<li><strong>Transformação logarítmica</strong>: aplicar <code>log(preco_de_venda)</code> como variável dependente. Em dados de preço, erros percentuais costumam ser mais estáveis que erros absolutos. É a solução mais clássica para esse padrão.</li>
+<li><strong>Mais variáveis de qualidade</strong>: acabamento, localização, idade do imóvel. O modelo atual não tem nada que diferencie um apartamento simples de um imóvel de alto padrão além da cozinha.</li>
+<li><strong>Modelos não-lineares</strong>: Se o foco for precisão nas previsões, Random Forest ou Gradient Boosting capturam relações mais complexas que a reta não consegue.</li>
+</ul>
+<p>Mas sabe o que é mais importante do que qualquer uma dessas soluções técnicas? <strong>Saber identificar o problema.</strong> Um cientista de dados que entrega um modelo de regressão linear sem olhar o gráfico de resíduos é como um médico que prescreve o remédio sem ler o resultado do exame.</p>
+<p>Isso é o que separa um cientista de dados de um apertador de botões.</p>
+<hr>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Davi Rocha | Professor e Data Scientist</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

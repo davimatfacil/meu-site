@@ -49,102 +49,88 @@
     "text": "💼 Desenvolvimento de Sites & Dashboards\n\n\n\n\n\n\nImportante🌐 Gostou deste site?\n\n\n\nEste portfólio foi desenvolvido com Quarto e publicado gratuitamente no GitHub Pages. É um exemplo do que posso criar para você ou sua organização!\n\n\n\nO que posso desenvolver para você:\n\n\n🌐 Sites Profissionais\n\nPortfólios pessoais como este\nSites institucionais/corporativos\nLanding pages\nBlogs técnicos e documentação\n\nTecnologias: Quarto, GitHub Pages\nHospedagem: Gratuita (GitHub) ou customizada\n\n\n📊 Dashboards & Aplicações\n\nDashboards interativos (Shiny/Streamlit)\nAplicações analíticas customizadas\nFerramentas de visualização de dados\nAutomações e sistemas\n\nTecnologias: R Shiny, Streamlit, Python, R\n\n\n\n\n💰 Diferenciais\n\n\n✅ Custo acessível\nHospedagem gratuita no GitHub Pages\n\n\n✅ Design profissional\nLayout responsivo e moderno\n\n\n✅ Fácil manutenção\nVocê pode atualizar depois\n\n\n✅ SEO otimizado\nMelhor visibilidade online\n\n\n\n\n\n📞 Interessado em criar seu site ou dashboard?\nSolicitar Orçamento\nAtendo profissionais, pesquisadores, pequenas empresas e organizações."
   },
   {
-    "objectID": "ensino/index.html",
-    "href": "ensino/index.html",
-    "title": "Ensino",
+    "objectID": "ensino/precificando-imoveis.html",
+    "href": "ensino/precificando-imoveis.html",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
     "section": "",
-    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+    "text": "Imagine que você é analista de dados e recebe o seguinte desafio: “Preciso precificar centenas de imóveis. Como faço isso?”\nA resposta ingênua, ou não tão ingênua assim, dependendo do seu repertório seria: “olha o preço dos vizinhos”. Curiosidade: existe um algoritmo famoso chamado KNN (K-Nearest Neighbors) que faz literalmente isso. Mas hoje vamos por outro caminho.\nComo cientista de dados, podemos construir um modelo matemático que, a partir de dados históricos, estima quais características de um imóvel determinam o seu preço e como cada uma delas se associa à variação do preço. Repare que escrevi estima, não aprende. Modelos não aprendem. Eles ajustam parâmetros para minimizar erros. Essa distinção parece sutil, mas faz toda a diferença quando você precisa interpretar e questionar os resultados.\nO dataset é inspirado na competição House Prices do Kaggle, simplificado para fins didáticos. Trabalharemos com as seguintes variáveis:\n\n\n\n\n\n\n\nVariável\nDescrição\n\n\n\n\narea_primeiro_andar\nÁrea útil do andar térreo (m²)\n\n\narea_segundo_andar\nÁrea útil do segundo andar (m²)\n\n\nquantidade_banheiros\nNúmero de banheiros\n\n\ncapacidade_carros_garagem\nCapacidade da garagem (m²)\n\n\nqualidade_da_cozinha_Excelente\n1 = cozinha de alto padrão, 0 = demais\n\n\npreco_de_venda\n🎯 Variável alvo"
   },
   {
-    "objectID": "ensino/index.html#experiência-em-ensino",
-    "href": "ensino/index.html#experiência-em-ensino",
-    "title": "Ensino",
+    "objectID": "ensino/precificando-imoveis.html#o-problema-que-toda-imobiliária-tem",
+    "href": "ensino/precificando-imoveis.html#o-problema-que-toda-imobiliária-tem",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
     "section": "",
-    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+    "text": "Imagine que você é analista de dados e recebe o seguinte desafio: “Preciso precificar centenas de imóveis. Como faço isso?”\nA resposta ingênua, ou não tão ingênua assim, dependendo do seu repertório seria: “olha o preço dos vizinhos”. Curiosidade: existe um algoritmo famoso chamado KNN (K-Nearest Neighbors) que faz literalmente isso. Mas hoje vamos por outro caminho.\nComo cientista de dados, podemos construir um modelo matemático que, a partir de dados históricos, estima quais características de um imóvel determinam o seu preço e como cada uma delas se associa à variação do preço. Repare que escrevi estima, não aprende. Modelos não aprendem. Eles ajustam parâmetros para minimizar erros. Essa distinção parece sutil, mas faz toda a diferença quando você precisa interpretar e questionar os resultados.\nO dataset é inspirado na competição House Prices do Kaggle, simplificado para fins didáticos. Trabalharemos com as seguintes variáveis:\n\n\n\n\n\n\n\nVariável\nDescrição\n\n\n\n\narea_primeiro_andar\nÁrea útil do andar térreo (m²)\n\n\narea_segundo_andar\nÁrea útil do segundo andar (m²)\n\n\nquantidade_banheiros\nNúmero de banheiros\n\n\ncapacidade_carros_garagem\nCapacidade da garagem (m²)\n\n\nqualidade_da_cozinha_Excelente\n1 = cozinha de alto padrão, 0 = demais\n\n\npreco_de_venda\n🎯 Variável alvo"
   },
   {
-    "objectID": "ensino/index.html#aulas-demonstrativas",
-    "href": "ensino/index.html#aulas-demonstrativas",
-    "title": "Ensino",
-    "section": "🎥 Aulas Demonstrativas",
-    "text": "🎥 Aulas Demonstrativas\nVeja exemplos do meu método de ensino:\n\nMatemática BásicaMatemática AplicadaMatemática FinanceiraProbabilidadeProgramação PythonProgramação R\n\n\nComparando Números Naturais\nAula didática sobre conceitos fundamentais para estudantes iniciantes.\n\n\n\n\nOferta e Demanda Linear\nExercício aplicado de funções lineares no contexto econômico.\n\n\n\nFunção Custo, Receita e Lucro\nAplicação de funções lineares em análise de negócios.\n\n\n\n\nTaxa Efetiva e Nominal\nConvenção Linear e Exponencial em Matemática Financeira.\n\n\n\n\nProblema do Aniversário\nConceito fascinante de probabilidades aplicado a um problema clássico.\n\n\n\n\nConversão de Variáveis Categóricas\nComo criar variáveis dummy em Python para Machine Learning.\n\n\n\n\nRenomear Colunas no R\nDica rápida e prática para manipulação de dados em R.\n\n\n\n\n\nVer Mais no Canal →"
+    "objectID": "ensino/precificando-imoveis.html#conhecendo-os-dados",
+    "href": "ensino/precificando-imoveis.html#conhecendo-os-dados",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "1. Conhecendo os dados",
+    "text": "1. Conhecendo os dados\nAntes de qualquer modelo, precisamos enxergar o que temos. As primeiras linhas do dataset já revelam muito:\n\n\n\nPrimeiras linhas do dataset\n\n\n1º Andar (m²)\n2º Andar?\n2º Andar (m²)\nBanheiros\nGaragem (m²)\nCozinha Excel.\nPreço (R$)\n\n\n\n\n79.52\n1\n79.34\n2\n548\n0\n1027905\n\n\n117.24\n0\n0.00\n2\n460\n0\n894795\n\n\n85.47\n1\n80.45\n2\n608\n0\n1101855\n\n\n89.28\n1\n70.23\n1\n642\n0\n690200\n\n\n106.37\n1\n97.82\n2\n836\n0\n1232500\n\n\n73.95\n1\n52.58\n1\n480\n0\n704990\n\n\n\n\n\nO dataset tem 1438 imóveis e 7 variáveis. Sem valores ausentes, o que nos poupa da etapa de limpeza."
   },
   {
-    "objectID": "ensino/index.html#artigos",
-    "href": "ensino/index.html#artigos",
-    "title": "Ensino",
-    "section": "📝 Artigos",
-    "text": "📝 Artigos\nReflexões e explicações sobre matemática com contexto histórico e aplicações reais.\n\n\nO Galinheiro de Descartes\nOtimização | Cálculo Diferencial\nComo um problema simples de galinheiro revela o poder da derivada — e por que o homem de exatas é um Imitador do Criador.\nLer artigo →"
+    "objectID": "ensino/precificando-imoveis.html#existe-relação-entre-área-e-preço",
+    "href": "ensino/precificando-imoveis.html#existe-relação-entre-área-e-preço",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "2. Existe relação entre área e preço?",
+    "text": "2. Existe relação entre área e preço?\nAntes de calcular qualquer coisa, precisamos ver o que está acontecendo. O gráfico de dispersão geralmente é o primeiro passo.\n\n\n\n\n\nCada ponto é um imóvel. A nuvem sobe da esquerda para a direita — sinal claro de tendência linear.\n\n\n\n\nA “nuvem” de pontos sobe da esquerda para a direita. Imóveis maiores tendem a custar mais. Mas será que é uma relação forte?"
   },
   {
-    "objectID": "ensino/index.html#aulas-particulares",
-    "href": "ensino/index.html#aulas-particulares",
-    "title": "Ensino",
-    "section": "📚 Aulas Particulares",
-    "text": "📚 Aulas Particulares\nOfereço aulas personalizadas para:\n\n\n🎒 Ensino Fundamental e Médio\n\nReforço em Matemática\nPreparação para vestibulares\nAcompanhamento escolar\n\n\n\n🎓 Universitários\n\nCálculo, Álgebra Linear\nEstatística e Probabilidade\nAnálise de Dados\nProgramação (R/Python)\n\n\n\n💼 Profissionais\n\nEstatística aplicada\nR e Python para dados\nTransição para Data Science\nMachine Learning"
+    "objectID": "ensino/precificando-imoveis.html#medindo-a-força-da-relação-o-coeficiente-de-correlação",
+    "href": "ensino/precificando-imoveis.html#medindo-a-força-da-relação-o-coeficiente-de-correlação",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "3. Medindo a força da relação: o coeficiente de correlação",
+    "text": "3. Medindo a força da relação: o coeficiente de correlação\nO coeficiente de correlação de Pearson (r) quantifica a força e a direção de uma relação linear entre duas variáveis. Ele varia entre −1 e 1:\n\nr = 1: correlação positiva perfeita\nr = 0: sem relação linear\nr = −1: correlação negativa perfeita\n\nNo nosso dataset, a correlação entre área e preço é r = 0.62 , uma correlação positiva moderada a forte. A área é um bom preditor, mas não é o único fator que interessa."
   },
   {
-    "objectID": "ensino/index.html#diferenciais",
-    "href": "ensino/index.html#diferenciais",
-    "title": "Ensino",
-    "section": "💡 Diferenciais",
-    "text": "💡 Diferenciais\n\n\n✨ 24 anos de experiência em ensino\n🎯 Metodologia adaptada ao seu ritmo e objetivo\n📖 Material didático personalizado\n🏆 Histórico comprovado de resultados\n\n\n📍 Aulas presenciais em São Paulo (preferencialmente aos sábados)\n💻 Aulas online para todo o Brasil\n🔄 Flexibilidade de horários\n📊 Acompanhamento de progresso"
+    "objectID": "ensino/precificando-imoveis.html#encontrando-a-melhor-reta-regressão-linear-simples",
+    "href": "ensino/precificando-imoveis.html#encontrando-a-melhor-reta-regressão-linear-simples",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "4. Encontrando a melhor reta: regressão linear simples",
+    "text": "4. Encontrando a melhor reta: regressão linear simples\nOlhando o gráfico, é possivel traçar “uma” reta passando por eles(volte ao gráfico e veja!). Mas qual é a melhor reta? Da estatística, sabemos que esse reta deve minimizar a diferença entre os valores previstos e os valores reais. Essas diferenças se chamam resíduos.\nA função de regressão é:\n\\[\\hat{Y} = \\beta_0 + \\beta_1 X\\]\nOnde \\(\\hat{Y}\\) é o preço estimado, \\(X\\) é a área, \\(\\beta_0\\) é o intercepto e \\(\\beta_1\\) é o quanto o preço sobe a cada 1 m² adicional.\nO R encontra automaticamente os coeficientes pelo método dos mínimos quadrados. O resultado do nosso modelo:\n\\[\\text{preço} = 144.777 + 6.899 \\times \\text{área}\\]\nOu seja: cada metro quadrado adicional agrega, em média, R$ 6.899 ao preço do imóvel.\n\n\n\n\n\nA reta vermelha é a reta de regressão — a que minimiza a soma dos quadrados dos resíduos."
   },
   {
-    "objectID": "ensino/index.html#entre-em-contato",
-    "href": "ensino/index.html#entre-em-contato",
-    "title": "Ensino",
-    "section": "📞 Entre em Contato",
-    "text": "📞 Entre em Contato\nInteressado em aulas particulares? Entre em contato para agendar uma aula experimental!\nEnviar E-mail\n\n\n\n\n\n\nDicaComo Funciona\n\n\n\n\nEntre em contato por e-mail\nConte seus objetivos e dificuldades\nAgendamos uma conversa inicial (gratuita)\nDefinimos plano de estudos personalizado"
+    "objectID": "ensino/precificando-imoveis.html#o-modelo-é-bom-métricas-e-testes",
+    "href": "ensino/precificando-imoveis.html#o-modelo-é-bom-métricas-e-testes",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "5. O modelo é bom? Métricas e testes",
+    "text": "5. O modelo é bom? Métricas e testes\n\nR²: quanto o modelo explica?\nO R² mede a proporção da variação do preço que o modelo explica. No nosso modelo simples, R² = 0.38 , ou seja, a área sozinha explica 38% da variação dos preços. É um começo promissor, mas há muito mais para avaliar.\n\n\nTeste t — a variável realmente importa?\nO teste t verifica se o coeficiente da área é estatisticamente diferente de zero:\n\nH₀: a área não afeta o preço (coeficiente = 0)\nH₁: a área afeta o preço (coeficiente ≠ 0)\n\nO p-valor obtido é 2.5e-151 — essencialmente zero. Rejeitamos H₀ com segurança: a área tem efeito real e significativo sobre o preço.\n\n\nAnálise de resíduos — o modelo está bem calibrado?\nTodo modelo de regressão tem duas premissas básicas sobre os resíduos:\n\nMédia igual a zero: os erros não têm viés sistemático\nHomocedasticidade: a variância dos erros é constante\n\nA média dos resíduos é 0 , ou seja, zero. ✅\nMas observe o gráfico abaixo. Ele conta uma história importante.\n\n\n\n\n\nObserve a abertura da nuvem conforme o preço estimado cresce — um padrão de funil clássico. O modelo é preciso para imóveis baratos e impreciso para imóveis de alto valor.\n\n\n\n\nOs pontos parecem estar se afastando da linha pontilhada vermelha conforme o preço aumenta. Depois voltamos a isso."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre Mim",
-    "section": "",
-    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
+    "objectID": "ensino/precificando-imoveis.html#indo-além-regressão-múltipla",
+    "href": "ensino/precificando-imoveis.html#indo-além-regressão-múltipla",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "6. Indo além: regressão múltipla",
+    "text": "6. Indo além: regressão múltipla\nA área explica 38% dos preços. E o restante? Outras características do imóvel estão escondidas aí. A regressão múltipla permite incorporar todas elas simultaneamente.\nPrimeiro, um mapa de calor das correlações para identificar as variáveis mais promissoras:\n\n\n\n\n\nQuanto mais vermelho, maior a correlação positiva com o preço de venda.\n\n\n\n\nCom o mapa de calor em mãos, construímos modelos progressivamente mais ricos e comparamos o RSE (Erro Padrão Residual) de cada um, lembre-se que quanto menor, melhor:\n\n\n\nComparação dos modelos — cada variável adicionada reduz o erro\n\n\nModelo\nVariáveis\nR²\nRSE (R$)\n\n\n\n\nModelo 1 (+ 2º andar)\n2\n0.608\n231622\n\n\nModelo 2 (+ banheiros)\n3\n0.620\n228016\n\n\nModelo 3 (+ garagem)\n4\n0.682\n208933\n\n\nModelo Final (+ cozinha)\n5\n0.737\n190100\n\n\n\n\n\nO modelo final, com 5 variáveis, apresenta o maior R² e o menor RSE. É o mais preciso do conjunto.\n\nA equação do modelo final\nAssim como fizemos na regressão simples, podemos escrever a equação completa com os coeficientes reais:\n\\[\\hat{Y} = -116.240 + 5.045 \\cdot X_{\\text{1º andar}} + 3.072 \\cdot X_{\\text{2º andar}} + 76.934 \\cdot X_{\\text{banheiros}} + 460 \\cdot X_{\\text{garagem}} + 376.267 \\cdot X_{\\text{cozinha}}\\]\nLendo a equação:\n\nCada m² do 1º andar agrega R$ 5.045 ao preço\nCada m² do 2º andar agrega R$ 3.072 ao preço\nCada banheiro adicional agrega R$ 76.934 ao preço\nCada m² de garagem agrega R$ 460 ao preço\nUma cozinha excelente agrega R$ 376.267 ao preço — mantendo tudo mais constante"
   },
   {
-    "objectID": "about.html#quem-sou",
-    "href": "about.html#quem-sou",
-    "title": "Sobre Mim",
-    "section": "",
-    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
+    "objectID": "ensino/precificando-imoveis.html#validando-o-modelo-final-teste-f",
+    "href": "ensino/precificando-imoveis.html#validando-o-modelo-final-teste-f",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "7. Validando o modelo final: teste F",
+    "text": "7. Validando o modelo final: teste F\nNa regressão simples usamos o teste t para uma variável. Na regressão múltipla, o teste F valida o conjunto todo:\n\nH₀: nenhuma variável afeta o preço\nH₁: pelo menos uma variável afeta o preço\n\nO p-valor do teste F é essencialmente zero. O conjunto de variáveis tem poder explicativo real sobre o preço. ✅"
   },
   {
-    "objectID": "about.html#formação-acadêmica",
-    "href": "about.html#formação-acadêmica",
-    "title": "Sobre Mim",
-    "section": "Formação Acadêmica",
-    "text": "Formação Acadêmica\n🎓 Mestre em Matemática Aplicada\n🎓 Bacharel em Matemática\n📊 Especializações e Certificações\n\nInteligência Artificial & NLP: Lang Chain,Implementação de RAG (Retrieval-Augmented Generation), CrewAI, LlamaIndex, LLM e Generative AI, Deep Learning e NLP.\nModelagem Avançada: Modelos Mistos Lineares Generalizados (GLMMs) e Séries Temporais.\nStack Tecnológica: Formações avançadas em ecossistemas Python e R."
+    "objectID": "ensino/precificando-imoveis.html#prevendo-preços-de-imóveis-novos",
+    "href": "ensino/precificando-imoveis.html#prevendo-preços-de-imóveis-novos",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "8. Prevendo preços de imóveis novos",
+    "text": "8. Prevendo preços de imóveis novos\nAgora a parte mais concreta: usar o modelo para precificar imóveis que ele nunca viu.\n\n\n\nPrevisão de preços para imóveis novos\n\n\n1º Andar (m²)\n2º Andar?\n2º Andar (m²)\nBanheiros\nGaragem (m²)\nCozinha Excel.\nPreço Estimado (R$)\n\n\n\n\n160\n1\n160\n2\n2\n1\n1713621\n\n\n175\n0\n0\n3\n1\n1\n1374191\n\n\n145\n1\n145\n2\n1\n0\n1215131\n\n\n190\n1\n190\n3\n2\n0\n1657814\n\n\n155\n0\n0\n2\n3\n1\n1197274\n\n\n170\n1\n170\n3\n1\n1\n1871270\n\n\n135\n1\n135\n2\n0\n0\n1133496\n\n\n200\n1\n200\n3\n2\n1\n2115256\n\n\n125\n0\n0\n1\n1\n0\n591799\n\n\n185\n1\n185\n3\n2\n0\n1617227"
   },
   {
-    "objectID": "about.html#experiência-profissional",
-    "href": "about.html#experiência-profissional",
-    "title": "Sobre Mim",
-    "section": "Experiência Profissional",
-    "text": "Experiência Profissional\n\n🏥 Hospital das Clínicas da FMUSP\nCientista de Dados | 2018 - Atual\nNo maior complexo hospitalar da América Latina, atuo na arquitetura e desenvolvimento de modelos preditivos:\n\nIA e ML em Saúde: Desenvolvimento de algoritmos para predição de desfechos clínicos e gestão de recursos hospitalares.\nEngenharia de Dashboards: Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro, Internação, ambulatorial e eficiência operacional.\nBig Data: Manipulação e análise de grandes volumes de dados em ambientes Vertica e Oracle.\n\n\n\n💻 4Research\nData Scientist & Developer | Atual\nFoco em tecnologia para pesquisa clínica e inteligência de dados:\n\nAplicações Analíticas: Desenvolvimento de ferramentas interativas com R-Shiny e Streamlit para captura e análise de dados multicêntricos.\nIntegração de Ecossistemas: Conexão de plataformas de pesquisa (REDCap) com pipelines de análise automatizados.\n\n\n\n🎓 Professor Universitário\nDocente de Estatística e Matemática Aplicada | 2010 - Atual\nHá mais de 14 anos, leciono para cursos de Administração, Marketing, Logística e RH.\n\nVersatilidade: Minha atuação docente garante que eu mantenha a habilidade de aplicar a ciência de dados em contextos diversos de negócios, fora do nicho hospitalar.\nMentoria: Foco na formação de profissionais capazes de interpretar dados para além das ferramentas."
+    "objectID": "ensino/precificando-imoveis.html#o-que-aprendemos",
+    "href": "ensino/precificando-imoveis.html#o-que-aprendemos",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "O que aprendemos",
+    "text": "O que aprendemos\nPartimos de uma pergunta simples — quanto vale uma casa? — e chegamos a um pipeline completo:\n\nExploração visual para verificar linearidade\nCorrelação de Pearson para medir força das relações\nRegressão simples para encontrar a melhor reta\nMétricas (R², RSE) e testes (t, F) para validar o modelo\nAnálise de resíduos para checar premissas\nRegressão múltipla para incorporar mais variáveis\nPrevisão de novos valores\n\nRegressão linear não é apenas uma fórmula. É um processo de perguntas e respostas: o que influencia o preço? Com que força? O modelo está errando de forma sistemática? Essas perguntas guiam o cientista de dados em direção a modelos cada vez mais honestos e úteis."
   },
   {
-    "objectID": "about.html#competências-técnicas",
-    "href": "about.html#competências-técnicas",
-    "title": "Sobre Mim",
-    "section": "Competências Técnicas",
-    "text": "Competências Técnicas\n\nLinguagens & IA\n\nR : Modelagem estatística avançada, Tidyverse, Shiny, Automação de relatórios.\nPython : Scikit-learn, Pandas, Streamlit, Integração com LLMs (RAG, LangChain).\nSQL: Queries complexas e otimização em Vertica, Oracle e PostgreSQL.\n\n\n\nDomínios de Especialidade\n\nModelagem: GLMMs, Análise de Sobrevivência, Séries Temporais e Regressão Avançada.\nIA & Machine Learning: Deep Learning, NLP e Modelos Preditivos.\nVisualização: Tableau, Power BI, Plotly e bibliotecas customizadas em R/Python."
-  },
-  {
-    "objectID": "about.html#filosofia-de-trabalho",
-    "href": "about.html#filosofia-de-trabalho",
-    "title": "Sobre Mim",
-    "section": "Filosofia de Trabalho",
-    "text": "Filosofia de Trabalho\n\n“Transformar complexidade em clareza, dados em decisões e análises em ações.”\n\nAcredito que a verdadeira Ciência de Dados reside no equilíbrio entre o rigor matemático e a praticidade da entrega. Meu compromisso é buscar a verdade nos dados com integridade ética e comunicar insights de forma que qualquer tomador de decisão possa agir com confiança."
-  },
-  {
-    "objectID": "about.html#vamos-conversar",
-    "href": "about.html#vamos-conversar",
-    "title": "Sobre Mim",
-    "section": "Vamos Conversar?",
-    "text": "Vamos Conversar?\nEstou disponível para colaborações em projetos de IA, consultoria estatística para pesquisas e treinamentos corporativos.\n📧 Email: davimatfacil@gmail.com\n💼 LinkedIn: linkedin.com/in/davi-rocha-27a24b33/\n🐙 GitHub: github.com/davimatfacil\n\nÚltima atualização: Fevereiro de 2026"
+    "objectID": "ensino/precificando-imoveis.html#limitações-o-modelo-tem-problemas-e-tudo-bem",
+    "href": "ensino/precificando-imoveis.html#limitações-o-modelo-tem-problemas-e-tudo-bem",
+    "title": "Quanto Vale uma Casa? A Estatística que Responde",
+    "section": "Limitações — o modelo tem problemas, e tudo bem",
+    "text": "Limitações — o modelo tem problemas, e tudo bem\nEu poderia encerrar o artigo no ponto anterior e fingir que está tudo certo. Mas não estaria sendo honesto com você.\nVolte ao gráfico de resíduos da regressão simples. Observe com calma o que acontece da esquerda para a direita:\n\nPara imóveis baratos (preço estimado entre 400k e 700k): os resíduos ficam concentrados em torno de zero. O modelo acerta bem.\nPara imóveis de alto valor (acima de 1 milhão): a dispersão explode. Os erros chegam a ±1.000.000. O modelo se perde.\n\nIsso tem nome: heterocedasticidade. O padrão de funil clássico. A variância dos erros não é constante — ela cresce junto com o valor do imóvel.\nPor que isso acontece? Pense bem. Imóveis baratos são relativamente previsíveis: área e número de banheiros já explicam boa parte do preço. Imóveis de luxo são outra história. Acabamento, localização exata, arquitetura, vista, história do imóvel, características que nosso modelo simplesmente não enxerga. A incerteza cresce porque o modelo não tem as informações certas para esse segmento.\nO modelo é bom para imóveis comuns. Para imóveis de luxo, ele chuta.\nO que poderia melhorar?\n\nTransformação logarítmica: aplicar log(preco_de_venda) como variável dependente. Em dados de preço, erros percentuais costumam ser mais estáveis que erros absolutos. É a solução mais clássica para esse padrão.\nMais variáveis de qualidade: acabamento, localização, idade do imóvel. O modelo atual não tem nada que diferencie um apartamento simples de um imóvel de alto padrão além da cozinha.\nModelos não-lineares: Se o foco for precisão nas previsões, Random Forest ou Gradient Boosting capturam relações mais complexas que a reta não consegue.\n\nMas sabe o que é mais importante do que qualquer uma dessas soluções técnicas? Saber identificar o problema. Um cientista de dados que entrega um modelo de regressão linear sem olhar o gráfico de resíduos é como um médico que prescreve o remédio sem ler o resultado do exame.\nIsso é o que separa um cientista de dados de um apertador de botões."
   },
   {
     "objectID": "ensino/galinheiro-de-descartes.html",
@@ -201,6 +187,104 @@
     "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
     "section": "Por que esse problema nunca saiu da minha cabeça",
     "text": "Por que esse problema nunca saiu da minha cabeça\nTalvez porque ele seja honesto. Ele não fingia que matemática era fácil, mas mostrava que ela era acessível quando você entende para que serve. O galinheiro tem uma galinha, tem parede, tem um problema concreto e a solução aparece de forma natural, quase inevitável, quando você coloca tudo no plano de Descartes e deixa a derivada fazer o trabalho.\nOutro motivo provavelmente é que ouvir que sou “imitador do criador”, me remete a Gênesis 1:26-28. Lá temos o relato da criação do homem por Deus à sua própria imagem e semelhança. Assim, inspirados pelo Criador, nós matemáticos temos no coração o desejo de criar, descobrir e explorar a natureza.\n\n\n\n\n\n\n\nDica🐔 Explore o Galinheiro Interativamente!\n\n\n\nVeja o galinheiro mudar de proporção em tempo real enquanto a área é plotada como parábola.\nAbrir Explorador do Galinheiro →\n\n\nEntão para que serve a matemática?\nA resposta é: serve para não desperdiçar tela de galinheiro. Serve para projetar carros. Serve para entender por que a natureza é tão eficiente. Mas serve, acima de tudo, para revelar para que existimos, ou seja, para imitar o nosso Criador. “Sede, pois, imitadores de Deus, como filhos amados.” — Efésios 5:1."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
+  },
+  {
+    "objectID": "about.html#quem-sou",
+    "href": "about.html#quem-sou",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
+  },
+  {
+    "objectID": "about.html#formação-acadêmica",
+    "href": "about.html#formação-acadêmica",
+    "title": "Sobre Mim",
+    "section": "Formação Acadêmica",
+    "text": "Formação Acadêmica\n🎓 Mestre em Matemática Aplicada\n🎓 Bacharel em Matemática\n📊 Especializações e Certificações\n\nInteligência Artificial & NLP: Lang Chain,Implementação de RAG (Retrieval-Augmented Generation), CrewAI, LlamaIndex, LLM e Generative AI, Deep Learning e NLP.\nModelagem Avançada: Modelos Mistos Lineares Generalizados (GLMMs) e Séries Temporais.\nStack Tecnológica: Formações avançadas em ecossistemas Python e R."
+  },
+  {
+    "objectID": "about.html#experiência-profissional",
+    "href": "about.html#experiência-profissional",
+    "title": "Sobre Mim",
+    "section": "Experiência Profissional",
+    "text": "Experiência Profissional\n\n🏥 Hospital das Clínicas da FMUSP\nCientista de Dados | 2018 - Atual\nNo maior complexo hospitalar da América Latina, atuo na arquitetura e desenvolvimento de modelos preditivos:\n\nIA e ML em Saúde: Desenvolvimento de algoritmos para predição de desfechos clínicos e gestão de recursos hospitalares.\nEngenharia de Dashboards: Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro, Internação, ambulatorial e eficiência operacional.\nBig Data: Manipulação e análise de grandes volumes de dados em ambientes Vertica e Oracle.\n\n\n\n💻 4Research\nData Scientist & Developer | Atual\nFoco em tecnologia para pesquisa clínica e inteligência de dados:\n\nAplicações Analíticas: Desenvolvimento de ferramentas interativas com R-Shiny e Streamlit para captura e análise de dados multicêntricos.\nIntegração de Ecossistemas: Conexão de plataformas de pesquisa (REDCap) com pipelines de análise automatizados.\n\n\n\n🎓 Professor Universitário\nDocente de Estatística e Matemática Aplicada | 2010 - Atual\nHá mais de 14 anos, leciono para cursos de Administração, Marketing, Logística e RH.\n\nVersatilidade: Minha atuação docente garante que eu mantenha a habilidade de aplicar a ciência de dados em contextos diversos de negócios, fora do nicho hospitalar.\nMentoria: Foco na formação de profissionais capazes de interpretar dados para além das ferramentas."
+  },
+  {
+    "objectID": "about.html#competências-técnicas",
+    "href": "about.html#competências-técnicas",
+    "title": "Sobre Mim",
+    "section": "Competências Técnicas",
+    "text": "Competências Técnicas\n\nLinguagens & IA\n\nR : Modelagem estatística avançada, Tidyverse, Shiny, Automação de relatórios.\nPython : Scikit-learn, Pandas, Streamlit, Integração com LLMs (RAG, LangChain).\nSQL: Queries complexas e otimização em Vertica, Oracle e PostgreSQL.\n\n\n\nDomínios de Especialidade\n\nModelagem: GLMMs, Análise de Sobrevivência, Séries Temporais e Regressão Avançada.\nIA & Machine Learning: Deep Learning, NLP e Modelos Preditivos.\nVisualização: Tableau, Power BI, Plotly e bibliotecas customizadas em R/Python."
+  },
+  {
+    "objectID": "about.html#filosofia-de-trabalho",
+    "href": "about.html#filosofia-de-trabalho",
+    "title": "Sobre Mim",
+    "section": "Filosofia de Trabalho",
+    "text": "Filosofia de Trabalho\n\n“Transformar complexidade em clareza, dados em decisões e análises em ações.”\n\nAcredito que a verdadeira Ciência de Dados reside no equilíbrio entre o rigor matemático e a praticidade da entrega. Meu compromisso é buscar a verdade nos dados com integridade ética e comunicar insights de forma que qualquer tomador de decisão possa agir com confiança."
+  },
+  {
+    "objectID": "about.html#vamos-conversar",
+    "href": "about.html#vamos-conversar",
+    "title": "Sobre Mim",
+    "section": "Vamos Conversar?",
+    "text": "Vamos Conversar?\nEstou disponível para colaborações em projetos de IA, consultoria estatística para pesquisas e treinamentos corporativos.\n📧 Email: davimatfacil@gmail.com\n💼 LinkedIn: linkedin.com/in/davi-rocha-27a24b33/\n🐙 GitHub: github.com/davimatfacil\n\nÚltima atualização: Fevereiro de 2026"
+  },
+  {
+    "objectID": "ensino/index.html",
+    "href": "ensino/index.html",
+    "title": "Ensino",
+    "section": "",
+    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+  },
+  {
+    "objectID": "ensino/index.html#experiência-em-ensino",
+    "href": "ensino/index.html#experiência-em-ensino",
+    "title": "Ensino",
+    "section": "",
+    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+  },
+  {
+    "objectID": "ensino/index.html#aulas-demonstrativas",
+    "href": "ensino/index.html#aulas-demonstrativas",
+    "title": "Ensino",
+    "section": "🎥 Aulas Demonstrativas",
+    "text": "🎥 Aulas Demonstrativas\nVeja exemplos do meu método de ensino:\n\nMatemática BásicaMatemática AplicadaMatemática FinanceiraProbabilidadeProgramação PythonProgramação R\n\n\nComparando Números Naturais\nAula didática sobre conceitos fundamentais para estudantes iniciantes.\n\n\n\n\nOferta e Demanda Linear\nExercício aplicado de funções lineares no contexto econômico.\n\n\n\nFunção Custo, Receita e Lucro\nAplicação de funções lineares em análise de negócios.\n\n\n\n\nTaxa Efetiva e Nominal\nConvenção Linear e Exponencial em Matemática Financeira.\n\n\n\n\nProblema do Aniversário\nConceito fascinante de probabilidades aplicado a um problema clássico.\n\n\n\n\nConversão de Variáveis Categóricas\nComo criar variáveis dummy em Python para Machine Learning.\n\n\n\n\nRenomear Colunas no R\nDica rápida e prática para manipulação de dados em R.\n\n\n\n\n\nVer Mais no Canal →"
+  },
+  {
+    "objectID": "ensino/index.html#artigos",
+    "href": "ensino/index.html#artigos",
+    "title": "Ensino",
+    "section": "📝 Artigos",
+    "text": "📝 Artigos\nReflexões e explicações sobre matemática aplicada e aplicações reais.\n\n\nQuanto Vale uma Casa? A Estatística que Responde\nRegressão | Estatística | R\nComo construir um modelo de regressão múltipla para precificar imóveis — da correlação até a previsão, passo a passo em R.\nLer artigo →\n\n\nO Galinheiro de Descartes\nOtimização | Cálculo Diferencial\nComo um problema simples de galinheiro revela o poder da derivada — e por que o homem de exatas é um Imitador do Criador.\nLer artigo →"
+  },
+  {
+    "objectID": "ensino/index.html#aulas-particulares",
+    "href": "ensino/index.html#aulas-particulares",
+    "title": "Ensino",
+    "section": "📚 Aulas Particulares",
+    "text": "📚 Aulas Particulares\nOfereço aulas personalizadas para:\n\n\n🎒 Ensino Fundamental e Médio\n\nReforço em Matemática\nPreparação para vestibulares\nAcompanhamento escolar\n\n\n\n🎓 Universitários\n\nCálculo, Álgebra Linear\nEstatística e Probabilidade\nAnálise de Dados\nProgramação (R/Python)\n\n\n\n💼 Profissionais\n\nEstatística aplicada\nR e Python para dados\nTransição para Data Science\nMachine Learning"
+  },
+  {
+    "objectID": "ensino/index.html#diferenciais",
+    "href": "ensino/index.html#diferenciais",
+    "title": "Ensino",
+    "section": "💡 Diferenciais",
+    "text": "💡 Diferenciais\n\n\n✨ 24 anos de experiência em ensino\n🎯 Metodologia adaptada ao seu ritmo e objetivo\n📖 Material didático personalizado\n🏆 Histórico comprovado de resultados\n\n\n📍 Aulas presenciais em São Paulo (preferencialmente aos sábados)\n💻 Aulas online para todo o Brasil\n🔄 Flexibilidade de horários\n📊 Acompanhamento de progresso"
+  },
+  {
+    "objectID": "ensino/index.html#entre-em-contato",
+    "href": "ensino/index.html#entre-em-contato",
+    "title": "Ensino",
+    "section": "📞 Entre em Contato",
+    "text": "📞 Entre em Contato\nInteressado em aulas particulares? Entre em contato para agendar uma aula experimental!\nEnviar E-mail\n\n\n\n\n\n\nDicaComo Funciona\n\n\n\n\nEntre em contato por e-mail\nConte seus objetivos e dificuldades\nAgendamos uma conversa inicial (gratuita)\nDefinimos plano de estudos personalizado"
   },
   {
     "objectID": "index.html",

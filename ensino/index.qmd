@@ -88,9 +88,18 @@ Dica rápida e prática para manipulação de dados em R.
 
 ## 📝 Artigos
 
-Reflexões e explicações sobre matemática com contexto histórico e aplicações reais.
+Reflexões e explicações sobre matemática aplicada e aplicações reais.
 
 ::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### [Quanto Vale uma Casa? A Estatística que Responde](precificando-imoveis.html)
+*Regressão | Estatística | R*
+
+Como construir um modelo de regressão múltipla para precificar imóveis — da correlação até a previsão, passo a passo em R.
+
+[Ler artigo →](precificando-imoveis.html){.btn .btn-outline-primary}
+:::
 
 ::: {.g-col-12 .g-col-md-6}
 ### [O Galinheiro de Descartes](galinheiro-de-descartes.html)

@@ -1,0 +1,366 @@
+---
+title: "Quanto Vale uma Casa? A Estatística que Responde"
+author: "prof. Davi Rocha"
+date: "2026-02-19"
+categories: [R, Estatística, Regressão, Data Science]
+execute:
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+library(dplyr)
+library(ggplot2)
+library(corrplot)
+
+dados <- read.csv('precos_de_casas.csv')
+dados <- dados %>% select(-Id)
+```
+
+## O problema que toda imobiliária tem
+
+Imagine que você é analista de dados e recebe o seguinte desafio: *"Preciso precificar centenas de imóveis. Como faço isso?"*
+
+A resposta ingênua, ou não tão ingênua assim, dependendo do seu  repertório seria: "olha o preço dos vizinhos". 
+Curiosidade: existe um algoritmo famoso chamado KNN (*K-Nearest Neighbors*) que faz 
+literalmente isso. Mas hoje vamos por outro caminho.
+
+Como cientista de dados, podemos construir um **modelo matemático**  que, a partir de dados históricos, **estima** quais características de um imóvel determinam o seu preço e como cada uma delas se associa à variação do preço. Repare que escrevi *estima*, não *aprende*. Modelos não aprendem. Eles ajustam parâmetros para minimizar erros. Essa distinção parece sutil, mas faz toda a diferença quando você precisa interpretar e questionar os resultados.
+
+O dataset é inspirado na competição [House Prices do Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques){target="_blank"}, simplificado para fins didáticos. Trabalharemos com as seguintes variáveis:
+
+| Variável | Descrição |
+|---|---|
+| `area_primeiro_andar` | Área útil do andar térreo (m²) |
+| `area_segundo_andar` | Área útil do segundo andar (m²) |
+| `quantidade_banheiros` | Número de banheiros |
+| `capacidade_carros_garagem` | Capacidade da garagem (m²) |
+| `qualidade_da_cozinha_Excelente` | 1 = cozinha de alto padrão, 0 = demais |
+| `preco_de_venda` | 🎯 Variável alvo |
+
+---
+
+## 1. Conhecendo os dados
+
+Antes de qualquer modelo, precisamos enxergar o que temos. As primeiras linhas do dataset já revelam muito:
+
+```{r}
+#| echo: false
+knitr::kable(
+  head(dados, 6),
+  format = "html",
+  digits = 2,
+  col.names = c("1º Andar (m²)", "2º Andar?", "2º Andar (m²)",
+                "Banheiros", "Garagem (m²)", "Cozinha Excel.", "Preço (R$)"),
+  caption = "Primeiras linhas do dataset"
+)
+```
+
+O dataset tem `r nrow(dados)` imóveis e `r ncol(dados)` variáveis. Sem valores ausentes, o que nos poupa da etapa de limpeza.
+
+
+
+---
+
+## 2. Existe relação entre área e preço?
+
+Antes de calcular qualquer coisa, precisamos **ver** o que está acontecendo. O gráfico de dispersão geralmente é o primeiro passo.
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Cada ponto é um imóvel. A nuvem sobe da esquerda para a direita — sinal claro de tendência linear."
+ggplot(data = dados, aes(x = area_primeiro_andar, y = preco_de_venda)) +
+  geom_point(alpha = 0.6, color = "#2c7bb6", size = 2) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(
+    title = "Preço × Área do Primeiro Andar",
+    x = "Área do primeiro andar (m²)",
+    y = "Preço de venda (R$)"
+  ) +
+  theme_minimal(base_size = 13)
+```
+
+A "nuvem" de pontos sobe da esquerda para a direita. Imóveis maiores tendem a custar mais. Mas será que é uma relação forte?
+
+---
+
+## 3. Medindo a força da relação: o coeficiente de correlação
+
+O **coeficiente de correlação de Pearson** (*r*) quantifica a força e a direção de uma relação linear entre duas variáveis. Ele varia entre −1 e 1:
+
+- **r = 1**: correlação positiva perfeita
+- **r = 0**: sem relação linear
+- **r = −1**: correlação negativa perfeita
+
+```{r}
+#| echo: false
+r <- cor(dados$area_primeiro_andar, dados$preco_de_venda)
+```
+
+No nosso dataset, a correlação entre área e preço é **r = `r round(r, 2)`** , uma correlação positiva moderada a forte. A área é um bom preditor, mas não é o único fator que interessa.
+
+---
+
+## 4. Encontrando a melhor reta: regressão linear simples
+
+Olhando o gráfico, é possivel traçar "uma" reta passando por eles(volte ao gráfico e veja!). Mas qual é a **melhor** reta?  Da estatística, sabemos que esse reta deve minimizar a diferença entre os valores previstos e os valores reais. Essas diferenças se chamam **resíduos**.
+
+A função de regressão é:
+
+$$\hat{Y} = \beta_0 + \beta_1 X$$
+
+Onde $\hat{Y}$ é o preço estimado, $X$ é a área, $\beta_0$ é o intercepto e $\beta_1$ é o quanto o preço sobe a cada 1 m² adicional.
+
+```{r}
+#| echo: false
+dados_rl <- dados %>% select(area_primeiro_andar, preco_de_venda)
+modelo <- lm(preco_de_venda ~ area_primeiro_andar, data = dados_rl)
+b0 <- round(coef(modelo)[1], 0)
+b1 <- round(coef(modelo)[2], 0)
+```
+
+O R encontra automaticamente os coeficientes pelo método dos mínimos quadrados. O resultado do nosso modelo:
+
+$$\text{preço} = `r format(b0, big.mark=".")` + `r format(b1, big.mark=".")` \times \text{área}$$
+
+Ou seja: **cada metro quadrado adicional agrega, em média, R$ `r format(b1, big.mark=".")` ao preço do imóvel**.
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "A reta vermelha é a reta de regressão — a que minimiza a soma dos quadrados dos resíduos."
+ggplot(data = dados_rl, aes(x = area_primeiro_andar, y = preco_de_venda)) +
+  geom_point(alpha = 0.6, color = "#2c7bb6", size = 2) +
+  geom_abline(intercept = coef(modelo)[1], slope = coef(modelo)[2],
+              color = "red", linewidth = 1.2) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(
+    title = "Regressão Linear: Preço × Área",
+    x = "Área do primeiro andar (m²)",
+    y = "Preço de venda (R$)"
+  ) +
+  theme_minimal(base_size = 13)
+```
+
+---
+
+## 5. O modelo é bom? Métricas e testes
+
+### R²:  quanto o modelo explica?
+
+```{r}
+#| echo: false
+r2 <- round(summary(modelo)$r.squared, 2)
+```
+
+O **R²** mede a proporção da variação do preço que o modelo explica. No nosso modelo simples, R² = **`r r2`** , ou seja, a área sozinha explica **`r r2*100`%** da variação dos preços. É um começo promissor, mas há muito mais para avaliar.
+
+### Teste t — a variável realmente importa?
+
+O teste t verifica se o coeficiente da área é estatisticamente diferente de zero:
+
+- **H₀**: a área não afeta o preço (coeficiente = 0)
+- **H₁**: a área afeta o preço (coeficiente ≠ 0)
+
+```{r}
+#| echo: false
+p_val <- coef(summary(modelo))["area_primeiro_andar", "Pr(>|t|)"]
+```
+
+O p-valor obtido é `r format(p_val, scientific = TRUE, digits = 2)` — essencialmente zero. **Rejeitamos H₀ com segurança**: a área tem efeito real e significativo sobre o preço.
+
+### Análise de resíduos — o modelo está bem calibrado?
+
+Todo modelo de regressão tem duas premissas básicas sobre os resíduos:
+
+1. **Média igual a zero**: os erros não têm viés sistemático
+2. **Homocedasticidade**: a variância dos erros é constante
+
+```{r}
+#| echo: false
+dados_rl$previsao <- predict(modelo, newdata = dados_rl)
+dados_rl$residuo  <- resid(modelo)
+media_res <- round(mean(dados_rl$residuo), 4)
+```
+
+A média dos resíduos é **`r media_res`** , ou seja, zero. ✅
+
+Mas observe o gráfico abaixo. Ele conta uma história importante. 
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Observe a abertura da nuvem conforme o preço estimado cresce — um padrão de funil clássico. O modelo é preciso para imóveis baratos e impreciso para imóveis de alto valor."
+ggplot(data = dados_rl, aes(x = previsao, y = residuo)) +
+  geom_point(alpha = 0.6, color = "#2c7bb6", size = 2) +
+  geom_hline(yintercept = 0, color = "red", linetype = "dashed") +
+  scale_x_continuous(labels = scales::comma) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(
+    title = "Resíduos × Previsão",
+    x = "Preço Estimado (R$)",
+    y = "Resíduo (R$)"
+  ) +
+  theme_minimal(base_size = 13)
+```
+
+Os pontos parecem estar se afastando da linha pontilhada vermelha conforme o preço aumenta.
+Depois voltamos a isso.
+
+---
+
+## 6. Indo além: regressão múltipla
+
+A área explica `r r2*100`% dos preços. E o restante? Outras características do imóvel estão escondidas aí. A regressão múltipla permite incorporar todas elas simultaneamente.
+
+Primeiro, um mapa de calor das correlações para identificar as variáveis mais promissoras:
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Quanto mais vermelho, maior a correlação positiva com o preço de venda."
+correlacao <- cor(dados[, c(
+  'area_primeiro_andar', 'area_segundo_andar',
+  'quantidade_banheiros', 'capacidade_carros_garagem',
+  'qualidade_da_cozinha_Excelente', 'preco_de_venda'
+)])
+
+corrplot(correlacao, method = "color", type = "upper",
+         col = colorRampPalette(c("blue", "white", "red"))(200),
+         tl.cex = 0.8, tl.col = "black",
+         addCoef.col = "black", number.cex = 0.7)
+```
+
+Com o mapa de calor em mãos, construímos modelos progressivamente mais ricos e comparamos o **RSE** (Erro Padrão Residual) de cada um, lembre-se que quanto menor, melhor:
+
+```{r}
+#| echo: false
+modelo_1 <- lm(preco_de_venda ~ area_primeiro_andar + area_segundo_andar, data = dados)
+modelo_2 <- lm(preco_de_venda ~ area_primeiro_andar + area_segundo_andar + quantidade_banheiros, data = dados)
+modelo_3 <- lm(preco_de_venda ~ area_primeiro_andar + area_segundo_andar + quantidade_banheiros + capacidade_carros_garagem, data = dados)
+modelo_multi <- lm(preco_de_venda ~ area_primeiro_andar + area_segundo_andar + quantidade_banheiros + capacidade_carros_garagem + qualidade_da_cozinha_Excelente, data = dados)
+
+comparacao <- data.frame(
+  Modelo = c("Modelo 1 (+ 2º andar)", "Modelo 2 (+ banheiros)",
+             "Modelo 3 (+ garagem)", "Modelo Final (+ cozinha)"),
+  Variaveis = c(2, 3, 4, 5),
+  R2 = round(c(summary(modelo_1)$r.squared, summary(modelo_2)$r.squared,
+               summary(modelo_3)$r.squared, summary(modelo_multi)$r.squared), 3),
+  RSE = round(c(summary(modelo_1)$sigma, summary(modelo_2)$sigma,
+                summary(modelo_3)$sigma, summary(modelo_multi)$sigma), 0)
+)
+
+knitr::kable(comparacao, format = "html",
+             col.names = c("Modelo", "Variáveis", "R²", "RSE (R$)"),
+             caption = "Comparação dos modelos — cada variável adicionada reduz o erro")
+```
+
+O modelo final, com 5 variáveis, apresenta o **maior R²** e o **menor RSE**. É o mais preciso do conjunto.
+
+### A equação do modelo final
+
+Assim como fizemos na regressão simples, podemos escrever a equação completa com os coeficientes reais:
+
+```{r}
+#| echo: false
+cf <- round(coef(modelo_multi), 0)
+```
+
+$$\hat{Y} = `r format(cf[1], big.mark=".")` + `r format(cf[2], big.mark=".")` \cdot X_{\text{1º andar}} + `r format(cf[3], big.mark=".")` \cdot X_{\text{2º andar}} + `r format(cf[4], big.mark=".")` \cdot X_{\text{banheiros}} + `r format(cf[5], big.mark=".")` \cdot X_{\text{garagem}} + `r format(cf[6], big.mark=".")` \cdot X_{\text{cozinha}}$$
+
+Lendo a equação:
+
+- Cada m² do **1º andar** agrega R$ `r format(cf[2], big.mark=".")` ao preço
+- Cada m² do **2º andar** agrega R$ `r format(cf[3], big.mark=".")` ao preço
+- Cada **banheiro** adicional agrega R$ `r format(cf[4], big.mark=".")` ao preço
+- Cada m² de **garagem** agrega R$ `r format(cf[5], big.mark=".")` ao preço
+- Uma **cozinha excelente** agrega R$ `r format(cf[6], big.mark=".")` ao preço — mantendo tudo mais constante
+
+---
+
+## 7. Validando o modelo final: teste F
+
+Na regressão simples usamos o teste *t* para uma variável. Na regressão múltipla, o **teste F** valida o conjunto todo:
+
+- **H₀**: nenhuma variável afeta o preço
+- **H₁**: pelo menos uma variável afeta o preço
+
+```{r}
+#| echo: false
+estat_F   <- summary(modelo_multi)$fstatistic
+p_valor_F <- pf(estat_F[1], estat_F[2], estat_F[3], lower.tail = FALSE)
+```
+
+O p-valor do teste F é essencialmente zero. 
+**O conjunto de variáveis tem poder explicativo real sobre o preço.** ✅
+
+---
+
+## 8. Prevendo preços de imóveis novos
+
+Agora a parte mais concreta: usar o modelo para precificar imóveis que ele nunca viu.
+
+```{r}
+#| echo: false
+casas_novas <- read.csv('novas_casas_extra.csv', sep = ';')
+casas_novas$previsao <- predict(modelo_multi, newdata = casas_novas)
+
+knitr::kable(
+  casas_novas %>% select(-Casa) %>%
+    mutate(previsao = round(previsao, 0)),
+  format = "html",
+  digits = 2,
+  col.names = c("1º Andar (m²)", "2º Andar?", "2º Andar (m²)",
+                "Banheiros", "Garagem (m²)", "Cozinha Excel.", "Preço Estimado (R$)"),
+  caption = "Previsão de preços para imóveis novos"
+)
+```
+
+---
+
+## O que aprendemos
+
+Partimos de uma pergunta simples — *quanto vale uma casa?* — e chegamos a um pipeline completo:
+
+1. **Exploração visual** para verificar linearidade
+2. **Correlação de Pearson** para medir força das relações
+3. **Regressão simples** para encontrar a melhor reta
+4. **Métricas** (R², RSE) e testes (t, F) para validar o modelo
+5. **Análise de resíduos** para checar premissas
+6. **Regressão múltipla** para incorporar mais variáveis
+7. **Previsão** de novos valores
+
+Regressão linear não é apenas uma fórmula. É um processo de perguntas e respostas: o que influencia o preço? Com que força? O modelo está errando de forma sistemática? Essas perguntas guiam o cientista de dados em direção a modelos cada vez mais honestos e úteis.
+
+---
+
+## Limitações — o modelo tem problemas, e tudo bem
+
+Eu poderia encerrar o artigo no ponto anterior e fingir que está tudo certo. Mas não estaria sendo honesto com você.
+
+Volte ao gráfico de resíduos da regressão simples. Observe com calma o que acontece da esquerda para a direita:
+
+- Para **imóveis baratos** (preço estimado entre 400k e 700k): os resíduos ficam concentrados em torno de zero. O modelo acerta bem.
+- Para **imóveis de alto valor** (acima de 1 milhão): a dispersão explode. Os erros chegam a ±1.000.000. O modelo se perde.
+
+Isso tem nome: **heterocedasticidade**. O padrão de funil clássico. A variância dos erros não é constante — ela cresce junto com o valor do imóvel.
+
+Por que isso acontece? Pense bem. Imóveis baratos são relativamente previsíveis: área e número de banheiros já explicam boa parte do preço. Imóveis de luxo são outra história. Acabamento, localização exata, arquitetura, vista, história do imóvel, características que nosso modelo simplesmente não enxerga. A incerteza cresce porque o modelo não tem as informações certas para esse segmento.
+
+**O modelo é bom para imóveis comuns. Para imóveis de luxo, ele chuta.**
+
+O que poderia melhorar?
+
+- **Transformação logarítmica**: aplicar `log(preco_de_venda)` como variável dependente. Em dados de preço, erros percentuais costumam ser mais estáveis que erros absolutos. É a solução mais clássica para esse padrão.
+- **Mais variáveis de qualidade**: acabamento, localização, idade do imóvel. O modelo atual não tem nada que diferencie um apartamento simples de um imóvel de alto padrão além da cozinha.
+- **Modelos não-lineares**: Se o foco for precisão nas previsões, Random Forest ou Gradient Boosting capturam relações mais complexas que a reta não consegue.
+
+Mas sabe o que é mais importante do que qualquer uma dessas soluções técnicas? **Saber identificar o problema.** Um cientista de dados que entrega um modelo de regressão linear sem olhar o gráfico de resíduos é como um médico que prescreve o remédio sem ler o resultado do exame.
+
+Isso é o que separa um cientista de dados de um apertador de botões.
+
+---
+
+
