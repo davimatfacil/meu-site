@@ -96,7 +96,7 @@ Reflexões e explicações sobre matemática aplicada e aplicações reais.
 ### [Quanto Vale uma Casa? A Estatística que Responde](precificando-imoveis.html)
 *Regressão | Estatística | R*
 
-Como construir um modelo de regressão múltipla para precificar imóveis — da correlação até a previsão, passo a passo em R.
+Como construir um modelo de regressão múltipla para precificar imóveis: da correlação até a previsão.
 
 [Ler artigo →](precificando-imoveis.html){.btn .btn-outline-primary}
 :::
