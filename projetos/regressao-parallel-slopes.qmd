@@ -617,7 +617,7 @@ ggplot(blood_pressure, aes(x = age, y = systolic_bp, color = gender)) +
 **Website:** [davimatfacil.github.io/meu-site](https://davimatfacil.github.io/meu-site/)  
 **Data:** Março 2026
 
-*Este projeto é exclusivamente educacional e utiliza dados simulados. Desenvolvido como parte do curso "Intermediate Regression in R" (DataCamp).*
+*Este projeto é exclusivamente educacional e utiliza dados simulados. Desenvolvido para mostrar como usar regressão linear de inclinação paralelas*
 :::
 
  
