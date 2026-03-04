@@ -1,0 +1,623 @@
+---
+title: "Regressão de Inclinações Paralelas"
+subtitle: "Predição de Pressão Arterial por Idade e Gênero"
+author: "Davi Rocha"
+date: today
+lang: pt
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    toc-title: "Sumário"
+    code-fold: false
+    code-tools: true
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    smooth-scroll: true
+    number-sections: true
+---
+
+::: {.callout-warning}
+## ⚠️ IMPORTANTE: Dados Simulados
+
+Este projeto utiliza **dados fictícios** criados exclusivamente para fins educacionais e demonstração de técnicas estatísticas. As conclusões **NÃO devem ser aplicadas** em contextos clínicos reais sem validação adequada em dados autênticos.
+:::
+
+# Introdução {#sec-intro}
+
+## Contexto Clínico
+
+A monitorização da pressão arterial sistólica (PAS) é um dos pilares da medicina preventiva. A capacidade de prever trajetórias de PAS permite a identificação precoce de indivíduos em risco de desenvolver hipertensão, definida clinicamente por valores persistentes acima de 140/90 mmHg.
+
+O envelhecimento está associado ao aumento da rigidez arterial, o que eleva a PAS de forma progressiva. Além disso, variáveis demográficas como o gênero desempenham um papel crucial devido a diferenças hormonais e fisiológicas, exigindo modelos que considerem ambos os fatores simultaneamente para uma triagem eficaz.
+
+## Objetivos
+
+Este projeto visa:
+
+1. Modelar a relação linear entre idade e pressão arterial sistólica
+2. Comparar o impacto do gênero na linha de base da pressão arterial (intercepto)
+3. Fornecer uma ferramenta de predição baseada em **regressão de inclinações paralelas** (*parallel slopes*)
+4. Avaliar a performance preditiva utilizando métricas robustas
+
+---
+
+# Análise Exploratória de Dados {#sec-eda}
+
+## Carregamento e Preparação
+
+```{r setup, message=FALSE, warning=FALSE}
+# Pacotes necessários
+library(tidyverse)
+library(broom)
+library(moderndive)
+library(knitr)
+
+# Desativa warnings e mensagens globalmente
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  echo = TRUE,
+  fig.align = "center"
+)
+
+# Configuração do tema para gráficos
+theme_set(theme_minimal(base_size = 12))
+
+# Configuração para kable
+options(knitr.kable.NA = '')
+options(knitr.table.format = "html")
+
+# Criar dataset simulado
+set.seed(42)
+blood_pressure <- tibble(
+  age = c(25, 30, 35, 40, 45, 50, 55, 60, 65, 70,
+          28, 33, 38, 43, 48, 53, 58, 63, 68, 73,
+          26, 31, 36, 41, 46, 51, 56, 61, 66, 71),
+  gender = rep(c('Male', 'Female', 'Male'), each = 10),
+  systolic_bp = c(118, 120, 125, 128, 132, 135, 140, 145, 150, 155,
+                  110, 115, 118, 122, 125, 130, 135, 138, 142, 148,
+                  120, 122, 127, 130, 135, 138, 142, 148, 152, 158)
+)
+
+# Visualizar estrutura
+glimpse(blood_pressure)
+```
+
+## Estatísticas Descritivas
+
+```{r stats-desc}
+stats_desc <- blood_pressure %>%
+  group_by(gender) %>%
+  summarise(
+    Média = mean(systolic_bp),
+    Mediana = median(systolic_bp),
+    `Desvio Padrão` = sd(systolic_bp),
+    Mínimo = min(systolic_bp),
+    Máximo = max(systolic_bp),
+    Amplitude = max(systolic_bp) - min(systolic_bp),
+    `CV (%)` = (sd(systolic_bp) / mean(systolic_bp)) * 100,
+    n = n()
+  )
+
+knitr::kable(stats_desc, digits = 2, caption = "Estatísticas descritivas por gênero", format = "html")
+```
+
+::: {.callout-note}
+## Interpretação da Variabilidade
+
+Ambos os grupos têm **desvio padrão idêntico** (12.4 mmHg), indicando mesma variabilidade absoluta. Porém, o **coeficiente de variação** revela que o sexo feminino apresenta maior variabilidade **relativa** (9.7% vs 9.1%), significando que o sexo feminino tem pressão um pouco menos consistente (diferença de 6.6%).
+
+A amplitude similar (38 vs 40 mmHg) confirma que os dados têm variação semelhante. A variabilidade moderada (~9% CV) em ambos os grupos sugere que idade e gênero podem ser bons preditores, pois os dados não apresentam dispersão excessiva.
+:::
+
+## Visualização Exploratória
+
+### Gráfico de Dispersão
+
+```{r scatter-plot, fig.width=8, fig.height=5, fig.cap="Relação entre idade e pressão arterial sistólica, colorida por gênero"}
+ggplot(blood_pressure, aes(x = age, y = systolic_bp, color = gender)) +
+  geom_point(size = 3, alpha = 0.7) +
+  geom_smooth(method = "lm", se = FALSE, linewidth = 1) +
+  scale_color_manual(
+    values = c("Female" = "#E69F00", "Male" = "#56B4E9"),
+    labels = c("Feminino", "Masculino")
+  ) +
+  labs(
+    title = "Relação Pressão Sistólica vs. Idade por Gênero",
+    x = "Idade (anos)",
+    y = "Pressão Arterial Sistólica (mmHg)",
+    color = "Gênero"
+  ) +
+  theme(legend.position = "bottom")
+```
+
+### Boxplot por Gênero
+
+```{r boxplot, fig.width=6, fig.height=5, fig.cap="Distribuição da pressão arterial por gênero"}
+ggplot(blood_pressure, aes(x = gender, y = systolic_bp, fill = gender)) +
+  geom_boxplot(alpha = 0.6, show.legend = FALSE) +
+  stat_summary(
+    fun = mean, 
+    geom = "point", 
+    shape = 18, 
+    size = 4, 
+    color = "red"
+  ) +
+  scale_fill_manual(values = c("Female" = "#E69F00", "Male" = "#56B4E9")) +
+  scale_x_discrete(labels = c("Female" = "Feminino", "Male" = "Masculino")) +
+  labs(
+    title = "Distribuição da PAS por Gênero",
+    subtitle = "Losango vermelho indica a média",
+    x = "Gênero",
+    y = "Pressão Arterial Sistólica (mmHg)"
+  )
+```
+
+::: {.callout-tip}
+## Observação Visual
+
+A idade parece ser o preditor mais forte, pois a inclinação positiva é nítida no gráfico de dispersão. No entanto, o gênero atua como um **"deslocador"**, sugerindo que homens e mulheres envelhecem com taxas similares de aumento, mas partem de níveis diferentes.
+:::
+
+---
+
+# Modelagem Estatística {#sec-modeling}
+
+## Modelo 1: Apenas Idade
+
+```{r model-age}
+mdl_age <- lm(systolic_bp ~ age, data = blood_pressure)
+summary(mdl_age)
+```
+
+::: {.callout-note}
+## Interpretação
+
+A cada ano adicional de idade, a pressão arterial sistólica aumenta, em média, **0.80 mmHg** (p < 0.001). O modelo explica **85.7%** da variação nos dados (R² = 0.857).
+:::
+
+## Modelo 2: Apenas Gênero
+
+```{r model-gender}
+mdl_gender <- lm(systolic_bp ~ gender + 0, data = blood_pressure)
+coefficients(mdl_gender)
+
+# Calcular diferença
+diferenca <- coefficients(mdl_gender)[2] - coefficients(mdl_gender)[1]
+cat("Diferença entre gêneros:", round(diferenca, 2), "mmHg\n")
+```
+
+::: {.callout-warning}
+## Observação Crítica sobre R²
+
+O modelo sem intercepto (`+ 0`) apresenta R² = 0.992, mas isso é **enganoso** devido à parametrização. A métrica confiável é o **RSE (sigma)** = 12.42 mmHg, que indica erro **2.5x maior** que o modelo de idade.
+:::
+
+## Modelo 3: Inclinações Paralelas (Idade + Gênero)
+
+```{r model-both}
+mdl_both <- lm(systolic_bp ~ age + gender + 0, data = blood_pressure)
+summary(mdl_both)
+```
+
+### Visualização do Modelo Completo
+
+```{r parallel-slopes, fig.width=9, fig.height=6, fig.cap="Modelo de inclinações paralelas: mesma taxa de envelhecimento, interceptos diferentes"}
+ggplot(blood_pressure, aes(x = age, y = systolic_bp, color = gender)) +
+  geom_point(size = 3, alpha = 0.6) +
+  geom_parallel_slopes(se = FALSE, linewidth = 1.2) +
+  geom_hline(
+    yintercept = 140, 
+    linetype = "dashed", 
+    color = "red", 
+    linewidth = 1
+  ) +
+  annotate(
+    "text", 
+    x = 75, 
+    y = 142, 
+    label = "Hipertensão (140 mmHg)", 
+    color = "red", 
+    size = 3.5,
+    hjust = 1
+  ) +
+  scale_color_manual(
+    values = c("Female" = "#E69F00", "Male" = "#56B4E9"),
+    labels = c("Feminino", "Masculino")
+  ) +
+  labs(
+    title = "Modelo de Inclinações Paralelas",
+    subtitle = "Mesma inclinação (0.831 mmHg/ano), interceptos diferentes por gênero",
+    x = "Idade (anos)",
+    y = "Pressão Arterial Sistólica (mmHg)",
+    color = "Gênero"
+  ) +
+  theme(legend.position = "bottom")
+```
+
+::: {.callout-important}
+## Interpretação Clínica
+
+**Coeficientes do modelo:**
+
+- **Efeito da idade:** 0.831 mmHg/ano (aumentou ligeiramente vs modelo simples)
+- **Intercepto Mulheres:** 86.3 mmHg
+- **Intercepto Homens:** 96.1 mmHg
+- **Diferença entre gêneros:** 96.1 - 86.3 = **9.8 mmHg**
+
+**Conclusão:** Homens apresentam pressão arterial aproximadamente **10 mmHg superior** às mulheres em qualquer idade. Apesar dessa diferença basal, o **efeito do envelhecimento é idêntico** em ambos os grupos: a cada ano de vida, a pressão aumenta 0.831 mmHg.
+:::
+
+## Comparação de Performance dos Modelos
+
+```{r comparison}
+metricas <- bind_rows(
+  glance(mdl_age) %>% mutate(Modelo = "Idade"),
+  glance(mdl_gender) %>% mutate(Modelo = "Gênero*"),
+  glance(mdl_both) %>% mutate(Modelo = "Ambos")
+) %>%
+  select(Modelo, r.squared, adj.r.squared, sigma) %>%
+  rename(
+    `R²` = r.squared,
+    `R² Ajustado` = adj.r.squared,
+    `RSE (sigma)` = sigma
+  )
+
+knitr::kable(metricas, digits = 4, caption = "Comparação de métricas de performance", format = "html")
+```
+
+\* *R² inflado artificialmente devido ao uso de `+ 0` (sem intercepto). Não comparável diretamente.*
+
+::: {.callout-tip collapse="true"}
+## Expandir: Discussão Crítica sobre R²
+
+### Por que o R² do modelo de gênero é enganoso?
+
+O modelo de gênero apresenta R² = 0.992, mas isso é **enganoso** devido ao uso de `+ 0` (sem intercepto). A métrica confiável para comparação é o **RSE (sigma)**:
+
+- **Idade sozinha:** erro de ±4.9 mmHg (BOM)
+- **Gênero sozinho:** erro de ±12.4 mmHg (RUIM - 2.5x pior!)
+- **Ambos:** erro de ±1.2 mmHg (EXCELENTE - 4x melhor!)
+
+### Verificação
+
+```{r r2-check}
+# Modelo de gênero COM intercepto
+mdl_gender_int <- lm(systolic_bp ~ gender, data = blood_pressure)
+
+cat("R² sem intercepto (+0):", glance(mdl_gender)$r.squared, "\n")
+cat("R² com intercepto:     ", glance(mdl_gender_int)$r.squared, "\n")
+cat("\nRSE sem intercepto (+0):", glance(mdl_gender)$sigma, "\n")
+cat("RSE com intercepto:     ", glance(mdl_gender_int)$sigma, "\n")
+```
+
+**Revelação:** R² despenca de 99.2% → 8.4% quando adiciona intercepto, mas o RSE permanece idêntico (12.42). Isso prova que o R² alto era **ilusão** causada pelo `+ 0`.
+:::
+
+### Melhoria Quantitativa
+
+```{r improvement}
+reducao_erro <- (glance(mdl_age)$sigma - glance(mdl_both)$sigma) / 
+                glance(mdl_age)$sigma * 100
+
+cat("Redução de erro ao adicionar gênero:", round(reducao_erro, 1), "%\n")
+```
+
+O modelo combinado reduz o erro em **74.5%** comparado ao modelo só de idade! 🎉
+
+---
+
+# Predições Clínicas {#sec-predictions}
+
+## Casos Específicos
+
+Vamos simular predições para 4 perfis típicos de pacientes:
+
+```{r specific-cases}
+pacientes_exemplo <- tibble(
+  Perfil = c("Mulher jovem", "Homem jovem", "Mulher idosa", "Homem idoso"),
+  age = c(35, 35, 65, 65),
+  gender = c("Female", "Male", "Female", "Male")
+) %>%
+  mutate(
+    `PAS Predita` = predict(mdl_both, newdata = .),
+    Classificação = case_when(
+      `PAS Predita` < 130 ~ "Normal",
+      `PAS Predita` >= 130 & `PAS Predita` < 140 ~ "Elevada",
+      `PAS Predita` >= 140 ~ "Hipertensão"
+    )
+  )
+
+knitr::kable(pacientes_exemplo, digits = 1, caption = "Predições para casos específicos", format = "html")
+```
+
+::: {.callout-note}
+## Observação Clínica
+
+O modelo prevê que pacientes acima de 60 anos, especialmente homens, têm alta probabilidade de apresentar pressão arterial na faixa de hipertensão (≥140 mmHg), necessitando acompanhamento médico regular.
+:::
+
+## Ferramenta de Triagem
+
+Criamos um grid de predições para auxiliar na triagem em diferentes idades:
+
+```{r prediction-grid, fig.width=10, fig.height=6, fig.cap="Ferramenta de triagem visual para idades 25-75 anos"}
+# Grid de predições
+prediction_grid <- expand_grid(
+  age = seq(25, 75, by = 5),
+  gender = c("Female", "Male")
+) %>%
+  mutate(systolic_bp_pred = predict(mdl_both, newdata = .))
+
+# Visualização completa
+ggplot(blood_pressure, aes(x = age, y = systolic_bp, color = gender)) +
+  geom_point(size = 3, alpha = 0.6, shape = 16) +
+  geom_parallel_slopes(se = FALSE, linewidth = 1.3) +
+  geom_hline(
+    yintercept = 140, 
+    linetype = "dashed", 
+    color = "red", 
+    linewidth = 1.2
+  ) +
+  geom_point(
+    data = prediction_grid, 
+    aes(y = systolic_bp_pred), 
+    shape = 15, 
+    size = 2.5, 
+    alpha = 0.5
+  ) +
+  annotate(
+    "rect",
+    xmin = 24, xmax = 76, ymin = 140, ymax = Inf,
+    alpha = 0.05, fill = "red"
+  ) +
+  annotate(
+    "text", 
+    x = 50, 
+    y = 155, 
+    label = "Zona de Hipertensão", 
+    color = "darkred", 
+    size = 4,
+    fontface = "bold"
+  ) +
+  scale_color_manual(
+    values = c("Female" = "#E69F00", "Male" = "#56B4E9"),
+    labels = c("Feminino", "Masculino")
+  ) +
+  scale_x_continuous(breaks = seq(25, 75, 10)) +
+  labs(
+    title = "Ferramenta de Triagem de Pressão Arterial",
+    subtitle = "Quadrados: predições do modelo | Linha vermelha: limite de hipertensão (140 mmHg)",
+    x = "Idade (anos)",
+    y = "Pressão Arterial Sistólica (mmHg)",
+    color = "Gênero"
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(size = 14, face = "bold"),
+    plot.subtitle = element_text(size = 10)
+  )
+```
+
+---
+
+# Validação do Modelo {#sec-validation}
+
+## Análise de Resíduos
+
+```{r residuals-prep}
+blood_pressure_residuals <- blood_pressure %>%
+  mutate(
+    fitted = fitted(mdl_both),
+    residuals = residuals(mdl_both)
+  )
+```
+
+```{r residual-plot, fig.width=8, fig.height=5, fig.cap="Gráfico de resíduos vs valores ajustados"}
+ggplot(blood_pressure_residuals, aes(x = fitted, y = residuals)) +
+  geom_point(size = 3, alpha = 0.7) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red", linewidth = 1) +
+  geom_smooth(method = "loess", se = FALSE, color = "blue", linewidth = 0.8) +
+  labs(
+    title = "Análise de Resíduos",
+    subtitle = "Distribuição aleatória confirma adequação do modelo linear",
+    x = "Valores Ajustados (mmHg)",
+    y = "Resíduos (mmHg)"
+  ) +
+  theme_minimal()
+```
+
+::: {.callout-note}
+## Interpretação dos Resíduos
+
+O gráfico de resíduos sugere que o modelo linear captura a maior parte da variabilidade, embora apresente nuances estruturais importantes:
+
+1. **Tendência residual não-linear:** A linha de suavização (LOESS, em azul) apresenta uma leve curvatura em forma de "U", indicando que o modelo linear pode estar subestimando valores nas extremidades (idades mais jovens e mais avançadas) e superestimando no centro. Isso sugere uma leve não-linearidade não capturada, possivelmente remediável com um termo quadrático ($\text{idade}^2$) ou de interação ($\text{idade} \times \text{gênero}$).
+
+2. **Homocedasticidade satisfatória:** A dispersão vertical dos resíduos mantém-se razoavelmente constante ao longo do eixo dos valores ajustados. Não há um padrão de "funil" evidente, o que valida a suposição de variância homogênea para fins práticos.
+
+3. **Magnitude clinicamente aceitável:** Apesar do desvio estrutural mencionado no item 1, a magnitude dos erros permanece clinicamente baixa. Com resíduos contidos em ±3 mmHg e um erro padrão residual (RSE) de 1.25 mmHg (< 2% da média de ~132 mmHg), o modelo possui alta precisão preditiva adequada para triagem clínica.
+
+4. **Pontos de atenção:** Observam-se dois casos com resíduos mais elevados (> 2 e < -2 mmHg). Embora não invalidem o modelo, esses casos representam potenciais pontos de influência ou variações biológicas atípicas que merecem investigação adicional em estudos futuros.
+
+**Conclusão:** O modelo de inclinações paralelas é **funcionalmente adequado e robusto** para uso em triagem clínica, embora a relação exata entre idade e pressão arterial possa apresentar uma complexidade adicional (aceleração não-linear com a idade) que uma função linear simples não descreve integralmente. Para aplicações de alta precisão, modelos não-lineares (ex: splines ou polinômios) poderiam capturar melhor essa curvatura.
+:::
+
+## Casos com Maior Erro
+
+```{r extreme-cases}
+casos_extremos <- blood_pressure_residuals %>%
+  arrange(desc(abs(residuals))) %>%
+  select(age, gender, systolic_bp, fitted, residuals) %>%
+  head(3) %>%
+  mutate(
+    gender = recode(gender, "Female" = "Feminino", "Male" = "Masculino"),
+    residuals = round(residuals, 2),
+    fitted = round(fitted, 1),
+    age = as.integer(age)
+  ) %>%
+  rename(
+    Idade = age,
+    Gênero = gender,
+    `PAS Real` = systolic_bp,
+    `PAS Predita` = fitted,
+    Resíduo = residuals
+  )
+
+knitr::kable(casos_extremos, caption = "Três casos com maior erro de predição", format = "html")
+```
+
+**Análise:** Mesmo nos casos com maior erro, os resíduos permanecem abaixo de **3 mmHg**, o que é clinicamente aceitável e não compromete a utilidade do modelo para triagem.
+
+---
+
+# Conclusões {#sec-conclusions}
+
+## Principais Achados
+
+1. **Idade como preditor dominante:** A cada ano de vida, a PAS aumenta aproximadamente **0.83 mmHg**, refletindo o processo natural de envelhecimento vascular e aumento da rigidez arterial.
+
+2. **Efeito do gênero como deslocador:** Homens apresentam pressão arterial cerca de **10 mmHg superior** às mulheres na mesma faixa etária, mesmo com taxas de envelhecimento similares (inclinações paralelas). Isso pode estar relacionado a diferenças hormonais, composição corporal e fatores fisiológicos.
+
+3. **Excelente acurácia preditiva:** O modelo combinado (idade + gênero) apresenta erro médio de apenas **±1.25 mmHg**, adequado para aplicações de triagem clínica em larga escala.
+
+4. **Melhoria substancial:** Incluir gênero no modelo reduz o erro em **74.5%** comparado ao uso isolado de idade, demonstrando a importância de considerar características demográficas na predição.
+
+## Aplicações Práticas
+
+O modelo desenvolvido pode ser utilizado para:
+
+- **Identificação precoce:** Detectar pacientes em risco de desenvolver hipertensão antes que sintomas apareçam
+- **Estratificação de risco:** Priorizar grupos que necessitam rastreamento mais frequente
+- **Educação de pacientes:** Demonstrar trajetórias esperadas de PAS ao longo da vida
+- **Alocação de recursos:** Auxiliar na distribuição eficiente de recursos de saúde pública
+
+## Limitações Importantes
+
+::: {.callout-warning}
+## Limitações Críticas
+
+**1. Dados Simulados:** Este projeto utiliza **dados fictícios** criados para fins exclusivamente educacionais. As relações lineares perfeitas observadas não refletem a complexidade biológica presente em dados reais.
+
+**2. Tamanho Amostral Reduzido:** Apenas 30 pacientes fictícios foram incluídos, quantidade insuficiente para generalização populacional.
+
+**3. Variáveis Omitidas:** Fatores críticos foram excluídos:
+
+- Índice de Massa Corporal (IMC)
+- Histórico familiar de hipertensão
+- Uso de medicamentos anti-hipertensivos
+- Comorbidades (diabetes, doença renal, etc.)
+- Hábitos de vida (dieta, exercício, tabagismo)
+- Fatores socioeconômicos
+- Etnia e ancestralidade
+
+**4. Linearidade Simplificada:** A relação real entre idade e PAS pode ser não-linear, especialmente em idades avançadas.
+
+**5. Ausência de Validação Externa:** O modelo não foi testado em amostra independente.
+:::
+
+## Abordagens Alternativas
+
+Este projeto utilizou **regressão de inclinações paralelas**, mas existem outras técnicas válidas:
+
+- **Regressão com interação:** Permitir que a taxa de envelhecimento (slope) difira entre gêneros
+- **Modelos não-lineares:** Usar polinômios, splines ou GAM para capturar acelerações
+- **Regressão quantílica:** Modelar diferentes percentis (não apenas a média)
+- **Modelos mistos hierárquicos:** Incorporar estruturas de agrupamento
+- **Machine Learning:** Gradient Boosting, Random Forests para relações complexas
+
+**A escolha depende de:** Questão clínica específica, dados disponíveis, tamanho amostral, requisitos de interpretabilidade.
+
+---
+
+# Referências {#sec-references}
+
+- Ismay, C., & Kim, A. Y. (2019). *Statistical Inference via Data Science: A ModernDive into R and the Tidyverse*. CRC Press.
+
+- DataCamp. (2024). *Intermediate Regression in R*. [Curso Online]
+
+- James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning with Applications in R* (2nd ed.). Springer.
+
+- Wickham, H., & Grolemund, G. (2017). *R for Data Science*. O'Reilly Media.
+
+---
+
+# Apêndice: Código Completo {#sec-appendix}
+
+## Fórmulas dos Modelos
+
+**Modelo 1 (Idade):**
+$$\text{PAS} = 94.14 + 0.805 \times \text{Idade}$$
+
+**Modelo 2 (Gênero):**
+$$\text{PAS}_{\text{Mulheres}} = 128.3 \text{ mmHg}$$
+$$\text{PAS}_{\text{Homens}} = 136.0 \text{ mmHg}$$
+
+**Modelo 3 (Inclinações Paralelas):**
+$$\text{PAS}_{\text{Mulheres}} = 86.35 + 0.831 \times \text{Idade}$$
+$$\text{PAS}_{\text{Homens}} = 96.12 + 0.831 \times \text{Idade}$$
+
+## Reprodução Completa
+
+```{r reproducao, eval=FALSE}
+# Pacotes necessários
+library(tidyverse)
+library(broom)
+library(moderndive)
+
+# 1. Criar dados
+set.seed(42)
+blood_pressure <- tibble(
+  age = c(25, 30, 35, 40, 45, 50, 55, 60, 65, 70,
+          28, 33, 38, 43, 48, 53, 58, 63, 68, 73,
+          26, 31, 36, 41, 46, 51, 56, 61, 66, 71),
+  gender = rep(c('Male', 'Female', 'Male'), each = 10),
+  systolic_bp = c(118, 120, 125, 128, 132, 135, 140, 145, 150, 155,
+                  110, 115, 118, 122, 125, 130, 135, 138, 142, 148,
+                  120, 122, 127, 130, 135, 138, 142, 148, 152, 158)
+)
+
+# 2. Modelos
+mdl_age <- lm(systolic_bp ~ age, data = blood_pressure)
+mdl_gender <- lm(systolic_bp ~ gender + 0, data = blood_pressure)
+mdl_both <- lm(systolic_bp ~ age + gender + 0, data = blood_pressure)
+
+# 3. Comparação
+metricas <- bind_rows(
+  glance(mdl_age) %>% mutate(model = "Idade"),
+  glance(mdl_gender) %>% mutate(model = "Gênero"),
+  glance(mdl_both) %>% mutate(model = "Ambos")
+) %>%
+  select(model, r.squared, adj.r.squared, sigma)
+
+# 4. Visualização final
+ggplot(blood_pressure, aes(x = age, y = systolic_bp, color = gender)) +
+  geom_point(size = 3, alpha = 0.6) +
+  geom_parallel_slopes(se = FALSE, linewidth = 1.2) +
+  geom_hline(yintercept = 140, linetype = "dashed", color = "red") +
+  scale_color_manual(values = c("Female" = "#E69F00", "Male" = "#56B4E9")) +
+  labs(
+    title = "Modelo Preditivo de Pressão Arterial",
+    x = "Idade (anos)", 
+    y = "PAS (mmHg)", 
+    color = "Gênero"
+  ) +
+  theme_minimal()
+```
+
+---
+
+::: {.callout-note appearance="simple"}
+## 📧 Contato
+
+**Projeto desenvolvido por:** Davi Rocha  
+**Website:** [davimatfacil.github.io/meu-site](https://davimatfacil.github.io/meu-site/)  
+**Data:** Março 2026
+
+*Este projeto é exclusivamente educacional e utiliza dados simulados. Desenvolvido como parte do curso "Intermediate Regression in R" (DataCamp).*
+:::
+
+ 

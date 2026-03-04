@@ -19,5 +19,8 @@
   },
   "ensino/precificando-imoveis.qmd": {
     "precificando-imoveis.html": "38944f2a"
+  },
+  "projetos/regressao-parallel-slopes.qmd": {
+    "regressao-parallel-slopes.html": "195781bd"
   }
 }

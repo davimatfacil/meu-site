@@ -153,6 +153,38 @@ Explicação do MCP, protocolo que permite LLMs se conectarem a fontes de dados 
 
 ---
 
+## 📊 Projetos de Data Science
+
+::: {.callout-note}
+## 🔬 Análises Completas & Reproduzíveis
+Projetos de Data Science com código executável, análises detalhadas e interpretações clínicas/práticas.
+:::
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Regressão de Inclinações Paralelas
+**Predição de Pressão Arterial por Idade e Gênero**
+
+Análise estatística completa aplicando parallel slopes regression para modelar a relação entre idade, gênero e pressão arterial. Inclui análise exploratória, comparação de modelos, validação e interpretações clínicas.
+
+**Técnicas aplicadas:**
+- Regressão linear múltipla
+- Parallel slopes regression
+- Análise de resíduos
+- Validação estatística
+- Visualizações com ggplot2
+
+**Tecnologias:** R, tidyverse, broom, moderndive
+
+[Ver Análise Completa →](regressao-parallel-slopes.html){.btn .btn-info}
+:::
+
+:::
+
+
+---
+
 ## 📚 Estudos & Análises (RPubs)
 
 ### 🤖 Machine Learning & Algoritmos

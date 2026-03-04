@@ -1,52 +1,332 @@
 [
   {
-    "objectID": "projetos/index.html",
-    "href": "projetos/index.html",
-    "title": "Projetos",
+    "objectID": "projetos/regressao-parallel-slopes.html",
+    "href": "projetos/regressao-parallel-slopes.html",
+    "title": "Regressão de Inclinações Paralelas",
     "section": "",
-    "text": "Dica🚀 Aplicações Interativas\n\n\n\nExperimente as aplicações web que desenvolvi. Todas são interativas e funcionais!"
+    "text": "Aviso⚠️ IMPORTANTE: Dados Simulados\n\n\n\nEste projeto utiliza dados fictícios criados exclusivamente para fins educacionais e demonstração de técnicas estatísticas. As conclusões NÃO devem ser aplicadas em contextos clínicos reais sem validação adequada em dados autênticos."
   },
   {
-    "objectID": "projetos/index.html#apps-shiny-r",
-    "href": "projetos/index.html#apps-shiny-r",
-    "title": "Projetos",
-    "section": "🎯 Apps Shiny (R)",
-    "text": "🎯 Apps Shiny (R)\n\n\nDEA Analyzer\nAnálise Envoltória de Dados (DEA)\nAplicativo completo para análise de eficiência de DMUs. Permite entrada customizada de dados, cálculo de scores DEA e recomendações de benchmarking.\nFuncionalidades: - Entrada dinâmica de inputs/outputs - Cálculo automático de eficiência - Visualizações gráficas - Recomendações de melhoria\nExperimentar App →\n\n\nRegressão Linear Interativa\nPIB vs Expectativa de Vida\nApp demonstrativo de análise de regressão linear com dados reais. Explore a correlação entre indicadores econômicos e de saúde.\nFuncionalidades: - Visualização interativa de dados - Análise de regressão em tempo real - Interpretação de resultados\nExperimentar App →"
+    "objectID": "projetos/regressao-parallel-slopes.html#contexto-clínico",
+    "href": "projetos/regressao-parallel-slopes.html#contexto-clínico",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "1.1 Contexto Clínico",
+    "text": "1.1 Contexto Clínico\nA monitorização da pressão arterial sistólica (PAS) é um dos pilares da medicina preventiva. A capacidade de prever trajetórias de PAS permite a identificação precoce de indivíduos em risco de desenvolver hipertensão, definida clinicamente por valores persistentes acima de 140/90 mmHg.\nO envelhecimento está associado ao aumento da rigidez arterial, o que eleva a PAS de forma progressiva. Além disso, variáveis demográficas como o gênero desempenham um papel crucial devido a diferenças hormonais e fisiológicas, exigindo modelos que considerem ambos os fatores simultaneamente para uma triagem eficaz."
   },
   {
-    "objectID": "projetos/index.html#apps-streamlit-python",
-    "href": "projetos/index.html#apps-streamlit-python",
-    "title": "Projetos",
-    "section": "🐍 Apps Streamlit (Python)",
-    "text": "🐍 Apps Streamlit (Python)\n\n\nMonitor de Fraudes\nSistema de Detecção de Anomalias\nAplicação para identificação de padrões suspeitos em transações financeiras usando técnicas de Machine Learning.\nExperimentar App →\n\n\nPrevisão de Consumo Energético\nSéries Temporais & Forecasting\nAnálise e previsão de consumo de energia elétrica.\nFuncionalidades: - Aba de dados e KPIs - Aba de previsões - Visualizações interativas\nExperimentar App →\n\n\nSimulador de Financiamento Imobiliário\nCalculadora SAC vs Price\nFerramenta prática para comparação de sistemas de amortização e planejamento de financiamento.\nExperimentar App →\n\n\nGerador de Petições\nAutomação com Python\nDemonstração de automação de documentos jurídicos usando processamento de texto em Python.\nExperimentar App →"
+    "objectID": "projetos/regressao-parallel-slopes.html#objetivos",
+    "href": "projetos/regressao-parallel-slopes.html#objetivos",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "1.2 Objetivos",
+    "text": "1.2 Objetivos\nEste projeto visa:\n\nModelar a relação linear entre idade e pressão arterial sistólica\nComparar o impacto do gênero na linha de base da pressão arterial (intercepto)\nFornecer uma ferramenta de predição baseada em regressão de inclinações paralelas (parallel slopes)\nAvaliar a performance preditiva utilizando métricas robustas"
   },
   {
-    "objectID": "projetos/index.html#inteligência-artificial-llms",
-    "href": "projetos/index.html#inteligência-artificial-llms",
-    "title": "Projetos",
-    "section": "🤖 Inteligência Artificial & LLMs",
-    "text": "🤖 Inteligência Artificial & LLMs\n\n\n\n\n\n\nNotaConteúdos Avançados em IA\n\n\n\nMateriais didáticos sobre IA Generativa, LLMs e aplicações práticas.\n\n\n\n\nCurso: IA na Saúde (HCFMUSP)\nApresentação oficial no HCX\nMaterial completo do curso ministrado na escola do Hospital das Clínicas. Aborda aplicações práticas de IA Generativa no contexto de saúde, casos de uso, limitações e considerações éticas.\nTópicos: Fundamentos de LLMs, Prompt Engineering, Aplicações clínicas, RAG, Fine-tuning\nAcessar Curso →\n\n\nAgentes de IA\nTeoria e Prática\nIntrodução ao conceito de agentes autônomos em IA. Inclui explicação conceitual e exemplo prático de implementação de agente simulado.\nConteúdo: Definição de agentes, arquiteturas, frameworks, exemplo interativo\nExplorar Conteúdo →\n\n\nFundamentos para Apps de IA\nDesenvolvimento Seguro e Responsável\nGuia completo sobre pré-requisitos técnicos e conceituais para criar aplicações de IA robustas. Cobre desde fundamentos até tópicos avançados como guardrails e segurança.\nTópicos: Arquitetura de LLMs, Guardrails, Segurança, Boas práticas, Casos de uso\nLer Guia →\n\n\nModel Context Protocol (MCP)\nProtocolo Emergente da Anthropic\nExplicação do MCP, protocolo que permite LLMs se conectarem a fontes de dados externas de forma padronizada. Essencial para criar aplicações de IA que interagem com sistemas corporativos.\nRelevância: Integração de dados, Extensibilidade, Padrão da indústria\nEntender MCP →"
+    "objectID": "projetos/regressao-parallel-slopes.html#carregamento-e-preparação",
+    "href": "projetos/regressao-parallel-slopes.html#carregamento-e-preparação",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "2.1 Carregamento e Preparação",
+    "text": "2.1 Carregamento e Preparação\n\n# Pacotes necessários\nlibrary(tidyverse)\nlibrary(broom)\nlibrary(moderndive)\nlibrary(knitr)\n\n# Desativa warnings e mensagens globalmente\nknitr::opts_chunk$set(\n  warning = FALSE,\n  message = FALSE,\n  echo = TRUE,\n  fig.align = \"center\"\n)\n\n# Configuração do tema para gráficos\ntheme_set(theme_minimal(base_size = 12))\n\n# Configuração para kable\noptions(knitr.kable.NA = '')\noptions(knitr.table.format = \"html\")\n\n# Criar dataset simulado\nset.seed(42)\nblood_pressure &lt;- tibble(\n  age = c(25, 30, 35, 40, 45, 50, 55, 60, 65, 70,\n          28, 33, 38, 43, 48, 53, 58, 63, 68, 73,\n          26, 31, 36, 41, 46, 51, 56, 61, 66, 71),\n  gender = rep(c('Male', 'Female', 'Male'), each = 10),\n  systolic_bp = c(118, 120, 125, 128, 132, 135, 140, 145, 150, 155,\n                  110, 115, 118, 122, 125, 130, 135, 138, 142, 148,\n                  120, 122, 127, 130, 135, 138, 142, 148, 152, 158)\n)\n\n# Visualizar estrutura\nglimpse(blood_pressure)\n\nRows: 30\nColumns: 3\n$ age         &lt;dbl&gt; 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 28, 33, 38, 43, 48…\n$ gender      &lt;chr&gt; \"Male\", \"Male\", \"Male\", \"Male\", \"Male\", \"Male\", \"Male\", \"M…\n$ systolic_bp &lt;dbl&gt; 118, 120, 125, 128, 132, 135, 140, 145, 150, 155, 110, 115…"
   },
   {
-    "objectID": "projetos/index.html#estudos-análises-rpubs",
-    "href": "projetos/index.html#estudos-análises-rpubs",
-    "title": "Projetos",
-    "section": "📚 Estudos & Análises (RPubs)",
-    "text": "📚 Estudos & Análises (RPubs)\n\n🤖 Machine Learning & Algoritmos\n\n\nK-Nearest Neighbors (KNN)\nImplementação didática do algoritmo KNN em R.\nVer Estudo →\n\n\nGradient Descent\nExplicação visual do método do gradiente descendente.\nVer Estudo →\n\n\nClasses Desbalanceadas\nTécnicas para datasets desbalanceados com Naive Bayes.\nVer Estudo →\n\n\n\n\n🏥 Estatística & Healthcare\n\n\nEstatística Salva Vidas\nCaso histórico: análise estatística da higienização das mãos.\nVer Estudo →\n\n\nAnálise de Sobrevivência\nCurva de Kaplan-Meier explicada.\nVer Estudo →\n\n\nFluxos Hospitalares\nSimulação de análise operacional.\nVer Estudo →\n\n\n\n\n📊 Data Science Fundamentals\n\n\nQuarteto de Anscombe\nPor que visualização é essencial.\nVer Estudo →\n\n\nPreparação de Dados\nPipeline de limpeza e transformação.\nVer Estudo →\n\n\nMAPE\nMétricas de erro em modelos preditivos.\nVer Estudo →"
+    "objectID": "projetos/regressao-parallel-slopes.html#estatísticas-descritivas",
+    "href": "projetos/regressao-parallel-slopes.html#estatísticas-descritivas",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "2.2 Estatísticas Descritivas",
+    "text": "2.2 Estatísticas Descritivas\n\nstats_desc &lt;- blood_pressure %&gt;%\n  group_by(gender) %&gt;%\n  summarise(\n    Média = mean(systolic_bp),\n    Mediana = median(systolic_bp),\n    `Desvio Padrão` = sd(systolic_bp),\n    Mínimo = min(systolic_bp),\n    Máximo = max(systolic_bp),\n    Amplitude = max(systolic_bp) - min(systolic_bp),\n    `CV (%)` = (sd(systolic_bp) / mean(systolic_bp)) * 100,\n    n = n()\n  )\n\nknitr::kable(stats_desc, digits = 2, caption = \"Estatísticas descritivas por gênero\", format = \"html\")\n\n\nEstatísticas descritivas por gênero\n\n\ngender\nMédia\nMediana\nDesvio Padrão\nMínimo\nMáximo\nAmplitude\nCV (%)\nn\n\n\n\n\nFemale\n128.3\n127.5\n12.41\n110\n148\n38\n9.67\n10\n\n\nMale\n136.0\n135.0\n12.42\n118\n158\n40\n9.13\n20\n\n\n\n\n\n\n\n\n\n\n\nNotaInterpretação da Variabilidade\n\n\n\nAmbos os grupos têm desvio padrão idêntico (12.4 mmHg), indicando mesma variabilidade absoluta. Porém, o coeficiente de variação revela que o sexo feminino apresenta maior variabilidade relativa (9.7% vs 9.1%), significando que o sexo feminino tem pressão um pouco menos consistente (diferença de 6.6%).\nA amplitude similar (38 vs 40 mmHg) confirma que os dados têm variação semelhante. A variabilidade moderada (~9% CV) em ambos os grupos sugere que idade e gênero podem ser bons preditores, pois os dados não apresentam dispersão excessiva."
   },
   {
-    "objectID": "projetos/index.html#mais-conteúdo",
-    "href": "projetos/index.html#mais-conteúdo",
-    "title": "Projetos",
-    "section": "🔗 Mais Conteúdo",
-    "text": "🔗 Mais Conteúdo\n\n\n📖 RPubs Profile\nBiblioteca completa de análises e tutoriais em R.\nVisitar Perfil →\n\n\n🎥 Canal YouTube\nAulas de Matemática, Estatística e Programação.\nAssistir Vídeos →"
+    "objectID": "projetos/regressao-parallel-slopes.html#visualização-exploratória",
+    "href": "projetos/regressao-parallel-slopes.html#visualização-exploratória",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "2.3 Visualização Exploratória",
+    "text": "2.3 Visualização Exploratória\n\n2.3.1 Gráfico de Dispersão\n\nggplot(blood_pressure, aes(x = age, y = systolic_bp, color = gender)) +\n  geom_point(size = 3, alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE, linewidth = 1) +\n  scale_color_manual(\n    values = c(\"Female\" = \"#E69F00\", \"Male\" = \"#56B4E9\"),\n    labels = c(\"Feminino\", \"Masculino\")\n  ) +\n  labs(\n    title = \"Relação Pressão Sistólica vs. Idade por Gênero\",\n    x = \"Idade (anos)\",\n    y = \"Pressão Arterial Sistólica (mmHg)\",\n    color = \"Gênero\"\n  ) +\n  theme(legend.position = \"bottom\")\n\n\n\n\nRelação entre idade e pressão arterial sistólica, colorida por gênero\n\n\n\n\n\n\n2.3.2 Boxplot por Gênero\n\nggplot(blood_pressure, aes(x = gender, y = systolic_bp, fill = gender)) +\n  geom_boxplot(alpha = 0.6, show.legend = FALSE) +\n  stat_summary(\n    fun = mean, \n    geom = \"point\", \n    shape = 18, \n    size = 4, \n    color = \"red\"\n  ) +\n  scale_fill_manual(values = c(\"Female\" = \"#E69F00\", \"Male\" = \"#56B4E9\")) +\n  scale_x_discrete(labels = c(\"Female\" = \"Feminino\", \"Male\" = \"Masculino\")) +\n  labs(\n    title = \"Distribuição da PAS por Gênero\",\n    subtitle = \"Losango vermelho indica a média\",\n    x = \"Gênero\",\n    y = \"Pressão Arterial Sistólica (mmHg)\"\n  )\n\n\n\n\nDistribuição da pressão arterial por gênero\n\n\n\n\n\n\n\n\n\n\nDicaObservação Visual\n\n\n\nA idade parece ser o preditor mais forte, pois a inclinação positiva é nítida no gráfico de dispersão. No entanto, o gênero atua como um “deslocador”, sugerindo que homens e mulheres envelhecem com taxas similares de aumento, mas partem de níveis diferentes."
   },
   {
-    "objectID": "projetos/index.html#desenvolvimento-de-sites-dashboards",
-    "href": "projetos/index.html#desenvolvimento-de-sites-dashboards",
-    "title": "Projetos",
-    "section": "💼 Desenvolvimento de Sites & Dashboards",
-    "text": "💼 Desenvolvimento de Sites & Dashboards\n\n\n\n\n\n\nImportante🌐 Gostou deste site?\n\n\n\nEste portfólio foi desenvolvido com Quarto e publicado gratuitamente no GitHub Pages. É um exemplo do que posso criar para você ou sua organização!\n\n\n\nO que posso desenvolver para você:\n\n\n🌐 Sites Profissionais\n\nPortfólios pessoais como este\nSites institucionais/corporativos\nLanding pages\nBlogs técnicos e documentação\n\nTecnologias: Quarto, GitHub Pages\nHospedagem: Gratuita (GitHub) ou customizada\n\n\n📊 Dashboards & Aplicações\n\nDashboards interativos (Shiny/Streamlit)\nAplicações analíticas customizadas\nFerramentas de visualização de dados\nAutomações e sistemas\n\nTecnologias: R Shiny, Streamlit, Python, R\n\n\n\n\n💰 Diferenciais\n\n\n✅ Custo acessível\nHospedagem gratuita no GitHub Pages\n\n\n✅ Design profissional\nLayout responsivo e moderno\n\n\n✅ Fácil manutenção\nVocê pode atualizar depois\n\n\n✅ SEO otimizado\nMelhor visibilidade online\n\n\n\n\n\n📞 Interessado em criar seu site ou dashboard?\nSolicitar Orçamento\nAtendo profissionais, pesquisadores, pequenas empresas e organizações."
+    "objectID": "projetos/regressao-parallel-slopes.html#modelo-1-apenas-idade",
+    "href": "projetos/regressao-parallel-slopes.html#modelo-1-apenas-idade",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "3.1 Modelo 1: Apenas Idade",
+    "text": "3.1 Modelo 1: Apenas Idade\n\nmdl_age &lt;- lm(systolic_bp ~ age, data = blood_pressure)\nsummary(mdl_age)\n\n\nCall:\nlm(formula = systolic_bp ~ age, data = blood_pressure)\n\nResiduals:\n   Min     1Q Median     3Q    Max \n-7.763 -5.780  2.151  3.697  6.731 \n\nCoefficients:\n            Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)  94.1408     3.1668   29.73  &lt; 2e-16 ***\nage           0.8046     0.0622   12.94 2.48e-13 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 4.911 on 28 degrees of freedom\nMultiple R-squared:  0.8567,    Adjusted R-squared:  0.8516 \nF-statistic: 167.4 on 1 and 28 DF,  p-value: 2.477e-13\n\n\n\n\n\n\n\n\nNotaInterpretação\n\n\n\nA cada ano adicional de idade, a pressão arterial sistólica aumenta, em média, 0.80 mmHg (p &lt; 0.001). O modelo explica 85.7% da variação nos dados (R² = 0.857)."
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#modelo-2-apenas-gênero",
+    "href": "projetos/regressao-parallel-slopes.html#modelo-2-apenas-gênero",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "3.2 Modelo 2: Apenas Gênero",
+    "text": "3.2 Modelo 2: Apenas Gênero\n\nmdl_gender &lt;- lm(systolic_bp ~ gender + 0, data = blood_pressure)\ncoefficients(mdl_gender)\n\ngenderFemale   genderMale \n       128.3        136.0 \n\n# Calcular diferença\ndiferenca &lt;- coefficients(mdl_gender)[2] - coefficients(mdl_gender)[1]\ncat(\"Diferença entre gêneros:\", round(diferenca, 2), \"mmHg\\n\")\n\nDiferença entre gêneros: 7.7 mmHg\n\n\n\n\n\n\n\n\nAvisoObservação Crítica sobre R²\n\n\n\nO modelo sem intercepto (+ 0) apresenta R² = 0.992, mas isso é enganoso devido à parametrização. A métrica confiável é o RSE (sigma) = 12.42 mmHg, que indica erro 2.5x maior que o modelo de idade."
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#modelo-3-inclinações-paralelas-idade-gênero",
+    "href": "projetos/regressao-parallel-slopes.html#modelo-3-inclinações-paralelas-idade-gênero",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "3.3 Modelo 3: Inclinações Paralelas (Idade + Gênero)",
+    "text": "3.3 Modelo 3: Inclinações Paralelas (Idade + Gênero)\n\nmdl_both &lt;- lm(systolic_bp ~ age + gender + 0, data = blood_pressure)\nsummary(mdl_both)\n\n\nCall:\nlm(formula = systolic_bp ~ age + gender + 0, data = blood_pressure)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-2.66153 -0.79990 -0.09612  0.90767  2.89245 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \nage           0.83076    0.01589   52.27   &lt;2e-16 ***\ngenderFemale 86.34647    0.89483   96.50   &lt;2e-16 ***\ngenderMale   96.12338    0.81258  118.29   &lt;2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 1.251 on 27 degrees of freedom\nMultiple R-squared:  0.9999,    Adjusted R-squared:  0.9999 \nF-statistic: 1.148e+05 on 3 and 27 DF,  p-value: &lt; 2.2e-16\n\n\n\n3.3.1 Visualização do Modelo Completo\n\nggplot(blood_pressure, aes(x = age, y = systolic_bp, color = gender)) +\n  geom_point(size = 3, alpha = 0.6) +\n  geom_parallel_slopes(se = FALSE, linewidth = 1.2) +\n  geom_hline(\n    yintercept = 140, \n    linetype = \"dashed\", \n    color = \"red\", \n    linewidth = 1\n  ) +\n  annotate(\n    \"text\", \n    x = 75, \n    y = 142, \n    label = \"Hipertensão (140 mmHg)\", \n    color = \"red\", \n    size = 3.5,\n    hjust = 1\n  ) +\n  scale_color_manual(\n    values = c(\"Female\" = \"#E69F00\", \"Male\" = \"#56B4E9\"),\n    labels = c(\"Feminino\", \"Masculino\")\n  ) +\n  labs(\n    title = \"Modelo de Inclinações Paralelas\",\n    subtitle = \"Mesma inclinação (0.831 mmHg/ano), interceptos diferentes por gênero\",\n    x = \"Idade (anos)\",\n    y = \"Pressão Arterial Sistólica (mmHg)\",\n    color = \"Gênero\"\n  ) +\n  theme(legend.position = \"bottom\")\n\n\n\n\nModelo de inclinações paralelas: mesma taxa de envelhecimento, interceptos diferentes\n\n\n\n\n\n\n\n\n\n\nImportanteInterpretação Clínica\n\n\n\nCoeficientes do modelo:\n\nEfeito da idade: 0.831 mmHg/ano (aumentou ligeiramente vs modelo simples)\nIntercepto Mulheres: 86.3 mmHg\nIntercepto Homens: 96.1 mmHg\nDiferença entre gêneros: 96.1 - 86.3 = 9.8 mmHg\n\nConclusão: Homens apresentam pressão arterial aproximadamente 10 mmHg superior às mulheres em qualquer idade. Apesar dessa diferença basal, o efeito do envelhecimento é idêntico em ambos os grupos: a cada ano de vida, a pressão aumenta 0.831 mmHg."
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#comparação-de-performance-dos-modelos",
+    "href": "projetos/regressao-parallel-slopes.html#comparação-de-performance-dos-modelos",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "3.4 Comparação de Performance dos Modelos",
+    "text": "3.4 Comparação de Performance dos Modelos\n\nmetricas &lt;- bind_rows(\n  glance(mdl_age) %&gt;% mutate(Modelo = \"Idade\"),\n  glance(mdl_gender) %&gt;% mutate(Modelo = \"Gênero*\"),\n  glance(mdl_both) %&gt;% mutate(Modelo = \"Ambos\")\n) %&gt;%\n  select(Modelo, r.squared, adj.r.squared, sigma) %&gt;%\n  rename(\n    `R²` = r.squared,\n    `R² Ajustado` = adj.r.squared,\n    `RSE (sigma)` = sigma\n  )\n\nknitr::kable(metricas, digits = 4, caption = \"Comparação de métricas de performance\", format = \"html\")\n\n\nComparação de métricas de performance\n\n\nModelo\nR²\nR² Ajustado\nRSE (sigma)\n\n\n\n\nIdade\n0.8567\n0.8516\n4.9108\n\n\nGênero*\n0.9920\n0.9914\n12.4156\n\n\nAmbos\n0.9999\n0.9999\n1.2508\n\n\n\n\n\n* R² inflado artificialmente devido ao uso de + 0 (sem intercepto). Não comparável diretamente.\n\n\n\n\n\n\nDicaExpandir: Discussão Crítica sobre R²\n\n\n\n\n\n\n3.4.1 Por que o R² do modelo de gênero é enganoso?\nO modelo de gênero apresenta R² = 0.992, mas isso é enganoso devido ao uso de + 0 (sem intercepto). A métrica confiável para comparação é o RSE (sigma):\n\nIdade sozinha: erro de ±4.9 mmHg (BOM)\nGênero sozinho: erro de ±12.4 mmHg (RUIM - 2.5x pior!)\nAmbos: erro de ±1.2 mmHg (EXCELENTE - 4x melhor!)\n\n\n\n3.4.2 Verificação\n\n# Modelo de gênero COM intercepto\nmdl_gender_int &lt;- lm(systolic_bp ~ gender, data = blood_pressure)\n\ncat(\"R² sem intercepto (+0):\", glance(mdl_gender)$r.squared, \"\\n\")\n\nR² sem intercepto (+0): 0.9919901 \n\ncat(\"R² com intercepto:     \", glance(mdl_gender_int)$r.squared, \"\\n\")\n\nR² com intercepto:      0.08389639 \n\ncat(\"\\nRSE sem intercepto (+0):\", glance(mdl_gender)$sigma, \"\\n\")\n\n\nRSE sem intercepto (+0): 12.41557 \n\ncat(\"RSE com intercepto:     \", glance(mdl_gender_int)$sigma, \"\\n\")\n\nRSE com intercepto:      12.41557 \n\n\nRevelação: R² despenca de 99.2% → 8.4% quando adiciona intercepto, mas o RSE permanece idêntico (12.42). Isso prova que o R² alto era ilusão causada pelo + 0.\n\n\n\n\n\n3.4.3 Melhoria Quantitativa\n\nreducao_erro &lt;- (glance(mdl_age)$sigma - glance(mdl_both)$sigma) / \n                glance(mdl_age)$sigma * 100\n\ncat(\"Redução de erro ao adicionar gênero:\", round(reducao_erro, 1), \"%\\n\")\n\nRedução de erro ao adicionar gênero: 74.5 %\n\n\nO modelo combinado reduz o erro em 74.5% comparado ao modelo só de idade! 🎉"
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#casos-específicos",
+    "href": "projetos/regressao-parallel-slopes.html#casos-específicos",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "4.1 Casos Específicos",
+    "text": "4.1 Casos Específicos\nVamos simular predições para 4 perfis típicos de pacientes:\n\npacientes_exemplo &lt;- tibble(\n  Perfil = c(\"Mulher jovem\", \"Homem jovem\", \"Mulher idosa\", \"Homem idoso\"),\n  age = c(35, 35, 65, 65),\n  gender = c(\"Female\", \"Male\", \"Female\", \"Male\")\n) %&gt;%\n  mutate(\n    `PAS Predita` = predict(mdl_both, newdata = .),\n    Classificação = case_when(\n      `PAS Predita` &lt; 130 ~ \"Normal\",\n      `PAS Predita` &gt;= 130 & `PAS Predita` &lt; 140 ~ \"Elevada\",\n      `PAS Predita` &gt;= 140 ~ \"Hipertensão\"\n    )\n  )\n\nknitr::kable(pacientes_exemplo, digits = 1, caption = \"Predições para casos específicos\", format = \"html\")\n\n\nPredições para casos específicos\n\n\nPerfil\nage\ngender\nPAS Predita\nClassificação\n\n\n\n\nMulher jovem\n35\nFemale\n115.4\nNormal\n\n\nHomem jovem\n35\nMale\n125.2\nNormal\n\n\nMulher idosa\n65\nFemale\n140.3\nHipertensão\n\n\nHomem idoso\n65\nMale\n150.1\nHipertensão\n\n\n\n\n\n\n\n\n\n\n\nNotaObservação Clínica\n\n\n\nO modelo prevê que pacientes acima de 60 anos, especialmente homens, têm alta probabilidade de apresentar pressão arterial na faixa de hipertensão (≥140 mmHg), necessitando acompanhamento médico regular."
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#ferramenta-de-triagem",
+    "href": "projetos/regressao-parallel-slopes.html#ferramenta-de-triagem",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "4.2 Ferramenta de Triagem",
+    "text": "4.2 Ferramenta de Triagem\nCriamos um grid de predições para auxiliar na triagem em diferentes idades:\n\n# Grid de predições\nprediction_grid &lt;- expand_grid(\n  age = seq(25, 75, by = 5),\n  gender = c(\"Female\", \"Male\")\n) %&gt;%\n  mutate(systolic_bp_pred = predict(mdl_both, newdata = .))\n\n# Visualização completa\nggplot(blood_pressure, aes(x = age, y = systolic_bp, color = gender)) +\n  geom_point(size = 3, alpha = 0.6, shape = 16) +\n  geom_parallel_slopes(se = FALSE, linewidth = 1.3) +\n  geom_hline(\n    yintercept = 140, \n    linetype = \"dashed\", \n    color = \"red\", \n    linewidth = 1.2\n  ) +\n  geom_point(\n    data = prediction_grid, \n    aes(y = systolic_bp_pred), \n    shape = 15, \n    size = 2.5, \n    alpha = 0.5\n  ) +\n  annotate(\n    \"rect\",\n    xmin = 24, xmax = 76, ymin = 140, ymax = Inf,\n    alpha = 0.05, fill = \"red\"\n  ) +\n  annotate(\n    \"text\", \n    x = 50, \n    y = 155, \n    label = \"Zona de Hipertensão\", \n    color = \"darkred\", \n    size = 4,\n    fontface = \"bold\"\n  ) +\n  scale_color_manual(\n    values = c(\"Female\" = \"#E69F00\", \"Male\" = \"#56B4E9\"),\n    labels = c(\"Feminino\", \"Masculino\")\n  ) +\n  scale_x_continuous(breaks = seq(25, 75, 10)) +\n  labs(\n    title = \"Ferramenta de Triagem de Pressão Arterial\",\n    subtitle = \"Quadrados: predições do modelo | Linha vermelha: limite de hipertensão (140 mmHg)\",\n    x = \"Idade (anos)\",\n    y = \"Pressão Arterial Sistólica (mmHg)\",\n    color = \"Gênero\"\n  ) +\n  theme_minimal() +\n  theme(\n    legend.position = \"bottom\",\n    plot.title = element_text(size = 14, face = \"bold\"),\n    plot.subtitle = element_text(size = 10)\n  )\n\n\n\n\nFerramenta de triagem visual para idades 25-75 anos"
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#análise-de-resíduos",
+    "href": "projetos/regressao-parallel-slopes.html#análise-de-resíduos",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "5.1 Análise de Resíduos",
+    "text": "5.1 Análise de Resíduos\n\nblood_pressure_residuals &lt;- blood_pressure %&gt;%\n  mutate(\n    fitted = fitted(mdl_both),\n    residuals = residuals(mdl_both)\n  )\n\n\nggplot(blood_pressure_residuals, aes(x = fitted, y = residuals)) +\n  geom_point(size = 3, alpha = 0.7) +\n  geom_hline(yintercept = 0, linetype = \"dashed\", color = \"red\", linewidth = 1) +\n  geom_smooth(method = \"loess\", se = FALSE, color = \"blue\", linewidth = 0.8) +\n  labs(\n    title = \"Análise de Resíduos\",\n    subtitle = \"Distribuição aleatória confirma adequação do modelo linear\",\n    x = \"Valores Ajustados (mmHg)\",\n    y = \"Resíduos (mmHg)\"\n  ) +\n  theme_minimal()\n\n\n\n\nGráfico de resíduos vs valores ajustados\n\n\n\n\n\n\n\n\n\n\nNotaInterpretação dos Resíduos\n\n\n\nO gráfico de resíduos sugere que o modelo linear captura a maior parte da variabilidade, embora apresente nuances estruturais importantes:\n\nTendência residual não-linear: A linha de suavização (LOESS, em azul) apresenta uma leve curvatura em forma de “U”, indicando que o modelo linear pode estar subestimando valores nas extremidades (idades mais jovens e mais avançadas) e superestimando no centro. Isso sugere uma leve não-linearidade não capturada, possivelmente remediável com um termo quadrático (\\(\\text{idade}^2\\)) ou de interação (\\(\\text{idade} \\times \\text{gênero}\\)).\nHomocedasticidade satisfatória: A dispersão vertical dos resíduos mantém-se razoavelmente constante ao longo do eixo dos valores ajustados. Não há um padrão de “funil” evidente, o que valida a suposição de variância homogênea para fins práticos.\nMagnitude clinicamente aceitável: Apesar do desvio estrutural mencionado no item 1, a magnitude dos erros permanece clinicamente baixa. Com resíduos contidos em ±3 mmHg e um erro padrão residual (RSE) de 1.25 mmHg (&lt; 2% da média de ~132 mmHg), o modelo possui alta precisão preditiva adequada para triagem clínica.\nPontos de atenção: Observam-se dois casos com resíduos mais elevados (&gt; 2 e &lt; -2 mmHg). Embora não invalidem o modelo, esses casos representam potenciais pontos de influência ou variações biológicas atípicas que merecem investigação adicional em estudos futuros.\n\nConclusão: O modelo de inclinações paralelas é funcionalmente adequado e robusto para uso em triagem clínica, embora a relação exata entre idade e pressão arterial possa apresentar uma complexidade adicional (aceleração não-linear com a idade) que uma função linear simples não descreve integralmente. Para aplicações de alta precisão, modelos não-lineares (ex: splines ou polinômios) poderiam capturar melhor essa curvatura."
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#casos-com-maior-erro",
+    "href": "projetos/regressao-parallel-slopes.html#casos-com-maior-erro",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "5.2 Casos com Maior Erro",
+    "text": "5.2 Casos com Maior Erro\n\ncasos_extremos &lt;- blood_pressure_residuals %&gt;%\n  arrange(desc(abs(residuals))) %&gt;%\n  select(age, gender, systolic_bp, fitted, residuals) %&gt;%\n  head(3) %&gt;%\n  mutate(\n    gender = recode(gender, \"Female\" = \"Feminino\", \"Male\" = \"Masculino\"),\n    residuals = round(residuals, 2),\n    fitted = round(fitted, 1),\n    age = as.integer(age)\n  ) %&gt;%\n  rename(\n    Idade = age,\n    Gênero = gender,\n    `PAS Real` = systolic_bp,\n    `PAS Predita` = fitted,\n    Resíduo = residuals\n  )\n\nknitr::kable(casos_extremos, caption = \"Três casos com maior erro de predição\", format = \"html\")\n\n\nTrês casos com maior erro de predição\n\n\nIdade\nGênero\nPAS Real\nPAS Predita\nResíduo\n\n\n\n\n71\nMasculino\n158\n155.1\n2.89\n\n\n50\nMasculino\n135\n137.7\n-2.66\n\n\n26\nMasculino\n120\n117.7\n2.28\n\n\n\n\n\nAnálise: Mesmo nos casos com maior erro, os resíduos permanecem abaixo de 3 mmHg, o que é clinicamente aceitável e não compromete a utilidade do modelo para triagem."
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#principais-achados",
+    "href": "projetos/regressao-parallel-slopes.html#principais-achados",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "6.1 Principais Achados",
+    "text": "6.1 Principais Achados\n\nIdade como preditor dominante: A cada ano de vida, a PAS aumenta aproximadamente 0.83 mmHg, refletindo o processo natural de envelhecimento vascular e aumento da rigidez arterial.\nEfeito do gênero como deslocador: Homens apresentam pressão arterial cerca de 10 mmHg superior às mulheres na mesma faixa etária, mesmo com taxas de envelhecimento similares (inclinações paralelas). Isso pode estar relacionado a diferenças hormonais, composição corporal e fatores fisiológicos.\nExcelente acurácia preditiva: O modelo combinado (idade + gênero) apresenta erro médio de apenas ±1.25 mmHg, adequado para aplicações de triagem clínica em larga escala.\nMelhoria substancial: Incluir gênero no modelo reduz o erro em 74.5% comparado ao uso isolado de idade, demonstrando a importância de considerar características demográficas na predição."
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#aplicações-práticas",
+    "href": "projetos/regressao-parallel-slopes.html#aplicações-práticas",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "6.2 Aplicações Práticas",
+    "text": "6.2 Aplicações Práticas\nO modelo desenvolvido pode ser utilizado para:\n\nIdentificação precoce: Detectar pacientes em risco de desenvolver hipertensão antes que sintomas apareçam\nEstratificação de risco: Priorizar grupos que necessitam rastreamento mais frequente\nEducação de pacientes: Demonstrar trajetórias esperadas de PAS ao longo da vida\nAlocação de recursos: Auxiliar na distribuição eficiente de recursos de saúde pública"
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#limitações-importantes",
+    "href": "projetos/regressao-parallel-slopes.html#limitações-importantes",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "6.3 Limitações Importantes",
+    "text": "6.3 Limitações Importantes\n\n\n\n\n\n\nAvisoLimitações Críticas\n\n\n\n1. Dados Simulados: Este projeto utiliza dados fictícios criados para fins exclusivamente educacionais. As relações lineares perfeitas observadas não refletem a complexidade biológica presente em dados reais.\n2. Tamanho Amostral Reduzido: Apenas 30 pacientes fictícios foram incluídos, quantidade insuficiente para generalização populacional.\n3. Variáveis Omitidas: Fatores críticos foram excluídos:\n\nÍndice de Massa Corporal (IMC)\nHistórico familiar de hipertensão\nUso de medicamentos anti-hipertensivos\nComorbidades (diabetes, doença renal, etc.)\nHábitos de vida (dieta, exercício, tabagismo)\nFatores socioeconômicos\nEtnia e ancestralidade\n\n4. Linearidade Simplificada: A relação real entre idade e PAS pode ser não-linear, especialmente em idades avançadas.\n5. Ausência de Validação Externa: O modelo não foi testado em amostra independente."
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#abordagens-alternativas",
+    "href": "projetos/regressao-parallel-slopes.html#abordagens-alternativas",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "6.4 Abordagens Alternativas",
+    "text": "6.4 Abordagens Alternativas\nEste projeto utilizou regressão de inclinações paralelas, mas existem outras técnicas válidas:\n\nRegressão com interação: Permitir que a taxa de envelhecimento (slope) difira entre gêneros\nModelos não-lineares: Usar polinômios, splines ou GAM para capturar acelerações\nRegressão quantílica: Modelar diferentes percentis (não apenas a média)\nModelos mistos hierárquicos: Incorporar estruturas de agrupamento\nMachine Learning: Gradient Boosting, Random Forests para relações complexas\n\nA escolha depende de: Questão clínica específica, dados disponíveis, tamanho amostral, requisitos de interpretabilidade."
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#fórmulas-dos-modelos",
+    "href": "projetos/regressao-parallel-slopes.html#fórmulas-dos-modelos",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "8.1 Fórmulas dos Modelos",
+    "text": "8.1 Fórmulas dos Modelos\nModelo 1 (Idade): \\[\\text{PAS} = 94.14 + 0.805 \\times \\text{Idade}\\]\nModelo 2 (Gênero): \\[\\text{PAS}_{\\text{Mulheres}} = 128.3 \\text{ mmHg}\\] \\[\\text{PAS}_{\\text{Homens}} = 136.0 \\text{ mmHg}\\]\nModelo 3 (Inclinações Paralelas): \\[\\text{PAS}_{\\text{Mulheres}} = 86.35 + 0.831 \\times \\text{Idade}\\] \\[\\text{PAS}_{\\text{Homens}} = 96.12 + 0.831 \\times \\text{Idade}\\]"
+  },
+  {
+    "objectID": "projetos/regressao-parallel-slopes.html#reprodução-completa",
+    "href": "projetos/regressao-parallel-slopes.html#reprodução-completa",
+    "title": "Regressão de Inclinações Paralelas",
+    "section": "8.2 Reprodução Completa",
+    "text": "8.2 Reprodução Completa\n\n# Pacotes necessários\nlibrary(tidyverse)\nlibrary(broom)\nlibrary(moderndive)\n\n# 1. Criar dados\nset.seed(42)\nblood_pressure &lt;- tibble(\n  age = c(25, 30, 35, 40, 45, 50, 55, 60, 65, 70,\n          28, 33, 38, 43, 48, 53, 58, 63, 68, 73,\n          26, 31, 36, 41, 46, 51, 56, 61, 66, 71),\n  gender = rep(c('Male', 'Female', 'Male'), each = 10),\n  systolic_bp = c(118, 120, 125, 128, 132, 135, 140, 145, 150, 155,\n                  110, 115, 118, 122, 125, 130, 135, 138, 142, 148,\n                  120, 122, 127, 130, 135, 138, 142, 148, 152, 158)\n)\n\n# 2. Modelos\nmdl_age &lt;- lm(systolic_bp ~ age, data = blood_pressure)\nmdl_gender &lt;- lm(systolic_bp ~ gender + 0, data = blood_pressure)\nmdl_both &lt;- lm(systolic_bp ~ age + gender + 0, data = blood_pressure)\n\n# 3. Comparação\nmetricas &lt;- bind_rows(\n  glance(mdl_age) %&gt;% mutate(model = \"Idade\"),\n  glance(mdl_gender) %&gt;% mutate(model = \"Gênero\"),\n  glance(mdl_both) %&gt;% mutate(model = \"Ambos\")\n) %&gt;%\n  select(model, r.squared, adj.r.squared, sigma)\n\n# 4. Visualização final\nggplot(blood_pressure, aes(x = age, y = systolic_bp, color = gender)) +\n  geom_point(size = 3, alpha = 0.6) +\n  geom_parallel_slopes(se = FALSE, linewidth = 1.2) +\n  geom_hline(yintercept = 140, linetype = \"dashed\", color = \"red\") +\n  scale_color_manual(values = c(\"Female\" = \"#E69F00\", \"Male\" = \"#56B4E9\")) +\n  labs(\n    title = \"Modelo Preditivo de Pressão Arterial\",\n    x = \"Idade (anos)\", \n    y = \"PAS (mmHg)\", \n    color = \"Gênero\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\nNota📧 Contato\n\n\n\nProjeto desenvolvido por: Davi Rocha\nWebsite: davimatfacil.github.io/meu-site\nData: Março 2026\nEste projeto é exclusivamente educacional e utiliza dados simulados. Desenvolvido como parte do curso “Intermediate Regression in R” (DataCamp)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Davi Rocha",
+    "section": "",
+    "text": "Sou Cientista de Dados e Professor Universitário, com uma trajetória de 24 anos dedicada à Matemática. Atualmente, aplico Inteligência Artificial e Data Science no Hospital das Clínicas da FMUSP e na 4Research atuando na fronteira entre a tecnologia e a saúde.\nMinha paixão é transformar dados complexos em soluções inteligentes e compartilhar esse conhecimento. Desde 2010, leciono Estatística e Matemática no ensino superior, unindo o rigor acadêmico à prática de mercado para solucionar desafios em diversos setores.\n\n\n🏥 Inteligência Artificial & ML em Saúde: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.\n📈 Estatística: Modelagem estatística e análise descritiva e inferencial de dados de pesquisas.\n📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares.\n💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para qualidade de dados e monitoramento de pesquisa clínica, além de painéis em Tableau.\n🎓 Ensino: Formação de novos profissionais que possam usar matemática e estatística cumprindo seu papel na sociedade.\n\n\n\n\n🎓 Mestre em Matemática Aplicada - USP\n🎓 Bacharel em Matematica - UNESP"
+  },
+  {
+    "objectID": "index.html#olá",
+    "href": "index.html#olá",
+    "title": "Davi Rocha",
+    "section": "",
+    "text": "Sou Cientista de Dados e Professor Universitário, com uma trajetória de 24 anos dedicada à Matemática. Atualmente, aplico Inteligência Artificial e Data Science no Hospital das Clínicas da FMUSP e na 4Research atuando na fronteira entre a tecnologia e a saúde.\nMinha paixão é transformar dados complexos em soluções inteligentes e compartilhar esse conhecimento. Desde 2010, leciono Estatística e Matemática no ensino superior, unindo o rigor acadêmico à prática de mercado para solucionar desafios em diversos setores.\n\n\n🏥 Inteligência Artificial & ML em Saúde: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.\n📈 Estatística: Modelagem estatística e análise descritiva e inferencial de dados de pesquisas.\n📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares.\n💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para qualidade de dados e monitoramento de pesquisa clínica, além de painéis em Tableau.\n🎓 Ensino: Formação de novos profissionais que possam usar matemática e estatística cumprindo seu papel na sociedade.\n\n\n\n\n🎓 Mestre em Matemática Aplicada - USP\n🎓 Bacharel em Matematica - UNESP"
+  },
+  {
+    "objectID": "index.html#projetos-em-destaque",
+    "href": "index.html#projetos-em-destaque",
+    "title": "Davi Rocha",
+    "section": "Projetos em Destaque",
+    "text": "Projetos em Destaque\n\n\nSistema de Monitoramento Hospitalar\nDashboard interativo para acompanhamento de fluxo de pacientes e indicadores operacionais do HCFMUSP.\nTecnologias: R-Shiny, Vertica\n\n\nModelos Preditivos em Saúde\nDesenvolvimento de modelos de Machine Learning para análise de dados clínicos e predição de desfechos.\nTecnologias: Python, R"
+  },
+  {
+    "objectID": "index.html#tecnologias",
+    "href": "index.html#tecnologias",
+    "title": "Davi Rocha",
+    "section": "Tecnologias",
+    "text": "Tecnologias\n\n\nLinguagens\nR • Python • SQL\n\nFerramentas\nShiny • Streamlit • Tableau • REDCap\n\n\nBancos de Dados: Vertica • Oracle • PostgreSQL"
+  },
+  {
+    "objectID": "index.html#entre-em-contato",
+    "href": "index.html#entre-em-contato",
+    "title": "Davi Rocha",
+    "section": "Entre em Contato",
+    "text": "Entre em Contato\nInteressado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?\n📧 davimatfacil@gmail.com\n💼 LinkedIn\n🐙 GitHub"
+  },
+  {
+    "objectID": "ensino/index.html",
+    "href": "ensino/index.html",
+    "title": "Ensino",
+    "section": "",
+    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+  },
+  {
+    "objectID": "ensino/index.html#experiência-em-ensino",
+    "href": "ensino/index.html#experiência-em-ensino",
+    "title": "Ensino",
+    "section": "",
+    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+  },
+  {
+    "objectID": "ensino/index.html#aulas-demonstrativas",
+    "href": "ensino/index.html#aulas-demonstrativas",
+    "title": "Ensino",
+    "section": "🎥 Aulas Demonstrativas",
+    "text": "🎥 Aulas Demonstrativas\nVeja exemplos do meu método de ensino:\n\nMatemática BásicaMatemática AplicadaMatemática FinanceiraProbabilidadeProgramação PythonProgramação R\n\n\nComparando Números Naturais\nAula didática sobre conceitos fundamentais para estudantes iniciantes.\n\n\n\n\nOferta e Demanda Linear\nExercício aplicado de funções lineares no contexto econômico.\n\n\n\nFunção Custo, Receita e Lucro\nAplicação de funções lineares em análise de negócios.\n\n\n\n\nTaxa Efetiva e Nominal\nConvenção Linear e Exponencial em Matemática Financeira.\n\n\n\n\nProblema do Aniversário\nConceito fascinante de probabilidades aplicado a um problema clássico.\n\n\n\n\nConversão de Variáveis Categóricas\nComo criar variáveis dummy em Python para Machine Learning.\n\n\n\n\nRenomear Colunas no R\nDica rápida e prática para manipulação de dados em R.\n\n\n\n\n\nVer Mais no Canal →"
+  },
+  {
+    "objectID": "ensino/index.html#artigos",
+    "href": "ensino/index.html#artigos",
+    "title": "Ensino",
+    "section": "📝 Artigos",
+    "text": "📝 Artigos\nReflexões e explicações sobre matemática aplicada e aplicações reais.\n\n\nQuanto Vale uma Casa? A Estatística que Responde\nRegressão | Estatística | R\nComo construir um modelo de regressão múltipla para precificar imóveis: da correlação até a previsão.\nLer artigo →\n\n\nO Galinheiro de Descartes\nOtimização | Cálculo Diferencial\nComo um problema simples de galinheiro revela o poder da derivada — e por que o homem de exatas é um Imitador do Criador.\nLer artigo →"
+  },
+  {
+    "objectID": "ensino/index.html#aulas-particulares",
+    "href": "ensino/index.html#aulas-particulares",
+    "title": "Ensino",
+    "section": "📚 Aulas Particulares",
+    "text": "📚 Aulas Particulares\nOfereço aulas personalizadas para:\n\n\n🎒 Ensino Fundamental e Médio\n\nReforço em Matemática\nPreparação para vestibulares\nAcompanhamento escolar\n\n\n\n🎓 Universitários\n\nCálculo, Álgebra Linear\nEstatística e Probabilidade\nAnálise de Dados\nProgramação (R/Python)\n\n\n\n💼 Profissionais\n\nEstatística aplicada\nR e Python para dados\nTransição para Data Science\nMachine Learning"
+  },
+  {
+    "objectID": "ensino/index.html#diferenciais",
+    "href": "ensino/index.html#diferenciais",
+    "title": "Ensino",
+    "section": "💡 Diferenciais",
+    "text": "💡 Diferenciais\n\n\n✨ 24 anos de experiência em ensino\n🎯 Metodologia adaptada ao seu ritmo e objetivo\n📖 Material didático personalizado\n🏆 Histórico comprovado de resultados\n\n\n📍 Aulas presenciais em São Paulo (preferencialmente aos sábados)\n💻 Aulas online para todo o Brasil\n🔄 Flexibilidade de horários\n📊 Acompanhamento de progresso"
+  },
+  {
+    "objectID": "ensino/index.html#entre-em-contato",
+    "href": "ensino/index.html#entre-em-contato",
+    "title": "Ensino",
+    "section": "📞 Entre em Contato",
+    "text": "📞 Entre em Contato\nInteressado em aulas particulares? Entre em contato para agendar uma aula experimental!\nEnviar E-mail\n\n\n\n\n\n\nDicaComo Funciona\n\n\n\n\nEntre em contato por e-mail\nConte seus objetivos e dificuldades\nAgendamos uma conversa inicial (gratuita)\nDefinimos plano de estudos personalizado"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
+  },
+  {
+    "objectID": "about.html#quem-sou",
+    "href": "about.html#quem-sou",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
+  },
+  {
+    "objectID": "about.html#formação-acadêmica",
+    "href": "about.html#formação-acadêmica",
+    "title": "Sobre Mim",
+    "section": "Formação Acadêmica",
+    "text": "Formação Acadêmica\n🎓 Mestre em Matemática Aplicada\n🎓 Bacharel em Matemática\n📊 Especializações e Certificações\n\nInteligência Artificial & NLP: Lang Chain,Implementação de RAG (Retrieval-Augmented Generation), CrewAI, LlamaIndex, LLM e Generative AI, Deep Learning e NLP.\nModelagem Avançada: Modelos Mistos Lineares Generalizados (GLMMs) e Séries Temporais.\nStack Tecnológica: Formações avançadas em ecossistemas Python e R."
+  },
+  {
+    "objectID": "about.html#experiência-profissional",
+    "href": "about.html#experiência-profissional",
+    "title": "Sobre Mim",
+    "section": "Experiência Profissional",
+    "text": "Experiência Profissional\n\n🏥 Hospital das Clínicas da FMUSP\nCientista de Dados | 2018 - Atual\nNo maior complexo hospitalar da América Latina, atuo na arquitetura e desenvolvimento de modelos preditivos:\n\nIA e ML em Saúde: Desenvolvimento de algoritmos para predição de desfechos clínicos e gestão de recursos hospitalares.\nEngenharia de Dashboards: Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro, Internação, ambulatorial e eficiência operacional.\nBig Data: Manipulação e análise de grandes volumes de dados em ambientes Vertica e Oracle.\n\n\n\n💻 4Research\nData Scientist & Developer | Atual\nFoco em tecnologia para pesquisa clínica e inteligência de dados:\n\nAplicações Analíticas: Desenvolvimento de ferramentas interativas com R-Shiny e Streamlit para captura e análise de dados multicêntricos.\nIntegração de Ecossistemas: Conexão de plataformas de pesquisa (REDCap) com pipelines de análise automatizados.\n\n\n\n🎓 Professor Universitário\nDocente de Estatística e Matemática Aplicada | 2010 - Atual\nHá mais de 14 anos, leciono para cursos de Administração, Marketing, Logística e RH.\n\nVersatilidade: Minha atuação docente garante que eu mantenha a habilidade de aplicar a ciência de dados em contextos diversos de negócios, fora do nicho hospitalar.\nMentoria: Foco na formação de profissionais capazes de interpretar dados para além das ferramentas."
+  },
+  {
+    "objectID": "about.html#competências-técnicas",
+    "href": "about.html#competências-técnicas",
+    "title": "Sobre Mim",
+    "section": "Competências Técnicas",
+    "text": "Competências Técnicas\n\nLinguagens & IA\n\nR : Modelagem estatística avançada, Tidyverse, Shiny, Automação de relatórios.\nPython : Scikit-learn, Pandas, Streamlit, Integração com LLMs (RAG, LangChain).\nSQL: Queries complexas e otimização em Vertica, Oracle e PostgreSQL.\n\n\n\nDomínios de Especialidade\n\nModelagem: GLMMs, Análise de Sobrevivência, Séries Temporais e Regressão Avançada.\nIA & Machine Learning: Deep Learning, NLP e Modelos Preditivos.\nVisualização: Tableau, Power BI, Plotly e bibliotecas customizadas em R/Python."
+  },
+  {
+    "objectID": "about.html#filosofia-de-trabalho",
+    "href": "about.html#filosofia-de-trabalho",
+    "title": "Sobre Mim",
+    "section": "Filosofia de Trabalho",
+    "text": "Filosofia de Trabalho\n\n“Transformar complexidade em clareza, dados em decisões e análises em ações.”\n\nAcredito que a verdadeira Ciência de Dados reside no equilíbrio entre o rigor matemático e a praticidade da entrega. Meu compromisso é buscar a verdade nos dados com integridade ética e comunicar insights de forma que qualquer tomador de decisão possa agir com confiança."
+  },
+  {
+    "objectID": "about.html#vamos-conversar",
+    "href": "about.html#vamos-conversar",
+    "title": "Sobre Mim",
+    "section": "Vamos Conversar?",
+    "text": "Vamos Conversar?\nEstou disponível para colaborações em projetos de IA, consultoria estatística para pesquisas e treinamentos corporativos.\n📧 Email: davimatfacil@gmail.com\n💼 LinkedIn: linkedin.com/in/davi-rocha-27a24b33/\n🐙 GitHub: github.com/davimatfacil\n\nÚltima atualização: Fevereiro de 2026"
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html",
+    "href": "ensino/galinheiro-de-descartes.html",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "",
+    "text": "Havia uma frase que o Prof. Aguinaldo Prandini Ricieri, físico e prof. pelo ITA, matemático por vocação, repetia nas suas aulas com uma certa frequência:\n\n“O homem de exatas é um Imitador do Criador.”\n\nEle se declarava ateu, o que tornava a frase ainda mais curiosa. Mas o que ele queria dizer ficava claro quando você olhava para os exemplos que ele trazia.\nNos anos 90, as montadoras começaram a arredondar os carros. Saíram as formas quadradas, angulosas, e entraram as curvas suaves. Ricieri apontava para isso e perguntava: por que? A resposta era matemática… e vinha da natureza. A gota d’água, por exemplo, ao cair, assume uma forma que minimiza o arrasto aerodinâmico. Os engenheiros não inventaram esse design. Eles o copiaram. Matematizaram o que a natureza já “exibia” há milênios.\nEssa era a filosofia do curso que fiz em 97/98 — o famoso Matemática Aplicada à Vida, ministrado aos sábados à tarde e aos domingos de manhã (sim, 7h da manhã, e a sala estava cheia viu!) lá no Anglo Tamandaré. O prof. Ricieri não ensinava fórmulas soltas. Ele ensinava contexto. Ensinava que por trás de cada símbolo matemático havia um ser humano, às vezes genial, às vezes obcecado, às vezes em guerra com outro matemático tentando resolver um problema real do seu tempo.\nOuvíamos histórias da rivalidade feroz entre Newton e Leibniz, da correspondência entre Fermat e Pascal discutindo jogos de azar (e inventando a teoria das probabilidades), das contribuições de Euler, Lagrange, Legendre, Gauss, do jovem Galois que morreu num duelo aos 20 anos com toda a sua matemática ainda por ser descoberta. Matemática não era uma lista de técnicas. Era uma narrativa humana de séculos.\nE foi numa dessas aulas que ele chegou com um problema que nunca mais saiu da minha cabeça e me fez perceber pra que serve a matemática…"
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#o-homem-que-via-matemática-em-tudo",
+    "href": "ensino/galinheiro-de-descartes.html#o-homem-que-via-matemática-em-tudo",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "",
+    "text": "Havia uma frase que o Prof. Aguinaldo Prandini Ricieri, físico e prof. pelo ITA, matemático por vocação, repetia nas suas aulas com uma certa frequência:\n\n“O homem de exatas é um Imitador do Criador.”\n\nEle se declarava ateu, o que tornava a frase ainda mais curiosa. Mas o que ele queria dizer ficava claro quando você olhava para os exemplos que ele trazia.\nNos anos 90, as montadoras começaram a arredondar os carros. Saíram as formas quadradas, angulosas, e entraram as curvas suaves. Ricieri apontava para isso e perguntava: por que? A resposta era matemática… e vinha da natureza. A gota d’água, por exemplo, ao cair, assume uma forma que minimiza o arrasto aerodinâmico. Os engenheiros não inventaram esse design. Eles o copiaram. Matematizaram o que a natureza já “exibia” há milênios.\nEssa era a filosofia do curso que fiz em 97/98 — o famoso Matemática Aplicada à Vida, ministrado aos sábados à tarde e aos domingos de manhã (sim, 7h da manhã, e a sala estava cheia viu!) lá no Anglo Tamandaré. O prof. Ricieri não ensinava fórmulas soltas. Ele ensinava contexto. Ensinava que por trás de cada símbolo matemático havia um ser humano, às vezes genial, às vezes obcecado, às vezes em guerra com outro matemático tentando resolver um problema real do seu tempo.\nOuvíamos histórias da rivalidade feroz entre Newton e Leibniz, da correspondência entre Fermat e Pascal discutindo jogos de azar (e inventando a teoria das probabilidades), das contribuições de Euler, Lagrange, Legendre, Gauss, do jovem Galois que morreu num duelo aos 20 anos com toda a sua matemática ainda por ser descoberta. Matemática não era uma lista de técnicas. Era uma narrativa humana de séculos.\nE foi numa dessas aulas que ele chegou com um problema que nunca mais saiu da minha cabeça e me fez perceber pra que serve a matemática…"
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#quantos-metros-de-tela-você-tem",
+    "href": "ensino/galinheiro-de-descartes.html#quantos-metros-de-tela-você-tem",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "“Quantos metros de tela você tem?”",
+    "text": "“Quantos metros de tela você tem?”\nEle chegou ao quadro, pegou o giz, e começou:\n“Você tem uma quantidade fixa de tela para construir um galinheiro retangular. Um lado vai ser encostado na parede do galpão; esse lado é de graça. Você quer usar toda a tela nos outros três lados. Qual deve ser o formato do galinheiro para que as galinhas tenham o máximo de espaço?”\nParece simples. E é. Mas a maioria das pessoas, sem pensar matematicamente, tentaria fazer um quadrado, ou dividir a tela em partes iguais. A matemática revela que a intuição nem sempre acerta."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#entra-descartes-e-seu-plano",
+    "href": "ensino/galinheiro-de-descartes.html#entra-descartes-e-seu-plano",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "Entra Descartes — e seu plano",
+    "text": "Entra Descartes — e seu plano\nAntes de resolver, vale entender por que Ricieri chamava esse problema de “o galinheiro de Descartes”.\nRené Descartes (1596–1650) foi o matemático que uniu dois mundos que pareciam separados: a geometria e a álgebra. Ele criou o sistema de coordenadas cartesianas, lembra da escola? Aquele plano com eixo \\(x\\) e eixo \\(y\\) que todo estudante conhece. A ideia parece simples hoje, mas é fundamental para todo o avanço que a matemática teve posteriormente: é o que permitiu Newton e Leibniz desenvolverem o Cálculo poucas décadas depois.\nSem Descartes, o galinheiro seria apenas um problema de intuição. Com Descartes, ele se torna um problema que a matemática resolve com precisão."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#montando-o-problema-no-plano-cartesiano",
+    "href": "ensino/galinheiro-de-descartes.html#montando-o-problema-no-plano-cartesiano",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "Montando o problema no plano cartesiano",
+    "text": "Montando o problema no plano cartesiano\nVamos chamar de \\(L\\) o comprimento total de tela disponível. O galinheiro tem três lados — dois lados de comprimento \\(y\\) (perpendiculares à parede) e um lado de comprimento \\(x\\) (paralelo à parede):\nparede (grátis)\n|←————————— x —————————→|\n|                         |\ny                         y\n|                         |\n|_________________________|\nA restrição — o que limita o problema — é a quantidade de tela:\n\\[x + 2y = L\\]\nO objetivo é maximizar a área:\n\\[A = x \\cdot y\\]\nAqui é onde Descartes entra de verdade: expressamos tudo em função de uma única variável. Da restrição, tiramos \\(x\\):\n\\[x = L - 2y\\]\nSubstituímos na equação da área:\n\\[A(y) = (L - 2y) \\cdot y = Ly - 2y^2\\]\nAgora temos a área como uma função de \\(y\\), uma parábola com concavidade para baixo. E o máximo de uma parábola é exatamente o seu vértice."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#a-derivada-revela-o-segredo",
+    "href": "ensino/galinheiro-de-descartes.html#a-derivada-revela-o-segredo",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "A derivada revela o segredo",
+    "text": "A derivada revela o segredo\nPara encontrar o ponto de máximo, calculamos a derivada de \\(A\\) em relação a \\(y\\) e igualamos a zero:\n\\[A'(y) = L - 4y = 0\\]\n\\[\\boxed{y = \\frac{L}{4}}\\]\nVoltando para encontrar \\(x\\):\n\\[x = L - 2 \\cdot \\frac{L}{4} = \\frac{L}{2}\\]\nResultado: o lado paralelo à parede deve ter o dobro do comprimento dos lados perpendiculares. Se você tem 40 metros de tela, por exemplo, \\(x = 20\\,\\text{m}\\) e \\(y = 10\\,\\text{m}\\), com área máxima de:\n\\[A_{max} = 20 \\times 10 = 200\\,\\text{m}^2\\]\nQualquer outra proporção daria uma área menor. A matemática garante isso."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza",
+    "href": "ensino/galinheiro-de-descartes.html#o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "O que isso tem a ver com carros, galinhas e natureza",
+    "text": "O que isso tem a ver com carros, galinhas e natureza\nO problema do galinheiro pertence a uma família enorme de problemas chamada otimização — encontrar o melhor valor possível (máximo ou mínimo) dentro de certas restrições. É exatamente o que os engenheiros fazem ao projetar a carroceria de um carro: minimizar o arrasto com o mínimo de material. É o que o Criador fez ao criar a natureza, ao moldar a gota d’água, a carapaça da tartaruga, o ovo, a teia da aranha, tudo otimizado!!!\nO prof. Ricieri dizia que um matemático não deveria apenas saber calcular — deveria saber vender seu conhecimento, como faz um médico ou um advogado. Esse raciocínio de otimização, que parece abstrato no galinheiro, era o mesmo que ele aplicava em consultorias para empresas inteiras, reduzindo custo de embalagens, otimizando rotas, maximizando produção agrícola.\nO galinheiro é só um exemplo, mas foi o que me fez entender o que o Ricieri queria dizer. Matemática não é uma disciplina escolar. É uma linguagem para resolver o que importa: reduzir desperdício, aumentar produção, entender a natureza."
+  },
+  {
+    "objectID": "ensino/galinheiro-de-descartes.html#por-que-esse-problema-nunca-saiu-da-minha-cabeça",
+    "href": "ensino/galinheiro-de-descartes.html#por-que-esse-problema-nunca-saiu-da-minha-cabeça",
+    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "section": "Por que esse problema nunca saiu da minha cabeça",
+    "text": "Por que esse problema nunca saiu da minha cabeça\nTalvez porque ele seja honesto. Ele não fingia que matemática era fácil, mas mostrava que ela era acessível quando você entende para que serve. O galinheiro tem uma galinha, tem parede, tem um problema concreto e a solução aparece de forma natural, quase inevitável, quando você coloca tudo no plano de Descartes e deixa a derivada fazer o trabalho.\nOutro motivo provavelmente é que ouvir que sou “imitador do criador”, me remete a Gênesis 1:26-28. Lá temos o relato da criação do homem por Deus à sua própria imagem e semelhança. Assim, inspirados pelo Criador, nós matemáticos temos no coração o desejo de criar, descobrir e explorar a natureza.\n\n\n\n\n\n\n\nDica🐔 Explore o Galinheiro Interativamente!\n\n\n\nVeja o galinheiro mudar de proporção em tempo real enquanto a área é plotada como parábola.\nAbrir Explorador do Galinheiro →\n\n\nEntão para que serve a matemática?\nA resposta é: serve para não desperdiçar tela de galinheiro. Serve para projetar carros. Serve para entender por que a natureza é tão eficiente. Mas serve, acima de tudo, para revelar para que existimos, ou seja, para imitar o nosso Criador. “Sede, pois, imitadores de Deus, como filhos amados.” — Efésios 5:1."
   },
   {
     "objectID": "ensino/precificando-imoveis.html",
@@ -133,192 +413,59 @@
     "text": "Limitações — o modelo tem problemas, e tudo bem\nEu poderia encerrar o artigo no ponto anterior e fingir que está tudo certo. Mas não estaria sendo honesto com você.\nVolte ao gráfico de resíduos da regressão simples. Observe com calma o que acontece da esquerda para a direita:\n\nPara imóveis baratos (preço estimado entre 400k e 700k): os resíduos ficam concentrados em torno de zero. O modelo acerta bem.\nPara imóveis de alto valor (acima de 1 milhão): a dispersão explode. Os erros chegam a ±1.000.000. O modelo se perde.\n\nIsso tem nome: heterocedasticidade. O padrão de funil clássico. A variância dos erros não é constante — ela cresce junto com o valor do imóvel.\nPor que isso acontece? Pense bem. Imóveis baratos são relativamente previsíveis: área e número de banheiros já explicam boa parte do preço. Imóveis de luxo são outra história. Acabamento, localização exata, arquitetura, vista, história do imóvel, características que nosso modelo simplesmente não enxerga. A incerteza cresce porque o modelo não tem as informações certas para esse segmento.\nO modelo é bom para imóveis comuns. Para imóveis de luxo, ele chuta.\nO que poderia melhorar?\n\nTransformação logarítmica: aplicar log(preco_de_venda) como variável dependente. Em dados de preço, erros percentuais costumam ser mais estáveis que erros absolutos. É a solução mais clássica para esse padrão.\nMais variáveis de qualidade: acabamento, localização, idade do imóvel. O modelo atual não tem nada que diferencie um apartamento simples de um imóvel de alto padrão além da cozinha.\nModelos não-lineares: Se o foco for precisão nas previsões, Random Forest ou Gradient Boosting capturam relações mais complexas que a reta não consegue.\n\nMas sabe o que é mais importante do que qualquer uma dessas soluções técnicas? Saber identificar o problema. Um cientista de dados que entrega um modelo de regressão linear sem olhar o gráfico de resíduos é como um médico que prescreve o remédio sem ler o resultado do exame.\nIsso é o que separa um cientista de dados de um apertador de botões."
   },
   {
-    "objectID": "ensino/galinheiro-de-descartes.html",
-    "href": "ensino/galinheiro-de-descartes.html",
-    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
+    "objectID": "projetos/index.html",
+    "href": "projetos/index.html",
+    "title": "Projetos",
     "section": "",
-    "text": "Havia uma frase que o Prof. Aguinaldo Prandini Ricieri, físico e prof. pelo ITA, matemático por vocação, repetia nas suas aulas com uma certa frequência:\n\n“O homem de exatas é um Imitador do Criador.”\n\nEle se declarava ateu, o que tornava a frase ainda mais curiosa. Mas o que ele queria dizer ficava claro quando você olhava para os exemplos que ele trazia.\nNos anos 90, as montadoras começaram a arredondar os carros. Saíram as formas quadradas, angulosas, e entraram as curvas suaves. Ricieri apontava para isso e perguntava: por que? A resposta era matemática… e vinha da natureza. A gota d’água, por exemplo, ao cair, assume uma forma que minimiza o arrasto aerodinâmico. Os engenheiros não inventaram esse design. Eles o copiaram. Matematizaram o que a natureza já “exibia” há milênios.\nEssa era a filosofia do curso que fiz em 97/98 — o famoso Matemática Aplicada à Vida, ministrado aos sábados à tarde e aos domingos de manhã (sim, 7h da manhã, e a sala estava cheia viu!) lá no Anglo Tamandaré. O prof. Ricieri não ensinava fórmulas soltas. Ele ensinava contexto. Ensinava que por trás de cada símbolo matemático havia um ser humano, às vezes genial, às vezes obcecado, às vezes em guerra com outro matemático tentando resolver um problema real do seu tempo.\nOuvíamos histórias da rivalidade feroz entre Newton e Leibniz, da correspondência entre Fermat e Pascal discutindo jogos de azar (e inventando a teoria das probabilidades), das contribuições de Euler, Lagrange, Legendre, Gauss, do jovem Galois que morreu num duelo aos 20 anos com toda a sua matemática ainda por ser descoberta. Matemática não era uma lista de técnicas. Era uma narrativa humana de séculos.\nE foi numa dessas aulas que ele chegou com um problema que nunca mais saiu da minha cabeça e me fez perceber pra que serve a matemática…"
+    "text": "Dica🚀 Aplicações Interativas\n\n\n\nExperimente as aplicações web que desenvolvi. Todas são interativas e funcionais!"
   },
   {
-    "objectID": "ensino/galinheiro-de-descartes.html#o-homem-que-via-matemática-em-tudo",
-    "href": "ensino/galinheiro-de-descartes.html#o-homem-que-via-matemática-em-tudo",
-    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
-    "section": "",
-    "text": "Havia uma frase que o Prof. Aguinaldo Prandini Ricieri, físico e prof. pelo ITA, matemático por vocação, repetia nas suas aulas com uma certa frequência:\n\n“O homem de exatas é um Imitador do Criador.”\n\nEle se declarava ateu, o que tornava a frase ainda mais curiosa. Mas o que ele queria dizer ficava claro quando você olhava para os exemplos que ele trazia.\nNos anos 90, as montadoras começaram a arredondar os carros. Saíram as formas quadradas, angulosas, e entraram as curvas suaves. Ricieri apontava para isso e perguntava: por que? A resposta era matemática… e vinha da natureza. A gota d’água, por exemplo, ao cair, assume uma forma que minimiza o arrasto aerodinâmico. Os engenheiros não inventaram esse design. Eles o copiaram. Matematizaram o que a natureza já “exibia” há milênios.\nEssa era a filosofia do curso que fiz em 97/98 — o famoso Matemática Aplicada à Vida, ministrado aos sábados à tarde e aos domingos de manhã (sim, 7h da manhã, e a sala estava cheia viu!) lá no Anglo Tamandaré. O prof. Ricieri não ensinava fórmulas soltas. Ele ensinava contexto. Ensinava que por trás de cada símbolo matemático havia um ser humano, às vezes genial, às vezes obcecado, às vezes em guerra com outro matemático tentando resolver um problema real do seu tempo.\nOuvíamos histórias da rivalidade feroz entre Newton e Leibniz, da correspondência entre Fermat e Pascal discutindo jogos de azar (e inventando a teoria das probabilidades), das contribuições de Euler, Lagrange, Legendre, Gauss, do jovem Galois que morreu num duelo aos 20 anos com toda a sua matemática ainda por ser descoberta. Matemática não era uma lista de técnicas. Era uma narrativa humana de séculos.\nE foi numa dessas aulas que ele chegou com um problema que nunca mais saiu da minha cabeça e me fez perceber pra que serve a matemática…"
+    "objectID": "projetos/index.html#apps-shiny-r",
+    "href": "projetos/index.html#apps-shiny-r",
+    "title": "Projetos",
+    "section": "🎯 Apps Shiny (R)",
+    "text": "🎯 Apps Shiny (R)\n\n\nDEA Analyzer\nAnálise Envoltória de Dados (DEA)\nAplicativo completo para análise de eficiência de DMUs. Permite entrada customizada de dados, cálculo de scores DEA e recomendações de benchmarking.\nFuncionalidades: - Entrada dinâmica de inputs/outputs - Cálculo automático de eficiência - Visualizações gráficas - Recomendações de melhoria\nExperimentar App →\n\n\nRegressão Linear Interativa\nPIB vs Expectativa de Vida\nApp demonstrativo de análise de regressão linear com dados reais. Explore a correlação entre indicadores econômicos e de saúde.\nFuncionalidades: - Visualização interativa de dados - Análise de regressão em tempo real - Interpretação de resultados\nExperimentar App →"
   },
   {
-    "objectID": "ensino/galinheiro-de-descartes.html#quantos-metros-de-tela-você-tem",
-    "href": "ensino/galinheiro-de-descartes.html#quantos-metros-de-tela-você-tem",
-    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
-    "section": "“Quantos metros de tela você tem?”",
-    "text": "“Quantos metros de tela você tem?”\nEle chegou ao quadro, pegou o giz, e começou:\n“Você tem uma quantidade fixa de tela para construir um galinheiro retangular. Um lado vai ser encostado na parede do galpão; esse lado é de graça. Você quer usar toda a tela nos outros três lados. Qual deve ser o formato do galinheiro para que as galinhas tenham o máximo de espaço?”\nParece simples. E é. Mas a maioria das pessoas, sem pensar matematicamente, tentaria fazer um quadrado, ou dividir a tela em partes iguais. A matemática revela que a intuição nem sempre acerta."
+    "objectID": "projetos/index.html#apps-streamlit-python",
+    "href": "projetos/index.html#apps-streamlit-python",
+    "title": "Projetos",
+    "section": "🐍 Apps Streamlit (Python)",
+    "text": "🐍 Apps Streamlit (Python)\n\n\nMonitor de Fraudes\nSistema de Detecção de Anomalias\nAplicação para identificação de padrões suspeitos em transações financeiras usando técnicas de Machine Learning.\nExperimentar App →\n\n\nPrevisão de Consumo Energético\nSéries Temporais & Forecasting\nAnálise e previsão de consumo de energia elétrica.\nFuncionalidades: - Aba de dados e KPIs - Aba de previsões - Visualizações interativas\nExperimentar App →\n\n\nSimulador de Financiamento Imobiliário\nCalculadora SAC vs Price\nFerramenta prática para comparação de sistemas de amortização e planejamento de financiamento.\nExperimentar App →\n\n\nGerador de Petições\nAutomação com Python\nDemonstração de automação de documentos jurídicos usando processamento de texto em Python.\nExperimentar App →"
   },
   {
-    "objectID": "ensino/galinheiro-de-descartes.html#entra-descartes-e-seu-plano",
-    "href": "ensino/galinheiro-de-descartes.html#entra-descartes-e-seu-plano",
-    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
-    "section": "Entra Descartes — e seu plano",
-    "text": "Entra Descartes — e seu plano\nAntes de resolver, vale entender por que Ricieri chamava esse problema de “o galinheiro de Descartes”.\nRené Descartes (1596–1650) foi o matemático que uniu dois mundos que pareciam separados: a geometria e a álgebra. Ele criou o sistema de coordenadas cartesianas, lembra da escola? Aquele plano com eixo \\(x\\) e eixo \\(y\\) que todo estudante conhece. A ideia parece simples hoje, mas é fundamental para todo o avanço que a matemática teve posteriormente: é o que permitiu Newton e Leibniz desenvolverem o Cálculo poucas décadas depois.\nSem Descartes, o galinheiro seria apenas um problema de intuição. Com Descartes, ele se torna um problema que a matemática resolve com precisão."
+    "objectID": "projetos/index.html#inteligência-artificial-llms",
+    "href": "projetos/index.html#inteligência-artificial-llms",
+    "title": "Projetos",
+    "section": "🤖 Inteligência Artificial & LLMs",
+    "text": "🤖 Inteligência Artificial & LLMs\n\n\n\n\n\n\nNotaConteúdos Avançados em IA\n\n\n\nMateriais didáticos sobre IA Generativa, LLMs e aplicações práticas.\n\n\n\n\nCurso: IA na Saúde (HCFMUSP)\nApresentação oficial no HCX\nMaterial completo do curso ministrado na escola do Hospital das Clínicas. Aborda aplicações práticas de IA Generativa no contexto de saúde, casos de uso, limitações e considerações éticas.\nTópicos: Fundamentos de LLMs, Prompt Engineering, Aplicações clínicas, RAG, Fine-tuning\nAcessar Curso →\n\n\nAgentes de IA\nTeoria e Prática\nIntrodução ao conceito de agentes autônomos em IA. Inclui explicação conceitual e exemplo prático de implementação de agente simulado.\nConteúdo: Definição de agentes, arquiteturas, frameworks, exemplo interativo\nExplorar Conteúdo →\n\n\nFundamentos para Apps de IA\nDesenvolvimento Seguro e Responsável\nGuia completo sobre pré-requisitos técnicos e conceituais para criar aplicações de IA robustas. Cobre desde fundamentos até tópicos avançados como guardrails e segurança.\nTópicos: Arquitetura de LLMs, Guardrails, Segurança, Boas práticas, Casos de uso\nLer Guia →\n\n\nModel Context Protocol (MCP)\nProtocolo Emergente da Anthropic\nExplicação do MCP, protocolo que permite LLMs se conectarem a fontes de dados externas de forma padronizada. Essencial para criar aplicações de IA que interagem com sistemas corporativos.\nRelevância: Integração de dados, Extensibilidade, Padrão da indústria\nEntender MCP →"
   },
   {
-    "objectID": "ensino/galinheiro-de-descartes.html#montando-o-problema-no-plano-cartesiano",
-    "href": "ensino/galinheiro-de-descartes.html#montando-o-problema-no-plano-cartesiano",
-    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
-    "section": "Montando o problema no plano cartesiano",
-    "text": "Montando o problema no plano cartesiano\nVamos chamar de \\(L\\) o comprimento total de tela disponível. O galinheiro tem três lados — dois lados de comprimento \\(y\\) (perpendiculares à parede) e um lado de comprimento \\(x\\) (paralelo à parede):\nparede (grátis)\n|←————————— x —————————→|\n|                         |\ny                         y\n|                         |\n|_________________________|\nA restrição — o que limita o problema — é a quantidade de tela:\n\\[x + 2y = L\\]\nO objetivo é maximizar a área:\n\\[A = x \\cdot y\\]\nAqui é onde Descartes entra de verdade: expressamos tudo em função de uma única variável. Da restrição, tiramos \\(x\\):\n\\[x = L - 2y\\]\nSubstituímos na equação da área:\n\\[A(y) = (L - 2y) \\cdot y = Ly - 2y^2\\]\nAgora temos a área como uma função de \\(y\\), uma parábola com concavidade para baixo. E o máximo de uma parábola é exatamente o seu vértice."
+    "objectID": "projetos/index.html#projetos-de-data-science",
+    "href": "projetos/index.html#projetos-de-data-science",
+    "title": "Projetos",
+    "section": "📊 Projetos de Data Science",
+    "text": "📊 Projetos de Data Science\n\n\n\n\n\n\nNota🔬 Análises Completas & Reproduzíveis\n\n\n\nProjetos de Data Science com código executável, análises detalhadas e interpretações clínicas/práticas.\n\n\n\n\nRegressão de Inclinações Paralelas\nPredição de Pressão Arterial por Idade e Gênero\nAnálise estatística completa aplicando parallel slopes regression para modelar a relação entre idade, gênero e pressão arterial. Inclui análise exploratória, comparação de modelos, validação e interpretações clínicas.\nTécnicas aplicadas: - Regressão linear múltipla - Parallel slopes regression - Análise de resíduos - Validação estatística - Visualizações com ggplot2\nTecnologias: R, tidyverse, broom, moderndive\nVer Análise Completa →"
   },
   {
-    "objectID": "ensino/galinheiro-de-descartes.html#a-derivada-revela-o-segredo",
-    "href": "ensino/galinheiro-de-descartes.html#a-derivada-revela-o-segredo",
-    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
-    "section": "A derivada revela o segredo",
-    "text": "A derivada revela o segredo\nPara encontrar o ponto de máximo, calculamos a derivada de \\(A\\) em relação a \\(y\\) e igualamos a zero:\n\\[A'(y) = L - 4y = 0\\]\n\\[\\boxed{y = \\frac{L}{4}}\\]\nVoltando para encontrar \\(x\\):\n\\[x = L - 2 \\cdot \\frac{L}{4} = \\frac{L}{2}\\]\nResultado: o lado paralelo à parede deve ter o dobro do comprimento dos lados perpendiculares. Se você tem 40 metros de tela, por exemplo, \\(x = 20\\,\\text{m}\\) e \\(y = 10\\,\\text{m}\\), com área máxima de:\n\\[A_{max} = 20 \\times 10 = 200\\,\\text{m}^2\\]\nQualquer outra proporção daria uma área menor. A matemática garante isso."
+    "objectID": "projetos/index.html#estudos-análises-rpubs",
+    "href": "projetos/index.html#estudos-análises-rpubs",
+    "title": "Projetos",
+    "section": "📚 Estudos & Análises (RPubs)",
+    "text": "📚 Estudos & Análises (RPubs)\n\n🤖 Machine Learning & Algoritmos\n\n\nK-Nearest Neighbors (KNN)\nImplementação didática do algoritmo KNN em R.\nVer Estudo →\n\n\nGradient Descent\nExplicação visual do método do gradiente descendente.\nVer Estudo →\n\n\nClasses Desbalanceadas\nTécnicas para datasets desbalanceados com Naive Bayes.\nVer Estudo →\n\n\n\n\n🏥 Estatística & Healthcare\n\n\nEstatística Salva Vidas\nCaso histórico: análise estatística da higienização das mãos.\nVer Estudo →\n\n\nAnálise de Sobrevivência\nCurva de Kaplan-Meier explicada.\nVer Estudo →\n\n\nFluxos Hospitalares\nSimulação de análise operacional.\nVer Estudo →\n\n\n\n\n📊 Data Science Fundamentals\n\n\nQuarteto de Anscombe\nPor que visualização é essencial.\nVer Estudo →\n\n\nPreparação de Dados\nPipeline de limpeza e transformação.\nVer Estudo →\n\n\nMAPE\nMétricas de erro em modelos preditivos.\nVer Estudo →"
   },
   {
-    "objectID": "ensino/galinheiro-de-descartes.html#o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza",
-    "href": "ensino/galinheiro-de-descartes.html#o-que-isso-tem-a-ver-com-carros-galinhas-e-natureza",
-    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
-    "section": "O que isso tem a ver com carros, galinhas e natureza",
-    "text": "O que isso tem a ver com carros, galinhas e natureza\nO problema do galinheiro pertence a uma família enorme de problemas chamada otimização — encontrar o melhor valor possível (máximo ou mínimo) dentro de certas restrições. É exatamente o que os engenheiros fazem ao projetar a carroceria de um carro: minimizar o arrasto com o mínimo de material. É o que o Criador fez ao criar a natureza, ao moldar a gota d’água, a carapaça da tartaruga, o ovo, a teia da aranha, tudo otimizado!!!\nO prof. Ricieri dizia que um matemático não deveria apenas saber calcular — deveria saber vender seu conhecimento, como faz um médico ou um advogado. Esse raciocínio de otimização, que parece abstrato no galinheiro, era o mesmo que ele aplicava em consultorias para empresas inteiras, reduzindo custo de embalagens, otimizando rotas, maximizando produção agrícola.\nO galinheiro é só um exemplo, mas foi o que me fez entender o que o Ricieri queria dizer. Matemática não é uma disciplina escolar. É uma linguagem para resolver o que importa: reduzir desperdício, aumentar produção, entender a natureza."
+    "objectID": "projetos/index.html#mais-conteúdo",
+    "href": "projetos/index.html#mais-conteúdo",
+    "title": "Projetos",
+    "section": "🔗 Mais Conteúdo",
+    "text": "🔗 Mais Conteúdo\n\n\n📖 RPubs Profile\nBiblioteca completa de análises e tutoriais em R.\nVisitar Perfil →\n\n\n🎥 Canal YouTube\nAulas de Matemática, Estatística e Programação.\nAssistir Vídeos →"
   },
   {
-    "objectID": "ensino/galinheiro-de-descartes.html#por-que-esse-problema-nunca-saiu-da-minha-cabeça",
-    "href": "ensino/galinheiro-de-descartes.html#por-que-esse-problema-nunca-saiu-da-minha-cabeça",
-    "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
-    "section": "Por que esse problema nunca saiu da minha cabeça",
-    "text": "Por que esse problema nunca saiu da minha cabeça\nTalvez porque ele seja honesto. Ele não fingia que matemática era fácil, mas mostrava que ela era acessível quando você entende para que serve. O galinheiro tem uma galinha, tem parede, tem um problema concreto e a solução aparece de forma natural, quase inevitável, quando você coloca tudo no plano de Descartes e deixa a derivada fazer o trabalho.\nOutro motivo provavelmente é que ouvir que sou “imitador do criador”, me remete a Gênesis 1:26-28. Lá temos o relato da criação do homem por Deus à sua própria imagem e semelhança. Assim, inspirados pelo Criador, nós matemáticos temos no coração o desejo de criar, descobrir e explorar a natureza.\n\n\n\n\n\n\n\nDica🐔 Explore o Galinheiro Interativamente!\n\n\n\nVeja o galinheiro mudar de proporção em tempo real enquanto a área é plotada como parábola.\nAbrir Explorador do Galinheiro →\n\n\nEntão para que serve a matemática?\nA resposta é: serve para não desperdiçar tela de galinheiro. Serve para projetar carros. Serve para entender por que a natureza é tão eficiente. Mas serve, acima de tudo, para revelar para que existimos, ou seja, para imitar o nosso Criador. “Sede, pois, imitadores de Deus, como filhos amados.” — Efésios 5:1."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre Mim",
-    "section": "",
-    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
-  },
-  {
-    "objectID": "about.html#quem-sou",
-    "href": "about.html#quem-sou",
-    "title": "Sobre Mim",
-    "section": "",
-    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
-  },
-  {
-    "objectID": "about.html#formação-acadêmica",
-    "href": "about.html#formação-acadêmica",
-    "title": "Sobre Mim",
-    "section": "Formação Acadêmica",
-    "text": "Formação Acadêmica\n🎓 Mestre em Matemática Aplicada\n🎓 Bacharel em Matemática\n📊 Especializações e Certificações\n\nInteligência Artificial & NLP: Lang Chain,Implementação de RAG (Retrieval-Augmented Generation), CrewAI, LlamaIndex, LLM e Generative AI, Deep Learning e NLP.\nModelagem Avançada: Modelos Mistos Lineares Generalizados (GLMMs) e Séries Temporais.\nStack Tecnológica: Formações avançadas em ecossistemas Python e R."
-  },
-  {
-    "objectID": "about.html#experiência-profissional",
-    "href": "about.html#experiência-profissional",
-    "title": "Sobre Mim",
-    "section": "Experiência Profissional",
-    "text": "Experiência Profissional\n\n🏥 Hospital das Clínicas da FMUSP\nCientista de Dados | 2018 - Atual\nNo maior complexo hospitalar da América Latina, atuo na arquitetura e desenvolvimento de modelos preditivos:\n\nIA e ML em Saúde: Desenvolvimento de algoritmos para predição de desfechos clínicos e gestão de recursos hospitalares.\nEngenharia de Dashboards: Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro, Internação, ambulatorial e eficiência operacional.\nBig Data: Manipulação e análise de grandes volumes de dados em ambientes Vertica e Oracle.\n\n\n\n💻 4Research\nData Scientist & Developer | Atual\nFoco em tecnologia para pesquisa clínica e inteligência de dados:\n\nAplicações Analíticas: Desenvolvimento de ferramentas interativas com R-Shiny e Streamlit para captura e análise de dados multicêntricos.\nIntegração de Ecossistemas: Conexão de plataformas de pesquisa (REDCap) com pipelines de análise automatizados.\n\n\n\n🎓 Professor Universitário\nDocente de Estatística e Matemática Aplicada | 2010 - Atual\nHá mais de 14 anos, leciono para cursos de Administração, Marketing, Logística e RH.\n\nVersatilidade: Minha atuação docente garante que eu mantenha a habilidade de aplicar a ciência de dados em contextos diversos de negócios, fora do nicho hospitalar.\nMentoria: Foco na formação de profissionais capazes de interpretar dados para além das ferramentas."
-  },
-  {
-    "objectID": "about.html#competências-técnicas",
-    "href": "about.html#competências-técnicas",
-    "title": "Sobre Mim",
-    "section": "Competências Técnicas",
-    "text": "Competências Técnicas\n\nLinguagens & IA\n\nR : Modelagem estatística avançada, Tidyverse, Shiny, Automação de relatórios.\nPython : Scikit-learn, Pandas, Streamlit, Integração com LLMs (RAG, LangChain).\nSQL: Queries complexas e otimização em Vertica, Oracle e PostgreSQL.\n\n\n\nDomínios de Especialidade\n\nModelagem: GLMMs, Análise de Sobrevivência, Séries Temporais e Regressão Avançada.\nIA & Machine Learning: Deep Learning, NLP e Modelos Preditivos.\nVisualização: Tableau, Power BI, Plotly e bibliotecas customizadas em R/Python."
-  },
-  {
-    "objectID": "about.html#filosofia-de-trabalho",
-    "href": "about.html#filosofia-de-trabalho",
-    "title": "Sobre Mim",
-    "section": "Filosofia de Trabalho",
-    "text": "Filosofia de Trabalho\n\n“Transformar complexidade em clareza, dados em decisões e análises em ações.”\n\nAcredito que a verdadeira Ciência de Dados reside no equilíbrio entre o rigor matemático e a praticidade da entrega. Meu compromisso é buscar a verdade nos dados com integridade ética e comunicar insights de forma que qualquer tomador de decisão possa agir com confiança."
-  },
-  {
-    "objectID": "about.html#vamos-conversar",
-    "href": "about.html#vamos-conversar",
-    "title": "Sobre Mim",
-    "section": "Vamos Conversar?",
-    "text": "Vamos Conversar?\nEstou disponível para colaborações em projetos de IA, consultoria estatística para pesquisas e treinamentos corporativos.\n📧 Email: davimatfacil@gmail.com\n💼 LinkedIn: linkedin.com/in/davi-rocha-27a24b33/\n🐙 GitHub: github.com/davimatfacil\n\nÚltima atualização: Fevereiro de 2026"
-  },
-  {
-    "objectID": "ensino/index.html",
-    "href": "ensino/index.html",
-    "title": "Ensino",
-    "section": "",
-    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
-  },
-  {
-    "objectID": "ensino/index.html#experiência-em-ensino",
-    "href": "ensino/index.html#experiência-em-ensino",
-    "title": "Ensino",
-    "section": "",
-    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
-  },
-  {
-    "objectID": "ensino/index.html#aulas-demonstrativas",
-    "href": "ensino/index.html#aulas-demonstrativas",
-    "title": "Ensino",
-    "section": "🎥 Aulas Demonstrativas",
-    "text": "🎥 Aulas Demonstrativas\nVeja exemplos do meu método de ensino:\n\nMatemática BásicaMatemática AplicadaMatemática FinanceiraProbabilidadeProgramação PythonProgramação R\n\n\nComparando Números Naturais\nAula didática sobre conceitos fundamentais para estudantes iniciantes.\n\n\n\n\nOferta e Demanda Linear\nExercício aplicado de funções lineares no contexto econômico.\n\n\n\nFunção Custo, Receita e Lucro\nAplicação de funções lineares em análise de negócios.\n\n\n\n\nTaxa Efetiva e Nominal\nConvenção Linear e Exponencial em Matemática Financeira.\n\n\n\n\nProblema do Aniversário\nConceito fascinante de probabilidades aplicado a um problema clássico.\n\n\n\n\nConversão de Variáveis Categóricas\nComo criar variáveis dummy em Python para Machine Learning.\n\n\n\n\nRenomear Colunas no R\nDica rápida e prática para manipulação de dados em R.\n\n\n\n\n\nVer Mais no Canal →"
-  },
-  {
-    "objectID": "ensino/index.html#artigos",
-    "href": "ensino/index.html#artigos",
-    "title": "Ensino",
-    "section": "📝 Artigos",
-    "text": "📝 Artigos\nReflexões e explicações sobre matemática aplicada e aplicações reais.\n\n\nQuanto Vale uma Casa? A Estatística que Responde\nRegressão | Estatística | R\nComo construir um modelo de regressão múltipla para precificar imóveis: da correlação até a previsão.\nLer artigo →\n\n\nO Galinheiro de Descartes\nOtimização | Cálculo Diferencial\nComo um problema simples de galinheiro revela o poder da derivada — e por que o homem de exatas é um Imitador do Criador.\nLer artigo →"
-  },
-  {
-    "objectID": "ensino/index.html#aulas-particulares",
-    "href": "ensino/index.html#aulas-particulares",
-    "title": "Ensino",
-    "section": "📚 Aulas Particulares",
-    "text": "📚 Aulas Particulares\nOfereço aulas personalizadas para:\n\n\n🎒 Ensino Fundamental e Médio\n\nReforço em Matemática\nPreparação para vestibulares\nAcompanhamento escolar\n\n\n\n🎓 Universitários\n\nCálculo, Álgebra Linear\nEstatística e Probabilidade\nAnálise de Dados\nProgramação (R/Python)\n\n\n\n💼 Profissionais\n\nEstatística aplicada\nR e Python para dados\nTransição para Data Science\nMachine Learning"
-  },
-  {
-    "objectID": "ensino/index.html#diferenciais",
-    "href": "ensino/index.html#diferenciais",
-    "title": "Ensino",
-    "section": "💡 Diferenciais",
-    "text": "💡 Diferenciais\n\n\n✨ 24 anos de experiência em ensino\n🎯 Metodologia adaptada ao seu ritmo e objetivo\n📖 Material didático personalizado\n🏆 Histórico comprovado de resultados\n\n\n📍 Aulas presenciais em São Paulo (preferencialmente aos sábados)\n💻 Aulas online para todo o Brasil\n🔄 Flexibilidade de horários\n📊 Acompanhamento de progresso"
-  },
-  {
-    "objectID": "ensino/index.html#entre-em-contato",
-    "href": "ensino/index.html#entre-em-contato",
-    "title": "Ensino",
-    "section": "📞 Entre em Contato",
-    "text": "📞 Entre em Contato\nInteressado em aulas particulares? Entre em contato para agendar uma aula experimental!\nEnviar E-mail\n\n\n\n\n\n\nDicaComo Funciona\n\n\n\n\nEntre em contato por e-mail\nConte seus objetivos e dificuldades\nAgendamos uma conversa inicial (gratuita)\nDefinimos plano de estudos personalizado"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Davi Rocha",
-    "section": "",
-    "text": "Sou Cientista de Dados e Professor Universitário, com uma trajetória de 24 anos dedicada à Matemática. Atualmente, aplico Inteligência Artificial e Data Science no Hospital das Clínicas da FMUSP e na 4Research atuando na fronteira entre a tecnologia e a saúde.\nMinha paixão é transformar dados complexos em soluções inteligentes e compartilhar esse conhecimento. Desde 2010, leciono Estatística e Matemática no ensino superior, unindo o rigor acadêmico à prática de mercado para solucionar desafios em diversos setores.\n\n\n🏥 Inteligência Artificial & ML em Saúde: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.\n📈 Estatística: Modelagem estatística e análise descritiva e inferencial de dados de pesquisas.\n📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares.\n💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para qualidade de dados e monitoramento de pesquisa clínica, além de painéis em Tableau.\n🎓 Ensino: Formação de novos profissionais que possam usar matemática e estatística cumprindo seu papel na sociedade.\n\n\n\n\n🎓 Mestre em Matemática Aplicada - USP\n🎓 Bacharel em Matematica - UNESP"
-  },
-  {
-    "objectID": "index.html#olá",
-    "href": "index.html#olá",
-    "title": "Davi Rocha",
-    "section": "",
-    "text": "Sou Cientista de Dados e Professor Universitário, com uma trajetória de 24 anos dedicada à Matemática. Atualmente, aplico Inteligência Artificial e Data Science no Hospital das Clínicas da FMUSP e na 4Research atuando na fronteira entre a tecnologia e a saúde.\nMinha paixão é transformar dados complexos em soluções inteligentes e compartilhar esse conhecimento. Desde 2010, leciono Estatística e Matemática no ensino superior, unindo o rigor acadêmico à prática de mercado para solucionar desafios em diversos setores.\n\n\n🏥 Inteligência Artificial & ML em Saúde: Desenvolvo modelos de Machine Learning e análises preditivas para apoiar decisões clínicas e administrativas.\n📈 Estatística: Modelagem estatística e análise descritiva e inferencial de dados de pesquisas.\n📊 Dashboards & Visualização: Criação de painéis interativos para monitoramento de indicadores hospitalares.\n💻 Desenvolvimento: Aplicações R-Shiny e Streamlit para qualidade de dados e monitoramento de pesquisa clínica, além de painéis em Tableau.\n🎓 Ensino: Formação de novos profissionais que possam usar matemática e estatística cumprindo seu papel na sociedade.\n\n\n\n\n🎓 Mestre em Matemática Aplicada - USP\n🎓 Bacharel em Matematica - UNESP"
-  },
-  {
-    "objectID": "index.html#projetos-em-destaque",
-    "href": "index.html#projetos-em-destaque",
-    "title": "Davi Rocha",
-    "section": "Projetos em Destaque",
-    "text": "Projetos em Destaque\n\n\nSistema de Monitoramento Hospitalar\nDashboard interativo para acompanhamento de fluxo de pacientes e indicadores operacionais do HCFMUSP.\nTecnologias: R-Shiny, Vertica\n\n\nModelos Preditivos em Saúde\nDesenvolvimento de modelos de Machine Learning para análise de dados clínicos e predição de desfechos.\nTecnologias: Python, R"
-  },
-  {
-    "objectID": "index.html#tecnologias",
-    "href": "index.html#tecnologias",
-    "title": "Davi Rocha",
-    "section": "Tecnologias",
-    "text": "Tecnologias\n\n\nLinguagens\nR • Python • SQL\n\nFerramentas\nShiny • Streamlit • Tableau • REDCap\n\n\nBancos de Dados: Vertica • Oracle • PostgreSQL"
-  },
-  {
-    "objectID": "index.html#entre-em-contato",
-    "href": "index.html#entre-em-contato",
-    "title": "Davi Rocha",
-    "section": "Entre em Contato",
-    "text": "Entre em Contato\nInteressado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?\n📧 davimatfacil@gmail.com\n💼 LinkedIn\n🐙 GitHub"
+    "objectID": "projetos/index.html#desenvolvimento-de-sites-dashboards",
+    "href": "projetos/index.html#desenvolvimento-de-sites-dashboards",
+    "title": "Projetos",
+    "section": "💼 Desenvolvimento de Sites & Dashboards",
+    "text": "💼 Desenvolvimento de Sites & Dashboards\n\n\n\n\n\n\nImportante🌐 Gostou deste site?\n\n\n\nEste portfólio foi desenvolvido com Quarto e publicado gratuitamente no GitHub Pages. É um exemplo do que posso criar para você ou sua organização!\n\n\n\nO que posso desenvolver para você:\n\n\n🌐 Sites Profissionais\n\nPortfólios pessoais como este\nSites institucionais/corporativos\nLanding pages\nBlogs técnicos e documentação\n\nTecnologias: Quarto, GitHub Pages\nHospedagem: Gratuita (GitHub) ou customizada\n\n\n📊 Dashboards & Aplicações\n\nDashboards interativos (Shiny/Streamlit)\nAplicações analíticas customizadas\nFerramentas de visualização de dados\nAutomações e sistemas\n\nTecnologias: R Shiny, Streamlit, Python, R\n\n\n\n\n💰 Diferenciais\n\n\n✅ Custo acessível\nHospedagem gratuita no GitHub Pages\n\n\n✅ Design profissional\nLayout responsivo e moderno\n\n\n✅ Fácil manutenção\nVocê pode atualizar depois\n\n\n✅ SEO otimizado\nMelhor visibilidade online\n\n\n\n\n\n📞 Interessado em criar seu site ou dashboard?\nSolicitar Orçamento\nAtendo profissionais, pesquisadores, pequenas empresas e organizações."
   }
 ]
