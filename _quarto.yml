@@ -5,6 +5,7 @@ project:
 website:
   title: "Davi Rocha"
   description: "Data Scientist | Professor | Healthcare Analytics"
+  google-analytics: "G-C3WERYEY0W"
   
   navbar:
     background: primary
