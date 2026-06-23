@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Professor de Matemática e Programação | Aulas Particulares">
+<meta name="author" content="prof. Davi Rocha">
 
-<title>Ensino – Davi Rocha</title>
+<title>Números Primos, Átomos e Criação – Davi Rocha</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,6 +79,35 @@ gtag('js', new Date());
 gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -113,7 +142,7 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
 <span class="menu-text">Projetos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../ensino/index.html" aria-current="page"> 
+    <a class="nav-link" href="../ensino/index.html"> 
 <span class="menu-text">Ensino</span></a>
   </li>  
 </ul>
@@ -154,12 +183,11 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#experiência-em-ensino" id="toc-experiência-em-ensino" class="nav-link active" data-scroll-target="#experiência-em-ensino">👨‍🏫 Experiência em Ensino</a></li>
-  <li><a href="#aulas-demonstrativas" id="toc-aulas-demonstrativas" class="nav-link" data-scroll-target="#aulas-demonstrativas">🎥 Aulas Demonstrativas</a></li>
-  <li><a href="#artigos" id="toc-artigos" class="nav-link" data-scroll-target="#artigos">📝 Artigos</a></li>
-  <li><a href="#aulas-particulares" id="toc-aulas-particulares" class="nav-link" data-scroll-target="#aulas-particulares">📚 Aulas Particulares</a></li>
-  <li><a href="#diferenciais" id="toc-diferenciais" class="nav-link" data-scroll-target="#diferenciais">💡 Diferenciais</a></li>
-  <li><a href="#entre-em-contato" id="toc-entre-em-contato" class="nav-link" data-scroll-target="#entre-em-contato">📞 Entre em Contato</a></li>
+  <li><a href="#o-que-são-números-primos" id="toc-o-que-são-números-primos" class="nav-link active" data-scroll-target="#o-que-são-números-primos">O que são números primos?</a></li>
+  <li><a href="#os-átomos-dos-números" id="toc-os-átomos-dos-números" class="nav-link" data-scroll-target="#os-átomos-dos-números">Os átomos dos números</a></li>
+  <li><a href="#os-primos-são-infinitos" id="toc-os-primos-são-infinitos" class="nav-link" data-scroll-target="#os-primos-são-infinitos">Os primos são infinitos</a></li>
+  <li><a href="#primos-protegem-a-internet" id="toc-primos-protegem-a-internet" class="nav-link" data-scroll-target="#primos-protegem-a-internet">Primos protegem a internet</a></li>
+  <li><a href="#o-criador-criou" id="toc-o-criador-criou" class="nav-link" data-scroll-target="#o-criador-criou">O Criador criou</a></li>
   </ul>
 </nav>
     </div>
@@ -168,19 +196,26 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ensino</h1>
+<h1 class="title">Números Primos, Átomos e Criação</h1>
 </div>
 
-<div>
-  <div class="description">
-    Professor de Matemática e Programação | Aulas Particulares
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>prof. Davi Rocha </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">23 de junho de 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -190,167 +225,99 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
 </header>
 
 
-<section id="experiência-em-ensino" class="level2">
-<h2 class="anchored" data-anchor-id="experiência-em-ensino">👨‍🏫 Experiência em Ensino</h2>
-<p>Professor universitário desde 2010, com <strong>24 anos de experiência</strong> em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.</p>
-<p><strong>Áreas de expertise:</strong></p>
+<p>Você sabia que existe um conjunto de números que são <strong>anti sociais</strong>, não se misturam?</p>
+<p>Isso não é uma característica muito boa para as pessoas, não é verdade? Existimos para sermos sociáveis, fomos criados para socializar com Deus e com os homens! Deus viu que o homem estava sozinho na criação, e com isso decidiu criar uma companheira pra ele. <em>Gênesis 2:18.</em></p>
+<p>Os nossos números anti sociais são os chamados <strong>números primos</strong>. Não sei se você os conhece ou lembra deles da época da escola!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/figura_secao_introducao.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+<hr>
+<section id="o-que-são-números-primos" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-são-números-primos">O que são números primos?</h2>
+<p>Eles têm uma característica interessante. São números que são divisíveis <strong>apenas por 1 e por eles mesmos</strong>. Se tentarmos fazer a divisão com outros números, a conta não dá exata!</p>
+<p>Os primeiros números primos são: <strong>2, 3, 5, 7, 11, 13, 17, 19, 23, 29…</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/figura_reta_numerica.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+<p>Por exemplo, o <strong>5</strong>:</p>
 <ul>
-<li><strong>Matemática:</strong> Desde básica até cálculo universitário</li>
-<li><strong>Estatística:</strong> Descritiva, Inferencial e Modelagem</li>
-<li><strong>Programação:</strong> R e Python aplicados à Data Science</li>
-<li><strong>Data Science:</strong> Machine Learning e Análise de Dados</li>
+<li><span class="math inline">\(5 \div 1 = 5\)</span> ✅ Fluxo perfeito</li>
+<li><span class="math inline">\(5 \div 5 = 1\)</span> ✅ Fluxo perfeito</li>
+<li><span class="math inline">\(5 \div 2 = 2\)</span> com <strong>resto 1</strong> ❌ A conta não fecha!</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/figura_multiplica_5_exemplo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+<p>Ou seja, o 5 — assim como todos os primos — é anti social: não se divide com mais ninguém além do 1 e de si mesmo!</p>
 <hr>
 </section>
-<section id="aulas-demonstrativas" class="level2">
-<h2 class="anchored" data-anchor-id="aulas-demonstrativas">🎥 Aulas Demonstrativas</h2>
-<p>Veja exemplos do meu método de ensino:</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Matemática Básica</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Matemática Aplicada</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Matemática Financeira</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Probabilidade</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Programação Python</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Programação R</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><strong>Comparando Números Naturais</strong></p>
-<p>Aula didática sobre conceitos fundamentais para estudantes iniciantes.</p>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/ng8s2lVNOzs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<section id="os-átomos-dos-números" class="level2">
+<h2 class="anchored" data-anchor-id="os-átomos-dos-números">Os átomos dos números</h2>
+<p>Os números primos são tão importantes e misteriosos que guardam um segredo ainda maior…</p>
+<p>Foi descoberto e provado num teorema famoso que, de certa forma, <strong>os números primos são os átomos dos números!</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/figura_teorema_fund_da_aritmetica.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
 </div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><strong>Oferta e Demanda Linear</strong></p>
-<p>Exercício aplicado de funções lineares no contexto econômico.</p>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/YMH6cdNKADE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-<hr>
-<p><strong>Função Custo, Receita e Lucro</strong></p>
-<p>Aplicação de funções lineares em análise de negócios.</p>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/a6o7QFFcdSM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<p>É o <strong>Teorema Fundamental da Aritmética</strong>. Ele diz basicamente que:</p>
+<blockquote class="blockquote">
+<p><em>Todo número natural maior que 1 ou é primo, ou pode ser escrito de forma única (sem levar em conta a ordem) como produto de números primos.</em></p>
+</blockquote>
+<p>É como se os números primos fossem os <strong>geradores</strong> de todos os outros números! Veja alguns exemplos:</p>
+<p><span class="math display">\[30 = 2 \times 3 \times 5\]</span></p>
+<p><span class="math display">\[840 = 2 \times 2 \times 2 \times 3 \times 5 \times 7\]</span></p>
+<p><span class="math display">\[77 = 7 \times 11\]</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/figura_decompoe_30.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
 </div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p><strong>Taxa Efetiva e Nominal</strong></p>
-<p>Convenção Linear e Exponencial em Matemática Financeira.</p>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/I2fKo2c1rmI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<p><strong>Problema do Aniversário</strong></p>
-<p>Conceito fascinante de probabilidades aplicado a um problema clássico.</p>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/SuMGlnyQpeQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</div>
-<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
-<p><strong>Conversão de Variáveis Categóricas</strong></p>
-<p>Como criar variáveis dummy em Python para Machine Learning.</p>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/TwVBewyylfk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</div>
-<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
-<p><strong>Renomear Colunas no R</strong></p>
-<p>Dica rápida e prática para manipulação de dados em R.</p>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/VR7zywvvTmE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</div>
-</div>
-</div>
-<p><a href="https://www.youtube.com/@DaviRocha_ML" class="btn btn-danger" target="_blank">Ver Mais no Canal →</a></p>
-<hr>
+<p>Não importa a complexidade de um número — ele sempre será decomposto em uma “molécula” única e exclusiva de números primos. Nenhuma outra combinação funcionará.</p>
 <hr>
 </section>
-<section id="artigos" class="level2">
-<h2 class="anchored" data-anchor-id="artigos">📝 Artigos</h2>
-<p>Reflexões e explicações sobre matemática aplicada e aplicações reais.</p>
-<div class="grid">
-<section id="quanto-vale-uma-casa-a-estatística-que-responde" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="quanto-vale-uma-casa-a-estatística-que-responde"><a href="precificando-imoveis.html">Quanto Vale uma Casa? A Estatística que Responde</a></h3>
-<p><em>Regressão | Estatística | R</em></p>
-<p>Como construir um modelo de regressão múltipla para precificar imóveis: da correlação até a previsão.</p>
-<p><a href="precificando-imoveis.html" class="btn btn-outline-primary">Ler artigo →</a></p>
-</section>
-<section id="o-galinheiro-de-descartes" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="o-galinheiro-de-descartes"><a href="galinheiro-de-descartes.html">O Galinheiro de Descartes</a></h3>
-<p><em>Otimização | Cálculo Diferencial</em></p>
-<p>Como um problema simples de galinheiro revela o poder da derivada — e por que o homem de exatas é um Imitador do Criador.</p>
-<p><a href="galinheiro-de-descartes.html" class="btn btn-outline-primary">Ler artigo →</a></p>
-</section>
-<section id="números-primos-átomos-e-criação" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="números-primos-átomos-e-criação"><a href="numeros-primos-atomos-e-criacao.html">Números Primos, Átomos e Criação</a></h3>
-<p><em>Teoria dos Números | Criptografia | Reflexão</em></p>
-<p>Os números que não se misturam com ninguém — e o que o Teorema Fundamental da Aritmética revela sobre o Criador.</p>
-<p><a href="numeros-primos-atomos-e-criacao.html" class="btn btn-outline-primary">Ler artigo →</a></p>
-</section>
-</div>
-</section>
-<section id="aulas-particulares" class="level2">
-<h2 class="anchored" data-anchor-id="aulas-particulares">📚 Aulas Particulares</h2>
-<p>Ofereço aulas personalizadas para:</p>
-<div class="grid">
-<section id="ensino-fundamental-e-médio" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="ensino-fundamental-e-médio">🎒 Ensino Fundamental e Médio</h3>
-<ul>
-<li>Reforço em Matemática</li>
-<li>Preparação para vestibulares</li>
-<li>Acompanhamento escolar</li>
-</ul>
-</section>
-<section id="universitários" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="universitários">🎓 Universitários</h3>
-<ul>
-<li>Cálculo, Álgebra Linear</li>
-<li>Estatística e Probabilidade</li>
-<li>Análise de Dados</li>
-<li>Programação (R/Python)</li>
-</ul>
-</section>
-<section id="profissionais" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="profissionais">💼 Profissionais</h3>
-<ul>
-<li>Estatística aplicada</li>
-<li>R e Python para dados</li>
-<li>Transição para Data Science</li>
-<li>Machine Learning</li>
-</ul>
-</section>
-</div>
+<section id="os-primos-são-infinitos" class="level2">
+<h2 class="anchored" data-anchor-id="os-primos-são-infinitos">Os primos são infinitos</h2>
+<p>Mas quantos desses números anti sociais existem? Será que eles acabam em algum momento?</p>
+<p><strong>Euclides</strong>, o famoso matemático grego, provou que não. Os primos são <strong>infinitos</strong> — sempre haverá um novo primo além de qualquer lista que você faça. A prova que ele usou é engenhosa e elegante, digna de um artigo próprio!</p>
+<p>E dois mil anos depois, esse mistério continua: os primos são infinitos, mas aparecem de forma <strong>aparentemente aleatória</strong>. Será que existe alguma ordem escondida nessa distribuição? Foi exatamente essa pergunta que intrigou <strong>Bernhard Riemann</strong> — ele queria encontrar uma fórmula precisa para contar quantos números primos existem abaixo de um determinado valor. Mas isso é tema para um próximo artigo!</p>
 <hr>
 </section>
-<section id="diferenciais" class="level2">
-<h2 class="anchored" data-anchor-id="diferenciais">💡 Diferenciais</h2>
-<div class="grid">
-<div class="g-col-12 g-col-md-6">
-<p>✨ <strong>24 anos de experiência</strong> em ensino<br>
-🎯 <strong>Metodologia adaptada</strong> ao seu ritmo e objetivo<br>
-📖 <strong>Material didático personalizado</strong><br>
-🏆 <strong>Histórico comprovado</strong> de resultados</p>
+<section id="primos-protegem-a-internet" class="level2">
+<h2 class="anchored" data-anchor-id="primos-protegem-a-internet">Primos protegem a internet</h2>
+<p>A história dos primos não termina na matemática pura. Na <strong>criptografia</strong>, o algoritmo <strong>RSA</strong> baseia-se na dificuldade de fatorar números inteiros grandes.</p>
+<p>O RSA funciona assim: multiplicam-se dois primos enormes para criar uma chave de segurança. Quebrar essa chave exigiria fatorar o resultado — e isso levaria anos, mesmo com computadores potentes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/figura_RSA.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
 </div>
-<div class="g-col-12 g-col-md-6">
-<p>📍 <strong>Aulas presenciais</strong> em São Paulo (preferencialmente aos sábados)<br>
-💻 <strong>Aulas online</strong> para todo o Brasil<br>
-🔄 <strong>Flexibilidade</strong> de horários<br>
-📊 <strong>Acompanhamento</strong> de progresso</p>
-</div>
-</div>
+<p>Riemann estava pensando em matemática pura, sem imaginar que um dia seus estudos protegeriam transações bancárias pela internet! E essas propriedades dos números primos foram <strong>descobertas</strong> — ninguém criou. Bem… <em>Alguém</em> criou.</p>
 <hr>
 </section>
-<section id="entre-em-contato" class="level2">
-<h2 class="anchored" data-anchor-id="entre-em-contato">📞 Entre em Contato</h2>
-<p>Interessado em aulas particulares? Entre em contato para agendar uma <strong>aula experimental</strong>!</p>
-<p><a href="mailto:davimatfacil@gmail.com?subject=Interesse%20em%20Aulas%20Particulares" class="btn btn-success btn-lg">Enviar E-mail</a></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Dica</span>Como Funciona
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li>Entre em contato por e-mail</li>
-<li>Conte seus objetivos e dificuldades</li>
-<li>Agendamos uma conversa inicial (gratuita)</li>
-<li>Definimos plano de estudos personalizado</li>
-</ol>
-</div>
+<section id="o-criador-criou" class="level2">
+<h2 class="anchored" data-anchor-id="o-criador-criou">O Criador criou</h2>
+<p><strong>Deus criou todos os números</strong>, suas propriedades e, em particular, os números primos. Essas propriedades podem nos revelar um pouco de quem é Deus.</p>
+<p>Além disso, Ele deixou essas propriedades para que pudéssemos usá-las e aplicar em várias outras áreas do conhecimento — inclusive em criptografia, para garantir a ordem e a segurança de nossa sociedade.</p>
+<blockquote class="blockquote">
+<p><em>“A glória de Deus é ocultar certas coisas; tentar descobri-las é a glória dos reis.”</em><br>
+— Provérbios 25:2</p>
+</blockquote>
+<p>Os números primos são <strong>infinitos</strong> — e nos remetem a um dos atributos invisíveis de Deus: um Deus infinito, eterno, que deixou os números, a natureza e a criação para que o conhecêssemos melhor.</p>
+<blockquote class="blockquote">
+<p><em>“Porque os atributos invisíveis de Deus, assim o seu eterno poder, como também a sua própria divindade, claramente se reconhecem, desde a criação do mundo, sendo percebidos por meio das coisas que foram criadas.”</em><br>
+— Romanos 1:20</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imagens/figura_fim.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
 </div>
 
 

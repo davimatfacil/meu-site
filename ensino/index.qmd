@@ -110,6 +110,15 @@ Como um problema simples de galinheiro revela o poder da derivada — e por que 
 [Ler artigo →](galinheiro-de-descartes.html){.btn .btn-outline-primary}
 :::
 
+::: {.g-col-12 .g-col-md-6}
+### [Números Primos, Átomos e Criação](numeros-primos-atomos-e-criacao.html)
+*Teoria dos Números | Criptografia | Reflexão*
+
+Os números que não se misturam com ninguém — e o que o Teorema Fundamental da Aritmética revela sobre o Criador.
+
+[Ler artigo →](numeros-primos-atomos-e-criacao.html){.btn .btn-outline-primary}
+:::
+
 :::
 
 

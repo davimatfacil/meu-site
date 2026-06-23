@@ -175,102 +175,46 @@
     "text": "Entre em Contato\nInteressado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?\n📧 davimatfacil@gmail.com\n💼 LinkedIn\n🐙 GitHub"
   },
   {
-    "objectID": "ensino/index.html",
-    "href": "ensino/index.html",
-    "title": "Ensino",
+    "objectID": "ensino/numeros-primos-atomos-e-criacao.html",
+    "href": "ensino/numeros-primos-atomos-e-criacao.html",
+    "title": "Números Primos, Átomos e Criação",
     "section": "",
-    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+    "text": "Você sabia que existe um conjunto de números que são anti sociais, não se misturam?\nIsso não é uma característica muito boa para as pessoas, não é verdade? Existimos para sermos sociáveis, fomos criados para socializar com Deus e com os homens! Deus viu que o homem estava sozinho na criação, e com isso decidiu criar uma companheira pra ele. Gênesis 2:18.\nOs nossos números anti sociais são os chamados números primos. Não sei se você os conhece ou lembra deles da época da escola!"
   },
   {
-    "objectID": "ensino/index.html#experiência-em-ensino",
-    "href": "ensino/index.html#experiência-em-ensino",
-    "title": "Ensino",
-    "section": "",
-    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+    "objectID": "ensino/numeros-primos-atomos-e-criacao.html#o-que-são-números-primos",
+    "href": "ensino/numeros-primos-atomos-e-criacao.html#o-que-são-números-primos",
+    "title": "Números Primos, Átomos e Criação",
+    "section": "O que são números primos?",
+    "text": "O que são números primos?\nEles têm uma característica interessante. São números que são divisíveis apenas por 1 e por eles mesmos. Se tentarmos fazer a divisão com outros números, a conta não dá exata!\nOs primeiros números primos são: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29…\n\n\n\n\n\nPor exemplo, o 5:\n\n\\(5 \\div 1 = 5\\) ✅ Fluxo perfeito\n\\(5 \\div 5 = 1\\) ✅ Fluxo perfeito\n\\(5 \\div 2 = 2\\) com resto 1 ❌ A conta não fecha!\n\n\n\n\n\n\nOu seja, o 5 — assim como todos os primos — é anti social: não se divide com mais ninguém além do 1 e de si mesmo!"
   },
   {
-    "objectID": "ensino/index.html#aulas-demonstrativas",
-    "href": "ensino/index.html#aulas-demonstrativas",
-    "title": "Ensino",
-    "section": "🎥 Aulas Demonstrativas",
-    "text": "🎥 Aulas Demonstrativas\nVeja exemplos do meu método de ensino:\n\nMatemática BásicaMatemática AplicadaMatemática FinanceiraProbabilidadeProgramação PythonProgramação R\n\n\nComparando Números Naturais\nAula didática sobre conceitos fundamentais para estudantes iniciantes.\n\n\n\n\nOferta e Demanda Linear\nExercício aplicado de funções lineares no contexto econômico.\n\n\n\nFunção Custo, Receita e Lucro\nAplicação de funções lineares em análise de negócios.\n\n\n\n\nTaxa Efetiva e Nominal\nConvenção Linear e Exponencial em Matemática Financeira.\n\n\n\n\nProblema do Aniversário\nConceito fascinante de probabilidades aplicado a um problema clássico.\n\n\n\n\nConversão de Variáveis Categóricas\nComo criar variáveis dummy em Python para Machine Learning.\n\n\n\n\nRenomear Colunas no R\nDica rápida e prática para manipulação de dados em R.\n\n\n\n\n\nVer Mais no Canal →"
+    "objectID": "ensino/numeros-primos-atomos-e-criacao.html#os-átomos-dos-números",
+    "href": "ensino/numeros-primos-atomos-e-criacao.html#os-átomos-dos-números",
+    "title": "Números Primos, Átomos e Criação",
+    "section": "Os átomos dos números",
+    "text": "Os átomos dos números\nOs números primos são tão importantes e misteriosos que guardam um segredo ainda maior…\nFoi descoberto e provado num teorema famoso que, de certa forma, os números primos são os átomos dos números!\n\n\n\n\n\nÉ o Teorema Fundamental da Aritmética. Ele diz basicamente que:\n\nTodo número natural maior que 1 ou é primo, ou pode ser escrito de forma única (sem levar em conta a ordem) como produto de números primos.\n\nÉ como se os números primos fossem os geradores de todos os outros números! Veja alguns exemplos:\n\\[30 = 2 \\times 3 \\times 5\\]\n\\[840 = 2 \\times 2 \\times 2 \\times 3 \\times 5 \\times 7\\]\n\\[77 = 7 \\times 11\\]\n\n\n\n\n\nNão importa a complexidade de um número — ele sempre será decomposto em uma “molécula” única e exclusiva de números primos. Nenhuma outra combinação funcionará."
   },
   {
-    "objectID": "ensino/index.html#artigos",
-    "href": "ensino/index.html#artigos",
-    "title": "Ensino",
-    "section": "📝 Artigos",
-    "text": "📝 Artigos\nReflexões e explicações sobre matemática aplicada e aplicações reais.\n\n\nQuanto Vale uma Casa? A Estatística que Responde\nRegressão | Estatística | R\nComo construir um modelo de regressão múltipla para precificar imóveis: da correlação até a previsão.\nLer artigo →\n\n\nO Galinheiro de Descartes\nOtimização | Cálculo Diferencial\nComo um problema simples de galinheiro revela o poder da derivada — e por que o homem de exatas é um Imitador do Criador.\nLer artigo →"
+    "objectID": "ensino/numeros-primos-atomos-e-criacao.html#os-primos-são-infinitos",
+    "href": "ensino/numeros-primos-atomos-e-criacao.html#os-primos-são-infinitos",
+    "title": "Números Primos, Átomos e Criação",
+    "section": "Os primos são infinitos",
+    "text": "Os primos são infinitos\nMas quantos desses números anti sociais existem? Será que eles acabam em algum momento?\nEuclides, o famoso matemático grego, provou que não. Os primos são infinitos — sempre haverá um novo primo além de qualquer lista que você faça. A prova que ele usou é engenhosa e elegante, digna de um artigo próprio!\nE dois mil anos depois, esse mistério continua: os primos são infinitos, mas aparecem de forma aparentemente aleatória. Será que existe alguma ordem escondida nessa distribuição? Foi exatamente essa pergunta que intrigou Bernhard Riemann — ele queria encontrar uma fórmula precisa para contar quantos números primos existem abaixo de um determinado valor. Mas isso é tema para um próximo artigo!"
   },
   {
-    "objectID": "ensino/index.html#aulas-particulares",
-    "href": "ensino/index.html#aulas-particulares",
-    "title": "Ensino",
-    "section": "📚 Aulas Particulares",
-    "text": "📚 Aulas Particulares\nOfereço aulas personalizadas para:\n\n\n🎒 Ensino Fundamental e Médio\n\nReforço em Matemática\nPreparação para vestibulares\nAcompanhamento escolar\n\n\n\n🎓 Universitários\n\nCálculo, Álgebra Linear\nEstatística e Probabilidade\nAnálise de Dados\nProgramação (R/Python)\n\n\n\n💼 Profissionais\n\nEstatística aplicada\nR e Python para dados\nTransição para Data Science\nMachine Learning"
+    "objectID": "ensino/numeros-primos-atomos-e-criacao.html#primos-protegem-a-internet",
+    "href": "ensino/numeros-primos-atomos-e-criacao.html#primos-protegem-a-internet",
+    "title": "Números Primos, Átomos e Criação",
+    "section": "Primos protegem a internet",
+    "text": "Primos protegem a internet\nA história dos primos não termina na matemática pura. Na criptografia, o algoritmo RSA baseia-se na dificuldade de fatorar números inteiros grandes.\nO RSA funciona assim: multiplicam-se dois primos enormes para criar uma chave de segurança. Quebrar essa chave exigiria fatorar o resultado — e isso levaria anos, mesmo com computadores potentes.\n\n\n\n\n\nRiemann estava pensando em matemática pura, sem imaginar que um dia seus estudos protegeriam transações bancárias pela internet! E essas propriedades dos números primos foram descobertas — ninguém criou. Bem… Alguém criou."
   },
   {
-    "objectID": "ensino/index.html#diferenciais",
-    "href": "ensino/index.html#diferenciais",
-    "title": "Ensino",
-    "section": "💡 Diferenciais",
-    "text": "💡 Diferenciais\n\n\n✨ 24 anos de experiência em ensino\n🎯 Metodologia adaptada ao seu ritmo e objetivo\n📖 Material didático personalizado\n🏆 Histórico comprovado de resultados\n\n\n📍 Aulas presenciais em São Paulo (preferencialmente aos sábados)\n💻 Aulas online para todo o Brasil\n🔄 Flexibilidade de horários\n📊 Acompanhamento de progresso"
-  },
-  {
-    "objectID": "ensino/index.html#entre-em-contato",
-    "href": "ensino/index.html#entre-em-contato",
-    "title": "Ensino",
-    "section": "📞 Entre em Contato",
-    "text": "📞 Entre em Contato\nInteressado em aulas particulares? Entre em contato para agendar uma aula experimental!\nEnviar E-mail\n\n\n\n\n\n\nDicaComo Funciona\n\n\n\n\nEntre em contato por e-mail\nConte seus objetivos e dificuldades\nAgendamos uma conversa inicial (gratuita)\nDefinimos plano de estudos personalizado"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre Mim",
-    "section": "",
-    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
-  },
-  {
-    "objectID": "about.html#quem-sou",
-    "href": "about.html#quem-sou",
-    "title": "Sobre Mim",
-    "section": "",
-    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
-  },
-  {
-    "objectID": "about.html#formação-acadêmica",
-    "href": "about.html#formação-acadêmica",
-    "title": "Sobre Mim",
-    "section": "Formação Acadêmica",
-    "text": "Formação Acadêmica\n🎓 Mestre em Matemática Aplicada\n🎓 Bacharel em Matemática\n📊 Especializações e Certificações\n\nInteligência Artificial & NLP: Lang Chain,Implementação de RAG (Retrieval-Augmented Generation), CrewAI, LlamaIndex, LLM e Generative AI, Deep Learning e NLP.\nModelagem Avançada: Modelos Mistos Lineares Generalizados (GLMMs) e Séries Temporais.\nStack Tecnológica: Formações avançadas em ecossistemas Python e R."
-  },
-  {
-    "objectID": "about.html#experiência-profissional",
-    "href": "about.html#experiência-profissional",
-    "title": "Sobre Mim",
-    "section": "Experiência Profissional",
-    "text": "Experiência Profissional\n\n🏥 Hospital das Clínicas da FMUSP\nCientista de Dados | 2018 - Atual\nNo maior complexo hospitalar da América Latina, atuo na arquitetura e desenvolvimento de modelos preditivos:\n\nIA e ML em Saúde: Desenvolvimento de algoritmos para predição de desfechos clínicos e gestão de recursos hospitalares.\nEngenharia de Dashboards: Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro, Internação, ambulatorial e eficiência operacional.\nBig Data: Manipulação e análise de grandes volumes de dados em ambientes Vertica e Oracle.\n\n\n\n💻 4Research\nData Scientist & Developer | Atual\nFoco em tecnologia para pesquisa clínica e inteligência de dados:\n\nAplicações Analíticas: Desenvolvimento de ferramentas interativas com R-Shiny e Streamlit para captura e análise de dados multicêntricos.\nIntegração de Ecossistemas: Conexão de plataformas de pesquisa (REDCap) com pipelines de análise automatizados.\n\n\n\n🎓 Professor Universitário\nDocente de Estatística e Matemática Aplicada | 2010 - Atual\nHá mais de 14 anos, leciono para cursos de Administração, Marketing, Logística e RH.\n\nVersatilidade: Minha atuação docente garante que eu mantenha a habilidade de aplicar a ciência de dados em contextos diversos de negócios, fora do nicho hospitalar.\nMentoria: Foco na formação de profissionais capazes de interpretar dados para além das ferramentas."
-  },
-  {
-    "objectID": "about.html#competências-técnicas",
-    "href": "about.html#competências-técnicas",
-    "title": "Sobre Mim",
-    "section": "Competências Técnicas",
-    "text": "Competências Técnicas\n\nLinguagens & IA\n\nR : Modelagem estatística avançada, Tidyverse, Shiny, Automação de relatórios.\nPython : Scikit-learn, Pandas, Streamlit, Integração com LLMs (RAG, LangChain).\nSQL: Queries complexas e otimização em Vertica, Oracle e PostgreSQL.\n\n\n\nDomínios de Especialidade\n\nModelagem: GLMMs, Análise de Sobrevivência, Séries Temporais e Regressão Avançada.\nIA & Machine Learning: Deep Learning, NLP e Modelos Preditivos.\nVisualização: Tableau, Power BI, Plotly e bibliotecas customizadas em R/Python."
-  },
-  {
-    "objectID": "about.html#filosofia-de-trabalho",
-    "href": "about.html#filosofia-de-trabalho",
-    "title": "Sobre Mim",
-    "section": "Filosofia de Trabalho",
-    "text": "Filosofia de Trabalho\n\n“Transformar complexidade em clareza, dados em decisões e análises em ações.”\n\nAcredito que a verdadeira Ciência de Dados reside no equilíbrio entre o rigor matemático e a praticidade da entrega. Meu compromisso é buscar a verdade nos dados com integridade ética e comunicar insights de forma que qualquer tomador de decisão possa agir com confiança."
-  },
-  {
-    "objectID": "about.html#vamos-conversar",
-    "href": "about.html#vamos-conversar",
-    "title": "Sobre Mim",
-    "section": "Vamos Conversar?",
-    "text": "Vamos Conversar?\nEstou disponível para colaborações em projetos de IA, consultoria estatística para pesquisas e treinamentos corporativos.\n📧 Email: davimatfacil@gmail.com\n💼 LinkedIn: linkedin.com/in/davi-rocha-27a24b33/\n🐙 GitHub: github.com/davimatfacil\n\nÚltima atualização: Fevereiro de 2026"
+    "objectID": "ensino/numeros-primos-atomos-e-criacao.html#o-criador-criou",
+    "href": "ensino/numeros-primos-atomos-e-criacao.html#o-criador-criou",
+    "title": "Números Primos, Átomos e Criação",
+    "section": "O Criador criou",
+    "text": "O Criador criou\nDeus criou todos os números, suas propriedades e, em particular, os números primos. Essas propriedades podem nos revelar um pouco de quem é Deus.\nAlém disso, Ele deixou essas propriedades para que pudéssemos usá-las e aplicar em várias outras áreas do conhecimento — inclusive em criptografia, para garantir a ordem e a segurança de nossa sociedade.\n\n“A glória de Deus é ocultar certas coisas; tentar descobri-las é a glória dos reis.”\n— Provérbios 25:2\n\nOs números primos são infinitos — e nos remetem a um dos atributos invisíveis de Deus: um Deus infinito, eterno, que deixou os números, a natureza e a criação para que o conhecêssemos melhor.\n\n“Porque os atributos invisíveis de Deus, assim o seu eterno poder, como também a sua própria divindade, claramente se reconhecem, desde a criação do mundo, sendo percebidos por meio das coisas que foram criadas.”\n— Romanos 1:20"
   },
   {
     "objectID": "ensino/galinheiro-de-descartes.html",
@@ -327,6 +271,104 @@
     "title": "O Galinheiro de Descartes: quando a matemática imita o Criador",
     "section": "Por que esse problema nunca saiu da minha cabeça",
     "text": "Por que esse problema nunca saiu da minha cabeça\nTalvez porque ele seja honesto. Ele não fingia que matemática era fácil, mas mostrava que ela era acessível quando você entende para que serve. O galinheiro tem uma galinha, tem parede, tem um problema concreto e a solução aparece de forma natural, quase inevitável, quando você coloca tudo no plano de Descartes e deixa a derivada fazer o trabalho.\nOutro motivo provavelmente é que ouvir que sou “imitador do criador”, me remete a Gênesis 1:26-28. Lá temos o relato da criação do homem por Deus à sua própria imagem e semelhança. Assim, inspirados pelo Criador, nós matemáticos temos no coração o desejo de criar, descobrir e explorar a natureza.\n\n\n\n\n\n\n\nDica🐔 Explore o Galinheiro Interativamente!\n\n\n\nVeja o galinheiro mudar de proporção em tempo real enquanto a área é plotada como parábola.\nAbrir Explorador do Galinheiro →\n\n\nEntão para que serve a matemática?\nA resposta é: serve para não desperdiçar tela de galinheiro. Serve para projetar carros. Serve para entender por que a natureza é tão eficiente. Mas serve, acima de tudo, para revelar para que existimos, ou seja, para imitar o nosso Criador. “Sede, pois, imitadores de Deus, como filhos amados.” — Efésios 5:1."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
+  },
+  {
+    "objectID": "about.html#quem-sou",
+    "href": "about.html#quem-sou",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Sou Davi Rocha, Cientista de Dados e Professor Universitário com mais de duas décadas dedicadas à Matemática, Estatística e Inteligência Artificial. Minha missão é traduzir a complexidade de grandes volumes de dados em decisões estratégicas e ferramentas inteligentes.\nAtualmente, trabalho no Hospital das Clínicas da FMUSP e na 4Research, onde desenvolvo soluções usando Matemática Aplicada, Inteligência Artificial e modelagem estatística avançada. Minha base sólida em Matemática Aplicada me permite transitar por qualquer setor que demande rigor analítico e inovação tecnológica."
+  },
+  {
+    "objectID": "about.html#formação-acadêmica",
+    "href": "about.html#formação-acadêmica",
+    "title": "Sobre Mim",
+    "section": "Formação Acadêmica",
+    "text": "Formação Acadêmica\n🎓 Mestre em Matemática Aplicada\n🎓 Bacharel em Matemática\n📊 Especializações e Certificações\n\nInteligência Artificial & NLP: Lang Chain,Implementação de RAG (Retrieval-Augmented Generation), CrewAI, LlamaIndex, LLM e Generative AI, Deep Learning e NLP.\nModelagem Avançada: Modelos Mistos Lineares Generalizados (GLMMs) e Séries Temporais.\nStack Tecnológica: Formações avançadas em ecossistemas Python e R."
+  },
+  {
+    "objectID": "about.html#experiência-profissional",
+    "href": "about.html#experiência-profissional",
+    "title": "Sobre Mim",
+    "section": "Experiência Profissional",
+    "text": "Experiência Profissional\n\n🏥 Hospital das Clínicas da FMUSP\nCientista de Dados | 2018 - Atual\nNo maior complexo hospitalar da América Latina, atuo na arquitetura e desenvolvimento de modelos preditivos:\n\nIA e ML em Saúde: Desenvolvimento de algoritmos para predição de desfechos clínicos e gestão de recursos hospitalares.\nEngenharia de Dashboards: Criação de painéis em tempo real (Shiny/Streamlit) para monitoramento de fluxo no Pronto-Socorro, Internação, ambulatorial e eficiência operacional.\nBig Data: Manipulação e análise de grandes volumes de dados em ambientes Vertica e Oracle.\n\n\n\n💻 4Research\nData Scientist & Developer | Atual\nFoco em tecnologia para pesquisa clínica e inteligência de dados:\n\nAplicações Analíticas: Desenvolvimento de ferramentas interativas com R-Shiny e Streamlit para captura e análise de dados multicêntricos.\nIntegração de Ecossistemas: Conexão de plataformas de pesquisa (REDCap) com pipelines de análise automatizados.\n\n\n\n🎓 Professor Universitário\nDocente de Estatística e Matemática Aplicada | 2010 - Atual\nHá mais de 14 anos, leciono para cursos de Administração, Marketing, Logística e RH.\n\nVersatilidade: Minha atuação docente garante que eu mantenha a habilidade de aplicar a ciência de dados em contextos diversos de negócios, fora do nicho hospitalar.\nMentoria: Foco na formação de profissionais capazes de interpretar dados para além das ferramentas."
+  },
+  {
+    "objectID": "about.html#competências-técnicas",
+    "href": "about.html#competências-técnicas",
+    "title": "Sobre Mim",
+    "section": "Competências Técnicas",
+    "text": "Competências Técnicas\n\nLinguagens & IA\n\nR : Modelagem estatística avançada, Tidyverse, Shiny, Automação de relatórios.\nPython : Scikit-learn, Pandas, Streamlit, Integração com LLMs (RAG, LangChain).\nSQL: Queries complexas e otimização em Vertica, Oracle e PostgreSQL.\n\n\n\nDomínios de Especialidade\n\nModelagem: GLMMs, Análise de Sobrevivência, Séries Temporais e Regressão Avançada.\nIA & Machine Learning: Deep Learning, NLP e Modelos Preditivos.\nVisualização: Tableau, Power BI, Plotly e bibliotecas customizadas em R/Python."
+  },
+  {
+    "objectID": "about.html#filosofia-de-trabalho",
+    "href": "about.html#filosofia-de-trabalho",
+    "title": "Sobre Mim",
+    "section": "Filosofia de Trabalho",
+    "text": "Filosofia de Trabalho\n\n“Transformar complexidade em clareza, dados em decisões e análises em ações.”\n\nAcredito que a verdadeira Ciência de Dados reside no equilíbrio entre o rigor matemático e a praticidade da entrega. Meu compromisso é buscar a verdade nos dados com integridade ética e comunicar insights de forma que qualquer tomador de decisão possa agir com confiança."
+  },
+  {
+    "objectID": "about.html#vamos-conversar",
+    "href": "about.html#vamos-conversar",
+    "title": "Sobre Mim",
+    "section": "Vamos Conversar?",
+    "text": "Vamos Conversar?\nEstou disponível para colaborações em projetos de IA, consultoria estatística para pesquisas e treinamentos corporativos.\n📧 Email: davimatfacil@gmail.com\n💼 LinkedIn: linkedin.com/in/davi-rocha-27a24b33/\n🐙 GitHub: github.com/davimatfacil\n\nÚltima atualização: Fevereiro de 2026"
+  },
+  {
+    "objectID": "ensino/index.html",
+    "href": "ensino/index.html",
+    "title": "Ensino",
+    "section": "",
+    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+  },
+  {
+    "objectID": "ensino/index.html#experiência-em-ensino",
+    "href": "ensino/index.html#experiência-em-ensino",
+    "title": "Ensino",
+    "section": "",
+    "text": "Professor universitário desde 2010, com 24 anos de experiência em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.\nÁreas de expertise:\n\nMatemática: Desde básica até cálculo universitário\nEstatística: Descritiva, Inferencial e Modelagem\nProgramação: R e Python aplicados à Data Science\nData Science: Machine Learning e Análise de Dados"
+  },
+  {
+    "objectID": "ensino/index.html#aulas-demonstrativas",
+    "href": "ensino/index.html#aulas-demonstrativas",
+    "title": "Ensino",
+    "section": "🎥 Aulas Demonstrativas",
+    "text": "🎥 Aulas Demonstrativas\nVeja exemplos do meu método de ensino:\n\nMatemática BásicaMatemática AplicadaMatemática FinanceiraProbabilidadeProgramação PythonProgramação R\n\n\nComparando Números Naturais\nAula didática sobre conceitos fundamentais para estudantes iniciantes.\n\n\n\n\nOferta e Demanda Linear\nExercício aplicado de funções lineares no contexto econômico.\n\n\n\nFunção Custo, Receita e Lucro\nAplicação de funções lineares em análise de negócios.\n\n\n\n\nTaxa Efetiva e Nominal\nConvenção Linear e Exponencial em Matemática Financeira.\n\n\n\n\nProblema do Aniversário\nConceito fascinante de probabilidades aplicado a um problema clássico.\n\n\n\n\nConversão de Variáveis Categóricas\nComo criar variáveis dummy em Python para Machine Learning.\n\n\n\n\nRenomear Colunas no R\nDica rápida e prática para manipulação de dados em R.\n\n\n\n\n\nVer Mais no Canal →"
+  },
+  {
+    "objectID": "ensino/index.html#artigos",
+    "href": "ensino/index.html#artigos",
+    "title": "Ensino",
+    "section": "📝 Artigos",
+    "text": "📝 Artigos\nReflexões e explicações sobre matemática aplicada e aplicações reais.\n\n\nQuanto Vale uma Casa? A Estatística que Responde\nRegressão | Estatística | R\nComo construir um modelo de regressão múltipla para precificar imóveis: da correlação até a previsão.\nLer artigo →\n\n\nO Galinheiro de Descartes\nOtimização | Cálculo Diferencial\nComo um problema simples de galinheiro revela o poder da derivada — e por que o homem de exatas é um Imitador do Criador.\nLer artigo →\n\n\nNúmeros Primos, Átomos e Criação\nTeoria dos Números | Criptografia | Reflexão\nOs números que não se misturam com ninguém — e o que o Teorema Fundamental da Aritmética revela sobre o Criador.\nLer artigo →"
+  },
+  {
+    "objectID": "ensino/index.html#aulas-particulares",
+    "href": "ensino/index.html#aulas-particulares",
+    "title": "Ensino",
+    "section": "📚 Aulas Particulares",
+    "text": "📚 Aulas Particulares\nOfereço aulas personalizadas para:\n\n\n🎒 Ensino Fundamental e Médio\n\nReforço em Matemática\nPreparação para vestibulares\nAcompanhamento escolar\n\n\n\n🎓 Universitários\n\nCálculo, Álgebra Linear\nEstatística e Probabilidade\nAnálise de Dados\nProgramação (R/Python)\n\n\n\n💼 Profissionais\n\nEstatística aplicada\nR e Python para dados\nTransição para Data Science\nMachine Learning"
+  },
+  {
+    "objectID": "ensino/index.html#diferenciais",
+    "href": "ensino/index.html#diferenciais",
+    "title": "Ensino",
+    "section": "💡 Diferenciais",
+    "text": "💡 Diferenciais\n\n\n✨ 24 anos de experiência em ensino\n🎯 Metodologia adaptada ao seu ritmo e objetivo\n📖 Material didático personalizado\n🏆 Histórico comprovado de resultados\n\n\n📍 Aulas presenciais em São Paulo (preferencialmente aos sábados)\n💻 Aulas online para todo o Brasil\n🔄 Flexibilidade de horários\n📊 Acompanhamento de progresso"
+  },
+  {
+    "objectID": "ensino/index.html#entre-em-contato",
+    "href": "ensino/index.html#entre-em-contato",
+    "title": "Ensino",
+    "section": "📞 Entre em Contato",
+    "text": "📞 Entre em Contato\nInteressado em aulas particulares? Entre em contato para agendar uma aula experimental!\nEnviar E-mail\n\n\n\n\n\n\nDicaComo Funciona\n\n\n\n\nEntre em contato por e-mail\nConte seus objetivos e dificuldades\nAgendamos uma conversa inicial (gratuita)\nDefinimos plano de estudos personalizado"
   },
   {
     "objectID": "ensino/precificando-imoveis.html",
