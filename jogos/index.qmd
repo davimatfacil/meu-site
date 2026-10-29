@@ -1,34 +1,104 @@
 ---
 title: "Jogos"
 subtitle: "Jogos educativos gratuitos, criados para aprender brincando"
-description: "Jogos educativos gratuitos criados por Davi Rocha: Trilha de Abraão, um jogo de tabuleiro bíblico sobre Gênesis para jogar no computador ou no celular."
+description: "Jogos educativos gratuitos de Davi Rocha: Trilha de Abraão, Arca da Tabuada, A Arca de Noé, Divisão, Balança do Peso Justo e Batalha de Funções. Abrem direto no navegador."
 image: img/trilha-de-abraao.png
+toc: false
 ---
 
-Gosto de ensinar e de programar, e os jogos são onde as duas coisas se encontram. Cada um é feito para ser **simples de abrir** (basta um link, sem instalar nada), **gratuito** e **bom para jogar em grupo**: em casa, na igreja ou na sala de aula.
+Gosto de ensinar e de programar, e os jogos são onde as duas coisas se encontram. Cada um é feito para ser **simples de abrir** (basta um link, sem instalar nada), **gratuito** e **bom para jogar em grupo**: em casa, na igreja ou na sala de aula. Funcionam no computador e no celular.
 
-## 🧭 Trilha de Abraão
+::: {.grid}
 
-[![Tabuleiro do jogo Trilha de Abraão](img/trilha-de-abraao.png){.img-fluid .rounded fig-alt="Captura de tela do tabuleiro da Trilha de Abraão, com 40 casas em serpentina"}](https://davimatfacil.github.io/trilha-de-abraao/){target="_blank"}
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+#### 🧭 Trilha de Abraão
 
-Jogo de trilha bíblico sobre **Gênesis 12–50**. Os jogadores partem de Ur dos Caldeus e caminham até a terra de Gósen, passando pelas histórias de Abraão, Isaque, Jacó e José.
+[Bíblia]{.badge .text-bg-primary} [1 a 4 jogadores]{.badge .text-bg-secondary}
 
-- 👥 De 1 a 4 jogadores no mesmo aparelho, no computador ou no celular
-- 🎲 Trilha de 40 casas, com perguntas de múltipla escolha e episódios de Gênesis que fazem avançar, voltar, perder a vez ou ganhar estrelas
-- 📖 Toda pergunta mostra a referência bíblica para leitura
-- 🏆 Vence quem tiver mais estrelas ao final da jornada
+Jogo de trilha sobre **Gênesis 12–50**. Os jogadores partem de Ur dos Caldeus e caminham 40 casas até Gósen, passando pelas histórias de Abraão, Isaque, Jacó e José. Há perguntas de múltipla escolha com a referência bíblica para leitura, e episódios que fazem avançar, voltar, perder a vez ou ganhar estrelas. Vence quem juntar mais estrelas.
 
-[▶ Jogar agora](https://davimatfacil.github.io/trilha-de-abraao/){.btn .btn-success .btn-lg target="_blank"}
-[Código-fonte](https://github.com/davimatfacil/trilha-de-abraao){.btn .btn-outline-secondary .btn-lg target="_blank"}
-
-::: {.callout-note collapse="true"}
-## Como foi feito
-
-É um único arquivo `index.html` com HTML, CSS e JavaScript puro, sem frameworks, servidor ou banco de dados. As perguntas e os episódios ficam separados da lógica do jogo, então dá para criar uma trilha de outro livro trocando só esses dados. O som é sintetizado no próprio navegador. Está disponível sob licença MIT.
+[▶ Jogar](https://davimatfacil.github.io/trilha-de-abraao/){.btn .btn-success target="_blank"}
+:::
+:::
 :::
 
-## 🚧 Próximos jogos
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+#### 🚢 Arca da Tabuada
 
-Outros jogos estão a caminho. Se você tem uma **sugestão de pergunta, uma ideia de jogo** ou quer usar algum deles com sua turma ou grupo, escreva para mim.
+[Matemática]{.badge .text-bg-success} [Bíblia]{.badge .text-bg-primary} [Em família]{.badge .text-bg-secondary}
+
+Para o adulto e a criança jogarem juntos. A criança resolve problemas da **tabuada do 2 ao 10** em histórias sobre Noé, e o adulto lê a cena e faz perguntas de conversa. A cada acerto, um animal entra na arca. No final, a família pega a Bíblia para encontrar um versículo.
+
+[▶ Jogar](https://davimatfacil.github.io/arca-da-tabuada/){.btn .btn-success target="_blank"}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+#### ⛵ A Arca de Noé: Jogo da Memória
+
+[Bíblia]{.badge .text-bg-primary} [Crianças]{.badge .text-bg-secondary}
+
+Jogo da memória pensado para crianças de cerca de 7 anos. Em 3 fases (4, 6 e 8 pares), a criança encontra os pares de animais e eles entram na arca. Quanto menos jogadas, mais estrelas, e ao fim de cada fase há uma curiosidade de Gênesis com uma pergunta bônus. Conforme os animais são salvos, a chuva diminui e aparece o arco-íris.
+
+[▶ Jogar](https://davimatfacil.github.io/memoria-arca/){.btn .btn-success target="_blank"}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+#### 🍞 Divisão: Pães e Cestos
+
+[Matemática]{.badge .text-bg-success} [6º ano]{.badge .text-bg-secondary}
+
+Para aprender (ou reforçar) a **divisão**, com um tema bíblico discreto. No nível 1, o aluno reparte pães em cestos e vê a divisão e o resto acontecerem. Nos níveis 2 e 3, o jogo guia a conta passo a passo, com divisor de 1 e de 2 algarismos, e mostra o feedback no ponto exato do erro.
+
+[▶ Jogar](https://davimatfacil.github.io/divisao-biblia/){.btn .btn-success target="_blank"}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+#### ⚖️ Balança do Peso Justo e Mercador Honesto
+
+[Matemática]{.badge .text-bg-success} [Bíblia]{.badge .text-bg-primary} [Equações]{.badge .text-bg-secondary}
+
+Dois jogos sobre **equações do 1º grau** com uma balança de pratos. Na *Balança do Peso Justo*, o desafio é descobrir quanto pesa o saco misterioso x mantendo a balança justa: o que sai de um prato sai do outro. No *Mercador Honesto*, é preciso conferir se o mercador falou a verdade. Os dois trazem referências de Provérbios sobre balanças justas.
+
+[▶ Balança do Peso Justo](https://davimatfacil.github.io/balanca-biblia/){.btn .btn-success target="_blank"}
+[▶ Mercador Honesto](https://davimatfacil.github.io/balanca-biblia/mercador-honesto.html){.btn .btn-outline-success target="_blank"}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm}
+::: {.card-body}
+#### ⚔️ Batalha de Funções
+
+[Matemática]{.badge .text-bg-success} [Cálculo]{.badge .text-bg-secondary}
+
+Funções matemáticas batalham na tela. Quando uma função encontra um operador (derivada ou integral), a matemática acontece à vista: x³ vira 3x², depois 6x, depois 6, e por fim a função some. Cada operador tem cargas limitadas e algumas funções têm curiosidades, como eˣ, que não muda ao ser derivada, e sen e cos, que giram em ciclo.
+
+[▶ Jogar](https://davimatfacil.github.io/batalha-de-funcoes/){.btn .btn-success target="_blank"}
+:::
+:::
+:::
+
+:::
+
+## 💬 Sugestões e uso em sala
+
+Tem uma **ideia de jogo ou de pergunta**, quer usar algum deles com a sua turma ou grupo, ou é professor ou desenvolvedor e quer replicar um dos jogos? Escreva para mim.
 
 [Enviar mensagem](../contato.html){.btn .btn-primary}
