@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0615b85506723fa54ab13a613a4e9e4c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5f41be93545d124fc90ff267e04a418c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,6 +81,14 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="css/styles.css">
+<meta property="og:title" content="Ensino – Davi Rocha">
+<meta property="og:description" content="Professor de Matemática e Programação | Aulas Particulares">
+<meta property="og:image" content="https://davimatfacil.github.io/meu-site/ensino/img/og-davi.png">
+<meta property="og:site_name" content="Davi Rocha">
+<meta name="twitter:title" content="Ensino – Davi Rocha">
+<meta name="twitter:description" content="Professor de Matemática e Programação | Aulas Particulares">
+<meta name="twitter:image" content="https://davimatfacil.github.io/meu-site/ensino/img/og-davi.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -105,6 +113,10 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../servicos.html"> 
+<span class="menu-text">Serviços</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">Sobre</span></a>
   </li>  
@@ -115,6 +127,10 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
   <li class="nav-item">
     <a class="nav-link active" href="../ensino/index.html" aria-current="page"> 
 <span class="menu-text">Ensino</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contato.html"> 
+<span class="menu-text">Contato</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -192,7 +208,7 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
 
 <section id="experiência-em-ensino" class="level2">
 <h2 class="anchored" data-anchor-id="experiência-em-ensino">👨‍🏫 Experiência em Ensino</h2>
-<p>Professor universitário desde 2010, com <strong>24 anos de experiência</strong> em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.</p>
+<p>Professor universitário desde 2010, com <strong>24 anos de experiência</strong> em Matemática e Estatística. Ensino Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.</p>
 <p><strong>Áreas de expertise:</strong></p>
 <ul>
 <li><strong>Matemática:</strong> Desde básica até cálculo universitário</li>
@@ -316,8 +332,7 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="diferenciais">💡 Diferenciais</h2>
 <div class="grid">
 <div class="g-col-12 g-col-md-6">
-<p>✨ <strong>24 anos de experiência</strong> em ensino<br>
-🎯 <strong>Metodologia adaptada</strong> ao seu ritmo e objetivo<br>
+<p>✨ <strong>Professor universitário desde 2010</strong> 🎯 <strong>Metodologia adaptada</strong> ao seu ritmo e objetivo<br>
 📖 <strong>Material didático personalizado</strong><br>
 🏆 <strong>Histórico comprovado</strong> de resultados</p>
 </div>
@@ -333,7 +348,7 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
 <section id="entre-em-contato" class="level2">
 <h2 class="anchored" data-anchor-id="entre-em-contato">📞 Entre em Contato</h2>
 <p>Interessado em aulas particulares? Entre em contato para agendar uma <strong>aula experimental</strong>!</p>
-<p><a href="mailto:davimatfacil@gmail.com?subject=Interesse%20em%20Aulas%20Particulares" class="btn btn-success btn-lg">Enviar E-mail</a></p>
+<p><a href="../contato.html?assunto=aulas" class="btn btn-success btn-lg">Enviar mensagem</a> <a href="mailto:davimatfacil@gmail.com?subject=Interesse%20em%20Aulas%20Particulares" class="btn btn-outline-secondary btn-lg">E-mail</a></p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -430,7 +445,7 @@ gtag('config', 'G-C3WERYEY0W', { 'anonymize_ip': true});
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/davimatfacil\.github\.io\/meu-site");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
