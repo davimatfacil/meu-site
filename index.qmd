@@ -1,6 +1,7 @@
 ---
 title: "Davi Rocha"
 subtitle: "Especialista em Dados | Matemático | Professor"
+description: "Cientista de dados e professor universitário. Consultoria estatística, dashboards em R-Shiny e Streamlit, IA em saúde e aulas de Matemática e Estatística."
 page-layout: full
 ---
 
@@ -27,7 +28,7 @@ Minha paixão é transformar dados complexos em soluções inteligentes e compar
 ### Formação
 
 - 🎓 **Mestre em Matemática Aplicada - USP**
-- 🎓 **Bacharel em Matematica - UNESP**
+- 🎓 **Bacharel em Matemática - UNESP**
 
 ---
 
@@ -84,6 +85,9 @@ Desenvolvimento de modelos de Machine Learning para análise de dados clínicos 
 ## Entre em Contato
 
 Interessado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?
+
+[Ver serviços](servicos.qmd){.btn .btn-success .btn-lg}
+[Enviar mensagem](contato.qmd){.btn .btn-outline-primary .btn-lg}
 
 📧 [davimatfacil@gmail.com](mailto:davimatfacil@gmail.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/davi-rocha-27a24b33/)  

@@ -370,6 +370,6 @@ Melhor visibilidade online
 
 ### 📞 Interessado em criar seu site ou dashboard?
 
-[Solicitar Orçamento](mailto:davimatfacil@gmail.com?subject=Orçamento%20-%20Desenvolvimento%20de%20Site){.btn .btn-warning .btn-lg}
+[Solicitar Orçamento](../contato.html?assunto=site){.btn .btn-warning .btn-lg}
 
 *Atendo profissionais, pesquisadores, pequenas empresas e organizações.*

@@ -13,13 +13,13 @@ Atualmente, trabalho no **Hospital das Clínicas da FMUSP** e na **4Research**, 
 
 ## Formação Acadêmica
 
-🎓 **Mestre em Matemática Aplicada** 
+🎓 **Mestre em Matemática Aplicada - USP**
 
-🎓 **Bacharel em Matemática** 
+🎓 **Bacharel em Matemática - UNESP**
 
 📊 **Especializações e Certificações** 
 
-* **Inteligência Artificial & NLP:** Lang Chain,Implementação de RAG (Retrieval-Augmented Generation), CrewAI, LlamaIndex, LLM e Generative AI, Deep Learning e NLP.
+* **Inteligência Artificial & NLP:** LangChain, implementação de RAG (Retrieval-Augmented Generation), CrewAI, LlamaIndex, LLM e Generative AI, Deep Learning e NLP.
 
 * **Modelagem Avançada:** Modelos Mistos Lineares Generalizados (GLMMs) e Séries Temporais.
 * **Stack Tecnológica:** Formações avançadas em ecossistemas Python e R.
@@ -51,7 +51,7 @@ Foco em tecnologia para pesquisa clínica e inteligência de dados:
 ### 🎓 Professor Universitário
 **Docente de Estatística e Matemática Aplicada** | *2010 - Atual*
 
-Há mais de 14 anos, leciono para cursos de **Administração, Marketing, Logística e RH**. 
+Há mais de 15 anos, leciono para cursos de **Administração, Marketing, Logística e RH**. 
 
 * **Versatilidade:** Minha atuação docente garante que eu mantenha a habilidade de aplicar a ciência de dados em contextos diversos de negócios, fora do nicho hospitalar.
 
@@ -90,4 +90,4 @@ Estou disponível para colaborações em projetos de IA, consultoria estatístic
 🐙 **GitHub:** [github.com/davimatfacil](https://github.com/davimatfacil)
 
 ---
-*Última atualização: Fevereiro de 2026*
+*Última atualização: Outubro de 2026*

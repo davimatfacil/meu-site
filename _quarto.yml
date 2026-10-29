@@ -4,33 +4,42 @@ project:
 
 website:
   title: "Davi Rocha"
-  description: "Data Scientist | Professor | Healthcare Analytics"
+  description: "Cientista de dados e professor: consultoria estatística, dashboards (R-Shiny/Streamlit), IA em saúde e aulas de Matemática e Estatística."
+  # site-url é necessário para o Quarto gerar links absolutos nas prévias (og:url, og:image)
+  site-url: "https://davimatfacil.github.io/meu-site"
+  # prévia do link no WhatsApp, LinkedIn, Facebook e X
+  open-graph: true
+  twitter-card: true
+  image: "img/og-davi.png"
   google-analytics: "G-C3WERYEY0W"
-  
+
   navbar:
     background: primary
     left:
       - href: index.qmd
         text: Início
+      - href: servicos.qmd
+        text: Serviços
       - href: about.qmd
         text: Sobre
       - href: projetos/index.qmd
         text: Projetos
-      - href: ensino/index.qmd        # ADICIONE ESTA LINHA
-        text: Ensino                  # ADICIONE ESTA LINHA
+      - href: ensino/index.qmd
+        text: Ensino
+      - href: contato.qmd
+        text: Contato
     right:
       - icon: github
         href: https://github.com/davimatfacil
-      - icon: linkedin  
+      - icon: linkedin
         href: https://www.linkedin.com/in/davi-rocha-27a24b33/
       - icon: youtube
         href: https://www.youtube.com/@DaviRocha_ML
       - icon: envelope
         href: mailto:davimatfacil@gmail.com
 
-
   page-footer:
-    center: "© 2026 Davi Rocha | Professor e Data Scientist "
+    center: "© 2026 Davi Rocha | Professor e Data Scientist"
 
 format:
   html:
