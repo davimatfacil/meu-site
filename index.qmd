@@ -87,6 +87,7 @@ Desenvolvimento de modelos de Machine Learning para análise de dados clínicos 
 Interessado em consultoria estatística, desenvolvimento de dashboards ou projetos de Data Science em saúde?
 
 [Ver serviços](servicos.qmd){.btn .btn-success .btn-lg}
+[Enviar mensagem](contato.qmd){.btn .btn-outline-primary .btn-lg}
 
 📧 [davimatfacil@gmail.com](mailto:davimatfacil@gmail.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/davi-rocha-27a24b33/)  

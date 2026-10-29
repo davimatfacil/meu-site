@@ -78,7 +78,8 @@ Organizar, analisar e mostrar seus números de forma clara para você decidir me
 
 Conte em poucas linhas o que você precisa e eu retorno com os próximos passos.
 
-[Enviar e-mail](mailto:davimatfacil@gmail.com?subject=Contato%20pelo%20site%20-%20Servi%C3%A7os){.btn .btn-success .btn-lg}
+[Enviar mensagem](contato.html?assunto=consultoria){.btn .btn-success .btn-lg}
+[E-mail](mailto:davimatfacil@gmail.com){.btn .btn-outline-secondary .btn-lg}
 [LinkedIn](https://www.linkedin.com/in/davi-rocha-27a24b33/){.btn .btn-outline-primary .btn-lg target="_blank"}
 
 *Atendo profissionais, pesquisadores, pequenas empresas e organizações, presencialmente em São Paulo ou online para todo o Brasil.*

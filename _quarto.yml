@@ -26,6 +26,8 @@ website:
         text: Projetos
       - href: ensino/index.qmd
         text: Ensino
+      - href: contato.qmd
+        text: Contato
     right:
       - icon: github
         href: https://github.com/davimatfacil

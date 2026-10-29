@@ -181,7 +181,8 @@ Ofereço aulas personalizadas para:
 
 Interessado em aulas particulares? Entre em contato para agendar uma **aula experimental**!
 
-[Enviar E-mail](mailto:davimatfacil@gmail.com?subject=Interesse%20em%20Aulas%20Particulares){.btn .btn-success .btn-lg}
+[Enviar mensagem](../contato.html?assunto=aulas){.btn .btn-success .btn-lg}
+[E-mail](mailto:davimatfacil@gmail.com?subject=Interesse%20em%20Aulas%20Particulares){.btn .btn-outline-secondary .btn-lg}
 
 ::: {.callout-tip}
 ## Como Funciona

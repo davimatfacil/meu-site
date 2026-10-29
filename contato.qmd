@@ -1,0 +1,103 @@
+---
+title: "Fale comigo"
+subtitle: "Conte o que você precisa e eu respondo por e-mail"
+description: "Envie uma mensagem para Davi Rocha: consultoria estatística, dashboards, projetos de dados e aulas de Matemática e Estatística."
+toc: false
+---
+
+```{=html}
+<!--
+  Como funciona (para você lembrar depois):
+  1. O navegador envia os campos para o Web3Forms (api.web3forms.com).
+  2. O Web3Forms reconhece o seu e-mail pela access_key e encaminha a mensagem.
+  3. O JavaScript abaixo evita recarregar a página e mostra "enviado" ou "erro".
+  Se o JavaScript falhar, o atributo action/method envia o formulário do jeito tradicional.
+-->
+<form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="mb-3" style="max-width: 640px;">
+  <input type="hidden" name="access_key" value="4624b581-a2c0-441b-9666-bf9217295bcd">
+  <input type="hidden" name="subject" value="Contato pelo site meu-site (Davi Rocha)">
+  <input type="hidden" name="from_name" value="Site Davi Rocha">
+
+  <!-- Isca anti-robô (honeypot): pessoas não veem; robôs preenchem e o envio é descartado -->
+  <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none">
+
+  <div class="mb-3">
+    <label for="nome" class="form-label">Seu nome</label>
+    <input id="nome" type="text" name="name" class="form-control" required maxlength="80" autocomplete="name">
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label">Seu e-mail</label>
+    <input id="email" type="email" name="email" class="form-control" required maxlength="120" autocomplete="email" placeholder="voce@exemplo.com">
+  </div>
+
+  <div class="mb-3">
+    <label for="assunto" class="form-label">Sobre o que você quer falar?</label>
+    <select id="assunto" name="assunto" class="form-select">
+      <option value="Consultoria estatística">Consultoria estatística</option>
+      <option value="Dashboards e aplicações">Dashboards e aplicações</option>
+      <option value="Machine Learning e IA">Machine Learning e IA</option>
+      <option value="Aulas particulares">Aulas particulares</option>
+      <option value="Site ou portfólio">Site ou portfólio</option>
+      <option value="Outro assunto">Outro assunto</option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <label for="mensagem" class="form-label">Mensagem</label>
+    <textarea id="mensagem" name="message" class="form-control" rows="6" required maxlength="2000"></textarea>
+  </div>
+
+  <button id="enviar" type="submit" class="btn btn-success btn-lg">Enviar mensagem</button>
+  <p id="status" role="status" aria-live="polite" class="fw-bold mt-3 mb-1"></p>
+  <p class="text-muted small">Seu nome e e-mail são usados só para eu responder.</p>
+</form>
+
+<script>
+const form   = document.getElementById("contactForm");
+const botao  = document.getElementById("enviar");
+const status = document.getElementById("status");
+
+// Permite links como contato.html?assunto=aulas já com o assunto escolhido
+const atalhos = {
+  consultoria: "Consultoria estatística",
+  dashboards: "Dashboards e aplicações",
+  ia: "Machine Learning e IA",
+  aulas: "Aulas particulares",
+  site: "Site ou portfólio"
+};
+const pedido = new URLSearchParams(window.location.search).get("assunto");
+if (pedido && atalhos[pedido]) document.getElementById("assunto").value = atalhos[pedido];
+
+function mostrar(tipo, texto) {            // tipo: success | danger | secondary
+  status.className = "fw-bold mt-3 mb-1 text-" + tipo;
+  status.textContent = texto;
+}
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();                      // impede o envio tradicional (que sairia da página)
+  botao.disabled = true;                   // evita clique duplo
+  mostrar("secondary", "Enviando…");
+  try {
+    const resp = await fetch(form.action, {
+      method: "POST",
+      headers: { Accept: "application/json" },
+      body: new FormData(form)             // FormData lê todos os campos, inclusive os escondidos
+    });
+    const dados = await resp.json();
+    if (resp.ok && dados.success) {
+      form.reset();
+      mostrar("success", "Mensagem enviada! Obrigado, eu respondo em breve.");
+    } else {
+      throw new Error(dados.message || "Falha no envio");
+    }
+  } catch (err) {
+    mostrar("danger", "Não consegui enviar agora. Confira os campos e tente de novo em instantes.");
+  } finally {
+    botao.disabled = false;
+  }
+});
+</script>
+```
+
+Prefere falar por outro canal? [E-mail](mailto:davimatfacil@gmail.com) · [LinkedIn](https://www.linkedin.com/in/davi-rocha-27a24b33/)
