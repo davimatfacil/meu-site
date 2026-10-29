@@ -1,0 +1,84 @@
+---
+title: "Serviços"
+subtitle: "Estatística, dashboards e inteligência artificial aplicados ao seu problema real"
+description: "Consultoria estatística, dashboards em R-Shiny e Streamlit, modelos de Machine Learning e aulas particulares de Matemática e Estatística, com Davi Rocha."
+---
+
+Trabalho com dados desde a graduação em Matemática e hoje atuo com ciência de dados no Hospital das Clínicas da FMUSP e na 4Research. Se você tem dados (ou uma pergunta que deveria ser respondida com dados) e precisa de rigor estatístico com entrega prática, é aqui.
+
+## 🔬 Para pesquisadores, clínicas e empresas
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### 📈 Consultoria estatística
+Planejamento da análise, modelagem e interpretação dos resultados para artigos, teses e relatórios.
+
+- Estatística descritiva e inferencial
+- Regressão, GLMM e análise de sobrevivência
+- Séries temporais e previsão
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 📊 Dashboards e aplicações
+Painéis interativos para acompanhar indicadores e apoiar decisões, sem planilhas soltas.
+
+- Aplicações em **R-Shiny** e **Streamlit**
+- Integração com bancos de dados e REDCap
+- Painéis em Tableau
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 🤖 Machine Learning e IA
+Modelos preditivos e automações com IA, com validação e foco em uso prático.
+
+- Modelos preditivos em saúde e negócios
+- Apps com LLMs e RAG
+- Treinamentos corporativos
+:::
+
+:::
+
+## 🎓 Para estudantes, profissionais e pequenos negócios
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### 📚 Aulas particulares
+Matemática, Estatística, Cálculo e programação (R e Python), do reforço escolar à transição para dados. Veja detalhes em [Ensino](ensino/index.qmd).
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 🌐 Sites e portfólios
+Sites pessoais e profissionais simples, rápidos e fáceis de manter, como este aqui.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 🧮 Análise de dados do seu negócio
+Organizar, analisar e mostrar seus números de forma clara para você decidir melhor.
+:::
+
+:::
+
+## 🧭 Como funciona
+
+1. **Conversa inicial (gratuita):** você conta o problema e o que precisa decidir.
+2. **Proposta:** escopo, prazo e investimento definidos antes de começar.
+3. **Entrega:** resultados explicados em linguagem clara, com o código ou o painel funcionando.
+4. **Acompanhamento:** dúvidas e ajustes depois da entrega.
+
+## ✅ Exemplos do que já construí
+
+- [DEA Analyzer](https://davirocha.shinyapps.io/top_DEA/): análise de eficiência de unidades (Shiny).
+- [Previsão de consumo energético](https://app-model-energy.streamlit.app/): séries temporais e forecasting (Streamlit).
+- [Monitor de fraudes](https://encontrafraude.streamlit.app/): detecção de anomalias com Machine Learning (Streamlit).
+- Veja todos em [Projetos](projetos/index.qmd).
+
+## 📞 Vamos conversar?
+
+Conte em poucas linhas o que você precisa e eu retorno com os próximos passos.
+
+[Enviar e-mail](mailto:davimatfacil@gmail.com?subject=Contato%20pelo%20site%20-%20Servi%C3%A7os){.btn .btn-success .btn-lg}
+[LinkedIn](https://www.linkedin.com/in/davi-rocha-27a24b33/){.btn .btn-outline-primary .btn-lg target="_blank"}
+
+*Atendo profissionais, pesquisadores, pequenas empresas e organizações, presencialmente em São Paulo ou online para todo o Brasil.*

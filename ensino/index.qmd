@@ -5,7 +5,7 @@ description: "Professor de Matemática e Programação | Aulas Particulares"
 
 ## 👨‍🏫 Experiência em Ensino
 
-Professor universitário desde 2010, com **24 anos de experiência** em ensino de Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.
+Professor universitário desde 2010, com **24 anos de experiência** em Matemática e Estatística. Ensino Matemática, Estatística e Programação. Já ensinei desde crianças do ensino fundamental até profissionais em transição de carreira.
 
 **Áreas de expertise:**
 
@@ -160,7 +160,7 @@ Ofereço aulas personalizadas para:
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-✨ **24 anos de experiência** em ensino  
+✨ **Professor universitário desde 2010**
 🎯 **Metodologia adaptada** ao seu ritmo e objetivo  
 📖 **Material didático personalizado**  
 🏆 **Histórico comprovado** de resultados
