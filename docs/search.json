@@ -558,5 +558,26 @@
     "title": "Fale comigo",
     "section": "",
     "text": "Seu nome\n    \n  \n\n  \n    Seu e-mail\n    \n  \n\n  \n    Sobre o que você quer falar?\n    \n      Consultoria estatística\n      Dashboards e aplicações\n      Machine Learning e IA\n      Aulas particulares\n      Site ou portfólio\n      Outro assunto\n    \n  \n\n  \n    Mensagem\n    \n  \n\n  Enviar mensagem\n  \n  Seu nome e e-mail são usados só para eu responder.\n\n\n\nPrefere falar por outro canal? E-mail · LinkedIn"
+  },
+  {
+    "objectID": "jogos/index.html",
+    "href": "jogos/index.html",
+    "title": "Jogos",
+    "section": "",
+    "text": "Gosto de ensinar e de programar, e os jogos são onde as duas coisas se encontram. Cada um é feito para ser simples de abrir (basta um link, sem instalar nada), gratuito e bom para jogar em grupo: em casa, na igreja ou na sala de aula."
+  },
+  {
+    "objectID": "jogos/index.html#trilha-de-abraão",
+    "href": "jogos/index.html#trilha-de-abraão",
+    "title": "Jogos",
+    "section": "🧭 Trilha de Abraão",
+    "text": "🧭 Trilha de Abraão\n\n\n\nTabuleiro do jogo Trilha de Abraão\n\n\nJogo de trilha bíblico sobre Gênesis 12–50. Os jogadores partem de Ur dos Caldeus e caminham até a terra de Gósen, passando pelas histórias de Abraão, Isaque, Jacó e José.\n\n👥 De 1 a 4 jogadores no mesmo aparelho, no computador ou no celular\n🎲 Trilha de 40 casas, com perguntas de múltipla escolha e episódios de Gênesis que fazem avançar, voltar, perder a vez ou ganhar estrelas\n📖 Toda pergunta mostra a referência bíblica para leitura\n🏆 Vence quem tiver mais estrelas ao final da jornada\n\n▶ Jogar agora Código-fonte\n\n\n\n\n\n\nNotaComo foi feito\n\n\n\n\n\nÉ um único arquivo index.html com HTML, CSS e JavaScript puro, sem frameworks, servidor ou banco de dados. As perguntas e os episódios ficam separados da lógica do jogo, então dá para criar uma trilha de outro livro trocando só esses dados. O som é sintetizado no próprio navegador. Está disponível sob licença MIT."
+  },
+  {
+    "objectID": "jogos/index.html#próximos-jogos",
+    "href": "jogos/index.html#próximos-jogos",
+    "title": "Jogos",
+    "section": "🚧 Próximos jogos",
+    "text": "🚧 Próximos jogos\nOutros jogos estão a caminho. Se você tem uma sugestão de pergunta, uma ideia de jogo ou quer usar algum deles com sua turma ou grupo, escreva para mim.\nEnviar mensagem"
   }
 ]

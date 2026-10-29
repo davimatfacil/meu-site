@@ -26,6 +26,8 @@ website:
         text: Projetos
       - href: ensino/index.qmd
         text: Ensino
+      - href: jogos/index.qmd
+        text: Jogos
       - href: contato.qmd
         text: Contato
     right:
